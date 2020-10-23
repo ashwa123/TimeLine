@@ -1,7 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import swiper from 'swiper/bundle';
-import './modern.js';
+
 
 declare var navSlide: any;
 
