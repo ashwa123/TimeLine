@@ -1,0 +1,148 @@
+<header class="nava">
+    <a class="logo" href="">Timeline Trends</a>
+    <input id="nav" type="checkbox">
+    <label for="nav"></label>
+
+    <nav class="navb">
+        <ul>
+            <li><a [routerLink]="['/home']">Home</a></li>
+            <li><a [routerLink]="['/about']">About Us</a></li>
+            <li><a [routerLink]="['/contact']">Contact</a></li>
+            <li><a [routerLink]="['/use']">How to use</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="body-background">
+    <div>
+        <ul class="cb-slideshow ">
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
+    </div>
+
+
+    <!-- Content  ******************************************************************** -->
+    <div>
+        <h1 class="title">Modern History</h1>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="../../assets/txtslide_img/1.jpeg" class="card-img-top img-conatiner" alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Association</h5>
+                <div>
+                    <button class="btn btn-link" (click)="association()">Click here</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../../assets/txtslide_img/2.jpeg" class="card-img-top img-conatiner" alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Social Reforms</h5>
+                <div>
+                    <button class="btn btn-link" (click)="socialreforms()">Click here</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../../assets/txtslide_img/3.jpeg" class="card-img-top img-conatiner" alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Famous Personalities</h5>
+                <div>
+                    <button class="btn btn-link" (click)="personalities()">Click here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      
+
+    <!-- Footer   **************************************************************************************** -->
+
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+
+
+
+    <footer>
+        <nav class="footer-inner">
+            <section class="footer-item">
+                <h1>Timeline Trends</h1>
+
+                <h2></h2>
+            </section>
+
+            <section class="footer-item">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a (click)="home()">Home</a></li>
+                    <li><a (click)="about()">About</a></li>
+                    <li><a (click)="contact()">Contact</a></li>
+                    <li><a (click)="use()">How to Use</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <h3>Location</h3>
+                <p>Tamilnadu, India.</p>
+            </section>
+
+            <section class="footer-item">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <a (click)="imagecourtesy()" class="footer-button">Image Courtesy</a>
+            </section>
+
+            <section class="footer-item">
+
+                <h3>Mail Us</h3>
+                <p>thetimelinetrends@gmail.com</p>
+            </section>
+        </nav>
+    </footer>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="./modern.js"></script>
+<script src="./swipecontainer.js"></script>
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 30,
+            stretch: -2,
+            depth: 500,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>

@@ -1,0 +1,36 @@
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid px-0">
+        <div class="row w-100">
+            <div>
+                <div><a class="navbar-brand" href="#">ArtIn</a></div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation" (click)="toggle()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-10">
+                <div class="collapse justify-content-end navbar-collapse" [ngClass]="{ 'show': isShown }"
+                    id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item active"><span class="glyphicon glyphicon-user"></span>User</a>
+                        </li>
+                        <div class="nav-item">
+                            <a class="nav-link nav-item active" href="#">Log out</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

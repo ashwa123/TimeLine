@@ -1,0 +1,9 @@
+Wed Oct 14 2020 - Error: Could not connect to database
+    at D:\Timeline\src\utilities\connection.js:29:21
+Wed Oct 14 2020 - Error: Could not connect to database
+    at D:\Timeline\src\utilities\connection.js:29:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Wed Oct 14 2020 - Error: Could not connect to database
+    at D:\Timeline\src\utilities\connection.js:29:21
+Wed Oct 14 2020 - Error: Could not connect to database
+    at D:\Timeline\src\utilities\connection.js:29:21

@@ -1,0 +1,464 @@
+/* Fonts      ################################################################################ */
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+@font-face{src: url(../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf); font-family: u;}
+@font-face{src: url(../../assets/Fonts/cheltenhm/CheltenhamBoldExtraCondensedBT.ttf);  font-family: c;}
+@font-face{src: url(../../assets/Fonts/Montserrat/Montserrat-Regular.ttf); font-family: m;}
+@font-face{src: url(../../assets/Fonts/Amr/Amr.otf); font-family: a;}
+@font-face{src: url(../../assets/Fonts/neon-font/Neon-e2wg.ttf); font-family:neon;}
+@font-face{src: url(../../assets/Fonts/Lobster/Lobster-Regular.ttf); font-family:l;}
+@font-face{src: url(../../assets/Fonts/Merriweather/Merriweather-Regular.ttf); font-family:merri;}
+@font-face{src: url(../../assets/Fonts/blackchancery/BLKCHCRY.TTF); font-family:blk;}
+@font-face{src: url(../../assets/Fonts/Open_Sans/OpenSans-Regular.ttf); font-family:os;}
+@font-face{src: url(../../assets/Fonts/Work_Sans/WorkSans-VariableFont_wght.ttf); font-family:ws;}
+@font-face{src: url(../../assets/Fonts/Roboto/Roboto-Light.ttf); font-family: robo;}
+
+
+* {
+	margin: 0%;
+	padding: 0%;
+} 
+
+
+header.nava {
+    overflow: hidden;
+    background: darkslategrey;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+  }
+  
+ .nava a, .navb a,  header.nava  label {
+    display: block;
+    padding: 20px 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 5px;
+    height: 20px;
+  }
+  
+  header.nava a:hover,  header.nava label:hover { color: #aaa; }
+  
+  header.nava label {
+    float: right;
+    padding: 17px 20px;
+    cursor: pointer;
+  }
+  
+  header.nava label:after {
+    content: "\2261";
+    font-size: 1.8em;
+  }
+  
+  .logo {
+    float: left;
+	font-family: u;
+	font-size: 29px;
+	color: white;
+	text-decoration: none;
+	  text-shadow:  0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 1.1px 0 #2c2c2c, 
+      0 1.2px 0 #2a2a2a, 
+      0 1.3px 0 #282828, 
+      0 1.4px 0 #262626, 
+      0 1.5px 0 #242424, 
+      0 1.6px 0 #222, 
+      0 1.7px 0 #202020, 
+      0 2px 0 #1e1e1e, 
+      0 2.10px 0 #1c1c1c, 
+      0 2.2px 0 #1a1a1a, 
+      0 2.3px 0 #181818, 
+      0 2.4px 0 #161616, 
+      0 2.5px 0 #141414, 
+      0 2.8px 0 #121212, 
+	  0 3px 3px rgba(0, 0, 0, 0.9);
+	 
+  }
+    
+  .navb {
+    float: right;
+    max-height: 0;
+    width: 100%;
+    -webkit-transition: max-height 0.3s; 
+       -moz-transition: max-height 0.3s;
+         -o-transition: max-height 0.3s;
+            transition: max-height 0.3s;
+
+            font-family: m;
+            font-size: 10px;
+            color: snow;
+            text-decoration: none;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 0 1px 0 black;
+  }
+  
+  .navb ul {
+    margin: 0;
+    padding: 0;
+  }
+    
+  .navb li {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
+  }
+    
+  .navb a {
+   
+    width: 100%;
+  }
+  
+  #nav { display: none; }
+  
+  #nav:checked ~ nav {
+    max-height: 500px;
+    
+}
+  
+  @media only screen and (min-width: 800px) {
+    
+    header.nava label { display: none; }
+
+    
+    nav.navb {
+      width: auto;
+      max-height: none;
+    }
+    
+    .navb ul {
+      padding: 0;
+      padding-right: 20px;
+    }
+    
+    .navb li {
+      display: inline-block;
+      text-align: left;
+      margin-left: 30px;
+      margin-top: auto;
+      padding: 0;
+      
+    }
+    
+    header.nava nav a {
+      display: inline-block;
+     
+      width: auto;
+    }
+    
+  }
+
+
+
+/* Footer     ################################################################################ */
+footer {
+    background-color: black;
+    font-family: "Lato", sans-serif;
+    position: relative;
+
+}
+
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: minmax(18%, auto) 12% minmax(17%, auto) 11% minmax(auto, 25%) minmax(109px, auto);
+    column-gap: 24px;
+    row-gap: 2%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.footer-item:nth-of-type(7) {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.footer-button {
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-bottom: 8ex;
+font-family: l;  
+  height:35px;
+  width:100px;
+  padding:5px;
+  font-size:15px;
+  cursor:pointer;
+  background-color: black;
+  color: azure;
+  transition: ease-in 0.2s;
+  border: whitesmoke solid 1px;
+  
+}
+  
+  
+.footer-button:hover{
+    color: black;
+    background-color: teal;
+    transition: ease-in 0.2s;
+}
+  
+
+.footer-inner h1  {
+    font-family: u;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-right: 1em;
+   
+}
+  
+.footer-inner h2 {
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 13px;
+    color: #d1d1d1;
+    letter-spacing: 0.03em;
+    
+}
+  
+.color {
+    color: white;
+    font-weight: 400;
+}
+  
+.footer-inner h3 {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    padding-bottom: 9px;
+    letter-spacing: 0.03em;
+}
+  
+.footer-inner ul {
+    line-height: 1.8;
+    list-style-type: none;
+    padding: 0;
+}
+  
+.footer-inner li {
+    font-weight: 300;
+    font-size: 13px;
+    color: #d1d1d1;
+    letter-spacing: 0.03em;
+}
+  
+.footer-inner p {
+    color: white;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+  
+.footer-item a {
+    text-decoration: none;
+    color: #d1d1d1;
+}
+  
+.footer-item a:hover {
+    color: white;
+}
+  
+
+
+@media (max-width: 1024px) {
+  
+footer {
+    padding: 10px 0 10px 0 !important;
+}
+
+.footer-inner {
+    grid-template-areas:
+        "logo logo"
+        "explore visit"
+        "business follow"
+        "legal legal"
+        "next next";
+    grid-template-columns: minmax(15%, auto) minmax(15%, auto);
+    row-gap: 10%;
+    border-bottom: 1px solid #333;
+    padding-bottom: 188px;
+    
+}
+
+.footer-item:nth-of-type(1) {
+    grid-area: logo;
+    border-bottom: 1px solid #333;
+    padding-bottom: 33px;
+}
+
+.footer-item:nth-of-type(2) {
+    grid-area: explore;
+}
+
+.footer-item:nth-of-type(3) {
+    grid-area: visit;
+}
+
+.footer-item:nth-of-type(4) {
+    grid-area: follow;
+}
+
+.footer-item:nth-of-type(5){
+    grid-area: legal;
+}
+
+.footer-item:nth-of-type(6) {
+    grid-area: logo;
+    justify-self: end;
+    margin-top: 5px;
+}
+
+.footer-item:nth-of-type(7) {
+    grid-area: business;
+}
+
+
+.footer-inner:after {
+    top: 745px;
+}
+}
+
+
+
+/* Background      ################################################################################ */
+
+
+/* content       ################################################################################ */
+/* title ****** */
+.title{
+    color: snow;
+    font-family: c;
+    font-size: 45px;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    background: rgb(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: auto;
+    margin-top: 2em;
+
+}
+
+
+
+/* comingsoon ******** */
+.comingsoon{
+	margin: auto;
+	margin-top: 10em;
+	font-family: 'Baloo Paaji', cursive;
+	border: black 2px solid; 
+	width: 20em;
+	height: 12em ;
+	align-content: center;
+	position: relative;
+	
+  }
+  
+  .comingsoon h1, h2{
+	padding: 1em;
+	font-size: 40px;
+	text-shadow:  0 -1px 0 #fff, 
+	0 1px 0 #2e2e2e, 
+	0 1.1px 0 #2c2c2c, 
+	0 1.2px 0 #2a2a2a, 
+	0 1.3px 0 #282828, 
+	0 1.4px 0 #262626, 
+	0 1.5px 0 #242424, 
+	0 1.6px 0 #222, 
+	0 1.7px 0 #202020, 
+	0 2px 0 #1e1e1e, 
+	0 2.10px 0 #1c1c1c, 
+	0 2.2px 0 #1a1a1a, 
+	0 2.3px 0 #181818, 
+	0 2.4px 0 #161616, 
+	0 2.5px 0 #141414, 
+	0 2.8px 0 #121212, 
+	0 3px 3px rgba(0, 0, 0, 0.9); 
+	
+  
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.3em;
+  } 
+	
+  span.cs1, span.cs2, span.cs3{
+	  width: 100%;
+	  float: left;
+	  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+	  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+	  transform: translateY(-50px);
+	  opacity: 0;
+	  animation-name: comingsoon;
+	  animation-timing-function:ease;
+	  animation-duration: 6s;
+	  animation-iteration-count: infinite;
+	}
+  
+  
+  span.cs1{
+	 color: pink;
+	  animation-delay: 3s;
+	  -webkit-animation-fill-mode: forwards;
+  }
+  span.cs2{
+	 color: white;
+	animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
+  }
+  span.cs3{
+	  color: yellow;
+	  animation-delay: 1s;
+	  -webkit-animation-fill-mode: forwards;
+	}
+  
+  
+  
+  
+  @keyframes comingsoon {
+	  0% {
+		transform: translateY(-50px);
+		opacity: 0;
+		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+	}
+	20% {
+		transform: translateY(0);
+		opacity: 1;
+		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+	}
+	80% {
+		 transform: translateY(0);
+		 opacity: 1;
+		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+	}
+	100% {
+		 transform: translateY(50px);
+		 opacity: 0;
+		-webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+		clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+	  
+	}
+  }
+
+
+
+
+
+  * a{
+    cursor: pointer;
+}

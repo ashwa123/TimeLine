@@ -1,0 +1,199 @@
+<header class="nava">
+
+    <a class="logo" href="">Timeline Trends</a>
+
+    <input id="nav" type="checkbox">
+    <label for="nav"></label>
+
+    <nav class="navb">
+        <ul>
+            <li><a [routerLink]="['/home']">Home</a></li>
+            <li><a [routerLink]="['/about']">About Us</a></li>
+            <li><a [routerLink]="['/contact']">Contact</a></li>
+            <li><a [routerLink]="['/use']">How to use</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<div class="body-background">
+    <div class="container">
+        <header>
+            <h1>Recently Added</h1>
+        </header>
+        <br>
+
+        <section id="dg-container" class="dg-container" #dgcontainer>
+            <div class="dg-wrapper">
+                <a [routerLink] = "['/associationinhistory']">Association<img src="../../assets/pattern.png" alt="">
+                    <div>Modern History</div>
+                </a>
+                <a [routerLink] = "['/famouspersonalities']">Famous Personalities<img src="../../assets/pattern.png" alt="">
+                    <div>Modern History</div>
+                </a>
+                <a [routerLink] = "['/socialreforms']">Social Reforms<img src="../../assets/pattern.png" alt="">
+                    <div>Modern History</div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div class="block1">
+        <div class="outerbox1">
+            <div class="box1">
+                <div class="icon1">
+                    <a class="mh" (click)="modernhistory()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Modern History
+                    </a>
+                </div>
+                <div class="pmh">
+                    <p>Travel to your favourite timeline and explore the events.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block2">
+        <div class="outerbox2">
+            <div class="wrapper">
+                <ul class="stage clearfix">
+                    <a (click)="gallery()">
+                        <li class="scene">
+                            <div class="movie" onclick="return true">
+                                <div class="poster">
+                                </div>
+
+                                <div class="info">
+
+                                    <header>
+                                        <h1>Image Gallery</h1>
+                                    </header>
+                                    <p >Study through Images. <br> Here you can find pictures of different events. <br> Picturization is more important, so you can remember the facts and events for long.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="block3">
+        <div class="outerbox3">
+            <div class="box2">
+                <div class="icon2">
+                    <a class="ac" (click)="artculture()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Art & Culture
+                    </a>
+                </div>
+                <div class="pmh">
+                    <p>Study about one of the world's richest and most diverse art & culture.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block4">
+        <div class="outerbox4">
+            <div class="box3">
+                <div class="icon3">
+                    <a class="en" (click)="environment()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Environment
+                    </a>
+                </div>
+                <div class="pmh">
+                    <p>Explore various flora & <br> fauna of India. <br> Study through maps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block5">
+        <section class="comingsoon">
+            <h1 class="csoon">
+                <span class="cs1"></span>
+                <span class="cs2">Upcoming</span>
+                <span class="cs3">Mughal Architecture</span>
+            </h1>
+        </section>
+    </div>
+
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+
+    <footer>
+        <nav class="footer-inner">
+            <section class="footer-item">
+                <h1>Timeline Trends</h1>
+
+                <h2></h2>
+            </section>
+
+            <section class="footer-item">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a (click)="home()">Home</a></li>
+                    <li><a (click)="about()">About</a></li>
+                    <li><a (click)="contact()">Contact</a></li>
+                    <li><a (click)="use()">How to Use</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <h3>Location</h3>
+                <p>Tamilnadu, India.</p>
+            </section>
+
+            <section class="footer-item">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <a (click)="imagecourtsey()" class="footer-button">Image Courtesy</a>
+            </section>
+
+            <section class="footer-item">
+
+                <h3>Mail Us</h3>
+                <p>thetimelinetrends@gmail.com</p>
+            </section>
+        </nav>
+    </footer>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="../../assets/javascript/jquery.gallery.js"></script>
+<script src="./modernizr.custom.53451.js"></script>
+<script type="text/javascript" src="./dodgecontainer.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#dg-container').gallery({
+            autoplay: true
+        });
+    })
+</script>

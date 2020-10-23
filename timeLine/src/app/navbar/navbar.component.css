@@ -1,0 +1,162 @@
+
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: teal;
+	min-height: 8vh;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	justify-content: space-between;	
+}
+
+.logo {
+	margin-left: 3%;
+} 
+
+
+.logo a {
+	font-family: u;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	  text-shadow:  0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 1.1px 0 #2c2c2c, 
+      0 1.2px 0 #2a2a2a, 
+      0 1.3px 0 #282828, 
+      0 1.4px 0 #262626, 
+      0 1.5px 0 #242424, 
+      0 1.6px 0 #222, 
+      0 1.7px 0 #202020, 
+      0 2px 0 #1e1e1e, 
+      0 2.10px 0 #1c1c1c, 
+      0 2.2px 0 #1a1a1a, 
+      0 2.3px 0 #181818, 
+      0 2.4px 0 #161616, 
+      0 2.5px 0 #141414, 
+      0 2.8px 0 #121212, 
+	  0 3px 3px rgba(0, 0, 0, 0.9);
+	 
+	
+}
+
+.menu {
+	display: flex;
+	list-style-type: none;
+	width: 40%;
+	justify-content: space-around;
+	
+}
+
+.menu a{
+	font-family: m;
+	font-size: 10px;
+	color: snow;
+	text-decoration: none;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 0 1px 0 black;
+}
+
+
+.phonemenu {
+	display: none;
+	cursor: pointer;
+	margin-right: 5%;
+	
+}
+
+.phonemenu div {
+	width: 22px;
+	height: 3px;
+	margin: 5px;
+	background-color: navajowhite;
+	transition: all 0.5s ease-in-out;
+
+}
+
+
+@media screen and (max-width:1024px) {
+    .menu {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	body{
+		overflow-x: hidden;
+		
+	}
+	
+	
+
+	.logo{
+		margin-left: 5%;
+	}
+	
+	.menu{
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: whitesmoke;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 40%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+		}
+
+
+	.menu li{
+		opacity: 0;
+	}
+
+	.phonemenu{
+		display: block;
+	}
+}
+
+.menuclick{
+	transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
+.toggle .line1{
+	transform: rotate(360deg); 
+	transition: transform 0.5s ease-in;
+
+}
+
+.toggle .line2{
+	transform: rotate(360deg); 
+	transition: transform 0.5s ease-in;
+
+}
+
+.toggle .line3{
+	transform: rotate(360deg); 
+	transition: transform 0.5s ease-in;
+}

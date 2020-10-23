@@ -1,0 +1,31 @@
+<div class="form-container">
+    <div class="container">
+        <div class="col-md-9 offset-md-1">
+            <div class="card bg-dark">
+                <div class="card-header font-color lable-container"><h3>Feedback</h3></div>
+                <div class="card-body">
+                    <form [formGroup] = "feedbackForm" feedbackForm = 'ngForm' (ngSubmit) = "submit()">
+                        <div class="form-group">
+                            <label class="font-color">Name</label>
+                            <input type="text" formControlName = "name" id="name" class="form-control">
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="font-color">Email</label>
+                            <input type="email" formControlName = "email" id="email" class="form-control">
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="font-color">Comments</label>
+                            <textarea class="form-control" rows="5" formControlName = "comments" id="comments"></textarea>
+                        </div>
+    
+                        <div class="button-container">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
