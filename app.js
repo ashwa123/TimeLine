@@ -19,8 +19,8 @@ app.use(myRequestLogger);
 app.use('/', router);
 app.use(myErrorLogger);
 
-// app.listen(process.env.PORT || 8080);
-app.listen(3000);
+app.listen(process.env.PORT || 8080);
+
 console.log("Server listening in port");
 
 
