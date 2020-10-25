@@ -47,6 +47,7 @@ routing.post('/sendemail', (req, res) =>{
     main(mail, info => {
         console.log("Message Sent");
         res.json({message : "Feedback sent"})
+        console.log(success);
     })
 })
 
