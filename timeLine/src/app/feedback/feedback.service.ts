@@ -19,7 +19,8 @@ export class FeedbackService {
   // }
 
   postmessage(data: any) {
-    return this.http.post('sendemail/', data);
+    // return this.http.post('sendemail/', data);
+    return this.http.post('http://localhost:3000/sendemail', data);
   }
 }
 

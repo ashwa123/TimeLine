@@ -2,7 +2,7 @@ const express = require('express');
 const routing = express.Router();
 const service = require("../service/service");
 const Comment = require("../models/comment");
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
 
 
 //routing
@@ -42,36 +42,37 @@ routing.get('/comment/:category', (req, res, next) => {
 })
 
 routing.post('/sendemail', (req, res) =>{
+    console.log('req received')
     let mail = req.body;
-    SendMail(mail, info => {
+    main(mail, info => {
         console.log("Message Sent");
-        res.send(info)
+        res.json({message : "Feedback sent"})
     })
 })
 
-async function SendMail(mail, callback) {
+async function main(mail) {
+    console.log(mail)
     let transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 587,
-        secure: false,
-        auth: {
-            user: '',
-            pass: ''
-        }
-    })
-
-    let mailOptions = {
-        from: mail.email,
-        to: 'ashwanth23.2.98@gmail.com',
-        subject: 'Feedback',
-        html: comments
-    }
-
-    let info = await transporter.SendMail(mailOptions);
-
-    callback(info)
+      service: 'Gmail',
+      host: "smtp.gmail.com",
+      port: 587,
+      secure: false, // true for 465, false for other ports
+      auth: {
+        user: 'thetimelinetrends@gmail.com', // generated ethereal user
+        pass: 'pugazhvicky', // generated ethereal password
+      },
+    });
+  
+    let info = await transporter.sendMail({
+      from: mail.email,
+      to: "thetimelinetrends@gmail.com",
+      subject: "Feedback",
+      text: "Hello world?",
+      html: `Name: ${mail.name}<br><br> Comment: ${mail.comments}` 
+    });
+  
+    console.log("Message sent: %s", info.messageId);
+    console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 }
-
-// thetimelinetrends@gmail.com
 
 module.exports = routing;

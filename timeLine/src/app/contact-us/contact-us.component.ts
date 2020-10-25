@@ -27,11 +27,8 @@ export class ContactUsComponent implements OnInit {
 
   submit() {
     this.service.postmessage(this.feedbackForm.value)
-      .subscribe(response =>{
-        // location.href ='https://quiet-brushlands-07311.herokuapp.com/';
-        console.log(response);
-        
-        this.router.navigate(['home']);
+      .subscribe(response => {
+          alert('Thank you for your feedback');
       },
       err => {
         console.log(err.responseText);
