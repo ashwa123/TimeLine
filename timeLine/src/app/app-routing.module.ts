@@ -13,6 +13,7 @@ import { SocialReformsComponent } from './social-reforms/social-reforms.componen
 import { GalleryComponent } from './gallery/gallery.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { ImageCourtseyComponent } from './image-courtsey/image-courtsey.component';
+import { ModernHistoryTimelineComponent } from './modern-history-timeline/modern-history-timeline.component';
 
 
 const routes: Routes = [
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'feedback', component: FeedbackComponent },
   { path: 'imagecourtesy', component: ImageCourtseyComponent },
+  { path: 'modernhistorytimeline', component: ModernHistoryTimelineComponent },
   { path : '**', component: HomeComponent }
 ];
 

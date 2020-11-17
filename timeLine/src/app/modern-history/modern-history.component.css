@@ -778,6 +778,7 @@ img {
   cursor: auto;
   pointer-events: none;
 }
+
 .swiper-button-next:after,
 .swiper-button-prev:after {
   font-family: swiper-icons;

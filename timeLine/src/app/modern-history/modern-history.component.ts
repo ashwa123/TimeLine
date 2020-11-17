@@ -63,4 +63,7 @@ export class ModernHistoryComponent implements OnInit {
     this.router.navigate(['imagecourtesy']);
   }
 
+  modernhistorytimeline() {
+    this.router.navigate(['modernhistorytimeline']);
+  }
 }

@@ -23,6 +23,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ImageCourtseyComponent } from './image-courtsey/image-courtsey.component';
+import { ModernHistoryTimelineComponent } from './modern-history-timeline/modern-history-timeline.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ImageCourtseyComponent } from './image-courtsey/image-courtsey.componen
     GalleryComponent,
     FeedbackComponent,
     NavbarComponent,
-    ImageCourtseyComponent
+    ImageCourtseyComponent,
+    ModernHistoryTimelineComponent
   ],
   imports: [
     BrowserModule,
