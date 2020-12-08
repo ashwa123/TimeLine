@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Image } from '@fnxone/ngx-photoswipe';
+// import { Image, LightboxService } from 'ngx-photoswipe';
 import { Router } from '@angular/router';
+import * as $ from 'jquery';
 import './gallery.js';
+
 
 declare var navSlide: any;
 
@@ -14,8 +17,9 @@ export class GalleryComponent implements OnInit {
 
   images: Image[] = [
     {
-      img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg',
-      thumb: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg',
+      img: '../../assets/gallery/ig1.jpg',
+      thumb: '../../assets/gallery/ig1.jpg',
+      description: 'this is working'
     },
     {
       img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg',
@@ -29,29 +33,13 @@ export class GalleryComponent implements OnInit {
     }
 ];
 
-  constructor(private router: Router) { }
+
+  constructor(
+    private router: Router,
+    ) { }
 
   ngOnInit(): void {
   }
 
-  home(){
-    this.router.navigate(['home']);
-  }
-
-  about(){
-    this.router.navigate(['about']);
-  }
-
-  contact(){
-    this.router.navigate(['contact'])
-  }
-
-  use(){
-    this.router.navigate(['use']);
-  }
-
-  imagecourtesy(){
-    this.router.navigate(['imagecourtesy']);
-  }
 
 }

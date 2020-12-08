@@ -25,25 +25,8 @@ export class HomeComponent implements OnInit {
     // new navSlide();
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     console.log(this.dgcontainer);
-    
-  }
-
-  home(){
-    this.router.navigate(['home']);
-  }
-
-  about(){
-    this.router.navigate(['about']);
-  }
-
-  contact(){
-    this.router.navigate(['contact'])
-  }
-
-  use(){
-    this.router.navigate(['use']);
   }
 
   modernhistory() {
@@ -58,12 +41,8 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['environment']);
   }
 
-  gallery(){
+  gallery() {
     this.router.navigate(['gallery']);
-  }
-
-  imagecourtsey(){
-    this.router.navigate(['imagecourtesy']);
   }
 
 }

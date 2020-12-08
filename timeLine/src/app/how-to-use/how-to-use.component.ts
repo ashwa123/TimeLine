@@ -16,27 +16,8 @@ export class HowToUseComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    
+
   }
 
-  home(){
-    this.router.navigate(['home']);
-  }
-
-  about(){
-    this.router.navigate(['about']);
-  }
-
-  contact(){
-    this.router.navigate(['contact'])
-  }
-
-  use(){
-    this.router.navigate(['use']);
-  }
-
-  imagecourtsey(){
-    this.router.navigate(['imagecourtesy']);
-  }
 
 }

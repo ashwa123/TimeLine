@@ -43,25 +43,6 @@ export class ModernHistoryComponent implements OnInit {
 
   comingsoon(){}
 
-  home(){
-    this.router.navigate(['home']);
-  }
-
-  about(){
-    this.router.navigate(['about']);
-  }
-
-  contact(){
-    this.router.navigate(['contact'])
-  }
-
-  use(){
-    this.router.navigate(['use']);
-  }
-
-  imagecourtesy(){
-    this.router.navigate(['imagecourtesy']);
-  }
 
   modernhistorytimeline() {
     this.router.navigate(['modernhistorytimeline']);

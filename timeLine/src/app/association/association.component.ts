@@ -35,25 +35,6 @@ export class AssociationComponent implements OnInit {
     });
   }
 
-  home() {
-    this.router.navigate(['home']);
-  }
-
-  about() {
-    this.router.navigate(['about']);
-  }
-
-  contact() {
-    this.router.navigate(['contact']);
-  }
-
-  use() {
-    this.router.navigate(['use']);
-  }
-
-  imagecourtesy() {
-    this.router.navigate(['imagecourtesy']);
-  }
 
   getcomment() {
     this.service.getComment(this.category).subscribe(response => {

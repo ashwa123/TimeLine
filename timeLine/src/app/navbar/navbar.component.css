@@ -1,31 +1,59 @@
+/* Fonts      ################################################################################ */
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+@font-face{src: url(../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf); font-family: u;}
+@font-face{src: url(../../assets/Fonts/cheltenhm/CheltenhamBoldExtraCondensedBT.ttf);  font-family: c;}
+@font-face{src: url(../../assets/Fonts/Montserrat/Montserrat-Regular.ttf); font-family: m;}
+@font-face{src: url(../../assets/Fonts/Amr/Amr.otf); font-family: a;}
+@font-face{src: url(../../assets/Fonts/neon-font/Neon-e2wg.ttf); font-family:neon;}
+@font-face{src: url(../../assets/Fonts/Lobster/Lobster-Regular.ttf); font-family:l;}
+@font-face{src: url(../../assets/Fonts/Merriweather/Merriweather-Regular.ttf); font-family:merri;}
+@font-face{src: url(../../assets/Fonts/blackchancery/BLKCHCRY.TTF); font-family:blk;}
+@font-face{src: url(../../assets/Fonts/Open_Sans/OpenSans-Regular.ttf); font-family:os;}
+@font-face{src: url(../../assets/Fonts/Work_Sans/WorkSans-VariableFont_wght.ttf); font-family:ws;}
+@font-face{src: url(../../assets/Fonts/Roboto/Roboto-Light.ttf); font-family: robo;}
+
 
 * {
 	margin: 0%;
 	padding: 0%;
-	box-sizing: border-box;
-}
-
-
-
-nav {
-	display: flex;
-	align-items: center;
-	background-color: teal;
-	min-height: 8vh;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	justify-content: space-between;	
-}
-
-.logo {
-	margin-left: 3%;
 } 
 
 
-.logo a {
+header.nava {
+    overflow: hidden;
+    background: darkslategrey;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+  }
+  
+ .nava a, .navb a,  header.nava  label {
+    display: block;
+    padding: 20px 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 5px;
+    height: 20px;
+  }
+  
+  header.nava a:hover,  header.nava label:hover { color: #aaa; }
+  
+  header.nava label {
+    float: right;
+    padding: 17px 20px;
+    cursor: pointer;
+  }
+  
+  header.nava label:after {
+    content: "\2261";
+    font-size: 1.8em;
+  }
+  
+  .logo {
+    float: left;
 	font-family: u;
-	font-size: 30px;
+	font-size: 29px;
 	color: white;
 	text-decoration: none;
 	  text-shadow:  0 -1px 0 #fff, 
@@ -46,117 +74,79 @@ nav {
       0 2.8px 0 #121212, 
 	  0 3px 3px rgba(0, 0, 0, 0.9);
 	 
-	
+  }
+    
+  .navb {
+    float: right;
+    max-height: 0;
+    width: 100%;
+    -webkit-transition: max-height 0.3s; 
+       -moz-transition: max-height 0.3s;
+         -o-transition: max-height 0.3s;
+            transition: max-height 0.3s;
+
+            font-family: m;
+            font-size: 10px;
+            color: snow;
+            text-decoration: none;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 0 1px 0 black;
+  }
+  
+  .navb ul {
+    margin: 0;
+    padding: 0;
+  }
+    
+  .navb li {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
+  }
+    
+  .navb a {
+   
+    width: 100%;
+  }
+  
+  #nav { display: none; }
+  
+  #nav:checked ~ nav {
+    max-height: 500px; /* This can be anything bigger than your nav height. The transition duration works with this */
+    
 }
+  
+  @media only screen and (min-width: 800px) {
+    
+    header.nava label { display: none; }
 
-.menu {
-	display: flex;
-	list-style-type: none;
-	width: 40%;
-	justify-content: space-around;
-	
-}
-
-.menu a{
-	font-family: m;
-	font-size: 10px;
-	color: snow;
-	text-decoration: none;
-	letter-spacing: 2.5px;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 0 1px 0 black;
-}
-
-
-.phonemenu {
-	display: none;
-	cursor: pointer;
-	margin-right: 5%;
-	
-}
-
-.phonemenu div {
-	width: 22px;
-	height: 3px;
-	margin: 5px;
-	background-color: navajowhite;
-	transition: all 0.5s ease-in-out;
-
-}
-
-
-@media screen and (max-width:1024px) {
-    .menu {
-		width: 50%;
-	}
-}
-
-@media screen and (max-width:768px) {
-	body{
-		overflow-x: hidden;
-		
-	}
-	
-	
-
-	.logo{
-		margin-left: 5%;
-	}
-	
-	.menu{
-		position: absolute;
-		right: 0px;
-		height: 92vh;
-		top: 8vh;
-		background-color: whitesmoke;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 40%;
-		transform: translateX(100%);
-		transition: transform 0.5s ease-in;
-		}
-
-
-	.menu li{
-		opacity: 0;
-	}
-
-	.phonemenu{
-		display: block;
-	}
-}
-
-.menuclick{
-	transform: translateX(0%);
-}
-
-@keyframes navLinkFade{
-	from{
-		opacity: 0;
-		transform: translateX(50px);
-	}
-	to{
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}
-
-
-.toggle .line1{
-	transform: rotate(360deg); 
-	transition: transform 0.5s ease-in;
-
-}
-
-.toggle .line2{
-	transform: rotate(360deg); 
-	transition: transform 0.5s ease-in;
-
-}
-
-.toggle .line3{
-	transform: rotate(360deg); 
-	transition: transform 0.5s ease-in;
-}
+    
+    nav.navb {
+      width: auto;
+      max-height: none;
+    }
+    
+    .navb ul {
+      padding: 0;
+      padding-right: 20px;
+    }
+    
+    .navb li {
+      display: inline-block;
+      text-align: left;
+      margin-left: 30px;
+      margin-top: auto;
+      padding: 0;
+      
+    }
+    
+    header.nava nav a {
+      display: inline-block;
+     
+      width: auto;
+    }
+    
+  }

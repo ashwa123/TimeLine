@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgxPhotoswipeModule, LightboxAdapter } from '@fnxone/ngx-photoswipe';
+// import {NgxPhotoswipeModule} from 'ngx-photoswipe';
 import { CustomLightboxAdapter } from './shared/CustomLightboxAdapter';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -24,6 +25,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ImageCourtseyComponent } from './image-courtsey/image-courtsey.component';
 import { ModernHistoryTimelineComponent } from './modern-history-timeline/modern-history-timeline.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +45,8 @@ import { ModernHistoryTimelineComponent } from './modern-history-timeline/modern
     FeedbackComponent,
     NavbarComponent,
     ImageCourtseyComponent,
-    ModernHistoryTimelineComponent
+    ModernHistoryTimelineComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,6 +56,7 @@ import { ModernHistoryTimelineComponent } from './modern-history-timeline/modern
     HttpClientModule,
     NgxPhotoswipeModule,
     FontAwesomeModule,
+    // NgxPhotoswipeModule.forRoot()
   ],
   providers: [
     {provide : LightboxAdapter, useClass : CustomLightboxAdapter}
