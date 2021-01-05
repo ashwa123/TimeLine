@@ -19,9 +19,6 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "customWebpackConfig": {
-              "path": "src/custom-webpack.config.js"
-            },
             "assets": [
               { 
                 "glob": "**/*.@(svg|png|gif)", 
@@ -41,6 +38,7 @@
               "./node_modules/photoswipe/dist/photoswipe.js",
               "./node_modules/photoswipe/dist/photoswipe-ui-default.js",
               "src/assets/javascript/copy.js",
+              "src/assets/javascript/photo.js",
               "src/assets/javascript/modernizr.custom.53451.js",
               "src/assets/javascript/dodgecontainer.js",
               "src/assets/javascript/jquery.gallery.js"
@@ -57,7 +55,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,

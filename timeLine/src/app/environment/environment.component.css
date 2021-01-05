@@ -229,7 +229,7 @@ li{
 
 /* comingsoon ******** */
 .comingsoon{
-	margin: auto;
+	margin: auto;	
 	margin-top: 10em;
 	font-family: 'Baloo Paaji', cursive;
 	border: black 2px solid; 
@@ -237,6 +237,7 @@ li{
 	height: 12em ;
 	align-content: center;
 	position: relative;
+	margin-bottom: 10px;
 	
   }
   

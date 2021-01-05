@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import './imgcor.js';
 
@@ -11,9 +12,18 @@ declare var navSlide: any;
 })
 export class ImageCourtseyComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+    private metaTagService: Meta
+    ) { }
 
   ngOnInit(): void {
+    this.metaTagService.addTags([
+      { name: 'description', content: 'Angular SEO Integration, Music CRUD, Angular Universal' },
+      { name: 'keywords', content: 'index, follow' },
+      { name: 'author', content: 'Digamber Singh' },
+      { charset: 'UTF-8' }
+    ]);
   }
 
 }

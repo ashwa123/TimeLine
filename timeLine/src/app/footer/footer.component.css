@@ -2,7 +2,6 @@ footer {
     background-color: black;
     font-family: "Lato", sans-serif;
     position: relative;
-
 }
 
 
@@ -29,16 +28,16 @@ footer {
     margin-top: 8px;
     margin-left: 5px;
     margin-bottom: 8ex;
-font-family: l;  
-  height:35px;
-  width:100px;
-  padding:5px;
-  font-size:15px;
-  cursor:pointer;
-  background-color: black;
-  color: azure;
-  transition: ease-in 0.2s;
-  border: whitesmoke solid 1px;
+    font-family: l;  
+    height:35px;
+    width:100px;
+    padding:5px;
+    font-size:15px;
+    cursor:pointer;
+    background-color: black;
+    color: azure;
+    transition: ease-in 0.2s;
+    border: whitesmoke solid 1px;
   
 }
   

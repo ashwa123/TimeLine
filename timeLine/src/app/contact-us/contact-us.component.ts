@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { FeedbackService } from '../feedback/feedback.service';
+import { Meta } from '@angular/platform-browser';
 
 declare var navSlide: any;
 
@@ -15,7 +16,11 @@ export class ContactUsComponent implements OnInit {
   LogoUrl = '../../assets/Logo.png';
   feedbackForm: FormGroup;
 
-  constructor(private router: Router, private fb: FormBuilder, private service: FeedbackService) { }
+  constructor(private router: Router,
+    private fb: FormBuilder,
+    private service: FeedbackService,
+    private metaTagService: Meta
+    ) { }
 
   ngOnInit(): void {
     this.feedbackForm = this.fb.group({
@@ -23,6 +28,13 @@ export class ContactUsComponent implements OnInit {
       email : ['', [Validators.required]],
       comments : ['', [Validators.required]]
     });
+
+    this.metaTagService.addTags([
+      { name: 'description', content: 'Angular SEO Integration, Music CRUD, Angular Universal' },
+      { name: 'keywords', content: 'index, follow' },
+      { name: 'author', content: 'Digamber Singh' },
+      { charset: 'UTF-8' }
+    ]);
   }
 
   submit() {

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { CommentserviceService } from '../shared/commentservice.service.js';
+import { Meta } from '@angular/platform-browser';
 
 declare var navSlide: any;
 
@@ -18,11 +19,21 @@ export class SocialReformsComponent implements OnInit {
   postComments: any[];
   avatar = '../../assets/logo/avatar.png';
 
-  constructor(private Formbuilder: FormBuilder, private service: CommentserviceService, private router: Router) { }
+  constructor(private Formbuilder: FormBuilder,
+    private service: CommentserviceService,
+    private router: Router,
+    private metaTagService: Meta
+    ) { }
 
   ngOnInit(): void {
     this.commentform();
-    // this.getcomment();
+    this.getcomment();
+    this.metaTagService.addTags([
+      { name: 'description', content: 'Angular SEO Integration, Music CRUD, Angular Universal' },
+      { name: 'keywords', content: 'index, follow' },
+      { name: 'author', content: 'Digamber Singh' },
+      { charset: 'UTF-8' }
+    ]);
   }
 
   commentform() {

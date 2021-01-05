@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { CommentserviceService } from '../shared/commentservice.service.js';
 import './Navigationbar.js';
@@ -20,11 +21,21 @@ export class AssociationComponent implements OnInit {
   postComments: any[];
   avatar = '../../assets/logo/avatar.png';
 
-  constructor(private router: Router, private Formbuilder: FormBuilder, private service: CommentserviceService) { }
+  constructor(private router: Router,
+    private Formbuilder: FormBuilder,
+    private service: CommentserviceService,
+    private metaTagService: Meta
+    ) { }
 
   ngOnInit(): void {
     this.commentform();
-    // this.getcomment();
+    this.getcomment();
+    this.metaTagService.addTags([
+      { name: 'description', content: 'Angular SEO Integration, Music CRUD, Angular Universal' },
+      { name: 'keywords', content: 'index, follow' },
+      { name: 'author', content: 'Digamber Singh' },
+      { charset: 'UTF-8' }
+    ]);
   }
 
   commentform() {

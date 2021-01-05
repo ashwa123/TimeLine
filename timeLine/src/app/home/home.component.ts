@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { Meta } from '@angular/platform-browser';
 import './home.js';
 
 declare var navSlide: any;
@@ -19,10 +20,16 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private router: Router,
+    private metaTagService: Meta
   ) { }
 
   ngOnInit(): void {
-    // new navSlide();
+    this.metaTagService.addTags([
+      { name: 'description', content: 'Angular SEO Integration, Music CRUD, Angular Universal' },
+      { name: 'keywords', content: 'index, follow' },
+      { name: 'author', content: 'Digamber Singh' },
+      { charset: 'UTF-8' }
+    ]);
   }
 
   ngAfterViewInit() {
