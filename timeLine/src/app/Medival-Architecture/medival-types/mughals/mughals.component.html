@@ -1,0 +1,642 @@
+<app-navbar></app-navbar>
+
+
+<div *ngIf="style == 'mughal'">
+    <div>
+        <h1 class="title">Mughal Architecture</h1>
+    </div>
+
+    <div class="points">
+        <div class="topichead">Babur</div>
+        <ul>
+            <li>Reign too short lived</li>
+            <li>Built mosques at <b>Rohilkhand & Panipat</b></li>
+        </ul>
+    </div>
+    <div class="keywords">
+        <p><b>Keywords: </b> Kabuli - Rohilkhand - Panipat</p>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/1_Kabuli-Bagh-Panipat.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Kabuli Bagh Mosque</span><span class="imgplace">@Panipat, Haryana</span>
+                <!--wiki--><a
+                    href=" https://en.wikipedia.org/wiki/Kabuli_Bagh_Mosque#:~:text=The%20Kabuli%20Bagh%20Mosque%20is,after%20Kabuli%20Begum%2C%20Babur's%20wife. "
+                    target="_blank" class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">To mark his victory over <b>Sultan Ibrahim Lodhi</b> at the <b>first Battle of
+                        Panipat in 1526</b>.
+                    <br> Named after Kabuli Begum, Babur's wife
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <div class="topichead">Humayun</div>
+        <ul>
+            <li>Power struggle & war with Sher Shah Suri. So, couldn't focus on art</li>
+            <li><b class="impword">Persian style</b> became important in his period</li>
+        </ul>
+    </div>
+    <div class="keywords">
+        <p><b>Keywords: </b> Persian Style - Dinpanah</p>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/2_Dinpanah_delhi.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Dinpanah City</span><span class="imgplace">@Delhi</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Purana_Qila#Dinpanah " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Began the foundation but couldn't finish.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Mughal_architecture#Akbar " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Akbar</div>
+        <div style="font-family: blk; font-size: 20px;
+        margin: 15px;">"The Golden period of Mughal Art & Architecture"</div>
+        <ul>
+            <li>Prominent works</li>
+            <ol class="li1">
+                <li>Agra Fort</li>
+                <li>Fatehpur Sikri</li>
+            </ol>
+        </ul>
+        <ul class="li2">
+            <li>Use of <b class="impword">Red Sandstone</b></li>
+            <li>Introduce <b class="impword">Tudor Arch</b> [4 Centered Arch]</li>
+        </ul>
+    </div>
+    <div class="keywords">
+        <p><b>Keywords: </b> Agra Fort - Fatehpur Sikri - Tudor Arch - Red Sandstone</p>
+    </div>
+    <div class="fullfeature">
+        <div class="featuretopic"> Taj Mahal Features </div>
+        <div class="features">
+
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/redsandstone.jpg" alt=""></div>
+                <div class="featurename">Red Sandstone</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/9_Tudor_Arch.jpg" alt=""></div>
+                <div class="featurename">Tudor Arch [4 centered arch]</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="textdiv">
+        <div class="textbox boxx">
+            <div class="textimg"><img src="../../../../assets/medival/mughals/Images/15_Agra_Fort.jpg" alt=""></div>
+            <div class="texttext">Agra Fort</div>
+            <div class="textlink"><a [routerLink]="['/forts']" [queryParams]="{style:'agra'}">Click Here</a></div>
+        </div>
+
+        <div class="textbox boxx">
+            <div class="textimg"><img src="../../../../assets/medival/mughals/Images/16_Buland_Darwaza.jpg" alt=""></div>
+            <div class="texttext">Fatehpur Sikri</div>
+            <div class="textlink"><a [routerLink]="['/forts']" [queryParams]="{style:'fatehpur'}">Click Here</a></div>
+        </div>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Mughal_architecture#Jahangir " target="_blank"
+            class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Jahangir</div>
+        <ul>
+            <li><b>Architecture back seat</b>, main focus on <b>Paintings</b></li>
+            <li>Decorted & Oversaw some structures</li>
+            <li>During Jahangir reign, <B>White marble</B> became "chief building material" [used in <b>Itmad-ud-daulah
+                    Tomb</b>]</li>
+            <li><u>Mistakes to avoid:</u> White marble was not became chief material during Shah Jahan reign, though he
+                used it more.</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/23_Akbar_Tomb.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Akbar Tomb</span><span class="imgplace">@Sikandra, Agra</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Akbar%27s_tomb " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout"></p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/24_Jahangir_Tomb.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Jahangir Tomb</span><span class="imgplace">@Lahore</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Tomb_of_Jahangir " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout"></p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/27_Moti_Masjid_lahore_fort.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Moti Masjid</span><span class="imgplace">@Lahore</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Moti_Masjid_(Lahore_Fort) " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout"></p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/26_Shalimar-Bagh-Srinagar.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Shalimar Bagh</span><span class="imgplace">@Srinagar, Kashmir</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Shalimar_Bagh,_Srinagar " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout"></p>
+            </div>
+        </div>
+        <div class="keywords" style="line-height: 25px;text-align: left; padding-left: 15px;">
+            <p><b>Itmad-ud-daulah Tomb</b> built by Jahangir's wife <b>"Noor Jahan"</b> for her father [<b>Jahangir's
+                    Father-in-law</b>]
+                <br>1st Mughal work <b>"Completely of White marble"</b> [replaced red sandstone]
+                <br>It has <b>Finest Pietra dura works</b>
+            </p>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/28_Tomb-of-Itimad-ud-Daulah.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Tomb of Itmad-ud-daulah</span><span class="imgplace">@Agra</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">"Pillar of the state"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Mughal_architecture#Shah_Jahan " target="_blank"
+            class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Shah Jahan</div>
+        <ul>
+            <li>Mughal Architecture reached <b>climax</b></li>
+            <li class="topichead2"><b><u>Taj Mahal</u></b></li>
+            <ul class="li2">
+                <li>In memory of his wife <b>"Mumtaz or <u>Arzuman Bano Begum</u> "</b></li>
+                <li>aka <b>"Mumtaz Mahal</b></li>
+                <li>It have <b>All features of Mughal architecture</b></li>
+                <li>Calligraphy + Pietra Dura + Charbagh garden + Foresightening technique</li>
+                <li><b>Jaali Works</b> -"Extremely fine & lace like"</li>
+                <li>Marble carvings were <b>low relief</b> [Clay is removed or added to strategic areas which play with
+                    light and shadows, thus creating an illusion of superficial depth]</li>
+            </ul>
+        </ul>
+    </div>
+    <div class="fullfeature">
+        <div class="featuretopic"> Taj Mahal Features </div>
+        <div class="features">
+
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/calligraphy_Taj.jpg" alt=""></div>
+                <div class="featurename">Calligraphy</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/pietradura_Taj.jpg" alt=""></div>
+                <div class="featurename">Pietra dura</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/forsight_Taj.jpg" alt=""></div>
+                <div class="featurename">Forsightening technique</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/Charbagh_Taj.jpg" alt=""></div>
+                <div class="featurename">Charbagh garden</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/lowrelief_taj.jpg" alt=""></div>
+                <div class="featurename">Low relief carvings</div>
+            </div>
+
+            <div class="featuresquare featurebox">
+                <div class="featureimg3"><img src="../../../../assets/medival/mughals/Images/jaali_Taj.jpg" alt=""></div>
+                <div class="featurename">Jaali works</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/34_Taj_Mahal.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Taj Mahal</span><span class="imgplace">@Agra</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Taj_Mahal " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/30_Red_Fort.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Red Fort</span><span class="imgplace">@Delhi</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Red_Fort " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/jamamasjid.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Jama Masjid</span><span class="imgplace">@Delhi</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/31_Shalimar Bagh_Lahore.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Shalimar Bagh</span><span class="imgplace">@Lahore</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Shalamar_Gardens,_Lahore " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Don't confuse with Shalimar Bagh @Srinagar by Jahangir
+                <p>
+            </div>
+        </div>
+        <div class="potrait">
+            <img src="../../../../assets/medival/mughals/Images/32_Shahjahanabad.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick2(this)" class="modal2-hover-opacity">
+            <div class="container">
+                <span class="imgname">City of Shahjahanabad</span><br><span class="imgplace">@Old Delhi</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Old_Delhi " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="potrait">
+            <img src="../../../../assets/medival/mughals/Images/33_Peacock_Throne.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick2(this)" class="modal2-hover-opacity">
+            <div class="container">
+                <span class="imgname">Peacock Throne</span><span class="imgplace">@Red Fort [Diwan-i-khas]</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Peacock_Throne " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Best example of <b>Metal work</b>
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Mughal_architecture#Aurangzeb " target="_blank"
+            class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Aurangzeb</div>
+        <ul>
+            <li>Architecture importance <b>declined</b></li>
+            <li>Built <b>Biwi-Ka-Maqbara</b> for his wife <b>"Dilras Banu Begum"</b></li>
+            <li><b>Poor imitation of Taj Mahal</b></li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/35_The_Tomb_of_Dilras_Banu_Begum.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Biwi-Ka-Maqbara</span><span class="imgplace">@Aurangabad, Maharastra</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <div class="topichead">Muhammad Azam Shah</div>
+        <ul>
+            <li>Son of Aurangzeb & Last Mughal ruler to build construction.</li>
+            <li><b>Zinat Mahal</b> - in "Memory of his wife"</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/36_Zinat_Mahal.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Zinat Mahal</span><span class="imgplace">@Delhi</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+</div>
+
+
+<div *ngIf="style == 'shershah'">
+    <div>
+        <h1 class="title">Sher Shah Suri</h1>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Sher_Shah_Suri " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead"></div>
+        <ul>
+            <li>He is from <b>Suri Empire</b> [doesn't belong to Mughal dynasty.]</li>
+            <li> His rule had constant war with Mughal ruler <b>"Humayun"</b></li>
+            <ol class="li2">
+                <li>Constructions continued the <b>tradition of Delhi sultanate</b></li>
+                <li>His period: <b>Transition from "Lodi style" to "Mughal style"</b></li>
+            </ol>
+        </ul>
+    </div>
+
+
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/3_Qila_Kuhna_Masjid_inside_Puran_Qila,_Delhi.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Qila-e-Quhunah</span><span class="imgplace">@Delhi</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Qila-i-Kuhna_Mosque " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Mosque of <b>Old fort</b>
+                <p>
+            </div>
+        </div>
+
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/4_Rohtas-Fort.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Rohtas Fort</span><span class="imgplace">@Jhelum, Pakistan</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Rohtas_Fort " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+
+        <div class="keywords" style="line-height: 25px;text-align: left; padding-left: 15px;">
+            <p>Sher Shah Suri <u>Masjid</u> @Patna is <b>"Afghan style"</b></p>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/7_SSS_Masjid_Patna.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Sher Shah Suri Masjid</span><span class="imgplace">@Patna</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Sher_Shah_Suri_Mosque " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Note: Masjid
+                <p>
+            </div>
+        </div>
+
+        <div class="keywords" style="line-height: 25px;text-align: left; padding-left: 15px;">
+            <p>Sher Shah Suri <u>Tomb</u> @Sasaram <b>"His birth place"</b></p>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/6_Sher_Shah_Suri_Tomb_Sasaram.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Sher Shah Suri Tomb</span><span class="imgplace">@Sasaram</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Tomb_of_Sher_Shah_Suri " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Note: Tomb
+                <p>
+            </div>
+        </div>
+
+        <div class="keywords" style="line-height: 25px;text-align: left; padding-left: 15px;">
+            <p><b>Sadak-e-Azam</b>: Reconstruction & Extension of <b>Old Mauryan route</b>
+                <br>Adequate <b>Sarais & Trees</b> for travellers
+            </p>
+        </div>
+
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/5_SADAK E AZAM.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Grand Trunk Road / Sadak-e-Azam</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Grand_Trunk_Road#Sur_and_Mughal_Empires "
+                    target="_blank" class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div class="keywords" style="line-height: 25px;text-align: left; padding-left: 15px;">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Grand_Trunk_Road " target="_blank" class="wiki"
+            style="margin-right: -10px;"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <p><u>Grand Trunk Road names during each period</u>
+        <ul class="li2">
+            <li>Built by <b>Chandragupta Maurya</b></li>
+            <li>Mauryan Empire: <b>"Uttarpatha"</b> [East India to Ancient Greece & Central Asia]</li>
+            <li>Sher Shan: renamed it as <b>"Sadak-e-Azam"</b> [Breadth increased Further rerouted to
+                <b>"Sonargaon-Bangladesh" to "Rohtas-Pakistan"</b> ]
+            </li>
+            <li>Mughals: <b>"Badshahi Sadak"</b>. <b>Jahangir</b> built all sarais into bricks & stone.</li>
+            <li>British: <b>"Grand Trunk Road"</b> [Calcutta - Delhi -Kabul, Afghan]</li>
+            <li>India: <b>UNESCO - Tentative list</b></li>
+        </ul>
+    </div>
+
+    <br><br><br><br>
+</div>
+
+
+<div *ngIf="style == 'sikhRajput'">
+    <div>
+        <h1 class="title">Mughal Period Regional Styles</h1>
+    </div>
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Sikh_architecture " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Sikh Style</div>
+        <ul>
+            <li>Heavy influence of Mughal Architecture</li>
+            <li>Golden Temple started in <b>1585</b> & completed by <b>"Arjan Dev"</b> in <b>1604</b></li>
+            <li>Fluted domes covered by <b>Copper & Brass guilds</b> decoration</li>
+        </ul>
+    </div>
+
+    <div class="fullfeature">
+        <div class="featuretopic"> Features </div>
+        <div class="features">
+
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/chhatris.jpg" alt=""></div>
+                <div class="featurename">Multiple Chhatris [Kiosks] on top</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/shallowcornices.jpg" alt=""></div>
+                <div class="featurename">Shallow cornices</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/fluteddomes.jpg" alt=""></div>
+                <div class="featurename">Fluted domes</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/decoration.jpg" alt=""></div>
+                <div class="featurename">Arches Foliation decoration </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/37_Golden_Temple.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Harminder Sahib / Golden Temple</span><span class="imgplace">@Amritsar,
+                    Punjab</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Harmandir_Sahib " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Architecture_of_Rajasthan " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Rajput Style </div>
+        <ul>
+            <li>Influence of Mughal Architecture, but <b>Unique in Size & Scope</b></li>
+            <li><b><u>Introduced</u> hanging balcony</b> [in all shape & size]</li>
+            <li><b>Imposing</b> Palace & Forts</li>
+            <li>Arched Cornices. so, shadows took <b>bow shape</b></li>
+        </ul>
+    </div>
+
+    <div class="fullfeature">
+        <div class="featuretopic"> Features </div>
+        <div class="features">
+
+
+            <div class="featurelandscape featurebox" style="height: 11.3em;">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/imposingwall.jpg" alt=""></div>
+                <div class="featurename">Imposing Tall walls</div>
+            </div>
+
+            <div class="featurelandscape featurebox" style="height: 11.3em;">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/hangingbalcony.jpg" alt=""></div>
+                <div class="featurename">Hanging Balcony <h5>[Introduced]</h5>
+                </div>
+            </div>
+
+            <div class="featurelandscape featurebox" style="height: 11.3em;">
+                <div class="featureimg"><img src="../../../../assets/medival/mughals/Images/archcornices.jpg" alt=""></div>
+                <div class="featurename">Arch shaped Cornices <h5>[bow shaped shadow]</h5>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/38_Hawa_Mahal.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Hawa Mahal</span><span class="imgplace">@Jaipur, Rajasthan</span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Hawa_Mahal " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+
+</div>
+
+
+<app-footer></app-footer>

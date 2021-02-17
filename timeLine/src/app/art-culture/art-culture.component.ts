@@ -48,4 +48,8 @@ export class ArtCultureComponent implements OnInit {
     this.router.navigate(['imagecourtesy']);
   }
 
+  medival() {
+    this.router.navigate(['medival-architecture'])
+  }
+
 }

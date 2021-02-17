@@ -1,0 +1,348 @@
+<app-navbar></app-navbar>
+
+<div *ngIf="style == 'agra'">
+
+    <div>
+        <h1 class="title">Agra Fort</h1>
+    </div>
+    <div class="keywords">
+        <p><b>Keywords: </b>Janagiri Mahal
+            <br> ShahJahan: Diwan-i-aam - Diwan-i-khas - Moti Masjid - Sheesh Mahal [Turkish Bath]
+        </p>
+    </div>
+
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/15_Agra_Fort.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Agra Fort</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Agra_Fort " target="_blank" class="wiki">
+                    <img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <ul class="li2">
+            <li>One of 1st Construction in Akbar reign</li>
+            <li>Most structures inside fort are build by <b>Shah Jahan</b></li>
+            <li><b>Charbagh Style</b> used in gardens</li>
+            <li>5000 womens stayed in fort harem during Akbar reign</li>
+        </ul>
+    </div>
+    <div class="keywords">
+        <p><b>Keywords: </b>Janagiri Mahal
+            <br> Akbar - Red Sandstone
+        </p>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/13_Jahangiri_Mahal.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Jahangiri Mahal</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Jahangiri_Mahal " target="_blank" class="wiki">
+                    <img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Akbar built it for his son.
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <div class="topichead" style="font-size: 25px;">Built by Shah Jahan inside Agra Fort</div>
+        <ul>
+            <li>Shah Jahan used <B>White Marble</B> in agra fort <br>[Akbar used Red sandstone]</li>
+        </ul>
+    </div>
+    <div class="keywords">
+        <p><b>Keywords: </b>White Marble
+            <br> ShahJahan: Diwan-i-aam - Diwan-i-khas - Moti Masjid - Sheesh Mahal [Turkish Bath]
+        </p>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/14_sheesh-mahal-agra.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Sheesh Mahal</span><span class="imgplace">[Turkish Bath]</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/10_Moti_Masjid.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Moti Masjid</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Moti_Masjid_(Agra_Fort) " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">Don't confuse it with Moti Masjid @Lahore built by Jahangir
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/11_diwan-i-am-hall-of-audience.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Diwan-i-aam</span><span class="imgplace">[Hall of Public Audience]</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/12_Diwan_i_Khas.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Diwan-i-khas</span><span class="imgplace">[Hall of Private Audience]</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+</div>
+
+
+<div *ngIf="style == 'fatehpur'">
+    <div>
+        <h1 class="title">Fatehpur Sikri</h1>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Fatehpur_Sikri " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <ul class="li2">
+            <li>Akbar created <b>New Capital City</b> - "Fatehpur Sikri" @Agra</li>
+            <li><b class="impword">Frozen Moment in History</b> because buildings here has <b> Unique blend of
+                    Hindu-Persian styles</b></li>
+        </ul>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Buland_Darwaza " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Buland Darwaza</div>
+        <ul class="li2">
+            <li>1576 AD</li>
+            <li>40m Red Sandstone <b>World's Largest gateway</b></li>
+            <li>Akbar <b> victory over Gujarat</b> commemorate</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/16_Buland_Darwaza.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Buland Darwaza</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Tomb_of_Salim_Chishti " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Salim Chisti Tomb</div>
+        <ul class="li2">
+            <li>1581 AD</li>
+            <li><b>Originally red sandstone</b> used by Akbar, later converted to <b>Marble</b></li>
+            <li><b>Arabsesque Patterns</b> with quran inscription</li>
+            <li>Further decorted by <b class="impword">Jahangir 1606 AD</b></li>
+            <li><b>White Marble Jaali</b> works</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/17_Salim_Chisti_Tomb.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Salim Chisti Tomb</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Panch_Mahal,_Fatehpur_Sikri " target="_blank"
+            class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Panch Mahal</div>
+        <ul class="li2">
+            <li><b>5 Storied</b> made of columns</li>
+            <li>Inspiration from: <b>Concept of Persian Badgir</b> [Wind Catcher] </li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/18_panch-mahal-fatehpur-sikri.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Panch Mahal</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <div class="topichead">Mariam-uz-Zamani Palace</div>
+        <ul class="li2">
+            <li>Jodha Bai's Palace [Mary of the Age]</li>
+            <li>Building of Akbar's Rajput wifes</li>
+            <li><b>Gujarati influence</b></li>
+            <li>It has <b>Hindu Motifs of Bell & Flowers</b></li>
+
+        </ul>
+    </div>
+
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/19_Fatehpur_Sikri_Jodha_bai_Palace_Main.jpg" alt="5 Terre"
+                style="width:100%" onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Marium-uz-Zamani / Jodha Bai Palace</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Ibadat_Khana " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Ibadat Khana</div>
+        <ul class="li2">
+            <li>Akbar meet <b>Different religious leaders</b> here</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/20_Ibadat_Khana.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Ibadat Khana</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <div class="topichead">Pachisi Court</div>
+        <ul class="li2">
+            <li>Akbar played <b>Chess</b> here</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/21_Pachisi_Court.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Pachisi Court</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <div class="topichead">Hiran Minar</div>
+        <ul class="li2">
+            <li>In memory of <b>Akbar favorite Elephant "Hiran"</b></li>
+            <li>served as <b>Light House for Travellers</b></li>
+            <li>Exterior - Tusk like spikes</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/mughals/Images/22_Hiran_Minar.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Hiran Minar</span><span class="imgplace"></span>
+                <p class="imgabout">Don't confuse with Hiran Minar at Pakistan-Sheikhupura built by Jahangir
+                <p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="keywords" style="text-align: left; line-height: 30px; margin-bottom: 30px; padding: 10px;">
+        <p><b><u> Keywords:</u></b> Akbar's Capital City - Frozen Moment - Hindu-Persian blend
+            <br><b>Buland Darwaza:</b> largest gateway - redsandstone - Gujarat victory
+            <br><b>Salim Chisti Tomb:</b> Red sandstone into Marble
+            <br><b> Panch Mahal:</b> Persian Badgir Concept
+            <br><b>Mariam-uz-zamani:</b> Hindu Motifs
+            <br><b> Ibadat Khana:</b> Religious meeting
+            <br><b>Pachisi Court:</b> Chess
+            <br><b>Hiran Minar:</b> Elephant - lighthouse
+        </p>
+    </div>
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+</div>
+
+
+<app-footer></app-footer>

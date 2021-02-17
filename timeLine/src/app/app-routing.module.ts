@@ -14,6 +14,13 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { ImageCourtseyComponent } from './image-courtsey/image-courtsey.component';
 import { ModernHistoryTimelineComponent } from './modern-history-timeline/modern-history-timeline.component';
+import { MedivalHomepageComponent } from './Medival-Architecture/medival-home/medival-homepage/medival-homepage.component';
+import { IndoIslamicComponent } from './Medival-Architecture/medival-types/indo-islamic/indo-islamic.component';
+import { DelhiSultanteComponent } from './Medival-Architecture/medival-types/delhi-sultante/delhi-sultante.component';
+import { MughalsComponent } from './Medival-Architecture/medival-types/mughals/mughals.component';
+import { KashmirComponent } from './Medival-Architecture/medival-types/kashmir/kashmir.component';
+import { ParsiComponent } from './Medival-Architecture/medival-types/parsi/parsi.component';
+import { MughalFortsComponent } from './Medival-Architecture/medival-types/mughals/mughal-fort/mughal-forts/mughal-forts.component';
 
 
 const routes: Routes = [
@@ -31,6 +38,13 @@ const routes: Routes = [
   { path: 'feedback', component: FeedbackComponent },
   { path: 'imagecourtesy', component: ImageCourtseyComponent },
   { path: 'modernhistorytimeline', component: ModernHistoryTimelineComponent },
+  { path: 'medival-architecture', component: MedivalHomepageComponent },
+  { path: 'indo-islamic', component: IndoIslamicComponent },
+  { path: 'delhisultante', component: DelhiSultanteComponent },
+  { path: 'mughals', component: MughalsComponent },
+  { path: 'kashmir', component: KashmirComponent },
+  { path: 'parsi', component: ParsiComponent },
+  { path: 'forts', component: MughalFortsComponent },
   { path : '**', component: HomeComponent }
 ];
 

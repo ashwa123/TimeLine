@@ -1,0 +1,659 @@
+<app-navbar></app-navbar>
+
+<div *ngIf="style == 'gardens'">
+    <div>
+        <h1 class="title">Gardens in Kashmir</h1>
+    </div>
+
+    <div class="points">
+        <div class="topichead"></div>
+        <ul>
+            <li>by <b>Mughal Kings</b> </li>
+            <li><u>Features:</u>
+                <ul class="li2">
+                    <li><b>Persian</b> style</li>
+                    <li>Char Bagh Style</li>
+                    <li>Water streams, Trees, Fountains</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Chashme_Shahi " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Chasm-e-Shahi</div>
+        <ul>
+            <li>Built around <b>Fresh Spring</b></li>
+            <li><b>Persian Style</b></li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/14_Chasm-e-Shahi.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Chasm-e-Shahi</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Shalimar_Bagh,_Srinagar " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Shalimar Bagh</div>
+        <ul>
+            <li>1619 AD <B>Jahangir</B></li>
+            <li><b>Summer royal residence</b> of Jahangir</li>
+            <li>Has 3 Terraces:</li>
+            <ul class="li1">
+                <li>Diwan-e-Aam</li>
+                <li>Diwan-e-Khas</li>
+                <li>Zenana Garden</li>
+            </ul>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/15_Shalimar-Bagh-Srinagar.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Shalimar Bagh</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/15.1_Shalimar-Plan.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Shalimar Bagh Plan</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Nishat_Bagh " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Nishat Bagh</div>
+        <ul>
+            <li><b>2nd Largest</b> Mughal Garden</li>
+            <li>Has <b>12 Terraces</b> [opposite to Dal Lake]</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/16_Nishat_Bagh.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Nishat Bagh</span><span class="imgplace">Near Dal Lake</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <div class="topichead">Badamwari Garden</div>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images//17_Badamwari.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Badamwari Garden</span><span class="imgplace">@Srinagar</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Anantnag_district#Achabal " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Anantnag Gardens</div>
+        <ul class="li1">
+            <b>
+                <li>Achabal Garden</li>
+                <li>Kokernag Garden</li>
+                <li>Verinag Garden</li>
+            </b>
+        </ul>
+    </div>
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+
+</div>
+
+
+<div *ngIf="style == 'islamic'">
+    <div>
+        <h1 class="title">Islamic Architecture in Kashmir</h1>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Category:Mosques_in_Jammu_and_Kashmir " target="_blank"
+            class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead"></div>
+        <ul>
+            <li>Blend <B>Existing Kashmiri + Islamic Styles</B></li>
+            <li><u>Features:</u>
+                <ul class="li2">
+                    <li>Absence of Domes & Cloisters [below cloister image is give just for understanding, read
+                        carefully]</li>
+                    <li><b>Multi Levelled Sloping Roof</b></li>
+                    <li><b>Wood, Stone, Brick</b> Masonry</li>
+                    <li>Monuments - moslty <b>Square Shaped</b></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="fullfeature">
+        <div class="featuretopic"> Main Features </div>
+        <div class="features">
+
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/multilevelroof.jpg" alt=""></div>
+                <div class="featurename">Multi Levelled Sloping Roof</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/brickmasonry.jpg" alt=""></div>
+                <div class="featurename">Brick Masonry</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/stonemasonry.png" alt=""></div>
+                <div class="featurename">Stone Masonry</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/woodmasonry.jpg" alt=""></div>
+                <div class="featurename">Wood Masonry</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/cloister.jpg" alt=""></div>
+                <div class="featurename">Absence of Cloister</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Jamia_Masjid,_Srinagar " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Jama Masjid</div>
+        <ul>
+            <li>14thC</li>
+            <li><b>370 Wooden Pillars</b> & Large Courtyard</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/6_jama-masjid-kashmir.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Jama Masjid</span><span class="imgplace">@Srinagar</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Aali_Mosque " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Aali Masjid</div>
+        <ul>
+            <li>15thC <u><b>Shahmiri King - "Sultan Hassan Shah"</b></u></li>
+            <li>one of the Largest mosque @Kashmir</li>
+            <li><b>Arched Windows</b> & Pyramidal top [Absence of Dome]</li>
+            <li><b>Timber & Stone</b> monuments</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/7_Aali_Masjid.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Aali Masjid</span><span class="imgplace">@Srinagar</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Pari_Mahal " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Pari Mahal</div>
+        <ul>
+            <li>17thC <u><B>Mughal Prince -"Dara Shikoh"</B></u></li>
+            <li>It is marvellous Terraced structure <b>Located on Hill</b> & has <b>Observatory</b></li>
+            <li><B>Overlooking <u>Dal Lake</u></B></li>
+            <li>Near <b>Chasm-e-Shahi</b> garden</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/8-pari-mahal-srinagar.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Pari Mahal</span><span class="imgplace">@Srinagar</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <div class="topichead">Other Important Monuments</div>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/13_Madin_Sahib_Mosque.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Madin Sahib Mosque</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Madin_Sahib " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/9_Dastgir_Sahib.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Dastagir Sahib Mosque</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Dastgeer_Sahib " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/10_Naqshband-sahib.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Naqshband Sahib Mosque</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Ziyarat_Naqshband_Sahab " target="_blank"
+                    class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/11_Khanaqa-of-Shah-Hamdan.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Khanaqa of Shah Hamadan</span><span class="imgplace"></span>
+                <!--wiki--><a href=" https://en.wikipedia.org/wiki/Khanqah-e-Moula " target="_blank" class="wiki"><img
+                        src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/12_Zain-ul-Abidin.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Tomb of mother of Zain-ul-Abidin / Badshah Tomb</span><span
+                    class="imgplace"></span>
+                <!--wiki--><a
+                    href=" https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/gulmarg/badshah-tomb.html "
+                    target="_blank" class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+
+</div>
+
+
+<div *ngIf="style == 'temples'">
+    <div>
+        <h1 class="title">Temples in Kashmir</h1>
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/List_of_Hindu_temples_in_Kashmir " target="_blank"
+            class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead"></div>
+        <ul>
+            <li>Located at Trade routes. So, <b>Inspired many foreign sources</b></li>
+            <li>Temples reached great height during 2 dynasties:</li>
+            <ol class="li1">
+                <li><b>Karakota Dynasty</b></li>
+                <li><b>Utpala Dynasty</b></li>
+            </ol>
+
+        </ul>
+    </div>
+
+    <div class="fullfeature">
+        <div class="featuretopic"> Main Features </div>
+        <div class="features">
+
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/pyramid.png" alt=""></div>
+                <div class="featurename">Straight-edged Pyramidal Roof</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/pediment.png" alt=""></div>
+                <div class="featurename">Triangular Pediments [Greek Influence]</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/columns.jpg" alt=""></div>
+                <div class="featurename">Column walls [Greek Influence]</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/cellular.jpg" alt=""></div>
+                <div class="featurename">Cellular Layout</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/enclosedcourtyard.jpg" alt=""></div>
+                <div class="featurename">Enclosed Courtyard</div>
+            </div>
+
+            <div class="featurelandscape featurebox">
+                <div class="featureimg"><img src="../../../../assets/medival/kashmir/Images/steps.jpg" alt=""></div>
+                <div class="featurename">More no. of steps</div>
+            </div>
+
+
+            <div class="featuresquare featurebox">
+                <div class="featureimg3"><img src="../../../../assets/medival/kashmir/Images/trefoil.png" alt=""></div>
+                <div class="featurename">Trefoil Archs [Gandhara Influence]</div>
+            </div>
+
+            <div class="featurepotrait featurebox">
+                <div class="featureimg1"><img src="../../../../assets/medival/kashmir/Images/stonecurve.jpg" alt=""></div>
+                <div class="featurename">Exquisite Stone Curves</div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" ^^^ " target="_blank" class="wiki"><img src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Mamleshwara Shiva Temple</div>
+        <ul>
+            <li>400 AD</li>
+            <li>Mentioned in <b>Rajatarangini</b> [Sanskrit Text]</li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/4-Mamleshwara.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Mamleshwara Temple</span><span class="imgplace">@Pahalgam</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Martand_Sun_Temple " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Martand Sun Temple</div>
+        <ul>
+            <li>8thC <b>Karkota Dynasty - "Lalitaditya Muktapida"</b> </li>
+            <li>Synthesis of Various schools <b>"Gandhara + Chinese + Gupta influences"</b></li>
+            <li><u>Features:</u>
+                <ul class="li2">
+                    <li>Located in <b>Shape of Courtyard</b></li>
+                    <li>Surround by <b>Columns</b></li>
+                    <li>Pyramidal Top</li>
+                    <li>Gods: <b>Vishnu, Ganga, Yamuna, <u>Sun</u></b></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/1_Martand Temple.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Martand Sun Temple</span><span class="imgplace">@Anantag</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/martandoriginal.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Martand Sun Temple Plan</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Parihaspore " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Paraspore Monuments</div>
+        <ul>
+            <li>8thC <b>Karkota Dynasty - "Lalitaditya Muktapida"</b></li>
+            <li>He made <b>Parishaspura his Capital</b></li>
+            <li>Gods: <b> Vishnu, Parihaskesana</b></li>
+            <li>Also few had few <b>Buddhist Monastries</b></li>
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/5_Paraspore.jpeg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Paraspore</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="points">
+        <!--wiki--><a href=" https://en.wikipedia.org/wiki/Avantiswami_Temple " target="_blank" class="wiki"><img
+                src="../../../../assets/medival/wikipedia.png" alt=""></a>
+        <div class="topichead">Awantipora Temple</div>
+        <ul>
+            <li>9thC <B>Utpala Dynasty - "Awantivarman"</B></li>
+            <li><b>Roman & Gandhara Influence</b> clearly seen</li>
+            <li>Two Temples
+                <ul class="li1">
+                    <li><b>Avantisvamin</b> [Vishnu]</li>
+                    <li><b>Avantisvara</b> [Shiva] </li>
+                </ul>
+            </li>
+            <li><u>Features:</u>
+                <ul class="li2">
+                    <li>Temple inside <b>Courtyard</b></li>
+                    <li>4 shrines at 4 corners</li>
+                    <li>Gateway has <b>Two Chambers</b> [curved out eloquently]</li>
+                </ul>
+            </li>
+
+
+        </ul>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/2_Awantipora.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Awantipora</span><span class="imgplace"></span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="points">
+        <div class="topichead">Pandrethan Temple</div>
+        <ul>
+            <li>aka <b>"Meru Vardha Swami"</b></li>
+            <li>10thC</li>
+            <li><b>Vishnu main deity</b> [but also Shiva structures present]</li>
+        </ul>
+        <li><u>Features:</u>
+            <ul class="li2">
+                <li>curved in <b>Single block of Stone</b></li>
+                <li>Exquisite curvings</li>
+                <li>Doomed Roof & Arches</li>
+            </ul>
+        </li>
+    </div>
+    <div class="landport">
+        <div class="landscape">
+            <img src="../../../../assets/medival/kashmir/Images/3_Pandretha.jpg" alt="5 Terre" style="width:100%"
+                onclick="onClick1(this)" class="modal1-hover-opacity">
+            <div class="container">
+                <span class="imgname">Pandrethan Temple / Meru Vardha Swami</span><span
+                    class="imgplace">@Srinagar</span>
+                <p class="imgabout">
+                <p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal01" class="modal1" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content01">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <div id="modal02" class="modal2" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="content02">
+            <img id="img02" style="max-width:100%">
+        </div>
+    </div>
+
+
+    <script>
+        function onClick1(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+        }
+    </script>
+
+</div>
+<br><br>
+<app-footer></app-footer>

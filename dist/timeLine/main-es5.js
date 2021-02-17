@@ -2345,6 +2345,709 @@
     },
 
     /***/
+    "0ETu":
+    /*!*******************************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/indo-islamic/indo-islamic.component.ts ***!
+      \*******************************************************************************************/
+
+    /*! exports provided: IndoIslamicComponent */
+
+    /***/
+    function ETu(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "IndoIslamicComponent", function () {
+        return IndoIslamicComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _indo_islamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ./indo-islamic */
+      "NSE+");
+      /* harmony import */
+
+
+      var _indo_islamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_indo_islamic__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../footer/footer.component */
+      "fp1T");
+
+      var IndoIslamicComponent = /*#__PURE__*/function () {
+        function IndoIslamicComponent() {
+          _classCallCheck(this, IndoIslamicComponent);
+        }
+
+        _createClass(IndoIslamicComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return IndoIslamicComponent;
+      }();
+
+      IndoIslamicComponent.ɵfac = function IndoIslamicComponent_Factory(t) {
+        return new (t || IndoIslamicComponent)();
+      };
+
+      IndoIslamicComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: IndoIslamicComponent,
+        selectors: [["app-indo-islamic"]],
+        decls: 194,
+        vars: 0,
+        consts: [[1, "title"], [1, "whole"], [1, "feature"], [1, "format1"], [1, "f11"], ["src", "../../../../assets/medival/Indo-islamic/1.jpeg", "alt", ""], [1, "explanation"], [1, "f12"], [1, "f13"], [1, "before"], [1, "randomimg"], ["src", "../../../../assets/medival/Indo-islamic/arcuade_vs_trabeat.png", "alt", ""], [1, "f111"], ["src", "../../../../assets/medival/Indo-islamic/2.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/3.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/4.1.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/4.2.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/5.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/6.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/7.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/8.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/9.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/10.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/11.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/12.jpg", "alt", ""]],
+        template: function IndoIslamicComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Indo-Islamic Features");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "1. Arcuade Style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "img", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Use of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Archs & Domes");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "How it was before");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Trabeat Style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "2. Minars");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Islamic rulers ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Introduced");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " Minars around mosque");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "3. Mortar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Used as ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Cementing agent");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "4. Spacious");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "img", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Introduced ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "spaciousness, massiveness, breadth");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "How it was before");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Hindu architecture were ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "too congested");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](71, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "img", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "5. Calligraphy");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "img", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Avoided");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, " Human and animal figures");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "How it was before");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Hindus used Sculptures before");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "6. Arabesque decoration");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](96, "img", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "Use of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "geometrical vegetal ornamentation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](104, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, " Eg. Continuous stem split regularly, forms series of secondary stems and leaves and merge with main stem");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "7. Symmetry");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "img", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Heavily used ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Principle of Geometry");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "8. Jaali works");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](124, "img", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "Intricated detailed jaali work ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, " Importance of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "B");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "Light in Islamic Religion");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, "9. Use of Water");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](139, "img", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "In Courtyards, Fountains, Small drains ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, " For ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "Religious, Cooling, Decorative");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, "purpose");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "10. Charbagh garden style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](155, "img", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Introduced");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, " Charbagh gardens ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, "\"Identical Adjacent gardens\"");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "11. Pietra-dura");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](170, "img", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "Inlay of precious ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "Stones and gems");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, " in stone walls");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "12. Foreshortening Technique");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "div", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](184, "img", 24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, "Explanation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "Inscription appear closer than real");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](191, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](193, "app-footer");
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_2__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
+        styles: ["@import \"https://fonts.googleapis.com/css?family=Baloo+Paaji\";\n\n@font-face {\r\n  src: url('UnifrakturCook-Bold.ttf');\r\n  font-family: u;\r\n}\n@font-face {\r\n  src: url('Chltboxc.ttf');\r\n  font-family: c;\r\n}\n@font-face {\r\n  src: url('Montserrat-Regular.ttf');\r\n  font-family: m;\r\n}\n@font-face {\r\n  src: url('Amr.otf');\r\n  font-family: a;\r\n}\n@font-face {\r\n  src: url('Neon-e2wg.ttf');\r\n  font-family: neon;\r\n}\n@font-face {\r\n  src: url('Lobster-Regular.ttf');\r\n  font-family: l;\r\n}\n@font-face {\r\n  src: url('Merriweather-Regular.ttf');\r\n  font-family: merri;\r\n}\n@font-face {\r\n  src: url('BLKCHCRY.TTF');\r\n  font-family: blk;\r\n}\n@font-face {\r\n  src: url('OpenSans-Regular.ttf');\r\n  font-family: os;\r\n}\n@font-face {\r\n  src: url('WorkSans-Italic-VariableFont_wght.ttf');\r\n  font-family: ws;\r\n}\n@font-face {\r\n  src: url('Roboto-Light.ttf');\r\n  font-family: robo;\r\n}\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%] {\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n}\n\n.points[_ngcontent-%COMP%] {\r\n  background-color: paleturquoise;\r\n  margin: auto;\r\n  margin-top: 30px;\r\n  font-family: os;\r\n  font-size: 1em;\r\n  line-height: 30px;\r\n  width: 80%;\r\n  padding: 20px;\r\n}\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n  margin-bottom: 10px;\r\n  list-style-position: inside;\r\n}\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1) {\r\n  margin-top: 10px;\r\n}\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\r\n  list-style-type: decimal;\r\n}\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\r\n  list-style: square;\r\n  list-style-position: inside;\r\n}\n.topichead[_ngcontent-%COMP%] {\r\n  font-family: u;\r\n  font-size: 30px;\r\n  text-decoration: underline;\r\n}\n.topichead2[_ngcontent-%COMP%] {\r\n  font-size: 1.2em;\r\n}\n\nbody[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n  width: 500px;\r\n  background-color: white;\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n  margin-bottom: 25px;\r\n  margin: 10px;\r\n}\ndiv.potrait[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n  background-color: white;\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n  margin-bottom: 25px;\r\n  margin: 10px;\r\n}\ndiv.container[_ngcontent-%COMP%] {\r\n  text-align: center;\r\n  padding: 10px 20px;\r\n}\ndiv.landport[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n  max-width: 90%;\r\n  margin: auto;\r\n  margin-top: 10px;\r\n}\n\n.modal1[_ngcontent-%COMP%] {\r\n  z-index: 1;\r\n  display: none;\r\n  position: fixed;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: auto;\r\n  background-color: rgb(0, 0, 0);\r\n  background-color: rgba(0, 0, 0, 0.8);\r\n  box-sizing: content-box;\r\n}\n.modal2[_ngcontent-%COMP%] {\r\n  z-index: 1;\r\n  display: none;\r\n  position: fixed;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: auto;\r\n  background-color: rgb(0, 0, 0);\r\n  background-color: rgba(0, 0, 0, 0.8);\r\n  box-sizing: content-box;\r\n}\n.content01[_ngcontent-%COMP%] {\r\n  display: block;\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  width: 800px;\r\n  max-width: 95%;\r\n}\n.content02[_ngcontent-%COMP%] {\r\n  display: block;\r\n  position: absolute;\r\n  top: 0%;\r\n  left: 50%;\r\n  transform: translate(-50%, 3%);\r\n  width: 450px;\r\n  max-width: 95%;\r\n}\n@media only screen and (max-width: 1200px) {\r\n  .content02[_ngcontent-%COMP%] {\r\n    transform: translate(-50%, 0%);\r\n  }\r\n}\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n  filter: alpha(opacity=100);\r\n  -webkit-backface-visibility: hidden;\r\n}\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n  filter: alpha(opacity=100);\r\n  -webkit-backface-visibility: hidden;\r\n}\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n  opacity: 0.6;\r\n  filter: alpha(opacity=60);\r\n  -webkit-backface-visibility: hidden;\r\n}\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n  opacity: 0.6;\r\n  filter: alpha(opacity=60);\r\n  -webkit-backface-visibility: hidden;\r\n}\n\n.featurename[_ngcontent-%COMP%] {\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%] {\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%] {\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: #3cb371;\r\n}\n.imgplace[_ngcontent-%COMP%] {\r\n  color: #3cb371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%] {\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%] {\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%] {\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%] {\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%] {\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%] {\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%] {\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%] {\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%] {\r\n  position: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before {\r\n  content: \"\";\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n}\n.boxx[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n}\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before {\r\n  background: linear-gradient(235deg, black, white, black);\r\n}\n\n.fullfeature[_ngcontent-%COMP%] {\r\n  margin: auto;\r\n  \r\n  max-width: 95%;\r\n  margin-top: 20px;\r\n  background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%] {\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color: black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.featurelandscape[_ngcontent-%COMP%] {\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 15em;\r\n  height: 10em;\r\n  border-radius: 0px;\r\n  margin: 5px;\r\n  margin-top: 15px;\r\n}\n.featurepotrait[_ngcontent-%COMP%] {\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 15em;\r\n  border-radius: 0px;\r\n  margin: 5px;\r\n  margin-top: 15px;\r\n}\n.featuresquare[_ngcontent-%COMP%] {\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 13em;\r\n  border-radius: 0px;\r\n  margin: 5px;\r\n  margin-top: 15px;\r\n}\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n  width: 14.8em;\r\n  height: 8em;\r\n  border-radius: 0px;\r\n}\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n  width: 9.8em;\r\n  height: 13em;\r\n  border-radius: 0px;\r\n}\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n  width: 9.8em;\r\n  height: 9.8em;\r\n  border-radius: 0px;\r\n}\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%] {\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.featurename[_ngcontent-%COMP%] {\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  text-align: center;\r\n}\n.featurebox[_ngcontent-%COMP%] {\r\n  position: relative;\r\n}\n.featurebox[_ngcontent-%COMP%]:before {\r\n  content: \"\";\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n}\n.featurebox[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before {\r\n  background: linear-gradient(235deg, black, white, black);\r\n}\n\na.wiki[_ngcontent-%COMP%] {\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\n  border: 1px solid black;\r\n  border-collapse: collapse;\r\n  padding: 15px;\r\n  text-align: center;\r\n  width: 200px;\r\n}\n.table1[_ngcontent-%COMP%] {\r\n  border-collapse: collapse;\r\n  text-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%] {\r\n  margin: auto;\r\n}\n.whole[_ngcontent-%COMP%]{\r\n  border: 1px solid black;\r\n  width: 90%;\r\n  margin: auto;\r\n  margin-top: 30px ;\r\n \r\n}\n.feature[_ngcontent-%COMP%]{\r\n \r\n  font-family: c;\r\n  font-size: 30px;\r\n  background-color: lightseagreen;\r\n  color: white;\r\n  padding-left: 5px;\r\n}\n.format1[_ngcontent-%COMP%]{\r\n \r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: space-evenly;\r\n}\n.before[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  width: 150px;\r\n  height: 230px;   \r\n}\n.f12[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  padding: 3px;\r\n  padding-left:15px ;\r\n  padding-right:15px ;\r\n  font-family: l;\r\n  color: white;\r\n  background-color: lightskyblue;\r\n}\n.f13[_ngcontent-%COMP%]{\r\n  padding: 2px;\r\n  padding-bottom: 10px;\r\n  font-family: os;\r\n  text-align: center;\r\n  line-height: 25px;\r\n  \r\n}\n.f11[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 400px ;\r\n  height: 300px ;\r\n}\n.f111[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 250px ;\r\n  height: 350px ;\r\n}\n.f11[_ngcontent-%COMP%], .f111[_ngcontent-%COMP%]{\r\n  margin: 10px;\r\n  text-align: center;\r\n  \r\n}\n.f111[_ngcontent-%COMP%]{\r\n  width: 400px ;\r\n  height: 350px ;\r\n}\n.randomimg[_ngcontent-%COMP%] {\r\n  margin: 24px 48px 24px 67px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,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O0VBQ2xCLG1CQUFtQjtFQUNuQixjQUFjO0VBQ2QsWUFBWTtFQUNaLDhCQUE4QjtBQUNoQztBQUNBO0VBQ0UsWUFBWTtFQUNaLG9CQUFvQjtFQUNwQixlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLGlCQUFpQjs7QUFFbkI7QUFFQTtFQUNFLGFBQWE7RUFDYixjQUFjO0FBQ2hCO0FBRUE7RUFDRSxhQUFhO0VBQ2IsY0FBYztBQUNoQjtBQUVBO0VBQ0UsWUFBWTtFQUNaLGtCQUFrQjs7QUFFcEI7QUFFQTtFQUNFLGFBQWE7RUFDYixjQUFjO0FBQ2hCO0FBRUE7RUFDRSwyQkFBMkI7QUFDN0I7QUFDQSwrSEFBK0giLCJmaWxlIjoiaW5kby1pc2xhbWljLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBGb250cyAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbkBpbXBvcnQgXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9QmFsb28rUGFhamlcIjtcclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1VuaWZyYWt0dXJDb29rL1VuaWZyYWt0dXJDb29rLUJvbGQudHRmKTtcclxuICBmb250LWZhbWlseTogdTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvY2hlbHRlbmhtL0NobHRib3hjLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL01vbnRzZXJyYXQvTW9udHNlcnJhdC1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG07XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTtcclxuICBmb250LWZhbWlseTogYTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvbmVvbi1mb250L05lb24tZTJ3Zy50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBuZW9uO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Mb2JzdGVyL0xvYnN0ZXItUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBsO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9NZXJyaXdlYXRoZXIvTWVycml3ZWF0aGVyLVJlZ3VsYXIudHRmKTtcclxuICBmb250LWZhbWlseTogbWVycmk7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2JsYWNrY2hhbmNlcnkvQkxLQ0hDUlkuVFRGKTtcclxuICBmb250LWZhbWlseTogYmxrO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9PcGVuX1NhbnMvT3BlblNhbnMtUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvV29ya19TYW5zL1dvcmtTYW5zLUl0YWxpYy1WYXJpYWJsZUZvbnRfd2dodC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvUm9ib3RvL1JvYm90by1MaWdodC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiByb2JvO1xyXG59XHJcblxyXG4qIHtcclxuICBtYXJnaW46IDAlO1xyXG4gIHBhZGRpbmc6IDAlO1xyXG59XHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGUge1xyXG4gIGNvbG9yOiBzbm93O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogNDVweDtcclxuICB3aWR0aDogODAlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAyZW07XHJcbn1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5wb2ludHMge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHBhbGV0dXJxdW9pc2U7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMWVtO1xyXG4gIGxpbmUtaGVpZ2h0OiAzMHB4O1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgcGFkZGluZzogMjBweDtcclxufVxyXG5cclxuLnBvaW50cyBsaSB7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG59XHJcbi5wb2ludHMgbGk6bnRoLWNoaWxkKDEpIHtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG59XHJcbi5saTEgbGkge1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogZGVjaW1hbDtcclxufVxyXG4ubGkyIGxpIHtcclxuICBsaXN0LXN0eWxlOiBzcXVhcmU7XHJcbiAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG59XHJcblxyXG4udG9waWNoZWFkIHtcclxuICBmb250LWZhbWlseTogdTtcclxuICBmb250LXNpemU6IDMwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuLnRvcGljaGVhZDIge1xyXG4gIGZvbnQtc2l6ZTogMS4yZW07XHJcbn1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbmJvZHkge1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgbWFyZ2luOiAwO1xyXG59XHJcblxyXG5kaXYubGFuZHNjYXBlIHtcclxuICB3aWR0aDogNTAwcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgYm94LXNoYWRvdzogMCA0cHggOHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpLCAwIDZweCAyMHB4IDAgcmdiYSgwLCAwLCAwLCAwLjE5KTtcclxuICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gIG1hcmdpbjogMTBweDtcclxufVxyXG5cclxuZGl2LnBvdHJhaXQge1xyXG4gIHdpZHRoOiAyMDBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gIG1hcmdpbi1ib3R0b206IDI1cHg7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG59XHJcblxyXG5kaXYuY29udGFpbmVyIHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgcGFkZGluZzogMTBweCAyMHB4O1xyXG59XHJcblxyXG5kaXYubGFuZHBvcnQge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG4gIG1heC13aWR0aDogOTAlO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG59XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4ubW9kYWwxIHtcclxuICB6LWluZGV4OiAxO1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBvdmVyZmxvdzogYXV0bztcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMCwgMCwgMCk7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjgpO1xyXG4gIGJveC1zaXppbmc6IGNvbnRlbnQtYm94O1xyXG59XHJcbi5tb2RhbDIge1xyXG4gIHotaW5kZXg6IDE7XHJcbiAgZGlzcGxheTogbm9uZTtcclxuICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIG92ZXJmbG93OiBhdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigwLCAwLCAwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuOCk7XHJcbiAgYm94LXNpemluZzogY29udGVudC1ib3g7XHJcbn1cclxuXHJcbi5jb250ZW50MDEge1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDUwJTtcclxuICBsZWZ0OiA1MCU7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XHJcbiAgd2lkdGg6IDgwMHB4O1xyXG4gIG1heC13aWR0aDogOTUlO1xyXG59XHJcbi5jb250ZW50MDIge1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDAlO1xyXG4gIGxlZnQ6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAzJSk7XHJcbiAgd2lkdGg6IDQ1MHB4O1xyXG4gIG1heC13aWR0aDogOTUlO1xyXG59XHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTIwMHB4KSB7XHJcbiAgLmNvbnRlbnQwMiB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAwJSk7XHJcbiAgfVxyXG59XHJcblxyXG4ubW9kYWwxLWhvdmVyLW9wYWNpdHkge1xyXG4gIG9wYWNpdHk6IDE7XHJcbiAgZmlsdGVyOiBhbHBoYShvcGFjaXR5PTEwMCk7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbn1cclxuLm1vZGFsMi1ob3Zlci1vcGFjaXR5IHtcclxuICBvcGFjaXR5OiAxO1xyXG4gIGZpbHRlcjogYWxwaGEob3BhY2l0eT0xMDApO1xyXG4gIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG59XHJcbi5tb2RhbDEtaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgb3BhY2l0eTogMC42O1xyXG4gIGZpbHRlcjogYWxwaGEob3BhY2l0eT02MCk7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbn1cclxuLm1vZGFsMi1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICBvcGFjaXR5OiAwLjY7XHJcbiAgZmlsdGVyOiBhbHBoYShvcGFjaXR5PTYwKTtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxufVxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmZlYXR1cmVuYW1lIHtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDI1cHg7XHJcbn1cclxuLmZlYXR1cmVhYm91dCB7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC43ZW07XHJcbn1cclxuLmltZ25hbWUge1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGNvbG9yOiAjM2NiMzcxO1xyXG59XHJcbi5pbWdwbGFjZSB7XHJcbiAgY29sb3I6ICMzY2IzNzE7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC45ZW07XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLmltZ2Fib3V0IHtcclxuICBwYWRkaW5nLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjhlbTtcclxufVxyXG5cclxuLmtleXdvcmRzIHtcclxuICBwYWRkaW5nOiAzcHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIwLCAyMCwgNjAsIDAuNCk7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmltcHdvcmQge1xyXG4gIGZvbnQtc2l6ZTogMS4xZW07XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBibGFjayB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50ZXh0ZGl2IHtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgd2lkdGg6IDkwJTtcclxuICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG59XHJcbi50ZXh0Ym94IHtcclxuICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gIHdpZHRoOiAxMGVtO1xyXG4gIGhlaWdodDogMTdlbTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgbWFyZ2luOiAxNXB4O1xyXG59XHJcbi50ZXh0aW1nIGltZyB7XHJcbiAgd2lkdGg6IDkuOGVtO1xyXG4gIGhlaWdodDogMTIuNWVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4udGV4dGltZyB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIG1hcmdpbi10b3A6IDAuMWVtO1xyXG59XHJcbi50ZXh0dGV4dCB7XHJcbiAgbWFyZ2luLXRvcDogM3B4O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBjb2xvcjogYmxhY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLnRleHRsaW5rIHtcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLnRleHRsaW5rIGEge1xyXG4gIGNvbG9yOiBkZWVwc2t5Ymx1ZTtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbn1cclxuXHJcbi5ib3h4IHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuXHJcbi5ib3h4OmJlZm9yZSB7XHJcbiAgY29udGVudDogXCJcIjtcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTE7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG59XHJcblxyXG4uYm94eDphZnRlciB7XHJcbiAgY29udGVudDogXCJcIjtcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTI7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBmaWx0ZXI6IGJsdXIoM3B4KTtcclxufVxyXG5cclxuLmJveHg6YWZ0ZXIsXHJcbi5ib3h4OmJlZm9yZSB7XHJcbiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDIzNWRlZywgYmxhY2ssIHdoaXRlLCBibGFjayk7XHJcbn1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5mdWxsZmVhdHVyZSB7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIC8qIHdpZHRoOiAxMjAwcHg7ICovXHJcbiAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgbWFyZ2luLXRvcDogMjBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIyLCAxODQsIDEzNSwgMC4yKTtcclxufVxyXG4uZmVhdHVyZXRvcGljIHtcclxuICBmb250LWZhbWlseTogbDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLmZlYXR1cmVzIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG4uZmVhdHVyZWxhbmRzY2FwZSB7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTVlbTtcclxuICBoZWlnaHQ6IDEwZW07XHJcbiAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIG1hcmdpbjogNXB4O1xyXG4gIG1hcmdpbi10b3A6IDE1cHg7XHJcbn1cclxuLmZlYXR1cmVwb3RyYWl0IHtcclxuICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gIHdpZHRoOiAxMGVtO1xyXG4gIGhlaWdodDogMTVlbTtcclxuICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgbWFyZ2luOiA1cHg7XHJcbiAgbWFyZ2luLXRvcDogMTVweDtcclxufVxyXG4uZmVhdHVyZXNxdWFyZSB7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTBlbTtcclxuICBoZWlnaHQ6IDEzZW07XHJcbiAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIG1hcmdpbjogNXB4O1xyXG4gIG1hcmdpbi10b3A6IDE1cHg7XHJcbn1cclxuLmZlYXR1cmVpbWcgaW1nIHtcclxuICB3aWR0aDogMTQuOGVtO1xyXG4gIGhlaWdodDogOGVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDBweDtcclxufVxyXG4uZmVhdHVyZWltZzEgaW1nIHtcclxuICB3aWR0aDogOS44ZW07XHJcbiAgaGVpZ2h0OiAxM2VtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDBweDtcclxufVxyXG4uZmVhdHVyZWltZzMgaW1nIHtcclxuICB3aWR0aDogOS44ZW07XHJcbiAgaGVpZ2h0OiA5LjhlbTtcclxuICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbn1cclxuLmZlYXR1cmVpbWcsXHJcbi5mZWF0dXJlaW1nMSxcclxuLmZlYXR1cmVpbWczIHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLXRvcDogMC4xZW07XHJcbn1cclxuLmZlYXR1cmVuYW1lIHtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmZlYXR1cmVib3gge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmZlYXR1cmVib3g6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIHRvcDogLTFweDtcclxuICBsZWZ0OiAtMXB4O1xyXG4gIHJpZ2h0OiAtMXB4O1xyXG4gIGJvdHRvbTogLTFweDtcclxuICB6LWluZGV4OiAtMTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbn1cclxuXHJcbi5mZWF0dXJlYm94OmFmdGVyIHtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIHRvcDogLTFweDtcclxuICBsZWZ0OiAtMXB4O1xyXG4gIHJpZ2h0OiAtMXB4O1xyXG4gIGJvdHRvbTogLTFweDtcclxuICB6LWluZGV4OiAtMjtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGZpbHRlcjogYmx1cigzcHgpO1xyXG59XHJcbi5mZWF0dXJlYm94OmFmdGVyLFxyXG4uZmVhdHVyZWJveDpiZWZvcmUge1xyXG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG59XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG5hLndpa2kge1xyXG4gIC8qIHRleHQtYWxpZ246IGVuZDtcclxuXHJcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7ICovXHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIG1hcmdpbi1yaWdodDogLTI1cHg7XHJcbn1cclxuLndpa2kgaW1nIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgd2lkdGg6IDE1cHg7XHJcbiAgaGVpZ2h0OiAxNXB4O1xyXG59XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4udGFibGUxLXNwYWNpbmcge1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmctdG9wOiA1NXB4O1xyXG4gIG92ZXJmbG93LXg6IHNjcm9sbDtcclxuICBmb250LWZhbWlseTogd3M7XHJcbn1cclxuXHJcbi50YWJsZTEgdGgsXHJcbi50YWJsZTEgdGQge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG4gIGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbiAgcGFkZGluZzogMTVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgd2lkdGg6IDIwMHB4O1xyXG59XHJcblxyXG4udGFibGUxIHtcclxuICBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnRhYmxlMSB0YWJsZSB7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG59XHJcblxyXG4ud2hvbGV7XHJcbiAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcbiAgd2lkdGg6IDkwJTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMzBweCA7XHJcbiBcclxufVxyXG5cclxuXHJcbi5mZWF0dXJle1xyXG4gXHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiAzMHB4O1xyXG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0c2VhZ3JlZW47XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIHBhZGRpbmctbGVmdDogNXB4O1xyXG59XHJcblxyXG5cclxuLmZvcm1hdDF7XHJcbiBcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxufVxyXG5cclxuXHJcblxyXG4uYmVmb3JlIGltZ3tcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgd2lkdGg6IDE1MHB4O1xyXG4gIGhlaWdodDogMjMwcHg7ICAgXHJcbn1cclxuXHJcbi5mMTJ7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHBhZGRpbmc6IDNweDtcclxuICBwYWRkaW5nLWxlZnQ6MTVweCA7XHJcbiAgcGFkZGluZy1yaWdodDoxNXB4IDtcclxuICBmb250LWZhbWlseTogbDtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xyXG59XHJcbi5mMTN7XHJcbiAgcGFkZGluZzogMnB4O1xyXG4gIHBhZGRpbmctYm90dG9tOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbGluZS1oZWlnaHQ6IDI1cHg7XHJcbiAgXHJcbn1cclxuXHJcbi5mMTEgaW1ne1xyXG4gIHdpZHRoOiA0MDBweCA7XHJcbiAgaGVpZ2h0OiAzMDBweCA7XHJcbn1cclxuXHJcbi5mMTExIGltZ3tcclxuICB3aWR0aDogMjUwcHggO1xyXG4gIGhlaWdodDogMzUwcHggO1xyXG59XHJcblxyXG4uZjExLCAuZjExMXtcclxuICBtYXJnaW46IDEwcHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIFxyXG59XHJcblxyXG4uZjExMXtcclxuICB3aWR0aDogNDAwcHggO1xyXG4gIGhlaWdodDogMzUwcHggO1xyXG59XHJcblxyXG4ucmFuZG9taW1nIHtcclxuICBtYXJnaW46IDI0cHggNDhweCAyNHB4IDY3cHg7XHJcbn1cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuIl19 */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](IndoIslamicComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-indo-islamic',
+            templateUrl: './indo-islamic.component.html',
+            styleUrls: ['./indo-islamic.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
     "5aKm":
     /*!*************************************************!*\
       !*** ./src/app/shared/CustomLightboxAdapter.ts ***!
@@ -2549,6 +3252,52 @@
           }];
         }, null);
       })();
+      /***/
+
+    },
+
+    /***/
+    "6uok":
+    /*!***********************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/kashmir/kashmir.js ***!
+      \***********************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function uok(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
+      /***/
+
+    },
+
+    /***/
+    "8Yhm":
+    /*!*************************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/delhi-sultante/delhi-sultante.js ***!
+      \*************************************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function Yhm(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
       /***/
 
     },
@@ -4309,6 +5058,4312 @@
     },
 
     /***/
+    "DiYt":
+    /*!***********************************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/delhi-sultante/delhi-sultante.component.ts ***!
+      \***********************************************************************************************/
+
+    /*! exports provided: DelhiSultanteComponent */
+
+    /***/
+    function DiYt(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "DelhiSultanteComponent", function () {
+        return DelhiSultanteComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _delhi_sultante__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ./delhi-sultante */
+      "8Yhm");
+      /* harmony import */
+
+
+      var _delhi_sultante__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_delhi_sultante__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! ../../../footer/footer.component */
+      "fp1T");
+
+      function DelhiSultanteComponent_div_1_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Delhi Sultanate");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "1191 to 1557 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Each dynasty made their own flavors but broad style remained same in all.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "table");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "th");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "th");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Slave/Ilbari Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "th");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Khilji Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "th");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Tughlaq Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "th");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Lodi Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Year");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "1206 to 1290 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "1290 to 1320 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "1321 to 1413 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "1451 to 1526 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Style Name");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Mameluke Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Seljuk Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Introduced");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Batter construction style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Double Domes");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Stone used");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Red Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Grey Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Main Focus");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Remodelling of Existing Hindu structures");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Strength of the building [But no decorations]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Only Tombs ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Hard & Bare without decorations");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "tr");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Feature");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Arcuade Style &");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](90, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Mortar as cementing agent");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Arch + Lintel entrance [both used]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "td");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "-");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "a", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Slave/Ilbari Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Converted old Jain & Hindu temples ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](104, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, " Eg: Quwat-ul-Islam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "Qutub Minar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, ": Initiated by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "\"Qutub-ud-din Aibak\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, " [did only ground floor] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "ul", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Ground floor: Qutub-ud-din Aibak");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "Next 3 storey: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "\"Iltutmish\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, " [Slave dynasty]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "5th Floor: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "\"Feroze Shah Tughlaq\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " [Tughlaq dynasty]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "img", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "Qutub Minar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "a", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](137, "img", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "5 Storey structure ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](140, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "World's tallest brick minaret");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "img", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "Quwat-ul-Islam Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "@Qutub Minar Premises");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "a", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](152, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, "Converted from ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, "Jain temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](157, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](159, "img", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, "Arhai-din-ka-Jhopra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, "@Ajmer, Rajasthan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "a", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](166, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](167, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "a", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "Khilji Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "Arcuade Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, " [see ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "a", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](180, "Indo-Islamic features");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "Mortar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, " - prominent cementing agent from now onwards");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "Red Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](191, "img", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "Alai Darwaza");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](196, "@Qutub Minar Premises");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "a", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](198, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "By ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "Alauddin Khalji");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](203, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "\"Gate of Alauddin\" ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](205, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](207, "img", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "Siri Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "a", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](214, "img", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](215, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](216, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](218, "a", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](219, "img", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](220, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](221, "Tughlaq Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](223, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](225, "Crisis Period");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, " of Delhi Sultanate Architecture");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, "Both Lintel & Arch");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](230, " [see ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "a", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](232, "Indo-Islamic features");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](233, "]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](234, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](236, "Grey Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "div", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](238, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](240, "Introduced");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](242, "Batter system");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](243, " - Sloping walls to give more Strength ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](246, "img", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](248, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](249, "Tughlaqabaad City");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](250, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](251, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](252, "a", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](253, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](254, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](255, "By ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](256, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](257, "Ghiyas-ud-din Tughlaq");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](258, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](260, "img", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](261, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](263, "Jahaanpanah city");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](265, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](266, "a", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](267, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](268, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](269, "by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](271, "Muhammad bin Tughlaq");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](272, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](273, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](274, "img", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](277, "Ferozabad/Firozpur city");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](279, "@Sutlej, Punjab");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](280, "a", 37);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](281, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](282, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](283, "by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](284, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](285, "Feroze Shah Tughlaq");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](286, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](287, " Note: Not Firozabad near Agra ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](288, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](289, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "a", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](291, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](293, "Lodi Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](295, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](296, "Architecture ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](297, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](298, "back seat");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](299, ". Only Tombs built.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](300, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](301, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](302, "Hard & Bare tombs");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](303, " [No decorations]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](304, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](305, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](306, "Octagonal shaped tombs");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](307, " & supported by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](309, "Sloping Verandah");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](310, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](311, "Double Dome: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](313, "Hollow Dome inside the Top dome");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](314, " - To give ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](315, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](316, "strength");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](317, " & ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](318, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](319, "Lower the inner dome height");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "div", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](321, "div", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](322, " Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](323, "div", 41);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "div", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](325, "div", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](326, "img", 44);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](327, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](328, "Octogonal Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](330, "div", 47);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](331, "img", 48);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](332, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](333, "Double Dome");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](334, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](335, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](336, "img", 49);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](338, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](339, "Lodi Gardens");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](340, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](341, "a", 50);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](342, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](343, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](344, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](345, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](346, "img", 51);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](348, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](349, "City of Agra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](350, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](351, "a", 52);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](352, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](353, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](354, "By ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](355, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](356, "Sikandar Lodi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](357, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](358, "div", 53);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](359, "span", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](360, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "div", 55);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](362, "img", 56);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](363, "div", 57);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](364, "span", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](365, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](366, "div", 58);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](367, "img", 59);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      function DelhiSultanteComponent_div_2_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Delhi Sultanate Period Regional architecure");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Indo-Islamic style started to influence local architecture");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 60);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Bengal School");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Bricks & Black Marble");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Sloping ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Bangla roofs");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " [Earlier used in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Temples");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " ]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 41);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 62);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 63);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Bangla roof");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 47);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 64);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Black marble @Adina");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 65);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Qadam Rasul Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "@Gaur");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "img", 66);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Adina Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "@Pandua");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 67);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 68);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Malwa School");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "aka ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "\"Pathan School of Architecture\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "@Dhar & @Mandu, Mathya Pradesh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "ul", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Different Colored stones, Marbles");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Large Windows");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, " [European influence]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Windows with ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "Arches & Pillars");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Stairs");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, " used");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "Absence of Minars");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "Batter system");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, " [receding slope of a wall]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 69);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Malwa school is the ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "Best Example of Environmental adaptation");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](105, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "ul", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Large Windows [well ventilated] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Baulis");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, " [Artificial Reservoirs]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Lightly Arched pavilions");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, " [for cooling & airy]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "Local available materials");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, " used");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](123, "img", 70);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Raani Roopmati Pavilion");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "@Mandu, MP");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "a", 71);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](131, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](132, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "img", 72);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Jahaz Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "@Mandu, MP");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "a", 73);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](141, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](142, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "img", 74);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "Hindola Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "@Mandu, MP");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "a", 75);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](152, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](153, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](156, "img", 76);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](159, "Ashrafi Mahal Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "@Mandu, MP");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](162, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](163, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "a", 77);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](166, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, "Jaunpur School");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "Sharqi Rulers");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, " of Jaunpur");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "Hence known as ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, "Sharqi Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Absence of Minars");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, " [like Malwa school] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "Prayer Hall centre & Sides were painted by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, "Bold Forceful characters");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](189, "img", 78);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, "Atala Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "@Jaunpur, UP");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "a", 79);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](196, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](197, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](198, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "a", 80);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](201, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, "Bijapur School");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, "Adil Shah");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, " of Bijapur");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](210, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](211, "aka ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, "\"Deccan Style\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "ul", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](218, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](219, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, "Rich Carvings");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "Iron Clamps + Plaster of Mortar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, " to give strength");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](227, "3-Arched Facade");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](230, "Bulbous Dome");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](231, " [almost spherical]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](232, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, "Celings without apparent support");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](238, "Introduced");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](239, " Cornices");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "div", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "div", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](242, " Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](243, "div", 41);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "div", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "div", 62);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](246, "img", 81);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](248, "Three Arched Facade");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "div", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](250, "div", 62);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](251, "img", 82);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](252, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](253, "Use of Plaster");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](254, "div", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "div", 62);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](256, "img", 83);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](258, "Ceiling without support");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "div", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "div", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](261, "img", 84);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](263, "Iron Clamps");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "div", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "div", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](266, "img", 85);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](268, "Introduced Cornices");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](269, "div", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "div", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](271, "img", 86);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](272, "div", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](273, "Cornices");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](276, "img", 87);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](277, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "span", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](279, "Gol Gumbaj");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](280, "span", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](281, "@Bijapur, KN");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](282, "a", 88);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](283, "img", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](284, "p", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](285, "Mausoleum of Adil Shah ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](286, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "div", 53);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](288, "span", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](289, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "div", 55);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](291, "img", 56);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "div", 57);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "span", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](294, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](295, "div", 58);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](296, "img", 59);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      var DelhiSultanteComponent = /*#__PURE__*/function () {
+        function DelhiSultanteComponent(route) {
+          _classCallCheck(this, DelhiSultanteComponent);
+
+          this.route = route;
+        }
+
+        _createClass(DelhiSultanteComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {
+            var _this4 = this;
+
+            this.route.queryParams.subscribe(function (params) {
+              _this4.style = params['style'];
+            });
+
+            if (this.style == 'imperial') {
+              this.style = 'imperial';
+            } else if (this.style == 'provincial') {
+              this.style = 'provincial';
+            }
+          }
+        }]);
+
+        return DelhiSultanteComponent;
+      }();
+
+      DelhiSultanteComponent.ɵfac = function DelhiSultanteComponent_Factory(t) {
+        return new (t || DelhiSultanteComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]));
+      };
+
+      DelhiSultanteComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: DelhiSultanteComponent,
+        selectors: [["app-delhi-sultante"]],
+        decls: 4,
+        vars: 2,
+        consts: [[4, "ngIf"], [1, "title"], [1, "points"], ["href", " https://en.wikipedia.org/wiki/Delhi_Sultanate ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "topichead"], [1, "table1-spacing"], [1, "table1"], ["href", " https://en.wikipedia.org/wiki/Mamluk_dynasty_(Delhi) ", "target", "_blank", 1, "wiki"], [1, "keywords", 2, "line-height", "25px", "text-align", "left", "padding-left", "15px"], [1, "li2"], [1, "landport"], [1, "potrait"], ["src", "../../../../assets/medival/delhisultane/images/1_qutubminar.jpg", "alt", "5 Terre", "onclick", "onClick2(this)", 1, "modal2-hover-opacity", 2, "width", "100%"], [1, "container"], [1, "imgname"], [1, "imgplace"], ["href", " https://en.wikipedia.org/wiki/Qutb_Minar ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival//wikipedia.png", "alt", ""], [1, "imgabout"], [1, "landscape"], ["src", "../../../../assets/medival/delhisultane/images/2_quwat.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Qutb_Minar_complex#Quwwat-ul-Islam_Mosque ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images//3_arhai.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Adhai_Din_Ka_Jhonpra ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Khalji_dynasty ", "target", "_blank", 1, "wiki"], ["href", ""], ["src", "../../../../assets/medival/delhisultane/images/4_alaidarwaza.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Alai_Darwaza ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images/5_sirifort.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Siri_Fort ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Tughlaq_dynasty ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images/6_tughlaqabaad.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Tughlaqabad_Fort ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images/7_jahaanpanah.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Jahanpanah ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images/8_ferozabad.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Firozpur ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Lodi_dynasty ", "target", "_blank", 1, "wiki"], [1, "fullfeature"], [1, "featuretopic"], [1, "features"], [1, "featuresquare", "featurebox"], [1, "featureimg3"], ["src", "../../../../assets/medival/delhisultane/images/octagonal.jpg", "alt", ""], [1, "featurename"], [1, "featurepotrait", "featurebox"], [1, "featureimg1"], ["src", "../../../../assets/medival/delhisultane/images/doubledome.png", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images/lodigarden.cms", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Lodi_Gardens ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images/10_cityofagra.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Agra#Pre-Mughal_era ", "target", "_blank", 1, "wiki"], ["id", "modal01", "onclick", "this.style.display='none'", 1, "modal1"], [1, "close"], [1, "content01"], ["id", "img01", 2, "max-width", "100%"], ["id", "modal02", "onclick", "this.style.display='none'", 1, "modal2"], [1, "content02"], ["id", "img02", 2, "max-width", "100%"], ["href", " https://en.wikipedia.org/wiki/Architecture_of_Bengal#Islamic ", "target", "_blank", 1, "wiki"], [1, "featurelandscape", "featurebox"], [1, "featureimg"], ["src", "../../../../assets/medival/delhisultane/images2/banglaroof.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/blackmarble@Adina.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/1. QADAM RASUL @GAUR.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/delhisultane/images2/2. ADINA MOSQUE @PANDUA.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Adina_Mosque ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Malwa_Sultanate#Malwa_architecture ", "target", "_blank", 1, "wiki"], [1, "keywords", 2, "text-align", "left", "padding", "10px", "line-height", "30px"], ["src", "../../../../assets/medival/delhisultane/images2/6. Rani Rupmati_Pavilion.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Roopmati#Rewa_Kund_and_Rani_Roopmati_pavilion ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images2/3. JAHAZ MAHAL.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Mandu,_Madhya_Pradesh#Places_of_interest ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images2/4. Hindola Mahal Mandu.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Hindola_Mahal ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images2/5. Ashrafi-Mahal-Mandu.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Jaunpur_Sultanate#Art_and_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images2/8. atala-mosque-jaunpur up.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Atala_Mosque,_Jaunpur ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Adil_Shahi_dynasty ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/delhisultane/images2/3-facade.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/Wall-Plastering.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/ceiling-of-golgumbaz.jpg", "alt", ""], ["src", "/2_Medivalarch//2_DelhiSultanate/images2/ironclamps.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/cornices.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/Shallow_Cornices.jpg", "alt", ""], ["src", "../../../../assets/medival/delhisultane/images2/7. GOL GUMBAJ-ADIL Sahah mosque @Bijapur KN.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Gol_Gumbaz ", "target", "_blank", 1, "wiki"]],
+        template: function DelhiSultanteComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, DelhiSultanteComponent_div_1_Template, 368, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, DelhiSultanteComponent_div_2_Template, 297, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-footer");
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "imperial");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "provincial");
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__["NavbarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"]],
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRlbGhpLXN1bHRhbnRlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLDZEQUE2RDtBQUQ3RCxnR0FBZ0c7QUFFaEcsV0FBVyxtQ0FBeUUsRUFBRSxjQUFjLENBQUM7QUFDckcsV0FBVyx3QkFBeUQsR0FBRyxjQUFjLENBQUM7QUFDdEYsV0FBVyxrQ0FBb0UsRUFBRSxjQUFjLENBQUM7QUFDaEcsV0FBVyxtQkFBOEMsRUFBRSxjQUFjLENBQUM7QUFDMUUsV0FBVyx5QkFBMEQsRUFBRSxnQkFBZ0IsQ0FBQztBQUN4RixXQUFXLCtCQUE4RCxFQUFFLGFBQWEsQ0FBQztBQUN6RixXQUFXLG9DQUF3RSxFQUFFLGlCQUFpQixDQUFDO0FBQ3ZHLFdBQVcsd0JBQTZELEVBQUUsZUFBZSxDQUFDO0FBQzFGLFdBQVcsZ0NBQWlFLEVBQUUsY0FBYyxDQUFDO0FBQzdGLFdBQVcsaURBQWtGLEVBQUUsY0FBYyxDQUFDO0FBQzlHLFdBQVcsNEJBQTBELEVBQUUsaUJBQWlCLENBQUM7QUFHekY7Q0FDQyxVQUFVO0NBQ1YsV0FBVztBQUNaO0FBR0EsbUdBQW1HO0FBQ25HLGlCQUFpQjtBQUNqQjtJQUNJLFdBQVc7SUFDWCxjQUFjO0lBQ2QsZUFBZTtJQUNmLFVBQVU7SUFDVixrQkFBa0I7SUFDbEIseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQiw2QkFBNkI7SUFDN0IsYUFBYTtJQUNiLFlBQVk7SUFDWixlQUFlOztBQUVuQjtBQUlBLCtIQUErSDtBQUMvSDtJQUNJLCtCQUErQjtJQUMvQixZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLFVBQVU7SUFDVixhQUFhO0VBQ2Y7QUFFQTtJQUNFLHFCQUFxQjtJQUNyQixtQkFBbUI7SUFDbkIsMkJBQTJCOztFQUU3QjtBQUNBO0lBQ0UsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSx3QkFBd0I7RUFDMUI7QUFDQTtJQUNFLGtCQUFrQjtJQUNsQiwyQkFB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SUFDZixZQUFZO0lBQ1osa0JBQWtCO0VBQ3BCO0FBRUE7RUFDQSxrQkFBa0I7RUFDbEI7QUFFQTtFQUNBLFdBQVc7RUFDWCxTQUFTO0VBQ1QsVUFBVTtFQUNWLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztFQUNYLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsa0JBQWtCOztFQUVsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQix5QkFBaUI7VUFBakIsaUJBQWlCOztBQUVuQjtBQUNBOztRQUVRLHdEQUF3RDtDQUMvRDtBQUlELCtIQUErSDtBQUM5SDtFQUNDOztzQkFFb0I7RUFDcEIsWUFBWTtFQUNaLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7QUFJQSwrSEFBK0g7QUFDL0g7RUFDRSxVQUFVO0VBQ1YsU0FBUztFQUNULGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsZUFBZTtBQUNqQjtBQUdBOztBQUVBLHVCQUF1QjtBQUN2Qix5QkFBeUI7QUFDekIsYUFBYTtBQUNiLGtCQUFrQjtBQUNsQixZQUFZO0FBQ1o7QUFFQTs7QUFFQSx5QkFBeUI7QUFDekIsa0JBQWtCO0FBQ2xCO0FBRUE7QUFDQSxZQUFZO0FBQ1o7QUFDQSwrSEFBK0giLCJmaWxlIjoiZGVsaGktc3VsdGFudGUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEZvbnRzICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuQGltcG9ydCAnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUJhbG9vK1BhYWppJztcclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvVW5pZnJha3R1ckNvb2svVW5pZnJha3R1ckNvb2stQm9sZC50dGYpOyBmb250LWZhbWlseTogdTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2NoZWx0ZW5obS9DaGx0Ym94Yy50dGYpOyAgZm9udC1mYW1pbHk6IGM7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Nb250c2VycmF0L01vbnRzZXJyYXQtUmVndWxhci50dGYpOyBmb250LWZhbWlseTogbTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTsgZm9udC1mYW1pbHk6IGE7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9uZW9uLWZvbnQvTmVvbi1lMndnLnR0Zik7IGZvbnQtZmFtaWx5Om5lb247fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Mb2JzdGVyL0xvYnN0ZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTpsO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTWVycml3ZWF0aGVyL01lcnJpd2VhdGhlci1SZWd1bGFyLnR0Zik7IGZvbnQtZmFtaWx5Om1lcnJpO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvYmxhY2tjaGFuY2VyeS9CTEtDSENSWS5UVEYpOyBmb250LWZhbWlseTpibGs7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9PcGVuX1NhbnMvT3BlblNhbnMtUmVndWxhci50dGYpOyBmb250LWZhbWlseTpvczt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1dvcmtfU2Fucy9Xb3JrU2Fucy1JdGFsaWMtVmFyaWFibGVGb250X3dnaHQudHRmKTsgZm9udC1mYW1pbHk6d3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Sb2JvdG8vUm9ib3RvLUxpZ2h0LnR0Zik7IGZvbnQtZmFtaWx5OiByb2JvO31cclxuXHJcblxyXG4qIHtcclxuXHRtYXJnaW46IDAlO1xyXG5cdHBhZGRpbmc6IDAlO1xyXG59IFxyXG5cclxuXHJcbi8qIGNvbnRlbnQgICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuLyogdGl0bGUgKioqKioqICovXHJcbi50aXRsZXtcclxuICAgIGNvbG9yOiBzbm93O1xyXG4gICAgZm9udC1mYW1pbHk6IGM7XHJcbiAgICBmb250LXNpemU6IDQ1cHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJhY2tncm91bmQ6IHJnYigwLCAwLCAwLCAwLjgpO1xyXG4gICAgcGFkZGluZzogMTBweDtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDJlbTtcclxuXHJcbn1cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnBvaW50c3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHBhbGV0dXJxdW9pc2U7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IG9zO1xyXG4gICAgZm9udC1zaXplOiAxZW07XHJcbiAgICBsaW5lLWhlaWdodDogMzBweDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBwYWRkaW5nOiAyMHB4O1xyXG4gIH1cclxuICBcclxuICAucG9pbnRzIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgIGxpc3Qtc3R5bGUtcG9zaXRpb246IGluc2lkZTtcclxuIFxyXG4gIH1cclxuICAucG9pbnRzIGxpOm50aC1jaGlsZCgxKXtcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgfVxyXG4gIC5saTEgbGl7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IGRlY2ltYWw7XHJcbiAgfVxyXG4gIC5saTIgbGl7XHJcbiAgICBsaXN0LXN0eWxlOiBzcXVhcmU7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiAgfVxyXG4gIFxyXG4gIC50b3BpY2hlYWR7XHJcbiAgICBmb250LWZhbWlseTogdTtcclxuICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG4gIH1cclxuICAudG9waWNoZWFkMntcclxuICAgIGZvbnQtc2l6ZTogMS4yZW07XHJcbiAgfVxyXG4gIFxyXG4gIFxyXG4gIFxyXG5cclxuICBcclxuXHJcblxyXG5cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG5ib2R5e1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIG1hcmdpbjogMDtcclxufVxyXG5cclxuZGl2LmxhbmRzY2FwZSB7XHJcbiAgICB3aWR0aDogNTAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA2cHggMjBweCAwIHJnYmEoMCwgMCwgMCwgMC4xOSk7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxuXHJcbmRpdi5wb3RyYWl0IHsgXHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA2cHggMjBweCAwIHJnYmEoMCwgMCwgMCwgMC4xOSk7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmNvbnRhaW5lciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XHJcbiAgfVxyXG5cclxuICBkaXYubGFuZHBvcnR7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICBtYXgtd2lkdGg6IDkwJTtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICBcclxuICB9XHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLm1vZGFsMXtcclxuICB6LWluZGV4OjE7XHJcbiAgZGlzcGxheTpub25lO1xyXG4gIHBvc2l0aW9uOmZpeGVkO1xyXG4gIGxlZnQ6MDtcclxuICB0b3A6MDtcclxuICB3aWR0aDoxMDAlO1xyXG4gIGhlaWdodDoxMDAlO1xyXG4gIG92ZXJmbG93OmF1dG87XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwwLDApO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjgpO1xyXG4gIGJveC1zaXppbmc6Y29udGVudC1ib3g7XHJcbn1cclxuLm1vZGFsMntcclxuICB6LWluZGV4OjE7XHJcbiAgZGlzcGxheTpub25lO1xyXG4gIHBvc2l0aW9uOmZpeGVkO1xyXG4gIGxlZnQ6MDtcclxuICB0b3A6MDtcclxuICB3aWR0aDoxMDAlO1xyXG4gIGhlaWdodDoxMDAlO1xyXG4gIG92ZXJmbG93OmF1dG87XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwwLDApO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjgpO1xyXG4gIGJveC1zaXppbmc6Y29udGVudC1ib3g7XHJcbn0gICAgXHJcblxyXG4gICAgICBcclxuLmNvbnRlbnQwMXtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICB0b3A6IDUwJTtcclxuICAgICAgbGVmdDogNTAlO1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTsgXHJcbiAgICAgIHdpZHRoOiA4MDBweDtcclxuICAgICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICB9XHJcbi5jb250ZW50MDJ7XHJcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgdG9wOiAwJTtcclxuICAgICAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDMlKTsgXHJcbiAgICAgICAgICB3aWR0aDogNDUwcHg7XHJcbiAgICAgICAgICBtYXgtd2lkdGg6IDk1JTsgICBcclxuICAgICAgICB9XHJcbiBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEyMDBweCkge1xyXG4gICAgIFxyXG4gICAgLmNvbnRlbnQwMntcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDAlKTsgXHJcbiAgICAgICAgfVxyXG4gfVxyXG5cclxuICAgIFxyXG4gICAgXHJcbiAgICBcclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eSB7XHJcbiAgICBvcGFjaXR5OjE7XHJcbiAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT0xMDApO1xyXG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgfVxyXG4gICAgLm1vZGFsMi1ob3Zlci1vcGFjaXR5IHtcclxuICAgICAgICBvcGFjaXR5OjE7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgICAgICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6aGlkZGVuXHJcbiAgICAgICAgfVxyXG4gICAgLm1vZGFsMS1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICAgIG9wYWNpdHk6MC42O1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgfVxyXG4gICAgLm1vZGFsMi1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICAgICAgICBvcGFjaXR5OjAuNjtcclxuICAgICAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT02MCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG59XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZmVhdHVyZW5hbWV7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG59XHJcbi5mZWF0dXJlYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC43ZW07XHJcbn1cclxuLmltZ25hbWV7XHJcbiAgZm9udC1mYW1pbHk6IGJsaztcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuIFxyXG59XHJcbi5pbWdwbGFjZXtcclxuICBjb2xvcjogXHQjM0NCMzcxO1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuOWVtO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi5pbWdhYm91dHtcclxuICBwYWRkaW5nLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjhlbTtcclxufVxyXG5cclxuLmtleXdvcmRze1xyXG4gIHBhZGRpbmc6IDNweDtcclxuICB3aWR0aDogODAlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyMjAsIDIwLCA2MCwgMC40KTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogd3M7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uaW1wd29yZHtcclxuICBmb250LXNpemU6IDEuMWVtO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogYmxhY2sgdW5kZXJsaW5lO1xyXG59XHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRleHRkaXZ7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIHdpZHRoOiA5MCU7XHJcbiAgbWFyZ2luLXRvcDogMzBweDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG4udGV4dGJveHtcclxuICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gIHdpZHRoOiAxMGVtO1xyXG4gIGhlaWdodDogMTdlbTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgbWFyZ2luOiAxNXB4O1xyXG59XHJcbi50ZXh0aW1nIGltZ3tcclxuICB3aWR0aDogOS44ZW07XHJcbiAgaGVpZ2h0OiAxMi41ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcbi50ZXh0aW1ne1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBtYXJnaW4tdG9wOiAwLjFlbTtcclxufVxyXG4udGV4dHRleHR7XHJcbiAgbWFyZ2luLXRvcDogM3B4O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBjb2xvcjogYmxhY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLnRleHRsaW5re1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBtYXJnaW4tbGVmdDogMTBweDsgXHJcbiBcclxufVxyXG4udGV4dGxpbmsgYXtcclxuICBjb2xvcjogZGVlcHNreWJsdWU7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59XHJcblxyXG4uYm94eHtcclxucG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcblxyXG4uYm94eDpiZWZvcmV7XHJcbmNvbnRlbnQ6ICcnO1xyXG50b3A6IC0xcHg7XHJcbmxlZnQ6IC0xcHg7XHJcbnJpZ2h0OiAtMXB4O1xyXG5ib3R0b206IC0xcHg7XHJcbnotaW5kZXg6IC0xO1xyXG5iYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xyXG5ib3JkZXItcmFkaXVzOiA1cHg7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHJcbn1cclxuXHJcbi5ib3h4OmFmdGVye1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMjtcclxucG9zaXRpb246IGFic29sdXRlO1xyXG5ib3JkZXItcmFkaXVzOiA1cHg7XHJcbmZpbHRlcjogYmx1cigzcHgpO1xyXG5cclxuICB9XHJcblxyXG5cclxuICAuYm94eDphZnRlcixcclxuICAuYm94eDpiZWZvcmV7XHJcbiAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG4gIH1cclxuICBcclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5mdWxsZmVhdHVyZXtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIC8qIHdpZHRoOiAxMjAwcHg7ICovXHJcbiAgICBtYXgtd2lkdGg6IDk1JTtcclxuICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIyLCAxODQsIDEzNSwgMC4yKTtcclxufVxyXG4uZmVhdHVyZXRvcGlje1xyXG4gIGZvbnQtZmFtaWx5OiBsO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBwYWRkaW5nOiA1cHg7XHJcbn1cclxuXHJcbiAgLmZlYXR1cmVze1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gIH1cclxuICAuZmVhdHVyZWxhbmRzY2FwZXtcclxuICAgIGJvcmRlcjogMS41cHggc29saWQgcmdiKDUxLCA1MSwgNTEsIDAuNyk7XHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICAgIHdpZHRoOiAxNWVtO1xyXG4gICAgaGVpZ2h0OiAxMGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgbWFyZ2luOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIH1cclxuICAuZmVhdHVyZXBvdHJhaXR7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTBlbTtcclxuICAgIGhlaWdodDogMTVlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVzcXVhcmV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTBlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcgaW1ne1xyXG4gICAgd2lkdGg6IDE0LjhlbTtcclxuICAgIGhlaWdodDogOGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZzEgaW1ne1xyXG4gICAgd2lkdGg6IDkuOGVtO1xyXG4gICAgaGVpZ2h0OiAxM2VtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZzMgaW1ne1xyXG4gICAgd2lkdGg6IDkuOGVtO1xyXG4gICAgaGVpZ2h0OiA5LjhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcsIC5mZWF0dXJlaW1nMSwgLmZlYXR1cmVpbWcze1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbWFyZ2luLXRvcDogMC4xZW07XHJcbiAgfVxyXG4gIC5mZWF0dXJlbmFtZXtcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgfVxyXG4gIFxyXG4gIC5mZWF0dXJlYm94OmJlZm9yZXtcclxuICBjb250ZW50OiAnJztcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTE7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIFxyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDphZnRlcntcclxuICBjb250ZW50OiAnJztcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTI7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBmaWx0ZXI6IGJsdXIoM3B4KTtcclxuICBcclxufVxyXG4uZmVhdHVyZWJveDphZnRlcixcclxuLmZlYXR1cmVib3g6YmVmb3Jle1xyXG4gICAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG4gfSAgXHJcbiAgXHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4gYS53aWtpe1xyXG4gIC8qIHRleHQtYWxpZ246IGVuZDtcclxuXHJcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7ICovXHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIG1hcmdpbi1yaWdodDogLTI1cHg7XHJcbn1cclxuLndpa2kgaW1ne1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogMTVweDtcclxuICBoZWlnaHQ6IDE1cHg7XHJcbn1cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRhYmxlMS1zcGFjaW5nIHtcclxuICBwYWRkaW5nOiAwO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nLXRvcDogNTVweDtcclxuICBvdmVyZmxvdy14OiBzY3JvbGw7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG59XHJcblxyXG5cclxuLnRhYmxlMSB0aCxcclxuLnRhYmxlMSB0ZCB7XHJcbmJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG5wYWRkaW5nOiAxNXB4O1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbndpZHRoOiAyMDBweDtcclxufVxyXG5cclxuLnRhYmxlMXtcclxuXHJcbmJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnRhYmxlMSB0YWJsZXtcclxubWFyZ2luOiBhdXRvO1xyXG59XHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbiJdfQ== */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DelhiSultanteComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-delhi-sultante',
+            templateUrl: './delhi-sultante.component.html',
+            styleUrls: ['./delhi-sultante.component.css']
+          }]
+        }], function () {
+          return [{
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+          }];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
+    "EU7T":
+    /*!*********************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/kashmir/kashmir.component.ts ***!
+      \*********************************************************************************/
+
+    /*! exports provided: KashmirComponent */
+
+    /***/
+    function EU7T(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "KashmirComponent", function () {
+        return KashmirComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _kashmir__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ./kashmir */
+      "6uok");
+      /* harmony import */
+
+
+      var _kashmir__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_kashmir__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! ../../../footer/footer.component */
+      "fp1T");
+
+      function KashmirComponent_div_1_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Gardens in Kashmir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Mughal Kings");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "ul", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Persian");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Char Bagh Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Water streams, Trees, Fountains");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Chasm-e-Shahi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Built around ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Fresh Spring");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Persian Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Chasm-e-Shahi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Shalimar Bagh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "1619 AD ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Jahangir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Summer royal residence");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " of Jahangir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Has 3 Terraces:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "ul", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Diwan-e-Aam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Diwan-e-Khas");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Zenana Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "img", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Shalimar Bagh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](74, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](76, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "img", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Shalimar Bagh Plan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](84, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "a", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Nishat Bagh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "2nd Largest");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, " Mughal Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Has ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "12 Terraces");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, " [opposite to Dal Lake]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "img", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Nishat Bagh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Near Dal Lake");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](108, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](109, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Badamwari Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](114, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](115, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "img", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "Badamwari Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "@Srinagar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](124, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](125, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "a", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](128, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Anantnag Gardens");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "ul", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "Achabal Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, "Kokernag Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "Verinag Garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "img", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "img", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      function KashmirComponent_div_2_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Islamic Architecture in Kashmir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Blend ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Existing Kashmiri + Islamic Styles");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Absence of Domes & Cloisters [below cloister image is give just for understanding, read carefully]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Multi Levelled Sloping Roof");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Wood, Stone, Brick");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " Masonry");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Monuments - moslty ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Square Shaped");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " Main Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Multi Levelled Sloping Roof");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "img", 37);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Brick Masonry");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "img", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Stone Masonry");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "img", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Wood Masonry");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "img", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Absence of Cloister");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 41);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Jama Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "14thC");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "370 Wooden Pillars");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " & Large Courtyard");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "img", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Jama Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "@Srinagar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "a", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Aali Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "15thC ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Shahmiri King - \"Sultan Hassan Shah\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "one of the Largest mosque @Kashmir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Arched Windows");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, " & Pyramidal top [Absence of Dome]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Timber & Stone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, " monuments");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](104, "img", 44);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Aali Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "@Srinagar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "a", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](114, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Pari Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "17thC ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Mughal Prince -\"Dara Shikoh\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "It is marvellous Terraced structure ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Located on Hill");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " & has ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "Observatory");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Overlooking ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "Dal Lake");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, "Near ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "Chasm-e-Shahi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, " garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](142, "img", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, "Pari Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, "@Srinagar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](149, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "Other Important Monuments");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](155, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](158, "img", 47);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Madin Sahib Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](162, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "a", 48);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](164, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](166, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "img", 49);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](171, "Dastagir Sahib Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "a", 50);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](175, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](176, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](178, "img", 51);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Naqshband Sahib Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](182, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "a", 52);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](184, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](185, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](186, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](188, "img", 53);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "Khanaqa of Shah Hamadan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "a", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](194, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](195, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](196, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](198, "img", 55);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, "Tomb of mother of Zain-ul-Abidin / Badshah Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](202, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "a", 56);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](204, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](205, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](206, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](210, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](211, "img", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](216, "img", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      function KashmirComponent_div_3_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Temples in Kashmir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 57);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Located at Trade routes. So, ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Inspired many foreign sources");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Temples reached great height during 2 dynasties:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "ol", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Karakota Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Utpala Dynasty");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Main Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "img", 58);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Straight-edged Pyramidal Roof");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 59);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Triangular Pediments [Greek Influence]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 60);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Column walls [Greek Influence]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Cellular Layout");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "img", 62);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Enclosed Courtyard");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "img", 63);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "More no. of steps");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 64);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 65);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "img", 66);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Trefoil Archs [Gandhara Influence]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 67);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 68);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "img", 69);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Exquisite Stone Curves");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "a", 70);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Mamleshwara Shiva Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "400 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Mentioned in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Rajatarangini");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " [Sanskrit Text]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "img", 71);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Mamleshwara Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "@Pahalgam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](88, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "a", 72);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](91, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Martand Sun Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "8thC ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "Karkota Dynasty - \"Lalitaditya Muktapida\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Synthesis of Various schools ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "\"Gandhara + Chinese + Gupta influences\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "ul", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Located in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "Shape of Courtyard");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Surround by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Columns");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Pyramidal Top");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Gods: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Vishnu, Ganga, Yamuna, ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Sun");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](125, "img", 73);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "Martand Sun Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "@Anantag");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](131, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](132, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](134, "img", 74);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Martand Sun Temple Plan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](138, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](139, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](140, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "a", 75);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, "Paraspore Monuments");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "8thC ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Karkota Dynasty - \"Lalitaditya Muktapida\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "He made ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, "Parishaspura his Capital");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, "Gods: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, " Vishnu, Parihaskesana");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "Also few had few ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, "Buddhist Monastries");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "img", 76);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, "Paraspore");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](169, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](170, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "a", 77);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "img", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "Awantipora Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "9thC ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Utpala Dynasty - \"Awantivarman\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "Roman & Gandhara Influence");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, " clearly seen");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, "Two Temples ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "ul", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "Avantisvamin");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, " [Vishnu]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "Avantisvara");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](196, " [Shiva] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "ul", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "Temple inside ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "Courtyard");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, "4 shrines at 4 corners");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, "Gateway has ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "Two Chambers");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](211, " [curved out eloquently]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](214, "img", 78);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](216, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](217, "Awantipora");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](218, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](219, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](220, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "Pandrethan Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, "aka ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](228, "\"Meru Vardha Swami\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](230, "10thC");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](232, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](233, "Vishnu main deity");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, " [but also Shiva structures present]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](237, "Features:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](238, "ul", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](240, "curved in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](242, "Single block of Stone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](243, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](244, "Exquisite curvings");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](246, "Doomed Roof & Arches");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "div", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](248, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](249, "img", 79);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](250, "div", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](251, "span", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](252, "Pandrethan Temple / Meru Vardha Swami");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](253, "span", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](254, "@Srinagar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](255, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](256, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](258, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](259, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](261, "img", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](264, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](266, "img", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      var KashmirComponent = /*#__PURE__*/function () {
+        function KashmirComponent(route) {
+          _classCallCheck(this, KashmirComponent);
+
+          this.route = route;
+        }
+
+        _createClass(KashmirComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {
+            var _this5 = this;
+
+            this.route.queryParams.subscribe(function (params) {
+              _this5.style = params['style'];
+            });
+
+            if (this.style == 'temples') {
+              this.style = 'temples';
+            } else if (this.style == 'islamic') {
+              this.style = 'islamic';
+            } else if (this.style == 'gardens') {
+              this.style = 'gardens';
+            }
+          }
+        }]);
+
+        return KashmirComponent;
+      }();
+
+      KashmirComponent.ɵfac = function KashmirComponent_Factory(t) {
+        return new (t || KashmirComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]));
+      };
+
+      KashmirComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: KashmirComponent,
+        selectors: [["app-kashmir"]],
+        decls: 7,
+        vars: 3,
+        consts: [[4, "ngIf"], [1, "title"], [1, "points"], [1, "topichead"], [1, "li2"], ["href", " https://en.wikipedia.org/wiki/Chashme_Shahi ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "landport"], [1, "landscape"], ["src", "../../../../assets/medival/kashmir/Images/14_Chasm-e-Shahi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], [1, "container"], [1, "imgname"], [1, "imgplace"], [1, "imgabout"], ["href", " https://en.wikipedia.org/wiki/Shalimar_Bagh,_Srinagar ", "target", "_blank", 1, "wiki"], [1, "li1"], ["src", "../../../../assets/medival/kashmir/Images/15_Shalimar-Bagh-Srinagar.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/15.1_Shalimar-Plan.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Nishat_Bagh ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/16_Nishat_Bagh.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images//17_Badamwari.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Anantnag_district#Achabal ", "target", "_blank", 1, "wiki"], ["id", "modal01", "onclick", "this.style.display='none'", 1, "modal1"], [1, "close"], [1, "content01"], ["id", "img01", 2, "max-width", "100%"], ["id", "modal02", "onclick", "this.style.display='none'", 1, "modal2"], [1, "content02"], ["id", "img02", 2, "max-width", "100%"], ["href", " https://en.wikipedia.org/wiki/Category:Mosques_in_Jammu_and_Kashmir ", "target", "_blank", 1, "wiki"], [1, "fullfeature"], [1, "featuretopic"], [1, "features"], [1, "featurelandscape", "featurebox"], [1, "featureimg"], ["src", "../../../../assets/medival/kashmir/Images/multilevelroof.jpg", "alt", ""], [1, "featurename"], ["src", "../../../../assets/medival/kashmir/Images/brickmasonry.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/stonemasonry.png", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/woodmasonry.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/cloister.jpg", "alt", ""], ["href", " https://en.wikipedia.org/wiki/Jamia_Masjid,_Srinagar ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/6_jama-masjid-kashmir.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Aali_Mosque ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/7_Aali_Masjid.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Pari_Mahal ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/8-pari-mahal-srinagar.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/13_Madin_Sahib_Mosque.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Madin_Sahib ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/9_Dastgir_Sahib.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Dastgeer_Sahib ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/10_Naqshband-sahib.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Ziyarat_Naqshband_Sahab ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/11_Khanaqa-of-Shah-Hamdan.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Khanqah-e-Moula ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/12_Zain-ul-Abidin.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/gulmarg/badshah-tomb.html ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/List_of_Hindu_temples_in_Kashmir ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/pyramid.png", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/pediment.png", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/columns.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/cellular.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/enclosedcourtyard.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/steps.jpg", "alt", ""], [1, "featuresquare", "featurebox"], [1, "featureimg3"], ["src", "../../../../assets/medival/kashmir/Images/trefoil.png", "alt", ""], [1, "featurepotrait", "featurebox"], [1, "featureimg1"], ["src", "../../../../assets/medival/kashmir/Images/stonecurve.jpg", "alt", ""], ["href", " ^^^ ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/4-Mamleshwara.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Martand_Sun_Temple ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/1_Martand Temple.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/martandoriginal.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Parihaspore ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/5_Paraspore.jpeg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Avantiswami_Temple ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/2_Awantipora.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/3_Pandretha.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"]],
+        template: function KashmirComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, KashmirComponent_div_1_Template, 149, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, KashmirComponent_div_2_Template, 217, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, KashmirComponent_div_3_Template, 267, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-footer");
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "gardens");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "islamic");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "temples");
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__["NavbarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"]],
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,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QVk7SUFDWixrQkFBa0I7RUFDcEI7QUFFQTtFQUNBLGtCQUFrQjtFQUNsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLGtCQUFrQjtFQUNsQixrQkFBa0I7O0VBRWxCO0FBRUE7RUFDQSxXQUFXO0VBQ1gsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsWUFBWTtFQUNaLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLHlCQUFpQjtVQUFqQixpQkFBaUI7O0FBRW5CO0FBQ0E7O1FBRVEsd0RBQXdEO0NBQy9EO0FBSUQsK0hBQStIO0FBQzlIO0VBQ0M7O3NCQUVvQjtFQUNwQixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7QUFDZDtBQUlBLCtIQUErSDtBQUMvSDtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCO0FBR0E7O0FBRUEsdUJBQXVCO0FBQ3ZCLHlCQUF5QjtBQUN6QixhQUFhO0FBQ2Isa0JBQWtCO0FBQ2xCLFlBQVk7QUFDWjtBQUVBOztBQUVBLHlCQUF5QjtBQUN6QixrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFlBQVk7QUFDWjtBQUNBLCtIQUErSCIsImZpbGUiOiJrYXNobWlyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBGb250cyAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbkBpbXBvcnQgJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1CYWxvbytQYWFqaSc7XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1VuaWZyYWt0dXJDb29rL1VuaWZyYWt0dXJDb29rLUJvbGQudHRmKTsgZm9udC1mYW1pbHk6IHU7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hsdGJveGMudHRmKTsgIGZvbnQtZmFtaWx5OiBjO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6IG07fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9BbXIvQW1yLm90Zik7IGZvbnQtZmFtaWx5OiBhO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvbmVvbi1mb250L05lb24tZTJ3Zy50dGYpOyBmb250LWZhbWlseTpuZW9uO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTG9ic3Rlci9Mb2JzdGVyLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6bDt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTptZXJyaTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2JsYWNrY2hhbmNlcnkvQkxLQ0hDUlkuVFRGKTsgZm9udC1mYW1pbHk6YmxrO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvT3Blbl9TYW5zL09wZW5TYW5zLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6b3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtSXRhbGljLVZhcmlhYmxlRm9udF93Z2h0LnR0Zik7IGZvbnQtZmFtaWx5OndzO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvUm9ib3RvL1JvYm90by1MaWdodC50dGYpOyBmb250LWZhbWlseTogcm9ibzt9XHJcblxyXG5cclxuKiB7XHJcblx0bWFyZ2luOiAwJTtcclxuXHRwYWRkaW5nOiAwJTtcclxufSBcclxuXHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGV7XHJcbiAgICBjb2xvcjogc25vdztcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiA0NXB4O1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAyZW07XHJcblxyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5wb2ludHN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBwYWxldHVycXVvaXNlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luLXRvcDogMzBweDtcclxuICAgIGZvbnQtZmFtaWx5OiBvcztcclxuICAgIGZvbnQtc2l6ZTogMWVtO1xyXG4gICAgbGluZS1oZWlnaHQ6IDMwcHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICB9XHJcbiAgXHJcbiAgLnBvaW50cyBsaXtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiBcclxuICB9XHJcbiAgLnBvaW50cyBsaTpudGgtY2hpbGQoMSl7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIH1cclxuICAubGkxIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBkZWNpbWFsO1xyXG4gIH1cclxuICAubGkyIGxpe1xyXG4gICAgbGlzdC1zdHlsZTogc3F1YXJlO1xyXG4gICAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG4gIH1cclxuICBcclxuICAudG9waWNoZWFke1xyXG4gICAgZm9udC1mYW1pbHk6IHU7XHJcbiAgICBmb250LXNpemU6IDMwcHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxuICB9XHJcbiAgLnRvcGljaGVhZDJ7XHJcbiAgICBmb250LXNpemU6IDEuMmVtO1xyXG4gIH1cclxuICBcclxuICBcclxuICBcclxuXHJcbiAgXHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuYm9keXtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbn1cclxuXHJcbmRpdi5sYW5kc2NhcGUge1xyXG4gICAgd2lkdGg6IDUwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG5kaXYucG90cmFpdCB7IFxyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG4gIGRpdi5jb250YWluZXIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmxhbmRwb3J0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgbWF4LXdpZHRoOiA5MCU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5tb2RhbDF7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59XHJcbi5tb2RhbDJ7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59ICAgIFxyXG5cclxuICAgICAgXHJcbi5jb250ZW50MDF7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgdG9wOiA1MCU7XHJcbiAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7IFxyXG4gICAgICB3aWR0aDogODAwcHg7XHJcbiAgICAgIG1heC13aWR0aDogOTUlO1xyXG4gICAgfVxyXG4uY29udGVudDAye1xyXG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgIHRvcDogMCU7XHJcbiAgICAgICAgICBsZWZ0OiA1MCU7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAzJSk7IFxyXG4gICAgICAgICAgd2lkdGg6IDQ1MHB4O1xyXG4gICAgICAgICAgbWF4LXdpZHRoOiA5NSU7ICAgXHJcbiAgICAgICAgfVxyXG4gQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMjAwcHgpIHtcclxuICAgICBcclxuICAgIC5jb250ZW50MDJ7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAwJSk7IFxyXG4gICAgICAgIH1cclxuIH1cclxuXHJcbiAgICBcclxuICAgIFxyXG4gICAgXHJcbiAgICAubW9kYWwxLWhvdmVyLW9wYWNpdHkge1xyXG4gICAgb3BhY2l0eToxO1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eSB7XHJcbiAgICAgICAgb3BhY2l0eToxO1xyXG4gICAgICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTEwMCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgICAgIH1cclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICBvcGFjaXR5OjAuNjtcclxuICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTYwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICAgICAgb3BhY2l0eTowLjY7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxufVxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmZlYXR1cmVuYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxufVxyXG4uZmVhdHVyZWFib3V0e1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuN2VtO1xyXG59XHJcbi5pbWduYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGNvbG9yOiBcdCMzQ0IzNzE7XHJcbiBcclxufVxyXG4uaW1ncGxhY2V7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjllbTtcclxuICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG4uaW1nYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC44ZW07XHJcbn1cclxuXHJcbi5rZXl3b3Jkc3tcclxuICBwYWRkaW5nOiAzcHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIwLCAyMCwgNjAsIDAuNCk7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmltcHdvcmR7XHJcbiAgZm9udC1zaXplOiAxLjFlbTtcclxuICB0ZXh0LWRlY29yYXRpb246IGJsYWNrIHVuZGVybGluZTtcclxufVxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50ZXh0ZGl2e1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB3aWR0aDogOTAlO1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuLnRleHRib3h7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTBlbTtcclxuICBoZWlnaHQ6IDE3ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIG1hcmdpbjogMTVweDtcclxufVxyXG4udGV4dGltZyBpbWd7XHJcbiAgd2lkdGg6IDkuOGVtO1xyXG4gIGhlaWdodDogMTIuNWVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4udGV4dGltZ3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLXRvcDogMC4xZW07XHJcbn1cclxuLnRleHR0ZXh0e1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50ZXh0bGlua3tcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7IFxyXG4gXHJcbn1cclxuLnRleHRsaW5rIGF7XHJcbiAgY29sb3I6IGRlZXBza3libHVlO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuLmJveHh7XHJcbnBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmJveHg6YmVmb3Jle1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMTtcclxuYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5wb3NpdGlvbjogYWJzb2x1dGU7XHJcblxyXG59XHJcblxyXG4uYm94eDphZnRlcntcclxuY29udGVudDogJyc7XHJcbnRvcDogLTFweDtcclxubGVmdDogLTFweDtcclxucmlnaHQ6IC0xcHg7XHJcbmJvdHRvbTogLTFweDtcclxuei1pbmRleDogLTI7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHJcbiAgfVxyXG5cclxuXHJcbiAgLmJveHg6YWZ0ZXIsXHJcbiAgLmJveHg6YmVmb3Jle1xyXG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuICB9XHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZnVsbGZlYXR1cmV7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICAvKiB3aWR0aDogMTIwMHB4OyAqL1xyXG4gICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMiwgMTg0LCAxMzUsIDAuMik7XHJcbn1cclxuLmZlYXR1cmV0b3BpY3tcclxuICBmb250LWZhbWlseTogbDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpibGFjaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4gIC5mZWF0dXJlc3tcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICB9XHJcbiAgLmZlYXR1cmVsYW5kc2NhcGV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTVlbTtcclxuICAgIGhlaWdodDogMTBlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVwb3RyYWl0e1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDE1ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlc3F1YXJle1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDEzZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nIGltZ3tcclxuICAgIHdpZHRoOiAxNC44ZW07XHJcbiAgICBoZWlnaHQ6IDhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcxIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWczIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogOS44ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nLCAuZmVhdHVyZWltZzEsIC5mZWF0dXJlaW1nM3tcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDAuMWVtO1xyXG4gIH1cclxuICAuZmVhdHVyZW5hbWV7XHJcbiAgICBmb250LWZhbWlseTogYztcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3h7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDpiZWZvcmV7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0xO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2U7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3g6YWZ0ZXJ7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0yO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgZmlsdGVyOiBibHVyKDNweCk7XHJcbiAgXHJcbn1cclxuLmZlYXR1cmVib3g6YWZ0ZXIsXHJcbi5mZWF0dXJlYm94OmJlZm9yZXtcclxuICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuIH0gIFxyXG4gIFxyXG4gIFxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuIGEud2lraXtcclxuICAvKiB0ZXh0LWFsaWduOiBlbmQ7XHJcblxyXG4gIG1hcmdpbi1yaWdodDogNXB4OyAqL1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG59XHJcbi53aWtpIGltZ3tcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgd2lkdGg6IDE1cHg7XHJcbiAgaGVpZ2h0OiAxNXB4O1xyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50YWJsZTEtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5cclxuXHJcbi50YWJsZTEgdGgsXHJcbi50YWJsZTEgdGQge1xyXG5ib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxucGFkZGluZzogMTVweDtcclxudGV4dC1hbGlnbjogY2VudGVyO1xyXG53aWR0aDogMjAwcHg7XHJcbn1cclxuXHJcbi50YWJsZTF7XHJcblxyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi50YWJsZTEgdGFibGV7XHJcbm1hcmdpbjogYXV0bztcclxufVxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](KashmirComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-kashmir',
+            templateUrl: './kashmir.component.html',
+            styleUrls: ['./kashmir.component.css']
+          }]
+        }], function () {
+          return [{
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+          }];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
     "Ij5Q":
     /*!**********************************************!*\
       !*** ./src/app/gallery/gallery.component.ts ***!
@@ -4516,6 +9571,3095 @@
           }];
         }, null);
       })();
+      /***/
+
+    },
+
+    /***/
+    "K5u/":
+    /*!*********************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/mughals/mughals.component.ts ***!
+      \*********************************************************************************/
+
+    /*! exports provided: MughalsComponent */
+
+    /***/
+    function K5u(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "MughalsComponent", function () {
+        return MughalsComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _mughal_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ./mughal.js */
+      "tMK5");
+      /* harmony import */
+
+
+      var _mughal_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mughal_js__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _shershah_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ./shershah.js */
+      "OJnC");
+      /* harmony import */
+
+
+      var _shershah_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_shershah_js__WEBPACK_IMPORTED_MODULE_2__);
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! ../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      /*! ../../../footer/footer.component */
+      "fp1T");
+
+      var _c0 = function _c0() {
+        return ["/forts"];
+      };
+
+      var _c1 = function _c1() {
+        return {
+          style: "agra"
+        };
+      };
+
+      var _c2 = function _c2() {
+        return {
+          style: "fatehpur"
+        };
+      };
+
+      function MughalsComponent_div_1_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Mughal Architecture");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Babur");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Reign too short lived");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Built mosques at ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Rohilkhand & Panipat");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Keywords: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Kabuli - Rohilkhand - Panipat");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "img", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Kabuli Bagh Mosque");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "@Panipat, Haryana");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "To mark his victory over ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Sultan Ibrahim Lodhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " at the ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "first Battle of Panipat in 1526");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, ". ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " Named after Kabuli Begum, Babur's wife ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Humayun");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Power struggle & war with Sher Shah Suri. So, couldn't focus on art");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "b", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Persian style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, " became important in his period");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Keywords: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " Persian Style - Dinpanah");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "img", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Dinpanah City");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Began the foundation but couldn't finish.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "a", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Akbar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "\"The Golden period of Mughal Art & Architecture\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Prominent works");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "ol", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Agra Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Fatehpur Sikri");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "ul", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Use of ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "b", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Red Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Introduce ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "b", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Tudor Arch");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, " [4 Centered Arch]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "Keywords: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, " Agra Fort - Fatehpur Sikri - Tudor Arch - Red Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, " Taj Mahal Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "img", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "Red Sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](107, "img", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Tudor Arch [4 centered arch]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "img", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Agra Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "a", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Click Here");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "img", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Fatehpur Sikri");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "a", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Click Here");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "a", 37);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](129, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Jahangir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "Architecture back seat");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, ", main focus on ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "Paintings");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](140, "Decorted & Oversaw some structures");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "During Jahangir reign, ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "White marble");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, " became \"chief building material\" [used in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, "Itmad-ud-daulah Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, "Mistakes to avoid:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, " White marble was not became chief material during Shah Jahan reign, though he used it more.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](155, "img", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, "Akbar Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "@Sikandra, Agra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "a", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](162, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](163, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "img", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, "Jahangir Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](170, "@Lahore");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "a", 41);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](175, "img", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, "Moti Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](180, "@Lahore");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "a", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](182, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](183, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](185, "img", 44);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "Shalimar Bagh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "@Srinagar, Kashmir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "a", 45);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](193, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "Itmad-ud-daulah Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, " built by Jahangir's wife ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "\"Noor Jahan\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, " for her father [");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, "Jahangir's Father-in-law");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](205, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, "1st Mughal work ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, "\"Completely of White marble\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, " [replaced red sandstone] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](210, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](211, "It has ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, "Finest Pietra dura works");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](215, "img", 47);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](216, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, "Tomb of Itmad-ud-daulah");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](219, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, "@Agra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "a", 48);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](222, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](223, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, "\"Pillar of the state\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "a", 49);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](227, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, "Shah Jahan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](230, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](232, "Mughal Architecture reached ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, "climax");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "li", 50);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](238, "Taj Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "ul", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](241, "In memory of his wife ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](242, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](243, "\"Mumtaz or ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](245, "Arzuman Bano Begum");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](246, " \"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](248, "aka ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](250, "\"Mumtaz Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](251, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](252, "It have ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](253, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](254, "All features of Mughal architecture");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](256, "Calligraphy + Pietra Dura + Charbagh garden + Foresightening technique");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](258, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](259, "Jaali Works");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](260, " -\"Extremely fine & lace like\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](261, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](262, "Marble carvings were ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](264, "low relief");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](265, " [Clay is removed or added to strategic areas which play with light and shadows, thus creating an illusion of superficial depth]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](266, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](268, " Taj Mahal Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](269, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](271, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](272, "img", 51);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](273, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](274, "Calligraphy");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](277, "img", 52);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](279, "Pietra dura");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](280, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](281, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](282, "img", 53);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](283, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](284, "Forsightening technique");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](285, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](286, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](287, "img", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](288, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](289, "Charbagh garden");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](291, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](292, "img", 55);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](294, "Low relief carvings");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](295, "div", 56);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](296, "div", 57);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](297, "img", 58);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](298, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](299, "Jaali works");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](300, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](301, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](302, "img", 59);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](303, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](304, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](305, "Taj Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](306, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](307, "@Agra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "a", 60);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](309, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](310, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](311, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](313, "img", 61);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](315, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](316, "Red Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](317, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](318, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](319, "a", 62);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](320, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](321, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](322, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](323, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](324, "img", 63);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](325, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](326, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](327, "Jama Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](328, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](329, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](330, "a", 64);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](331, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](332, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](333, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](334, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](335, "img", 65);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](336, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](338, "Shalimar Bagh");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](339, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](340, "@Lahore");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](341, "a", 66);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](342, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](343, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](344, "Don't confuse with Shalimar Bagh @Srinagar by Jahangir ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](345, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](346, "div", 67);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](347, "img", 68);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](348, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](349, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](350, "City of Shahjahanabad");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](351, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](352, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](353, "@Old Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](354, "a", 69);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](355, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](356, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](357, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](358, "div", 67);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](359, "img", 70);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](360, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](362, "Peacock Throne");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](363, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](364, "@Red Fort [Diwan-i-khas]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](365, "a", 71);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](366, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](367, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](368, "Best example of ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](369, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](370, "Metal work");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](371, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](372, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](373, "a", 72);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](374, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](375, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](376, "Aurangzeb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](377, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](378, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](379, "Architecture importance ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](380, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](381, "declined");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](382, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](383, "Built ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](384, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](385, "Biwi-Ka-Maqbara");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](386, " for his wife ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](387, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](388, "\"Dilras Banu Begum\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](389, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](390, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](391, "Poor imitation of Taj Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](392, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](394, "img", 73);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](395, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](396, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](397, "Biwi-Ka-Maqbara");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](398, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](399, "@Aurangabad, Maharastra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](400, "a", 74);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](401, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](402, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](403, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](404, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](405, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](406, "Muhammad Azam Shah");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](407, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](408, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](409, "Son of Aurangzeb & Last Mughal ruler to build construction.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](410, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](411, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](412, "Zinat Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](413, " - in \"Memory of his wife\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](414, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](415, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](416, "img", 75);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](417, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](418, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](419, "Zinat Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](420, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](421, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](422, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](423, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](424, "div", 76);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](425, "span", 77);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](426, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](427, "div", 78);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](428, "img", 79);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](429, "div", 80);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](430, "span", 77);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](431, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](432, "div", 81);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](433, "img", 82);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](117);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c0))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](5, _c1));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](6, _c0))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](7, _c2));
+        }
+      }
+
+      function MughalsComponent_div_2_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Sher Shah Suri");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 83);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "He is from ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Suri Empire");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " [doesn't belong to Mughal dynasty.]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " His rule had constant war with Mughal ruler ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "\"Humayun\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "ol", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Constructions continued the ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "tradition of Delhi sultanate");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "His period: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Transition from \"Lodi style\" to \"Mughal style\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 84);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Qila-e-Quhunah");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "@Delhi");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 85);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Mosque of ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Old fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 86);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Rohtas Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "@Jhelum, Pakistan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 87);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Sher Shah Suri ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " @Patna is ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "\"Afghan style\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "img", 88);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Sher Shah Suri Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "@Patna");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 89);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Note: Masjid ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Sher Shah Suri ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " @Sasaram ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "\"His birth place\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "img", 90);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Sher Shah Suri Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "@Sasaram");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "a", 91);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](89, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Note: Tomb ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](92, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Sadak-e-Azam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, ": Reconstruction & Extension of ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Old Mauryan route");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](100, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "Adequate ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Sarais & Trees");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, " for travellers ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "img", 92);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Grand Trunk Road / Sadak-e-Azam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "a", 93);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](112, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](114, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 46);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "a", 94);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](117, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Grand Trunk Road names during each period");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "ul", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Built by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "Chandragupta Maurya");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "Mauryan Empire: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "\"Uttarpatha\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, " [East India to Ancient Greece & Central Asia]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Sher Shan: renamed it as ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "\"Sadak-e-Azam\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, " [Breadth increased Further rerouted to ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "\"Sonargaon-Bangladesh\" to \"Rohtas-Pakistan\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, " ] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](140, "Mughals: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "\"Badshahi Sadak\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](143, ". ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, "Jahangir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, " built all sarais into bricks & stone.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "British: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "\"Grand Trunk Road\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, " [Calcutta - Delhi -Kabul, Afghan]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, "India: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, "UNESCO - Tentative list");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](156, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](157, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](158, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](159, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      function MughalsComponent_div_3_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Mughal Period Regional Styles");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 95);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Sikh Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Heavy influence of Mughal Architecture");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Golden Temple started in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "1585");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " & completed by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "\"Arjan Dev\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " in ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "1604");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Fluted domes covered by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Copper & Brass guilds");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " decoration");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 96);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Multiple Chhatris [Kiosks] on top");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 97);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Shallow cornices");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 98);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Fluted domes");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "img", 99);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Arches Foliation decoration ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "img", 100);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Harminder Sahib / Golden Temple");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "@Amritsar, Punjab");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 101);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "a", 102);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Rajput Style ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Influence of Mughal Architecture, but ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Unique in Size & Scope");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Introduced");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, " hanging balcony");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " [in all shape & size]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Imposing");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Palace & Forts");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Arched Cornices. so, shadows took ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "bow shape");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, " Features ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 103);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](93, "img", 104);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "Imposing Tall walls");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 103);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "img", 105);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Hanging Balcony ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "h5");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "[Introduced]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 103);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](105, "img", 106);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Arch shaped Cornices ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "h5");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "[bow shaped shadow]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](112, "img", 107);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "span", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Hawa Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "span", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "@Jaipur, Rajasthan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "a", 108);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](119, "img", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](120, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 76);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "span", 77);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "div", 78);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "img", 79);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 80);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "span", 77);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 81);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](131, "img", 82);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      var MughalsComponent = /*#__PURE__*/function () {
+        function MughalsComponent(route) {
+          _classCallCheck(this, MughalsComponent);
+
+          this.route = route;
+        }
+
+        _createClass(MughalsComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {
+            var _this6 = this;
+
+            this.route.queryParams.subscribe(function (params) {
+              _this6.style = params['style'];
+            });
+
+            if (this.style == 'mughal') {
+              this.style = 'mughal';
+            } else if (this.style == 'shershah') {
+              this.style = 'shershah';
+            } else if (this.style == 'sikhRajput') {
+              this.style = 'sikhRajput';
+            }
+          }
+        }]);
+
+        return MughalsComponent;
+      }();
+
+      MughalsComponent.ɵfac = function MughalsComponent_Factory(t) {
+        return new (t || MughalsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]));
+      };
+
+      MughalsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: MughalsComponent,
+        selectors: [["app-mughals"]],
+        decls: 5,
+        vars: 3,
+        consts: [[4, "ngIf"], [1, "title"], [1, "points"], [1, "topichead"], [1, "keywords"], [1, "landport"], [1, "landscape"], ["src", "../../../../assets/medival/mughals/Images/1_Kabuli-Bagh-Panipat.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], [1, "container"], [1, "imgname"], [1, "imgplace"], ["href", " https://en.wikipedia.org/wiki/Kabuli_Bagh_Mosque#:~:text=The%20Kabuli%20Bagh%20Mosque%20is,after%20Kabuli%20Begum%2C%20Babur's%20wife. ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "imgabout"], [1, "impword"], ["src", "../../../../assets/medival/mughals/Images/2_Dinpanah_delhi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Purana_Qila#Dinpanah ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture#Akbar ", "target", "_blank", 1, "wiki"], [2, "font-family", "blk", "font-size", "20px", "margin", "15px"], [1, "li1"], [1, "li2"], [1, "fullfeature"], [1, "featuretopic"], [1, "features"], [1, "featurelandscape", "featurebox"], [1, "featureimg"], ["src", "../../../../assets/medival/mughals/Images/redsandstone.jpg", "alt", ""], [1, "featurename"], ["src", "../../../../assets/medival/mughals/Images/9_Tudor_Arch.jpg", "alt", ""], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../../../assets/medival/mughals/Images/15_Agra_Fort.jpg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "routerLink", "queryParams"], ["src", "../../../../assets/medival/mughals/Images/16_Buland_Darwaza.jpg", "alt", ""], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture#Jahangir ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/23_Akbar_Tomb.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Akbar%27s_tomb ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/24_Jahangir_Tomb.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Tomb_of_Jahangir ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/27_Moti_Masjid_lahore_fort.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Moti_Masjid_(Lahore_Fort) ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/26_Shalimar-Bagh-Srinagar.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Shalimar_Bagh,_Srinagar ", "target", "_blank", 1, "wiki"], [1, "keywords", 2, "line-height", "25px", "text-align", "left", "padding-left", "15px"], ["src", "../../../../assets/medival/mughals/Images/28_Tomb-of-Itimad-ud-Daulah.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture#Shah_Jahan ", "target", "_blank", 1, "wiki"], [1, "topichead2"], ["src", "../../../../assets/medival/mughals/Images/calligraphy_Taj.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/pietradura_Taj.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/forsight_Taj.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/Charbagh_Taj.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/lowrelief_taj.jpg", "alt", ""], [1, "featuresquare", "featurebox"], [1, "featureimg3"], ["src", "../../../../assets/medival/mughals/Images/jaali_Taj.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/34_Taj_Mahal.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Taj_Mahal ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/30_Red_Fort.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Red_Fort ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/jamamasjid.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/31_Shalimar Bagh_Lahore.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Shalamar_Gardens,_Lahore ", "target", "_blank", 1, "wiki"], [1, "potrait"], ["src", "../../../../assets/medival/mughals/Images/32_Shahjahanabad.jpg", "alt", "5 Terre", "onclick", "onClick2(this)", 1, "modal2-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Old_Delhi ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/33_Peacock_Throne.jpg", "alt", "5 Terre", "onclick", "onClick2(this)", 1, "modal2-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Peacock_Throne ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture#Aurangzeb ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/35_The_Tomb_of_Dilras_Banu_Begum.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/36_Zinat_Mahal.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["id", "modal01", "onclick", "this.style.display='none'", 1, "modal1"], [1, "close"], [1, "content01"], ["id", "img01", 2, "max-width", "100%"], ["id", "modal02", "onclick", "this.style.display='none'", 1, "modal2"], [1, "content02"], ["id", "img02", 2, "max-width", "100%"], ["href", " https://en.wikipedia.org/wiki/Sher_Shah_Suri ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/3_Qila_Kuhna_Masjid_inside_Puran_Qila,_Delhi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Qila-i-Kuhna_Mosque ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/4_Rohtas-Fort.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Rohtas_Fort ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/7_SSS_Masjid_Patna.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Sher_Shah_Suri_Mosque ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/6_Sher_Shah_Suri_Tomb_Sasaram.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Tomb_of_Sher_Shah_Suri ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/5_SADAK E AZAM.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Grand_Trunk_Road#Sur_and_Mughal_Empires ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Grand_Trunk_Road ", "target", "_blank", 1, "wiki", 2, "margin-right", "-10px"], ["href", " https://en.wikipedia.org/wiki/Sikh_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/chhatris.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/shallowcornices.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/fluteddomes.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/decoration.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/37_Golden_Temple.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Harmandir_Sahib ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/Architecture_of_Rajasthan ", "target", "_blank", 1, "wiki"], [1, "featurelandscape", "featurebox", 2, "height", "11.3em"], ["src", "../../../../assets/medival/mughals/Images/imposingwall.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/hangingbalcony.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/archcornices.jpg", "alt", ""], ["src", "../../../../assets/medival/mughals/Images/38_Hawa_Mahal.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Hawa_Mahal ", "target", "_blank", 1, "wiki"]],
+        template: function MughalsComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, MughalsComponent_div_1_Template, 434, 8, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, MughalsComponent_div_2_Template, 160, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, MughalsComponent_div_3_Template, 132, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-footer");
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "mughal");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "shershah");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "sikhRajput");
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"]],
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,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QVk7SUFDWixrQkFBa0I7RUFDcEI7QUFFQTtFQUNBLGtCQUFrQjtFQUNsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLGtCQUFrQjtFQUNsQixrQkFBa0I7O0VBRWxCO0FBRUE7RUFDQSxXQUFXO0VBQ1gsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsWUFBWTtFQUNaLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLHlCQUFpQjtVQUFqQixpQkFBaUI7O0FBRW5CO0FBQ0E7O1FBRVEsd0RBQXdEO0NBQy9EO0FBSUQsK0hBQStIO0FBQzlIO0VBQ0M7O3NCQUVvQjtFQUNwQixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7QUFDZDtBQUlBLCtIQUErSDtBQUMvSDtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCO0FBR0E7O0FBRUEsdUJBQXVCO0FBQ3ZCLHlCQUF5QjtBQUN6QixhQUFhO0FBQ2Isa0JBQWtCO0FBQ2xCLFlBQVk7QUFDWjtBQUVBOztBQUVBLHlCQUF5QjtBQUN6QixrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFlBQVk7QUFDWjtBQUNBLCtIQUErSCIsImZpbGUiOiJtdWdoYWxzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBGb250cyAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbkBpbXBvcnQgJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1CYWxvbytQYWFqaSc7XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1VuaWZyYWt0dXJDb29rL1VuaWZyYWt0dXJDb29rLUJvbGQudHRmKTsgZm9udC1mYW1pbHk6IHU7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hsdGJveGMudHRmKTsgIGZvbnQtZmFtaWx5OiBjO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6IG07fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9BbXIvQW1yLm90Zik7IGZvbnQtZmFtaWx5OiBhO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvbmVvbi1mb250L05lb24tZTJ3Zy50dGYpOyBmb250LWZhbWlseTpuZW9uO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTG9ic3Rlci9Mb2JzdGVyLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6bDt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTptZXJyaTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2JsYWNrY2hhbmNlcnkvQkxLQ0hDUlkuVFRGKTsgZm9udC1mYW1pbHk6YmxrO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvT3Blbl9TYW5zL09wZW5TYW5zLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6b3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtSXRhbGljLVZhcmlhYmxlRm9udF93Z2h0LnR0Zik7IGZvbnQtZmFtaWx5OndzO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvUm9ib3RvL1JvYm90by1MaWdodC50dGYpOyBmb250LWZhbWlseTogcm9ibzt9XHJcblxyXG5cclxuKiB7XHJcblx0bWFyZ2luOiAwJTtcclxuXHRwYWRkaW5nOiAwJTtcclxufSBcclxuXHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGV7XHJcbiAgICBjb2xvcjogc25vdztcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiA0NXB4O1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAyZW07XHJcblxyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5wb2ludHN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBwYWxldHVycXVvaXNlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luLXRvcDogMzBweDtcclxuICAgIGZvbnQtZmFtaWx5OiBvcztcclxuICAgIGZvbnQtc2l6ZTogMWVtO1xyXG4gICAgbGluZS1oZWlnaHQ6IDMwcHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICB9XHJcbiAgXHJcbiAgLnBvaW50cyBsaXtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiBcclxuICB9XHJcbiAgLnBvaW50cyBsaTpudGgtY2hpbGQoMSl7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIH1cclxuICAubGkxIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBkZWNpbWFsO1xyXG4gIH1cclxuICAubGkyIGxpe1xyXG4gICAgbGlzdC1zdHlsZTogc3F1YXJlO1xyXG4gICAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG4gIH1cclxuICBcclxuICAudG9waWNoZWFke1xyXG4gICAgZm9udC1mYW1pbHk6IHU7XHJcbiAgICBmb250LXNpemU6IDMwcHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxuICB9XHJcbiAgLnRvcGljaGVhZDJ7XHJcbiAgICBmb250LXNpemU6IDEuMmVtO1xyXG4gIH1cclxuICBcclxuICBcclxuICBcclxuXHJcbiAgXHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuYm9keXtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbn1cclxuXHJcbmRpdi5sYW5kc2NhcGUge1xyXG4gICAgd2lkdGg6IDUwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG5kaXYucG90cmFpdCB7IFxyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG4gIGRpdi5jb250YWluZXIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmxhbmRwb3J0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgbWF4LXdpZHRoOiA5MCU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5tb2RhbDF7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59XHJcbi5tb2RhbDJ7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59ICAgIFxyXG5cclxuICAgICAgXHJcbi5jb250ZW50MDF7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgdG9wOiA1MCU7XHJcbiAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7IFxyXG4gICAgICB3aWR0aDogODAwcHg7XHJcbiAgICAgIG1heC13aWR0aDogOTUlO1xyXG4gICAgfVxyXG4uY29udGVudDAye1xyXG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgIHRvcDogMCU7XHJcbiAgICAgICAgICBsZWZ0OiA1MCU7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAzJSk7IFxyXG4gICAgICAgICAgd2lkdGg6IDQ1MHB4O1xyXG4gICAgICAgICAgbWF4LXdpZHRoOiA5NSU7ICAgXHJcbiAgICAgICAgfVxyXG4gQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMjAwcHgpIHtcclxuICAgICBcclxuICAgIC5jb250ZW50MDJ7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAwJSk7IFxyXG4gICAgICAgIH1cclxuIH1cclxuXHJcbiAgICBcclxuICAgIFxyXG4gICAgXHJcbiAgICAubW9kYWwxLWhvdmVyLW9wYWNpdHkge1xyXG4gICAgb3BhY2l0eToxO1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eSB7XHJcbiAgICAgICAgb3BhY2l0eToxO1xyXG4gICAgICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTEwMCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgICAgIH1cclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICBvcGFjaXR5OjAuNjtcclxuICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTYwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICAgICAgb3BhY2l0eTowLjY7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxufVxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmZlYXR1cmVuYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxufVxyXG4uZmVhdHVyZWFib3V0e1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuN2VtO1xyXG59XHJcbi5pbWduYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGNvbG9yOiBcdCMzQ0IzNzE7XHJcbiBcclxufVxyXG4uaW1ncGxhY2V7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjllbTtcclxuICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG4uaW1nYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC44ZW07XHJcbn1cclxuXHJcbi5rZXl3b3Jkc3tcclxuICBwYWRkaW5nOiAzcHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIwLCAyMCwgNjAsIDAuNCk7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmltcHdvcmR7XHJcbiAgZm9udC1zaXplOiAxLjFlbTtcclxuICB0ZXh0LWRlY29yYXRpb246IGJsYWNrIHVuZGVybGluZTtcclxufVxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50ZXh0ZGl2e1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB3aWR0aDogOTAlO1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuLnRleHRib3h7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTBlbTtcclxuICBoZWlnaHQ6IDE3ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIG1hcmdpbjogMTVweDtcclxufVxyXG4udGV4dGltZyBpbWd7XHJcbiAgd2lkdGg6IDkuOGVtO1xyXG4gIGhlaWdodDogMTIuNWVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4udGV4dGltZ3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLXRvcDogMC4xZW07XHJcbn1cclxuLnRleHR0ZXh0e1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50ZXh0bGlua3tcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7IFxyXG4gXHJcbn1cclxuLnRleHRsaW5rIGF7XHJcbiAgY29sb3I6IGRlZXBza3libHVlO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuLmJveHh7XHJcbnBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmJveHg6YmVmb3Jle1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMTtcclxuYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5wb3NpdGlvbjogYWJzb2x1dGU7XHJcblxyXG59XHJcblxyXG4uYm94eDphZnRlcntcclxuY29udGVudDogJyc7XHJcbnRvcDogLTFweDtcclxubGVmdDogLTFweDtcclxucmlnaHQ6IC0xcHg7XHJcbmJvdHRvbTogLTFweDtcclxuei1pbmRleDogLTI7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHJcbiAgfVxyXG5cclxuXHJcbiAgLmJveHg6YWZ0ZXIsXHJcbiAgLmJveHg6YmVmb3Jle1xyXG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuICB9XHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZnVsbGZlYXR1cmV7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICAvKiB3aWR0aDogMTIwMHB4OyAqL1xyXG4gICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMiwgMTg0LCAxMzUsIDAuMik7XHJcbn1cclxuLmZlYXR1cmV0b3BpY3tcclxuICBmb250LWZhbWlseTogbDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpibGFjaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4gIC5mZWF0dXJlc3tcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICB9XHJcbiAgLmZlYXR1cmVsYW5kc2NhcGV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTVlbTtcclxuICAgIGhlaWdodDogMTBlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVwb3RyYWl0e1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDE1ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlc3F1YXJle1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDEzZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nIGltZ3tcclxuICAgIHdpZHRoOiAxNC44ZW07XHJcbiAgICBoZWlnaHQ6IDhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcxIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWczIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogOS44ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nLCAuZmVhdHVyZWltZzEsIC5mZWF0dXJlaW1nM3tcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDAuMWVtO1xyXG4gIH1cclxuICAuZmVhdHVyZW5hbWV7XHJcbiAgICBmb250LWZhbWlseTogYztcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3h7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDpiZWZvcmV7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0xO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2U7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3g6YWZ0ZXJ7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0yO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgZmlsdGVyOiBibHVyKDNweCk7XHJcbiAgXHJcbn1cclxuLmZlYXR1cmVib3g6YWZ0ZXIsXHJcbi5mZWF0dXJlYm94OmJlZm9yZXtcclxuICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuIH0gIFxyXG4gIFxyXG4gIFxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuIGEud2lraXtcclxuICAvKiB0ZXh0LWFsaWduOiBlbmQ7XHJcblxyXG4gIG1hcmdpbi1yaWdodDogNXB4OyAqL1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG59XHJcbi53aWtpIGltZ3tcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgd2lkdGg6IDE1cHg7XHJcbiAgaGVpZ2h0OiAxNXB4O1xyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50YWJsZTEtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5cclxuXHJcbi50YWJsZTEgdGgsXHJcbi50YWJsZTEgdGQge1xyXG5ib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxucGFkZGluZzogMTVweDtcclxudGV4dC1hbGlnbjogY2VudGVyO1xyXG53aWR0aDogMjAwcHg7XHJcbn1cclxuXHJcbi50YWJsZTF7XHJcblxyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi50YWJsZTEgdGFibGV7XHJcbm1hcmdpbjogYXV0bztcclxufVxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MughalsComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-mughals',
+            templateUrl: './mughals.component.html',
+            styleUrls: ['./mughals.component.css']
+          }]
+        }], function () {
+          return [{
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]
+          }];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
+    "KP3X":
+    /*!*****************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/parsi/parsi.component.ts ***!
+      \*****************************************************************************/
+
+    /*! exports provided: ParsiComponent */
+
+    /***/
+    function KP3X(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "ParsiComponent", function () {
+        return ParsiComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _parsi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ./parsi */
+      "RZqp");
+      /* harmony import */
+
+
+      var _parsi__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_parsi__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../footer/footer.component */
+      "fp1T");
+
+      var ParsiComponent = /*#__PURE__*/function () {
+        function ParsiComponent() {
+          _classCallCheck(this, ParsiComponent);
+        }
+
+        _createClass(ParsiComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return ParsiComponent;
+      }();
+
+      ParsiComponent.ɵfac = function ParsiComponent_Factory(t) {
+        return new (t || ParsiComponent)();
+      };
+
+      ParsiComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: ParsiComponent,
+        selectors: [["app-parsi"]],
+        decls: 186,
+        vars: 0,
+        consts: [[1, "title"], [1, "points"], [1, "topichead"], ["href", " https://en.wikipedia.org/wiki/Atash_Behram ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "li1"], [1, "keywords", 2, "line-height", "25px", "text-align", "left", "padding-left", "15px"], [1, "li2"], [1, "landport"], [1, "landscape"], ["src", "../../../../assets/medival/parsi/Images/parsi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], [1, "container"], [1, "imgname"], [1, "imgplace"], [1, "imgabout"], [1, "potrait"], ["src", "../../../../assets/medival/parsi/Images/fire.jpg", "alt", "5 Terre", "onclick", "onClick2(this)", 1, "modal2-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/dasturs.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/1_Udwada_atash_behram.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Iranshah_Atash_Behram ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/parsi/Images/2_Navsari.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/modi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/vakil-kadmi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/dadiseth.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/3_wadia.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/Banaji.jpeg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/parsi/Images/anjuman.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["id", "modal01", "onclick", "this.style.display='none'", 1, "modal1"], [1, "close"], [1, "content01"], ["id", "img01", 2, "max-width", "100%"], ["id", "modal02", "onclick", "this.style.display='none'", 1, "modal2"], [1, "content02"], ["id", "img02", 2, "max-width", "100%"]],
+        template: function ParsiComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Temples of Parsi");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "3 Major Types");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "ul", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " - \"Fire of Victory\" [8 Behrams @India]");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Adarian");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Atash Dadgah/Dar-e-Mehr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " [100 Dadgahs @India]");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Mostly located in ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Maharastra & Gujarat");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "ul", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Main focus: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Hold sacred fire & Yasna Ceremony");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Not focus on glorification of faith");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Exterior - simple");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Fire at ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Inner sanctum");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Ceremony is the Highest order with elaborate arrangement");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Dasturs");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, " \"High priest\" perform ceremony");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "img", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Temple plan");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "img", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Eternal Fire");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "img", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Dasturs");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](71, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Gujarat Atash Behrams");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "ul", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Iranshah @Udava");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Desai @Navsari");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Modi @Surat");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Vakil @Surat");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "img", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Iranshah Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "@Udvada");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "a", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](94, "img", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "8th century ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](97, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "img", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Desai Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "@Navsari");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "18th century ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](107, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](109, "img", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Modi Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "@Surat");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](115, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](116, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "img", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "Vakil Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "@Surat");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](124, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](125, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "Mumbai Atash Behrams");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "ul", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Dadiseth");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "Wadia");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "Banaji");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Anujman");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](140, "img", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](143, "Dadiseth Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, "@Mumbai");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](146, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](147, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](149, "img", 24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "Wadia Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, "@Mumbai");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](155, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](156, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](158, "img", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Banaji Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, "@Mumbai");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](164, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "div", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](167, "img", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](170, "Anjuman Atash Behram");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "span", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](172, "@Mumbai");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "p", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "div", 27);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "span", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "\xD7\xA0\xA0\xA0\xA0");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "div", 29);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](179, "img", 30);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "div", 31);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "span", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, "\xD7\xA0\xA0\xA0\xA0");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "div", 32);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](184, "img", 33);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](185, "app-footer");
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_2__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhcnNpLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLDZEQUE2RDtBQUQ3RCxnR0FBZ0c7QUFFaEcsV0FBVyxtQ0FBeUUsRUFBRSxjQUFjLENBQUM7QUFDckcsV0FBVyx3QkFBeUQsR0FBRyxjQUFjLENBQUM7QUFDdEYsV0FBVyxrQ0FBb0UsRUFBRSxjQUFjLENBQUM7QUFDaEcsV0FBVyxtQkFBOEMsRUFBRSxjQUFjLENBQUM7QUFDMUUsV0FBVyx5QkFBMEQsRUFBRSxnQkFBZ0IsQ0FBQztBQUN4RixXQUFXLCtCQUE4RCxFQUFFLGFBQWEsQ0FBQztBQUN6RixXQUFXLG9DQUF3RSxFQUFFLGlCQUFpQixDQUFDO0FBQ3ZHLFdBQVcsd0JBQTZELEVBQUUsZUFBZSxDQUFDO0FBQzFGLFdBQVcsZ0NBQWlFLEVBQUUsY0FBYyxDQUFDO0FBQzdGLFdBQVcsaURBQWtGLEVBQUUsY0FBYyxDQUFDO0FBQzlHLFdBQVcsNEJBQTBELEVBQUUsaUJBQWlCLENBQUM7QUFHekY7Q0FDQyxVQUFVO0NBQ1YsV0FBVztBQUNaO0FBR0EsbUdBQW1HO0FBQ25HLGlCQUFpQjtBQUNqQjtJQUNJLFdBQVc7SUFDWCxjQUFjO0lBQ2QsZUFBZTtJQUNmLFVBQVU7SUFDVixrQkFBa0I7SUFDbEIseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQiw2QkFBNkI7SUFDN0IsYUFBYTtJQUNiLFlBQVk7SUFDWixlQUFlOztBQUVuQjtBQUlBLCtIQUErSDtBQUMvSDtJQUNJLCtCQUErQjtJQUMvQixZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLFVBQVU7SUFDVixhQUFhO0VBQ2Y7QUFFQTtJQUNFLHFCQUFxQjtJQUNyQixtQkFBbUI7SUFDbkIsMkJBQTJCOztFQUU3QjtBQUNBO0lBQ0UsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSx3QkFBd0I7RUFDMUI7QUFDQTtJQUNFLGtCQUFrQjtJQUNsQiwyQkFBMkI7RUFDN0I7QUFFQTtJQUNFLGNBQWM7SUFDZCxlQUFlO0lBQ2YsMEJBQTBCO0VBQzVCO0FBQ0E7SUFDRSxnQkFBZ0I7RUFDbEI7QUFXRiwrSEFBK0g7QUFDL0g7SUFDSSxVQUFVO0lBQ1YsU0FBUztBQUNiO0FBRUE7SUFDSSxZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLDRFQUE0RTtJQUM1RSxtQkFBbUI7SUFDbkIsWUFBWTtFQUNkO0FBRUY7SUFDSSxZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLDRFQUE0RTtJQUM1RSxtQkFBbUI7SUFDbkIsWUFBWTtFQUNkO0FBRUE7SUFDRSxrQkFBa0I7SUFDbEIsa0JBQWtCO0VBQ3BCO0FBRUE7SUFDRSxhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLGVBQWU7SUFDZixjQUFjO0lBQ2QsWUFBWTtJQUNaLGdCQUFnQjs7RUFFbEI7QUFNRiwrSEFBK0g7QUFDL0g7RUFDRSxTQUFTO0VBQ1QsWUFBWTtFQUNaLGNBQWM7RUFDZCxNQUFNO0VBQ04sS0FBSztFQUNMLFVBQVU7RUFDVixXQUFXO0VBQ1gsYUFBYTtFQUNiLDJCQUEyQjtFQUMzQixnQ0FBZ0M7RUFDaEMsc0JBQXNCO0FBQ3hCO0FBQ0E7RUFDRSxTQUFTO0VBQ1QsWUFBWTtFQUNaLGNBQWM7RUFDZCxNQUFNO0VBQ04sS0FBSztFQUNMLFVBQVU7RUFDVixXQUFXO0VBQ1gsYUFBYTtFQUNiLDJCQUEyQjtFQUMzQixnQ0FBZ0M7RUFDaEMsc0JBQXNCO0FBQ3hCO0FBR0E7SUFDSSxjQUFjO0lBQ2Qsa0JBQWtCO01BQ2hCLFFBQVE7TUFDUixTQUFTO01BQ1QsZ0NBQWdDO01BQ2hDLFlBQVk7TUFDWixjQUFjO0lBQ2hCO0FBQ0o7UUFDUSxjQUFjO1FBQ2Qsa0JBQWtCO1VBQ2hCLE9BQU87VUFDUCxTQUFTO1VBQ1QsOEJBQThCO1VBQzlCLFlBQVk7VUFDWixjQUFjO1FBQ2hCO0FBQ1A7O0lBRUc7VUFDTSw4QkFBOEI7UUFDaEM7Q0FDUDtBQUtHO0lBQ0EsU0FBUztJQUNULHlCQUF5QjtJQUN6QjtJQUNBO0FBQ0E7UUFDSSxTQUFTO1FBQ1QseUJBQXlCO1FBQ3pCO1FBQ0E7QUFDSjtJQUNBLFdBQVc7SUFDWCx3QkFBd0I7SUFDeEI7SUFDQTtBQUNBO1FBQ0ksV0FBVztRQUNYLHdCQUF3QjtRQUN4QjtBQUNSO0FBRUEsK0hBQStIO0FBQy9IO0VBQ0UsY0FBYztFQUNkLGVBQWU7QUFDakI7QUFDQTtFQUNFLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsZ0JBQWdCO0FBQ2xCO0FBQ0E7RUFDRSxnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLGVBQWU7O0FBRWpCO0FBQ0E7RUFDRSxlQUFlO0VBQ2YsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsZ0JBQWdCO0FBQ2xCO0FBRUE7RUFDRSxZQUFZO0VBQ1osVUFBVTtFQUNWLHVDQUF1QztFQUN2QyxZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQix3Q0FBZ0M7VUFBaEMsZ0NBQWdDO0FBQ2xDO0FBR0EsK0hBQStIO0FBQy9IO0VBQ0UsWUFBWTtFQUNaLFVBQVU7RUFDVixnQkFBZ0I7RUFDaEIsYUFBYTtFQUNiLDZCQUE2QjtFQUM3QixlQUFlO0FBQ2pCO0FBQ0E7RUFDRSx3Q0FBd0M7RUFDeEMsaUJBQWlCO0VBQ2pCLFdBQVc7RUFDWCxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLFlBQVk7QUFDZDtBQUNBO0VBQ0UsWUFBWTtFQUNaLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLGVBQWU7RUFDZixjQUFjO0VBQ2QsZUFBZTtFQUNmLFlBQVk7RUFDWixpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLGVBQWU7RUFDZixjQUFjO0VBQ2QsaUJBQWlCOztBQUVuQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLHFCQUFxQjtBQUN2QjtBQUVBO0FBQ0Esa0JBQWtCO0FBQ2xCO0FBRUE7QUFDQSxXQUFXO0FBQ1gsU0FBUztBQUNULFVBQVU7QUFDVixXQUFXO0FBQ1gsWUFBWTtBQUNaLFdBQVc7QUFDWCw0QkFBNEI7QUFDNUIsa0JBQWtCO0FBQ2xCLGtCQUFrQjs7QUFFbEI7QUFFQTtBQUNBLFdBQVc7QUFDWCxTQUFTO0FBQ1QsVUFBVTtBQUNWLFdBQVc7QUFDWCxZQUFZO0FBQ1osV0FBVztBQUNYLGtCQUFrQjtBQUNsQixrQkFBa0I7QUFDbEIseUJBQWlCO1FBQWpCLGlCQUFpQjs7RUFFZjtBQUdBOztNQUVJLHdEQUF3RDtFQUM1RDtBQUdGLCtIQUErSDtBQUMvSDtJQUNJLFlBQVk7SUFDWixtQkFBbUI7SUFDbkIsY0FBYztJQUNkLGdCQUFnQjtJQUNoQix5Q0FBeUM7QUFDN0M7QUFDQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0VBQ2Ysc0JBQXNCO0VBQ3RCLFlBQVk7RUFDWixZQUFZO0FBQ2Q7QUFFRTtJQUNFLGFBQWE7SUFDYiw2QkFBNkI7SUFDN0IsZUFBZTtFQUNqQjtBQUNBO0lBQ0Usd0NBQXdDO0lBQ3hDLGlCQUFpQjtJQUNqQixXQUFXO0lBQ1gsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSx3Q0FBd0M7SUFDeEMsaUJBQWlCO0lBQ2pCLFdBQVc7SUFDWCxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxnQkFBZ0I7RUFDbEI7QUFDQTtJQUNFLHdDQUF3QztJQUN4QyxpQkFBaUI7SUFDakIsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGdCQUFnQjtFQUNsQjtBQUNBO0lBQ0UsYUFBYTtJQUNiLFdBQVc7SUFDWCxrQkFBa0I7RUFDcEI7QUFDQTtJQUNFLFlBQVk7SUFDWixZQUFZO0lBQ1osa0JBQWtCO0VBQ3BCO0FBQ0E7SUFDRSxZQUFZO0lBQ1osYUFBYTtJQUNiLGtCQUFrQjtFQUNwQjtBQUNBO0lBQ0Usa0JBQWtCO0lBQ2xCLGlCQUFpQjtFQUNuQjtBQUNBO0lBQ0UsY0FBYztJQUNkLGVBQWU7SUFDZixZQUFZO0lBQ1osa0JBQWtCO0VBQ3BCO0FBRUE7RUFDQSxrQkFBa0I7RUFDbEI7QUFFQTtFQUNBLFdBQVc7RUFDWCxTQUFTO0VBQ1QsVUFBVTtFQUNWLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztFQUNYLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsa0JBQWtCOztFQUVsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQix5QkFBaUI7VUFBakIsaUJBQWlCOztBQUVuQjtBQUNBOztRQUVRLHdEQUF3RDtDQUMvRDtBQUlELCtIQUErSDtBQUM5SDtFQUNDOztzQkFFb0I7RUFDcEIsWUFBWTtFQUNaLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7QUFJQSwrSEFBK0g7QUFDL0g7RUFDRSxVQUFVO0VBQ1YsU0FBUztFQUNULGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsZUFBZTtBQUNqQjtBQUdBOztBQUVBLHVCQUF1QjtBQUN2Qix5QkFBeUI7QUFDekIsYUFBYTtBQUNiLGtCQUFrQjtBQUNsQixZQUFZO0FBQ1o7QUFFQTs7QUFFQSx5QkFBeUI7QUFDekIsa0JBQWtCO0FBQ2xCO0FBRUE7QUFDQSxZQUFZO0FBQ1o7QUFDQSwrSEFBK0giLCJmaWxlIjoicGFyc2kuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEZvbnRzICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuQGltcG9ydCAnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUJhbG9vK1BhYWppJztcclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvVW5pZnJha3R1ckNvb2svVW5pZnJha3R1ckNvb2stQm9sZC50dGYpOyBmb250LWZhbWlseTogdTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2NoZWx0ZW5obS9DaGx0Ym94Yy50dGYpOyAgZm9udC1mYW1pbHk6IGM7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Nb250c2VycmF0L01vbnRzZXJyYXQtUmVndWxhci50dGYpOyBmb250LWZhbWlseTogbTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTsgZm9udC1mYW1pbHk6IGE7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9uZW9uLWZvbnQvTmVvbi1lMndnLnR0Zik7IGZvbnQtZmFtaWx5Om5lb247fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Mb2JzdGVyL0xvYnN0ZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTpsO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTWVycml3ZWF0aGVyL01lcnJpd2VhdGhlci1SZWd1bGFyLnR0Zik7IGZvbnQtZmFtaWx5Om1lcnJpO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvYmxhY2tjaGFuY2VyeS9CTEtDSENSWS5UVEYpOyBmb250LWZhbWlseTpibGs7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9PcGVuX1NhbnMvT3BlblNhbnMtUmVndWxhci50dGYpOyBmb250LWZhbWlseTpvczt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1dvcmtfU2Fucy9Xb3JrU2Fucy1JdGFsaWMtVmFyaWFibGVGb250X3dnaHQudHRmKTsgZm9udC1mYW1pbHk6d3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Sb2JvdG8vUm9ib3RvLUxpZ2h0LnR0Zik7IGZvbnQtZmFtaWx5OiByb2JvO31cclxuXHJcblxyXG4qIHtcclxuXHRtYXJnaW46IDAlO1xyXG5cdHBhZGRpbmc6IDAlO1xyXG59IFxyXG5cclxuXHJcbi8qIGNvbnRlbnQgICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuLyogdGl0bGUgKioqKioqICovXHJcbi50aXRsZXtcclxuICAgIGNvbG9yOiBzbm93O1xyXG4gICAgZm9udC1mYW1pbHk6IGM7XHJcbiAgICBmb250LXNpemU6IDQ1cHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJhY2tncm91bmQ6IHJnYigwLCAwLCAwLCAwLjgpO1xyXG4gICAgcGFkZGluZzogMTBweDtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDJlbTtcclxuXHJcbn1cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnBvaW50c3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHBhbGV0dXJxdW9pc2U7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IG9zO1xyXG4gICAgZm9udC1zaXplOiAxZW07XHJcbiAgICBsaW5lLWhlaWdodDogMzBweDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBwYWRkaW5nOiAyMHB4O1xyXG4gIH1cclxuICBcclxuICAucG9pbnRzIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgIGxpc3Qtc3R5bGUtcG9zaXRpb246IGluc2lkZTtcclxuIFxyXG4gIH1cclxuICAucG9pbnRzIGxpOm50aC1jaGlsZCgxKXtcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgfVxyXG4gIC5saTEgbGl7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IGRlY2ltYWw7XHJcbiAgfVxyXG4gIC5saTIgbGl7XHJcbiAgICBsaXN0LXN0eWxlOiBzcXVhcmU7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiAgfVxyXG4gIFxyXG4gIC50b3BpY2hlYWR7XHJcbiAgICBmb250LWZhbWlseTogdTtcclxuICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG4gIH1cclxuICAudG9waWNoZWFkMntcclxuICAgIGZvbnQtc2l6ZTogMS4yZW07XHJcbiAgfVxyXG4gIFxyXG4gIFxyXG4gIFxyXG5cclxuICBcclxuXHJcblxyXG5cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG5ib2R5e1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIG1hcmdpbjogMDtcclxufVxyXG5cclxuZGl2LmxhbmRzY2FwZSB7XHJcbiAgICB3aWR0aDogNTAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA2cHggMjBweCAwIHJnYmEoMCwgMCwgMCwgMC4xOSk7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxuXHJcbmRpdi5wb3RyYWl0IHsgXHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA2cHggMjBweCAwIHJnYmEoMCwgMCwgMCwgMC4xOSk7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmNvbnRhaW5lciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XHJcbiAgfVxyXG5cclxuICBkaXYubGFuZHBvcnR7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICBtYXgtd2lkdGg6IDkwJTtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICBcclxuICB9XHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLm1vZGFsMXtcclxuICB6LWluZGV4OjE7XHJcbiAgZGlzcGxheTpub25lO1xyXG4gIHBvc2l0aW9uOmZpeGVkO1xyXG4gIGxlZnQ6MDtcclxuICB0b3A6MDtcclxuICB3aWR0aDoxMDAlO1xyXG4gIGhlaWdodDoxMDAlO1xyXG4gIG92ZXJmbG93OmF1dG87XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwwLDApO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjgpO1xyXG4gIGJveC1zaXppbmc6Y29udGVudC1ib3g7XHJcbn1cclxuLm1vZGFsMntcclxuICB6LWluZGV4OjE7XHJcbiAgZGlzcGxheTpub25lO1xyXG4gIHBvc2l0aW9uOmZpeGVkO1xyXG4gIGxlZnQ6MDtcclxuICB0b3A6MDtcclxuICB3aWR0aDoxMDAlO1xyXG4gIGhlaWdodDoxMDAlO1xyXG4gIG92ZXJmbG93OmF1dG87XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwwLDApO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjgpO1xyXG4gIGJveC1zaXppbmc6Y29udGVudC1ib3g7XHJcbn0gICAgXHJcblxyXG4gICAgICBcclxuLmNvbnRlbnQwMXtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICB0b3A6IDUwJTtcclxuICAgICAgbGVmdDogNTAlO1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTsgXHJcbiAgICAgIHdpZHRoOiA4MDBweDtcclxuICAgICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICB9XHJcbi5jb250ZW50MDJ7XHJcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgdG9wOiAwJTtcclxuICAgICAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDMlKTsgXHJcbiAgICAgICAgICB3aWR0aDogNDUwcHg7XHJcbiAgICAgICAgICBtYXgtd2lkdGg6IDk1JTsgICBcclxuICAgICAgICB9XHJcbiBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEyMDBweCkge1xyXG4gICAgIFxyXG4gICAgLmNvbnRlbnQwMntcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDAlKTsgXHJcbiAgICAgICAgfVxyXG4gfVxyXG5cclxuICAgIFxyXG4gICAgXHJcbiAgICBcclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eSB7XHJcbiAgICBvcGFjaXR5OjE7XHJcbiAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT0xMDApO1xyXG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgfVxyXG4gICAgLm1vZGFsMi1ob3Zlci1vcGFjaXR5IHtcclxuICAgICAgICBvcGFjaXR5OjE7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgICAgICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6aGlkZGVuXHJcbiAgICAgICAgfVxyXG4gICAgLm1vZGFsMS1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICAgIG9wYWNpdHk6MC42O1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgfVxyXG4gICAgLm1vZGFsMi1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICAgICAgICBvcGFjaXR5OjAuNjtcclxuICAgICAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT02MCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG59XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZmVhdHVyZW5hbWV7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG59XHJcbi5mZWF0dXJlYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC43ZW07XHJcbn1cclxuLmltZ25hbWV7XHJcbiAgZm9udC1mYW1pbHk6IGJsaztcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuIFxyXG59XHJcbi5pbWdwbGFjZXtcclxuICBjb2xvcjogXHQjM0NCMzcxO1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuOWVtO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi5pbWdhYm91dHtcclxuICBwYWRkaW5nLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjhlbTtcclxufVxyXG5cclxuLmtleXdvcmRze1xyXG4gIHBhZGRpbmc6IDNweDtcclxuICB3aWR0aDogODAlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyMjAsIDIwLCA2MCwgMC40KTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogd3M7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uaW1wd29yZHtcclxuICBmb250LXNpemU6IDEuMWVtO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogYmxhY2sgdW5kZXJsaW5lO1xyXG59XHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRleHRkaXZ7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIHdpZHRoOiA5MCU7XHJcbiAgbWFyZ2luLXRvcDogMzBweDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG4udGV4dGJveHtcclxuICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gIHdpZHRoOiAxMGVtO1xyXG4gIGhlaWdodDogMTdlbTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgbWFyZ2luOiAxNXB4O1xyXG59XHJcbi50ZXh0aW1nIGltZ3tcclxuICB3aWR0aDogOS44ZW07XHJcbiAgaGVpZ2h0OiAxMi41ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcbi50ZXh0aW1ne1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBtYXJnaW4tdG9wOiAwLjFlbTtcclxufVxyXG4udGV4dHRleHR7XHJcbiAgbWFyZ2luLXRvcDogM3B4O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBjb2xvcjogYmxhY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLnRleHRsaW5re1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBtYXJnaW4tbGVmdDogMTBweDsgXHJcbiBcclxufVxyXG4udGV4dGxpbmsgYXtcclxuICBjb2xvcjogZGVlcHNreWJsdWU7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59XHJcblxyXG4uYm94eHtcclxucG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcblxyXG4uYm94eDpiZWZvcmV7XHJcbmNvbnRlbnQ6ICcnO1xyXG50b3A6IC0xcHg7XHJcbmxlZnQ6IC0xcHg7XHJcbnJpZ2h0OiAtMXB4O1xyXG5ib3R0b206IC0xcHg7XHJcbnotaW5kZXg6IC0xO1xyXG5iYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xyXG5ib3JkZXItcmFkaXVzOiA1cHg7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHJcbn1cclxuXHJcbi5ib3h4OmFmdGVye1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMjtcclxucG9zaXRpb246IGFic29sdXRlO1xyXG5ib3JkZXItcmFkaXVzOiA1cHg7XHJcbmZpbHRlcjogYmx1cigzcHgpO1xyXG5cclxuICB9XHJcblxyXG5cclxuICAuYm94eDphZnRlcixcclxuICAuYm94eDpiZWZvcmV7XHJcbiAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG4gIH1cclxuICBcclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5mdWxsZmVhdHVyZXtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIC8qIHdpZHRoOiAxMjAwcHg7ICovXHJcbiAgICBtYXgtd2lkdGg6IDk1JTtcclxuICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIyLCAxODQsIDEzNSwgMC4yKTtcclxufVxyXG4uZmVhdHVyZXRvcGlje1xyXG4gIGZvbnQtZmFtaWx5OiBsO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBwYWRkaW5nOiA1cHg7XHJcbn1cclxuXHJcbiAgLmZlYXR1cmVze1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gIH1cclxuICAuZmVhdHVyZWxhbmRzY2FwZXtcclxuICAgIGJvcmRlcjogMS41cHggc29saWQgcmdiKDUxLCA1MSwgNTEsIDAuNyk7XHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICAgIHdpZHRoOiAxNWVtO1xyXG4gICAgaGVpZ2h0OiAxMGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgbWFyZ2luOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIH1cclxuICAuZmVhdHVyZXBvdHJhaXR7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTBlbTtcclxuICAgIGhlaWdodDogMTVlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVzcXVhcmV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTBlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcgaW1ne1xyXG4gICAgd2lkdGg6IDE0LjhlbTtcclxuICAgIGhlaWdodDogOGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZzEgaW1ne1xyXG4gICAgd2lkdGg6IDkuOGVtO1xyXG4gICAgaGVpZ2h0OiAxM2VtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZzMgaW1ne1xyXG4gICAgd2lkdGg6IDkuOGVtO1xyXG4gICAgaGVpZ2h0OiA5LjhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcsIC5mZWF0dXJlaW1nMSwgLmZlYXR1cmVpbWcze1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbWFyZ2luLXRvcDogMC4xZW07XHJcbiAgfVxyXG4gIC5mZWF0dXJlbmFtZXtcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgfVxyXG4gIFxyXG4gIC5mZWF0dXJlYm94OmJlZm9yZXtcclxuICBjb250ZW50OiAnJztcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTE7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIFxyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDphZnRlcntcclxuICBjb250ZW50OiAnJztcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTI7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBmaWx0ZXI6IGJsdXIoM3B4KTtcclxuICBcclxufVxyXG4uZmVhdHVyZWJveDphZnRlcixcclxuLmZlYXR1cmVib3g6YmVmb3Jle1xyXG4gICAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG4gfSAgXHJcbiAgXHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4gYS53aWtpe1xyXG4gIC8qIHRleHQtYWxpZ246IGVuZDtcclxuXHJcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7ICovXHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIG1hcmdpbi1yaWdodDogLTI1cHg7XHJcbn1cclxuLndpa2kgaW1ne1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogMTVweDtcclxuICBoZWlnaHQ6IDE1cHg7XHJcbn1cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRhYmxlMS1zcGFjaW5nIHtcclxuICBwYWRkaW5nOiAwO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nLXRvcDogNTVweDtcclxuICBvdmVyZmxvdy14OiBzY3JvbGw7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG59XHJcblxyXG5cclxuLnRhYmxlMSB0aCxcclxuLnRhYmxlMSB0ZCB7XHJcbmJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG5wYWRkaW5nOiAxNXB4O1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbndpZHRoOiAyMDBweDtcclxufVxyXG5cclxuLnRhYmxlMXtcclxuXHJcbmJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnRhYmxlMSB0YWJsZXtcclxubWFyZ2luOiBhdXRvO1xyXG59XHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbiJdfQ== */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ParsiComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-parsi',
+            templateUrl: './parsi.component.html',
+            styleUrls: ['./parsi.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
+    "NSE+":
+    /*!*********************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/indo-islamic/indo-islamic.js ***!
+      \*********************************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function NSE(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
       /***/
 
     },
@@ -5022,6 +13166,29 @@
     },
 
     /***/
+    "OJnC":
+    /*!************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/mughals/shershah.js ***!
+      \************************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function OJnC(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
+      /***/
+
+    },
+
+    /***/
     "Qlko":
     /*!**************************************************!*\
       !*** ./src/app/shared/commentservice.service.js ***!
@@ -5101,6 +13268,29 @@
         }, null);
       })(); //# sourceMappingURL=commentservice.service.js.map
 
+      /***/
+
+    },
+
+    /***/
+    "RZqp":
+    /*!*******************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/parsi/parsi.js ***!
+      \*******************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function RZqp(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
       /***/
 
     },
@@ -5366,24 +13556,24 @@
         }, {
           key: "getcomment",
           value: function getcomment() {
-            var _this4 = this;
+            var _this7 = this;
 
             this.service.getComment(this.category).subscribe(function (response) {
               console.log(response['resp']);
-              _this4.postComments = response['resp'];
+              _this7.postComments = response['resp'];
             });
           }
         }, {
           key: "comment",
           value: function comment() {
-            var _this5 = this;
+            var _this8 = this;
 
             this.service.postComment(this.commentForm.value, this.category).subscribe(function (response) {
               console.log(response);
 
-              _this5.getcomment();
+              _this8.getcomment();
 
-              _this5.commentform();
+              _this8.commentform();
             });
           }
         }]);
@@ -14450,7 +22640,49 @@
 
       var _footer_footer_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
       /*! ./footer/footer.component */
-      "fp1T"); // import {NgxPhotoswipeModule} from 'ngx-photoswipe';
+      "fp1T");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_home_medival_homepage_medival_homepage_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-home/medival-homepage/medival-homepage.component */
+      "rLrE");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_indo_islamic_indo_islamic_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/indo-islamic/indo-islamic.component */
+      "0ETu");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_delhi_sultante_delhi_sultante_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/delhi-sultante/delhi-sultante.component */
+      "DiYt");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_mughals_mughals_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/mughals/mughals.component */
+      "K5u/");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_kashmir_kashmir_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/kashmir/kashmir.component */
+      "EU7T");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_parsi_parsi_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/parsi/parsi.component */
+      "KP3X");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_mughals_mughal_fort_mughal_forts_mughal_forts_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/mughals/mughal-fort/mughal-forts/mughal-forts.component */
+      "mC2e"); // import {NgxPhotoswipeModule} from 'ngx-photoswipe';
 
 
       var AppModule = function AppModule() {
@@ -14474,7 +22706,7 @@
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _how_to_use_how_to_use_component__WEBPACK_IMPORTED_MODULE_10__["HowToUseComponent"], _about_us_about_us_component__WEBPACK_IMPORTED_MODULE_11__["AboutUsComponent"], _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_12__["ContactUsComponent"], _modern_history_modern_history_component__WEBPACK_IMPORTED_MODULE_13__["ModernHistoryComponent"], _art_culture_art_culture_component__WEBPACK_IMPORTED_MODULE_14__["ArtCultureComponent"], _environment_environment_component__WEBPACK_IMPORTED_MODULE_15__["EnvironmentComponent"], _association_association_component__WEBPACK_IMPORTED_MODULE_16__["AssociationComponent"], _famous_personalities_famous_personalities_component__WEBPACK_IMPORTED_MODULE_17__["FamousPersonalitiesComponent"], _social_reforms_social_reforms_component__WEBPACK_IMPORTED_MODULE_18__["SocialReformsComponent"], _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_19__["GalleryComponent"], _feedback_feedback_component__WEBPACK_IMPORTED_MODULE_20__["FeedbackComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_21__["NavbarComponent"], _image_courtsey_image_courtsey_component__WEBPACK_IMPORTED_MODULE_22__["ImageCourtseyComponent"], _modern_history_timeline_modern_history_timeline_component__WEBPACK_IMPORTED_MODULE_23__["ModernHistoryTimelineComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_24__["FooterComponent"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _how_to_use_how_to_use_component__WEBPACK_IMPORTED_MODULE_10__["HowToUseComponent"], _about_us_about_us_component__WEBPACK_IMPORTED_MODULE_11__["AboutUsComponent"], _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_12__["ContactUsComponent"], _modern_history_modern_history_component__WEBPACK_IMPORTED_MODULE_13__["ModernHistoryComponent"], _art_culture_art_culture_component__WEBPACK_IMPORTED_MODULE_14__["ArtCultureComponent"], _environment_environment_component__WEBPACK_IMPORTED_MODULE_15__["EnvironmentComponent"], _association_association_component__WEBPACK_IMPORTED_MODULE_16__["AssociationComponent"], _famous_personalities_famous_personalities_component__WEBPACK_IMPORTED_MODULE_17__["FamousPersonalitiesComponent"], _social_reforms_social_reforms_component__WEBPACK_IMPORTED_MODULE_18__["SocialReformsComponent"], _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_19__["GalleryComponent"], _feedback_feedback_component__WEBPACK_IMPORTED_MODULE_20__["FeedbackComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_21__["NavbarComponent"], _image_courtsey_image_courtsey_component__WEBPACK_IMPORTED_MODULE_22__["ImageCourtseyComponent"], _modern_history_timeline_modern_history_timeline_component__WEBPACK_IMPORTED_MODULE_23__["ModernHistoryTimelineComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_24__["FooterComponent"], _Medival_Architecture_medival_home_medival_homepage_medival_homepage_component__WEBPACK_IMPORTED_MODULE_25__["MedivalHomepageComponent"], _Medival_Architecture_medival_types_indo_islamic_indo_islamic_component__WEBPACK_IMPORTED_MODULE_26__["IndoIslamicComponent"], _Medival_Architecture_medival_types_delhi_sultante_delhi_sultante_component__WEBPACK_IMPORTED_MODULE_27__["DelhiSultanteComponent"], _Medival_Architecture_medival_types_mughals_mughals_component__WEBPACK_IMPORTED_MODULE_28__["MughalsComponent"], _Medival_Architecture_medival_types_kashmir_kashmir_component__WEBPACK_IMPORTED_MODULE_29__["KashmirComponent"], _Medival_Architecture_medival_types_parsi_parsi_component__WEBPACK_IMPORTED_MODULE_30__["ParsiComponent"], _Medival_Architecture_medival_types_mughals_mughal_fort_mughal_forts_mughal_forts_component__WEBPACK_IMPORTED_MODULE_31__["MughalFortsComponent"]],
           imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _fnxone_ngx_photoswipe__WEBPACK_IMPORTED_MODULE_4__["NgxPhotoswipeModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_6__["FontAwesomeModule"]]
         });
       })();
@@ -14485,7 +22717,7 @@
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
           args: [{
-            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _how_to_use_how_to_use_component__WEBPACK_IMPORTED_MODULE_10__["HowToUseComponent"], _about_us_about_us_component__WEBPACK_IMPORTED_MODULE_11__["AboutUsComponent"], _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_12__["ContactUsComponent"], _modern_history_modern_history_component__WEBPACK_IMPORTED_MODULE_13__["ModernHistoryComponent"], _art_culture_art_culture_component__WEBPACK_IMPORTED_MODULE_14__["ArtCultureComponent"], _environment_environment_component__WEBPACK_IMPORTED_MODULE_15__["EnvironmentComponent"], _association_association_component__WEBPACK_IMPORTED_MODULE_16__["AssociationComponent"], _famous_personalities_famous_personalities_component__WEBPACK_IMPORTED_MODULE_17__["FamousPersonalitiesComponent"], _social_reforms_social_reforms_component__WEBPACK_IMPORTED_MODULE_18__["SocialReformsComponent"], _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_19__["GalleryComponent"], _feedback_feedback_component__WEBPACK_IMPORTED_MODULE_20__["FeedbackComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_21__["NavbarComponent"], _image_courtsey_image_courtsey_component__WEBPACK_IMPORTED_MODULE_22__["ImageCourtseyComponent"], _modern_history_timeline_modern_history_timeline_component__WEBPACK_IMPORTED_MODULE_23__["ModernHistoryTimelineComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_24__["FooterComponent"]],
+            declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"], _how_to_use_how_to_use_component__WEBPACK_IMPORTED_MODULE_10__["HowToUseComponent"], _about_us_about_us_component__WEBPACK_IMPORTED_MODULE_11__["AboutUsComponent"], _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_12__["ContactUsComponent"], _modern_history_modern_history_component__WEBPACK_IMPORTED_MODULE_13__["ModernHistoryComponent"], _art_culture_art_culture_component__WEBPACK_IMPORTED_MODULE_14__["ArtCultureComponent"], _environment_environment_component__WEBPACK_IMPORTED_MODULE_15__["EnvironmentComponent"], _association_association_component__WEBPACK_IMPORTED_MODULE_16__["AssociationComponent"], _famous_personalities_famous_personalities_component__WEBPACK_IMPORTED_MODULE_17__["FamousPersonalitiesComponent"], _social_reforms_social_reforms_component__WEBPACK_IMPORTED_MODULE_18__["SocialReformsComponent"], _gallery_gallery_component__WEBPACK_IMPORTED_MODULE_19__["GalleryComponent"], _feedback_feedback_component__WEBPACK_IMPORTED_MODULE_20__["FeedbackComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_21__["NavbarComponent"], _image_courtsey_image_courtsey_component__WEBPACK_IMPORTED_MODULE_22__["ImageCourtseyComponent"], _modern_history_timeline_modern_history_timeline_component__WEBPACK_IMPORTED_MODULE_23__["ModernHistoryTimelineComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_24__["FooterComponent"], _Medival_Architecture_medival_home_medival_homepage_medival_homepage_component__WEBPACK_IMPORTED_MODULE_25__["MedivalHomepageComponent"], _Medival_Architecture_medival_types_indo_islamic_indo_islamic_component__WEBPACK_IMPORTED_MODULE_26__["IndoIslamicComponent"], _Medival_Architecture_medival_types_delhi_sultante_delhi_sultante_component__WEBPACK_IMPORTED_MODULE_27__["DelhiSultanteComponent"], _Medival_Architecture_medival_types_mughals_mughals_component__WEBPACK_IMPORTED_MODULE_28__["MughalsComponent"], _Medival_Architecture_medival_types_kashmir_kashmir_component__WEBPACK_IMPORTED_MODULE_29__["KashmirComponent"], _Medival_Architecture_medival_types_parsi_parsi_component__WEBPACK_IMPORTED_MODULE_30__["ParsiComponent"], _Medival_Architecture_medival_types_mughals_mughal_fort_mughal_forts_mughal_forts_component__WEBPACK_IMPORTED_MODULE_31__["MughalFortsComponent"]],
             imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _fnxone_ngx_photoswipe__WEBPACK_IMPORTED_MODULE_4__["NgxPhotoswipeModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_6__["FontAwesomeModule"]],
             providers: [{
               provide: _fnxone_ngx_photoswipe__WEBPACK_IMPORTED_MODULE_4__["LightboxAdapter"],
@@ -21623,6 +29855,1219 @@
     },
 
     /***/
+    "mC2e":
+    /*!***************************************************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/mughals/mughal-fort/mughal-forts/mughal-forts.component.ts ***!
+      \***************************************************************************************************************/
+
+    /*! exports provided: MughalFortsComponent */
+
+    /***/
+    function mC2e(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "MughalFortsComponent", function () {
+        return MughalFortsComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _mugal_forts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ./mugal-forts */
+      "rdEd");
+      /* harmony import */
+
+
+      var _mugal_forts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mugal_forts__WEBPACK_IMPORTED_MODULE_1__);
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! ../../../../../footer/footer.component */
+      "fp1T");
+
+      function MughalFortsComponent_div_1_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Agra Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Keywords: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Janagiri Mahal ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " ShahJahan: Diwan-i-aam - Diwan-i-khas - Moti Masjid - Sheesh Mahal [Turkish Bath] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Agra Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "One of 1st Construction in Akbar reign");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Most structures inside fort are build by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Shah Jahan");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Charbagh Style");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " used in gardens");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "5000 womens stayed in fort harem during Akbar reign");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Keywords: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Janagiri Mahal ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " Akbar - Red Sandstone ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "img", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Jahangiri Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Akbar built it for his son. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Built by Shah Jahan inside Agra Fort");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "ul");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Shah Jahan used ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "B");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "White Marble");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, " in agra fort ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "[Akbar used Red sandstone]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Keywords: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "White Marble ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](71, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, " ShahJahan: Diwan-i-aam - Diwan-i-khas - Moti Masjid - Sheesh Mahal [Turkish Bath] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "img", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Sheesh Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "[Turkish Bath]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](84, "img", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Moti Masjid");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](88, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "a", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](90, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "Don't confuse it with Moti Masjid @Lahore built by Jahangir ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](93, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "img", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "Diwan-i-aam");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "[Hall of Public Audience]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](101, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](104, "img", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Diwan-i-khas");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "[Hall of Private Audience]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](110, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](116, "img", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "img", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      function MughalFortsComponent_div_2_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Fatehpur Sikri");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Akbar created ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "New Capital City");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " - \"Fatehpur Sikri\" @Agra");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "b", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Frozen Moment in History");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " because buildings here has ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Unique blend of Hindu-Persian styles");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Buland Darwaza");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "1576 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "40m Red Sandstone ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "World's Largest gateway");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Akbar ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " victory over Gujarat");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " commemorate");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Buland Darwaza");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Salim Chisti Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "1581 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Originally red sandstone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " used by Akbar, later converted to ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Marble");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Arabsesque Patterns");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, " with quran inscription");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Further decorted by ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "b", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Jahangir 1606 AD");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "White Marble Jaali");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " works");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "img", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Salim Chisti Tomb");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "a", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Panch Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "5 Storied");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, " made of columns");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Inspiration from: ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Concept of Persian Badgir");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, " [Wind Catcher] ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](97, "img", 37);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Panch Mahal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](101, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](103, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "Mariam-uz-Zamani Palace");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Jodha Bai's Palace [Mary of the Age]");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Building of Akbar's Rajput wifes");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Gujarati influence");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "It has ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Hindu Motifs of Bell & Flowers");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "img", 38);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Marium-uz-Zamani / Jodha Bai Palace");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](125, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](127, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "a", 39);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "img", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Ibadat Khana");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "Akbar meet ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Different religious leaders");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, " here");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](141, "img", 40);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "Ibadat Khana");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](146, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](147, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Pachisi Court");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, "Akbar played ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, "Chess");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, " here");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](159, "img", 41);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, "Pachisi Court");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](163, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](164, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "div", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, "Hiran Minar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "ul", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](171, "In memory of ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "Akbar favorite Elephant \"Hiran\"");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "served as ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "Light House for Travellers");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "li");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "Exterior - Tusk like spikes");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](182, "img", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "div", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "span", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "Hiran Minar");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](186, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "p", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "Don't confuse with Hiran Minar at Pakistan-Sheikhupura built by Jahangir ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](189, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "div", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "u");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, " Keywords:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, " Akbar's Capital City - Frozen Moment - Hindu-Persian blend ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](196, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "Buland Darwaza:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, " largest gateway - redsandstone - Gujarat victory ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](200, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "Salim Chisti Tomb:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, " Red sandstone into Marble ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](204, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, " Panch Mahal:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, " Persian Badgir Concept ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](208, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "Mariam-uz-zamani:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](211, " Hindu Motifs ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](212, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, " Ibadat Khana:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](215, " Religious meeting ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](216, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, "Pachisi Court:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](219, " Chess ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](220, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, "Hiran Minar:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, " Elephant - lighthouse ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](228, "img", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](230, "span", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](231, "\xD7\xA0\xA0\xA0\xA0");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](232, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](233, "img", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      }
+
+      var MughalFortsComponent = /*#__PURE__*/function () {
+        function MughalFortsComponent(route) {
+          _classCallCheck(this, MughalFortsComponent);
+
+          this.route = route;
+        }
+
+        _createClass(MughalFortsComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {
+            var _this9 = this;
+
+            this.route.queryParams.subscribe(function (params) {
+              _this9.style = params['style'];
+            });
+
+            if (this.style == 'agra') {
+              this.style = 'agra';
+            } else if (this.style == 'fatehpur') {
+              this.style = 'fatehpur';
+            }
+          }
+        }]);
+
+        return MughalFortsComponent;
+      }();
+
+      MughalFortsComponent.ɵfac = function MughalFortsComponent_Factory(t) {
+        return new (t || MughalFortsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]));
+      };
+
+      MughalFortsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: MughalFortsComponent,
+        selectors: [["app-mughal-forts"]],
+        decls: 4,
+        vars: 2,
+        consts: [[4, "ngIf"], [1, "title"], [1, "keywords"], [1, "landport"], [1, "landscape"], ["src", "../../../../assets/medival/mughals/Images/15_Agra_Fort.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], [1, "container"], [1, "imgname"], [1, "imgplace"], ["href", " https://en.wikipedia.org/wiki/Agra_Fort ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "imgabout"], [1, "points"], [1, "li2"], ["src", "../../../../assets/medival/mughals/Images/13_Jahangiri_Mahal.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Jahangiri_Mahal ", "target", "_blank", 1, "wiki"], [1, "topichead", 2, "font-size", "25px"], ["src", "../../../../assets/medival/mughals/Images/14_sheesh-mahal-agra.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/mughals/Images/10_Moti_Masjid.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Moti_Masjid_(Agra_Fort) ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/11_diwan-i-am-hall-of-audience.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/mughals/Images/12_Diwan_i_Khas.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["id", "modal01", "onclick", "this.style.display='none'", 1, "modal1"], [1, "close"], [1, "content01"], ["id", "img01", 2, "max-width", "100%"], ["id", "modal02", "onclick", "this.style.display='none'", 1, "modal2"], [1, "content02"], ["id", "img02", 2, "max-width", "100%"], ["href", " https://en.wikipedia.org/wiki/Fatehpur_Sikri ", "target", "_blank", 1, "wiki"], [1, "impword"], ["href", " https://en.wikipedia.org/wiki/Buland_Darwaza ", "target", "_blank", 1, "wiki"], [1, "topichead"], ["src", "../../../../assets/medival/mughals/Images/16_Buland_Darwaza.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Tomb_of_Salim_Chishti ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/17_Salim_Chisti_Tomb.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Panch_Mahal,_Fatehpur_Sikri ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/18_panch-mahal-fatehpur-sikri.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/mughals/Images/19_Fatehpur_Sikri_Jodha_bai_Palace_Main.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Ibadat_Khana ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/mughals/Images/20_Ibadat_Khana.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/mughals/Images/21_Pachisi_Court.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/mughals/Images/22_Hiran_Minar.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], [1, "keywords", 2, "text-align", "left", "line-height", "30px", "margin-bottom", "30px", "padding", "10px"]],
+        template: function MughalFortsComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, MughalFortsComponent_div_1_Template, 122, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, MughalFortsComponent_div_2_Template, 234, 0, "div", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-footer");
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "agra");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.style == "fatehpur");
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__["NavbarComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"]],
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,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Q2YsWUFBWTtJQUNaLGtCQUFrQjtFQUNwQjtBQUVBO0VBQ0Esa0JBQWtCO0VBQ2xCO0FBRUE7RUFDQSxXQUFXO0VBQ1gsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsWUFBWTtFQUNaLFdBQVc7RUFDWCw0QkFBNEI7RUFDNUIsa0JBQWtCO0VBQ2xCLGtCQUFrQjs7RUFFbEI7QUFFQTtFQUNBLFdBQVc7RUFDWCxTQUFTO0VBQ1QsVUFBVTtFQUNWLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztFQUNYLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIseUJBQWlCO1VBQWpCLGlCQUFpQjs7QUFFbkI7QUFDQTs7UUFFUSx3REFBd0Q7Q0FDL0Q7QUFJRCwrSEFBK0g7QUFDOUg7RUFDQzs7c0JBRW9CO0VBQ3BCLFlBQVk7RUFDWixtQkFBbUI7QUFDckI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixXQUFXO0VBQ1gsWUFBWTtBQUNkO0FBSUEsK0hBQStIO0FBQy9IO0VBQ0UsVUFBVTtFQUNWLFNBQVM7RUFDVCxpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLGVBQWU7QUFDakI7QUFHQTs7QUFFQSx1QkFBdUI7QUFDdkIseUJBQXlCO0FBQ3pCLGFBQWE7QUFDYixrQkFBa0I7QUFDbEIsWUFBWTtBQUNaO0FBRUE7O0FBRUEseUJBQXlCO0FBQ3pCLGtCQUFrQjtBQUNsQjtBQUVBO0FBQ0EsWUFBWTtBQUNaO0FBQ0EsK0hBQStIIiwiZmlsZSI6Im11Z2hhbC1mb3J0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogRm9udHMgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG5AaW1wb3J0ICdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9QmFsb28rUGFhamknO1xyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9VbmlmcmFrdHVyQ29vay9VbmlmcmFrdHVyQ29vay1Cb2xkLnR0Zik7IGZvbnQtZmFtaWx5OiB1O31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvY2hlbHRlbmhtL0NobHRib3hjLnR0Zik7ICBmb250LWZhbWlseTogYzt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL01vbnRzZXJyYXQvTW9udHNlcnJhdC1SZWd1bGFyLnR0Zik7IGZvbnQtZmFtaWx5OiBtO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvQW1yL0Ftci5vdGYpOyBmb250LWZhbWlseTogYTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL25lb24tZm9udC9OZW9uLWUyd2cudHRmKTsgZm9udC1mYW1pbHk6bmVvbjt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL0xvYnN0ZXIvTG9ic3Rlci1SZWd1bGFyLnR0Zik7IGZvbnQtZmFtaWx5Omw7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9NZXJyaXdlYXRoZXIvTWVycml3ZWF0aGVyLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6bWVycmk7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9ibGFja2NoYW5jZXJ5L0JMS0NIQ1JZLlRURik7IGZvbnQtZmFtaWx5OmJsazt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL09wZW5fU2Fucy9PcGVuU2Fucy1SZWd1bGFyLnR0Zik7IGZvbnQtZmFtaWx5Om9zO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvV29ya19TYW5zL1dvcmtTYW5zLUl0YWxpYy1WYXJpYWJsZUZvbnRfd2dodC50dGYpOyBmb250LWZhbWlseTp3czt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1JvYm90by9Sb2JvdG8tTGlnaHQudHRmKTsgZm9udC1mYW1pbHk6IHJvYm87fVxyXG5cclxuXHJcbioge1xyXG5cdG1hcmdpbjogMCU7XHJcblx0cGFkZGluZzogMCU7XHJcbn0gXHJcblxyXG5cclxuLyogY29udGVudCAgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG4vKiB0aXRsZSAqKioqKiogKi9cclxuLnRpdGxle1xyXG4gICAgY29sb3I6IHNub3c7XHJcbiAgICBmb250LWZhbWlseTogYztcclxuICAgIGZvbnQtc2l6ZTogNDVweDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgYmFja2dyb3VuZDogcmdiKDAsIDAsIDAsIDAuOCk7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luLXRvcDogMmVtO1xyXG5cclxufVxyXG5cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4ucG9pbnRze1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcGFsZXR1cnF1b2lzZTtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgICBmb250LWZhbWlseTogb3M7XHJcbiAgICBmb250LXNpemU6IDFlbTtcclxuICAgIGxpbmUtaGVpZ2h0OiAzMHB4O1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgfVxyXG4gIFxyXG4gIC5wb2ludHMgbGl7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG4gICAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG4gXHJcbiAgfVxyXG4gIC5wb2ludHMgbGk6bnRoLWNoaWxkKDEpe1xyXG4gICAgbWFyZ2luLXRvcDogMTBweDtcclxuICB9XHJcbiAgLmxpMSBsaXtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogZGVjaW1hbDtcclxuICB9XHJcbiAgLmxpMiBsaXtcclxuICAgIGxpc3Qtc3R5bGU6IHNxdWFyZTtcclxuICAgIGxpc3Qtc3R5bGUtcG9zaXRpb246IGluc2lkZTtcclxuICB9XHJcbiAgXHJcbiAgLnRvcGljaGVhZHtcclxuICAgIGZvbnQtZmFtaWx5OiB1O1xyXG4gICAgZm9udC1zaXplOiAzMHB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbiAgfVxyXG4gIC50b3BpY2hlYWQye1xyXG4gICAgZm9udC1zaXplOiAxLjJlbTtcclxuICB9XHJcbiAgXHJcbiAgXHJcbiAgXHJcblxyXG4gIFxyXG5cclxuXHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbmJvZHl7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgbWFyZ2luOiAwO1xyXG59XHJcblxyXG5kaXYubGFuZHNjYXBlIHtcclxuICAgIHdpZHRoOiA1MDBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgYm94LXNoYWRvdzogMCA0cHggOHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpLCAwIDZweCAyMHB4IDAgcmdiYSgwLCAwLCAwLCAwLjE5KTtcclxuICAgIG1hcmdpbi1ib3R0b206IDI1cHg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbiAgfVxyXG5cclxuZGl2LnBvdHJhaXQgeyBcclxuICAgIHdpZHRoOiAyMDBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgYm94LXNoYWRvdzogMCA0cHggOHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpLCAwIDZweCAyMHB4IDAgcmdiYSgwLCAwLCAwLCAwLjE5KTtcclxuICAgIG1hcmdpbi1ib3R0b206IDI1cHg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbiAgfVxyXG5cclxuICBkaXYuY29udGFpbmVyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHBhZGRpbmc6IDEwcHggMjBweDtcclxuICB9XHJcblxyXG4gIGRpdi5sYW5kcG9ydHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICAgIG1heC13aWR0aDogOTAlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luLXRvcDogMTBweDtcclxuICAgIFxyXG4gIH1cclxuXHJcblxyXG5cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4ubW9kYWwxe1xyXG4gIHotaW5kZXg6MTtcclxuICBkaXNwbGF5Om5vbmU7XHJcbiAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgbGVmdDowO1xyXG4gIHRvcDowO1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgaGVpZ2h0OjEwMCU7XHJcbiAgb3ZlcmZsb3c6YXV0bztcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYigwLDAsMCk7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2JhKDAsMCwwLDAuOCk7XHJcbiAgYm94LXNpemluZzpjb250ZW50LWJveDtcclxufVxyXG4ubW9kYWwye1xyXG4gIHotaW5kZXg6MTtcclxuICBkaXNwbGF5Om5vbmU7XHJcbiAgcG9zaXRpb246Zml4ZWQ7XHJcbiAgbGVmdDowO1xyXG4gIHRvcDowO1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgaGVpZ2h0OjEwMCU7XHJcbiAgb3ZlcmZsb3c6YXV0bztcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYigwLDAsMCk7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2JhKDAsMCwwLDAuOCk7XHJcbiAgYm94LXNpemluZzpjb250ZW50LWJveDtcclxufSAgICBcclxuXHJcbiAgICAgIFxyXG4uY29udGVudDAxe1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgIHRvcDogNTAlO1xyXG4gICAgICBsZWZ0OiA1MCU7XHJcbiAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpOyBcclxuICAgICAgd2lkdGg6IDgwMHB4O1xyXG4gICAgICBtYXgtd2lkdGg6IDk1JTtcclxuICAgIH1cclxuLmNvbnRlbnQwMntcclxuICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICB0b3A6IDAlO1xyXG4gICAgICAgICAgbGVmdDogNTAlO1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgMyUpOyBcclxuICAgICAgICAgIHdpZHRoOiA0NTBweDtcclxuICAgICAgICAgIG1heC13aWR0aDogOTUlOyAgIFxyXG4gICAgICAgIH1cclxuIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTIwMHB4KSB7XHJcbiAgICAgXHJcbiAgICAuY29udGVudDAye1xyXG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgMCUpOyBcclxuICAgICAgICB9XHJcbiB9XHJcblxyXG4gICAgXHJcbiAgICBcclxuICAgIFxyXG4gICAgLm1vZGFsMS1ob3Zlci1vcGFjaXR5IHtcclxuICAgIG9wYWNpdHk6MTtcclxuICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTEwMCk7XHJcbiAgICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6aGlkZGVuXHJcbiAgICB9XHJcbiAgICAubW9kYWwyLWhvdmVyLW9wYWNpdHkge1xyXG4gICAgICAgIG9wYWNpdHk6MTtcclxuICAgICAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT0xMDApO1xyXG4gICAgICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgICAgICB9XHJcbiAgICAubW9kYWwxLWhvdmVyLW9wYWNpdHk6aG92ZXIge1xyXG4gICAgb3BhY2l0eTowLjY7XHJcbiAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT02MCk7XHJcbiAgICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6aGlkZGVuXHJcbiAgICB9XHJcbiAgICAubW9kYWwyLWhvdmVyLW9wYWNpdHk6aG92ZXIge1xyXG4gICAgICAgIG9wYWNpdHk6MC42O1xyXG4gICAgICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTYwKTtcclxuICAgICAgICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6aGlkZGVuXHJcbn1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5mZWF0dXJlbmFtZXtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDI1cHg7XHJcbn1cclxuLmZlYXR1cmVhYm91dHtcclxuICBwYWRkaW5nLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjdlbTtcclxufVxyXG4uaW1nbmFtZXtcclxuICBmb250LWZhbWlseTogYmxrO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICBjb2xvcjogXHQjM0NCMzcxO1xyXG4gXHJcbn1cclxuLmltZ3BsYWNle1xyXG4gIGNvbG9yOiBcdCMzQ0IzNzE7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC45ZW07XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLmltZ2Fib3V0e1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuOGVtO1xyXG59XHJcblxyXG4ua2V5d29yZHN7XHJcbiAgcGFkZGluZzogM3B4O1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMCwgMjAsIDYwLCAwLjQpO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5pbXB3b3Jke1xyXG4gIGZvbnQtc2l6ZTogMS4xZW07XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBibGFjayB1bmRlcmxpbmU7XHJcbn1cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4udGV4dGRpdntcclxuICBtYXJnaW46IGF1dG87XHJcbiAgd2lkdGg6IDkwJTtcclxuICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG59XHJcbi50ZXh0Ym94e1xyXG4gIGJvcmRlcjogMS41cHggc29saWQgcmdiKDUxLCA1MSwgNTEsIDAuNyk7XHJcbiAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgd2lkdGg6IDEwZW07XHJcbiAgaGVpZ2h0OiAxN2VtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBtYXJnaW46IDE1cHg7XHJcbn1cclxuLnRleHRpbWcgaW1ne1xyXG4gIHdpZHRoOiA5LjhlbTtcclxuICBoZWlnaHQ6IDEyLjVlbTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuLnRleHRpbWd7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIG1hcmdpbi10b3A6IDAuMWVtO1xyXG59XHJcbi50ZXh0dGV4dHtcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG4gIGNvbG9yOiBibGFjaztcclxuICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG4udGV4dGxpbmt7XHJcbiAgbWFyZ2luLXRvcDogM3B4O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4OyBcclxuIFxyXG59XHJcbi50ZXh0bGluayBhe1xyXG4gIGNvbG9yOiBkZWVwc2t5Ymx1ZTtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbn1cclxuXHJcbi5ib3h4e1xyXG5wb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuXHJcbi5ib3h4OmJlZm9yZXtcclxuY29udGVudDogJyc7XHJcbnRvcDogLTFweDtcclxubGVmdDogLTFweDtcclxucmlnaHQ6IC0xcHg7XHJcbmJvdHRvbTogLTFweDtcclxuei1pbmRleDogLTE7XHJcbmJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2U7XHJcbmJvcmRlci1yYWRpdXM6IDVweDtcclxucG9zaXRpb246IGFic29sdXRlO1xyXG5cclxufVxyXG5cclxuLmJveHg6YWZ0ZXJ7XHJcbmNvbnRlbnQ6ICcnO1xyXG50b3A6IC0xcHg7XHJcbmxlZnQ6IC0xcHg7XHJcbnJpZ2h0OiAtMXB4O1xyXG5ib3R0b206IC0xcHg7XHJcbnotaW5kZXg6IC0yO1xyXG5wb3NpdGlvbjogYWJzb2x1dGU7XHJcbmJvcmRlci1yYWRpdXM6IDVweDtcclxuZmlsdGVyOiBibHVyKDNweCk7XHJcblxyXG4gIH1cclxuXHJcblxyXG4gIC5ib3h4OmFmdGVyLFxyXG4gIC5ib3h4OmJlZm9yZXtcclxuICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDIzNWRlZywgYmxhY2ssIHdoaXRlLCBibGFjayk7XHJcbiAgfVxyXG4gIFxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmZ1bGxmZWF0dXJle1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgLyogd2lkdGg6IDEyMDBweDsgKi9cclxuICAgIG1heC13aWR0aDogOTUlO1xyXG4gICAgbWFyZ2luLXRvcDogMjBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyMjIsIDE4NCwgMTM1LCAwLjIpO1xyXG59XHJcbi5mZWF0dXJldG9waWN7XHJcbiAgZm9udC1mYW1pbHk6IGw7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG4gIGJhY2tncm91bmQtY29sb3I6YmxhY2s7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuICAuZmVhdHVyZXN7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgfVxyXG4gIC5mZWF0dXJlbGFuZHNjYXBle1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDE1ZW07XHJcbiAgICBoZWlnaHQ6IDEwZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlcG90cmFpdHtcclxuICAgIGJvcmRlcjogMS41cHggc29saWQgcmdiKDUxLCA1MSwgNTEsIDAuNyk7XHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICAgIHdpZHRoOiAxMGVtO1xyXG4gICAgaGVpZ2h0OiAxNWVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgbWFyZ2luOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIH1cclxuICAuZmVhdHVyZXNxdWFyZXtcclxuICAgIGJvcmRlcjogMS41cHggc29saWQgcmdiKDUxLCA1MSwgNTEsIDAuNyk7XHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICAgIHdpZHRoOiAxMGVtO1xyXG4gICAgaGVpZ2h0OiAxM2VtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgbWFyZ2luOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZyBpbWd7XHJcbiAgICB3aWR0aDogMTQuOGVtO1xyXG4gICAgaGVpZ2h0OiA4ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nMSBpbWd7XHJcbiAgICB3aWR0aDogOS44ZW07XHJcbiAgICBoZWlnaHQ6IDEzZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nMyBpbWd7XHJcbiAgICB3aWR0aDogOS44ZW07XHJcbiAgICBoZWlnaHQ6IDkuOGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZywgLmZlYXR1cmVpbWcxLCAuZmVhdHVyZWltZzN7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBtYXJnaW4tdG9wOiAwLjFlbTtcclxuICB9XHJcbiAgLmZlYXR1cmVuYW1le1xyXG4gICAgZm9udC1mYW1pbHk6IGM7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgfVxyXG4gIFxyXG4gIC5mZWF0dXJlYm94e1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3g6YmVmb3Jle1xyXG4gIGNvbnRlbnQ6ICcnO1xyXG4gIHRvcDogLTFweDtcclxuICBsZWZ0OiAtMXB4O1xyXG4gIHJpZ2h0OiAtMXB4O1xyXG4gIGJvdHRvbTogLTFweDtcclxuICB6LWluZGV4OiAtMTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgXHJcbiAgfVxyXG4gIFxyXG4gIC5mZWF0dXJlYm94OmFmdGVye1xyXG4gIGNvbnRlbnQ6ICcnO1xyXG4gIHRvcDogLTFweDtcclxuICBsZWZ0OiAtMXB4O1xyXG4gIHJpZ2h0OiAtMXB4O1xyXG4gIGJvdHRvbTogLTFweDtcclxuICB6LWluZGV4OiAtMjtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGZpbHRlcjogYmx1cigzcHgpO1xyXG4gIFxyXG59XHJcbi5mZWF0dXJlYm94OmFmdGVyLFxyXG4uZmVhdHVyZWJveDpiZWZvcmV7XHJcbiAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDIzNWRlZywgYmxhY2ssIHdoaXRlLCBibGFjayk7XHJcbiB9ICBcclxuICBcclxuICBcclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbiBhLndpa2l7XHJcbiAgLyogdGV4dC1hbGlnbjogZW5kO1xyXG5cclxuICBtYXJnaW4tcmlnaHQ6IDVweDsgKi9cclxuICBmbG9hdDogcmlnaHQ7XHJcbiAgbWFyZ2luLXJpZ2h0OiAtMjVweDtcclxufVxyXG4ud2lraSBpbWd7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHdpZHRoOiAxNXB4O1xyXG4gIGhlaWdodDogMTVweDtcclxufVxyXG5cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4udGFibGUxLXNwYWNpbmcge1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmctdG9wOiA1NXB4O1xyXG4gIG92ZXJmbG93LXg6IHNjcm9sbDtcclxuICBmb250LWZhbWlseTogd3M7XHJcbn1cclxuXHJcblxyXG4udGFibGUxIHRoLFxyXG4udGFibGUxIHRkIHtcclxuYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcbmJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbnBhZGRpbmc6IDE1cHg7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxud2lkdGg6IDIwMHB4O1xyXG59XHJcblxyXG4udGFibGUxe1xyXG5cclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxudGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4udGFibGUxIHRhYmxle1xyXG5tYXJnaW46IGF1dG87XHJcbn1cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuIl19 */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MughalFortsComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-mughal-forts',
+            templateUrl: './mughal-forts.component.html',
+            styleUrls: ['./mughal-forts.component.css']
+          }]
+        }], function () {
+          return [{
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+          }];
+        }, null);
+      })();
+      /***/
+
+    },
+
+    /***/
     "n1yN":
     /*!******************************************!*\
       !*** ./src/app/image-courtsey/imgcor.js ***!
@@ -21654,6 +31099,759 @@
         navSlide();
       }; // window.document.onload = navSlide();
 
+      /***/
+
+    },
+
+    /***/
+    "rLrE":
+    /*!**************************************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-home/medival-homepage/medival-homepage.component.ts ***!
+      \**************************************************************************************************/
+
+    /*! exports provided: MedivalHomepageComponent */
+
+    /***/
+    function rLrE(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "MedivalHomepageComponent", function () {
+        return MedivalHomepageComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! ../../../navbar/navbar.component */
+      "kWWo");
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../footer/footer.component */
+      "fp1T");
+
+      var _c0 = function _c0() {
+        return ["/indo-islamic"];
+      };
+
+      var _c1 = function _c1() {
+        return ["/delhisultante"];
+      };
+
+      var _c2 = function _c2() {
+        return {
+          style: "imperial"
+        };
+      };
+
+      var _c3 = function _c3() {
+        return {
+          style: "provincial"
+        };
+      };
+
+      var _c4 = function _c4() {
+        return ["/mughals"];
+      };
+
+      var _c5 = function _c5() {
+        return {
+          style: "mughal"
+        };
+      };
+
+      var _c6 = function _c6() {
+        return {
+          style: "shershah"
+        };
+      };
+
+      var _c7 = function _c7() {
+        return {
+          style: "sikhRajput"
+        };
+      };
+
+      var _c8 = function _c8() {
+        return ["/kashmir"];
+      };
+
+      var _c9 = function _c9() {
+        return {
+          style: "temples"
+        };
+      };
+
+      var _c10 = function _c10() {
+        return {
+          style: "islamic"
+        };
+      };
+
+      var _c11 = function _c11() {
+        return {
+          style: "gardens"
+        };
+      };
+
+      var _c12 = function _c12() {
+        return ["/parsi"];
+      };
+
+      var MedivalHomepageComponent = /*#__PURE__*/function () {
+        function MedivalHomepageComponent() {
+          _classCallCheck(this, MedivalHomepageComponent);
+        }
+
+        _createClass(MedivalHomepageComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return MedivalHomepageComponent;
+      }();
+
+      MedivalHomepageComponent.ɵfac = function MedivalHomepageComponent_Factory(t) {
+        return new (t || MedivalHomepageComponent)();
+      };
+
+      MedivalHomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: MedivalHomepageComponent,
+        selectors: [["app-medival-homepage"]],
+        decls: 172,
+        vars: 36,
+        consts: [[1, "title"], [1, "points"], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../../../assets/medival/Images/indo-islamic.jpg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "routerLink"], ["href", " https://en.wikipedia.org/wiki/Indo-Islamic_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "topichead"], [1, "li1"], [1, "topichead2"], [1, "li2"], ["src", "../../../../assets/medival/Images/delsul.jpg", "alt", ""], [3, "routerLink", "queryParams"], ["src", "../../../../assets/medival/Images/provincial.jpg", "alt", ""], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/Images/mughal.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/shersha.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/sikh.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/temple.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/masjid.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/garden.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/parsi.jpg", "alt", ""]],
+        template: function MedivalHomepageComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Medival Architecture");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "712 AD - Arab conquest of Sind");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "12th C - Delhi throned by Islamic rulers");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Indian Architecture underwent massive changes.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "img", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Indo-Islamic Features");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Delhi Sultanate Period");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "1206 AD to 1526 AD");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Two categories");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "ol", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "b", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " Imperial Style ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " [Delhi Rulers]");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "ul", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Slave Dynasty");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Khilji Dynasty");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Tughlaq Dynasty");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Lodi Dynasty");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "b", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Provincial Style ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, " [Local Rulers] ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "ul", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Bengal");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Malwa");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Jaunpur");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Bijapur");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "img", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Imperial Style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "img", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Provincial Style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "a", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "img", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Mughal Period");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Mughals - Great patrons of art & architecture");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Other than Mughals, Two Regional styles @Rajasthan @Punjab");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "ul", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Sikh Style ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Rajput Style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](93, "img", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "Mughal Architecture");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](101, "img", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Sher Shah Suri");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](109, "img", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Sikh & Rajput Style");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "kashmir Architecture");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "No monuments before 600AD ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "B");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Except few Buddhist structures");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, " [Stupas & Monatery ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "@Harwan & @Ushkar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "]");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "Later, 2 Important Phases");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "ol", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Early Medival Hindu Phase [Temples]");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "14thC Islamic Phase ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](137, "img", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "Temples");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "img", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, "Islamic");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](153, "img", 24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, "Gardens");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "a", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "div", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Parsi Architecture");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "img", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "Atash Behrams");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "div", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "a", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](170, "Click Here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "app-footer");
+          }
+
+          if (rf & 2) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](18, _c0));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](46);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](19, _c1))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](20, _c2));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](21, _c1))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](22, _c3));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](23, _c4))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](24, _c5));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](25, _c4))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](26, _c6));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](27, _c4))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](28, _c7));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](29, _c8))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](30, _c9));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](31, _c8))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](32, _c10));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](33, _c8))("queryParams", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](34, _c11));
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](35, _c12));
+          }
+        },
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__["NavbarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZGl2YWwtaG9tZXBhZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsNkRBQTZEO0FBRDdELGdHQUFnRztBQUVoRyxXQUFXLG1DQUF5RSxFQUFFLGNBQWMsQ0FBQztBQUNyRyxXQUFXLHdCQUF5RCxHQUFHLGNBQWMsQ0FBQztBQUN0RixXQUFXLGtDQUFvRSxFQUFFLGNBQWMsQ0FBQztBQUNoRyxXQUFXLG1CQUE4QyxFQUFFLGNBQWMsQ0FBQztBQUMxRSxXQUFXLHlCQUEwRCxFQUFFLGdCQUFnQixDQUFDO0FBQ3hGLFdBQVcsK0JBQThELEVBQUUsYUFBYSxDQUFDO0FBQ3pGLFdBQVcsb0NBQXdFLEVBQUUsaUJBQWlCLENBQUM7QUFDdkcsV0FBVyx3QkFBNkQsRUFBRSxlQUFlLENBQUM7QUFDMUYsV0FBVyxnQ0FBaUUsRUFBRSxjQUFjLENBQUM7QUFDN0YsV0FBVyxpREFBa0YsRUFBRSxjQUFjLENBQUM7QUFDOUcsV0FBVyw0QkFBMEQsRUFBRSxpQkFBaUIsQ0FBQztBQUd6RjtDQUNDLFVBQVU7Q0FDVixXQUFXO0FBQ1o7QUFHQSxtR0FBbUc7QUFDbkcsaUJBQWlCO0FBQ2pCO0lBQ0ksV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YsVUFBVTtJQUNWLGtCQUFrQjtJQUNsQix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLDZCQUE2QjtJQUM3QixhQUFhO0lBQ2IsWUFBWTtJQUNaLGVBQWU7O0FBRW5CO0FBSUEsK0hBQStIO0FBQy9IO0lBQ0ksK0JBQStCO0lBQy9CLFlBQVk7SUFDWixnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsVUFBVTtJQUNWLGFBQWE7RUFDZjtBQUVBO0lBQ0UscUJBQXFCO0lBQ3JCLG1CQUFtQjtJQUNuQiwyQkFBMkI7O0VBRTdCO0FBQ0E7SUFDRSxnQkFBZ0I7RUFDbEI7QUFDQTtJQUNFLHdCQUF3QjtFQUMxQjtBQUNBO0lBQ0Usa0JBQWtCO0lBQ2xCLDJC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ZTtJQUNmLFlBQVk7SUFDWixrQkFBa0I7RUFDcEI7QUFFQTtFQUNBLGtCQUFrQjtFQUNsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLGtCQUFrQjtFQUNsQixrQkFBa0I7O0VBRWxCO0FBRUE7RUFDQSxXQUFXO0VBQ1gsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsWUFBWTtFQUNaLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLHlCQUFpQjtVQUFqQixpQkFBaUI7O0FBRW5CO0FBQ0E7O1FBRVEsd0RBQXdEO0NBQy9EO0FBSUQsK0hBQStIO0FBQzlIO0VBQ0M7O3NCQUVvQjtFQUNwQixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7QUFDZDtBQUlBLCtIQUErSDtBQUMvSDtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCO0FBR0E7O0FBRUEsdUJBQXVCO0FBQ3ZCLHlCQUF5QjtBQUN6QixhQUFhO0FBQ2Isa0JBQWtCO0FBQ2xCLFlBQVk7QUFDWjtBQUVBOztBQUVBLHlCQUF5QjtBQUN6QixrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFlBQVk7QUFDWjtBQUNBLCtIQUErSCIsImZpbGUiOiJtZWRpdmFsLWhvbWVwYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBGb250cyAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbkBpbXBvcnQgJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1CYWxvbytQYWFqaSc7XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1VuaWZyYWt0dXJDb29rL1VuaWZyYWt0dXJDb29rLUJvbGQudHRmKTsgZm9udC1mYW1pbHk6IHU7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hsdGJveGMudHRmKTsgIGZvbnQtZmFtaWx5OiBjO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6IG07fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9BbXIvQW1yLm90Zik7IGZvbnQtZmFtaWx5OiBhO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvbmVvbi1mb250L05lb24tZTJ3Zy50dGYpOyBmb250LWZhbWlseTpuZW9uO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTG9ic3Rlci9Mb2JzdGVyLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6bDt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTptZXJyaTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2JsYWNrY2hhbmNlcnkvQkxLQ0hDUlkuVFRGKTsgZm9udC1mYW1pbHk6YmxrO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvT3Blbl9TYW5zL09wZW5TYW5zLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6b3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtSXRhbGljLVZhcmlhYmxlRm9udF93Z2h0LnR0Zik7IGZvbnQtZmFtaWx5OndzO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvUm9ib3RvL1JvYm90by1MaWdodC50dGYpOyBmb250LWZhbWlseTogcm9ibzt9XHJcblxyXG5cclxuKiB7XHJcblx0bWFyZ2luOiAwJTtcclxuXHRwYWRkaW5nOiAwJTtcclxufSBcclxuXHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGV7XHJcbiAgICBjb2xvcjogc25vdztcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiA0NXB4O1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAyZW07XHJcblxyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5wb2ludHN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBwYWxldHVycXVvaXNlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luLXRvcDogMzBweDtcclxuICAgIGZvbnQtZmFtaWx5OiBvcztcclxuICAgIGZvbnQtc2l6ZTogMWVtO1xyXG4gICAgbGluZS1oZWlnaHQ6IDMwcHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICB9XHJcbiAgXHJcbiAgLnBvaW50cyBsaXtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiBcclxuICB9XHJcbiAgLnBvaW50cyBsaTpudGgtY2hpbGQoMSl7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIH1cclxuICAubGkxIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBkZWNpbWFsO1xyXG4gIH1cclxuICAubGkyIGxpe1xyXG4gICAgbGlzdC1zdHlsZTogc3F1YXJlO1xyXG4gICAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG4gIH1cclxuICBcclxuICAudG9waWNoZWFke1xyXG4gICAgZm9udC1mYW1pbHk6IHU7XHJcbiAgICBmb250LXNpemU6IDMwcHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxuICB9XHJcbiAgLnRvcGljaGVhZDJ7XHJcbiAgICBmb250LXNpemU6IDEuMmVtO1xyXG4gIH1cclxuICBcclxuICBcclxuICBcclxuXHJcbiAgXHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuYm9keXtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbn1cclxuXHJcbmRpdi5sYW5kc2NhcGUge1xyXG4gICAgd2lkdGg6IDUwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG5kaXYucG90cmFpdCB7IFxyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG4gIGRpdi5jb250YWluZXIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmxhbmRwb3J0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgbWF4LXdpZHRoOiA5MCU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5tb2RhbDF7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59XHJcbi5tb2RhbDJ7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59ICAgIFxyXG5cclxuICAgICAgXHJcbi5jb250ZW50MDF7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgdG9wOiA1MCU7XHJcbiAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7IFxyXG4gICAgICB3aWR0aDogODAwcHg7XHJcbiAgICAgIG1heC13aWR0aDogOTUlO1xyXG4gICAgfVxyXG4uY29udGVudDAye1xyXG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgIHRvcDogMCU7XHJcbiAgICAgICAgICBsZWZ0OiA1MCU7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAzJSk7IFxyXG4gICAgICAgICAgd2lkdGg6IDQ1MHB4O1xyXG4gICAgICAgICAgbWF4LXdpZHRoOiA5NSU7ICAgXHJcbiAgICAgICAgfVxyXG4gQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMjAwcHgpIHtcclxuICAgICBcclxuICAgIC5jb250ZW50MDJ7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAwJSk7IFxyXG4gICAgICAgIH1cclxuIH1cclxuXHJcbiAgICBcclxuICAgIFxyXG4gICAgXHJcbiAgICAubW9kYWwxLWhvdmVyLW9wYWNpdHkge1xyXG4gICAgb3BhY2l0eToxO1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eSB7XHJcbiAgICAgICAgb3BhY2l0eToxO1xyXG4gICAgICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTEwMCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgICAgIH1cclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICBvcGFjaXR5OjAuNjtcclxuICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTYwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICAgICAgb3BhY2l0eTowLjY7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxufVxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmZlYXR1cmVuYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxufVxyXG4uZmVhdHVyZWFib3V0e1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuN2VtO1xyXG59XHJcbi5pbWduYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGNvbG9yOiBcdCMzQ0IzNzE7XHJcbiBcclxufVxyXG4uaW1ncGxhY2V7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjllbTtcclxuICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG4uaW1nYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC44ZW07XHJcbn1cclxuXHJcbi5rZXl3b3Jkc3tcclxuICBwYWRkaW5nOiAzcHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIwLCAyMCwgNjAsIDAuNCk7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmltcHdvcmR7XHJcbiAgZm9udC1zaXplOiAxLjFlbTtcclxuICB0ZXh0LWRlY29yYXRpb246IGJsYWNrIHVuZGVybGluZTtcclxufVxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50ZXh0ZGl2e1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB3aWR0aDogOTAlO1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuLnRleHRib3h7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTBlbTtcclxuICBoZWlnaHQ6IDE3ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIG1hcmdpbjogMTVweDtcclxufVxyXG4udGV4dGltZyBpbWd7XHJcbiAgd2lkdGg6IDkuOGVtO1xyXG4gIGhlaWdodDogMTIuNWVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4udGV4dGltZ3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLXRvcDogMC4xZW07XHJcbn1cclxuLnRleHR0ZXh0e1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50ZXh0bGlua3tcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7IFxyXG4gXHJcbn1cclxuLnRleHRsaW5rIGF7XHJcbiAgY29sb3I6IGRlZXBza3libHVlO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuLmJveHh7XHJcbnBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmJveHg6YmVmb3Jle1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMTtcclxuYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5wb3NpdGlvbjogYWJzb2x1dGU7XHJcblxyXG59XHJcblxyXG4uYm94eDphZnRlcntcclxuY29udGVudDogJyc7XHJcbnRvcDogLTFweDtcclxubGVmdDogLTFweDtcclxucmlnaHQ6IC0xcHg7XHJcbmJvdHRvbTogLTFweDtcclxuei1pbmRleDogLTI7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHJcbiAgfVxyXG5cclxuXHJcbiAgLmJveHg6YWZ0ZXIsXHJcbiAgLmJveHg6YmVmb3Jle1xyXG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuICB9XHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZnVsbGZlYXR1cmV7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICAvKiB3aWR0aDogMTIwMHB4OyAqL1xyXG4gICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMiwgMTg0LCAxMzUsIDAuMik7XHJcbn1cclxuLmZlYXR1cmV0b3BpY3tcclxuICBmb250LWZhbWlseTogbDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpibGFjaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4gIC5mZWF0dXJlc3tcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICB9XHJcbiAgLmZlYXR1cmVsYW5kc2NhcGV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTVlbTtcclxuICAgIGhlaWdodDogMTBlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVwb3RyYWl0e1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDE1ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlc3F1YXJle1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDEzZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nIGltZ3tcclxuICAgIHdpZHRoOiAxNC44ZW07XHJcbiAgICBoZWlnaHQ6IDhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcxIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWczIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogOS44ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nLCAuZmVhdHVyZWltZzEsIC5mZWF0dXJlaW1nM3tcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDAuMWVtO1xyXG4gIH1cclxuICAuZmVhdHVyZW5hbWV7XHJcbiAgICBmb250LWZhbWlseTogYztcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3h7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDpiZWZvcmV7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0xO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2U7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3g6YWZ0ZXJ7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0yO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgZmlsdGVyOiBibHVyKDNweCk7XHJcbiAgXHJcbn1cclxuLmZlYXR1cmVib3g6YWZ0ZXIsXHJcbi5mZWF0dXJlYm94OmJlZm9yZXtcclxuICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuIH0gIFxyXG4gIFxyXG4gIFxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuIGEud2lraXtcclxuICAvKiB0ZXh0LWFsaWduOiBlbmQ7XHJcblxyXG4gIG1hcmdpbi1yaWdodDogNXB4OyAqL1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG59XHJcbi53aWtpIGltZ3tcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgd2lkdGg6IDE1cHg7XHJcbiAgaGVpZ2h0OiAxNXB4O1xyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50YWJsZTEtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5cclxuXHJcbi50YWJsZTEgdGgsXHJcbi50YWJsZTEgdGQge1xyXG5ib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxucGFkZGluZzogMTVweDtcclxudGV4dC1hbGlnbjogY2VudGVyO1xyXG53aWR0aDogMjAwcHg7XHJcbn1cclxuXHJcbi50YWJsZTF7XHJcblxyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi50YWJsZTEgdGFibGV7XHJcbm1hcmdpbjogYXV0bztcclxufVxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4iXX0= */"]
+      });
+      /*@__PURE__*/
+
+      (function () {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MedivalHomepageComponent, [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+          args: [{
+            selector: 'app-medival-homepage',
+            templateUrl: './medival-homepage.component.html',
+            styleUrls: ['./medival-homepage.component.css']
+          }]
+        }], function () {
+          return [];
+        }, null);
+      })();
       /***/
 
     },
@@ -21712,6 +31910,29 @@
     },
 
     /***/
+    "rdEd":
+    /*!****************************************************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/mughals/mughal-fort/mughal-forts/mugal-forts.js ***!
+      \****************************************************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function rdEd(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
+      /***/
+
+    },
+
+    /***/
     "ry2A":
     /*!*******************************************************!*\
       !*** ./src/app/famous-personalities/Navigationbar.js ***!
@@ -21742,6 +31963,29 @@
         navSlide();
       }; // window.document.onload = navSlide();
 
+      /***/
+
+    },
+
+    /***/
+    "tMK5":
+    /*!**********************************************************************!*\
+      !*** ./src/app/Medival-Architecture/medival-types/mughals/mughal.js ***!
+      \**********************************************************************/
+
+    /*! no static exports found */
+
+    /***/
+    function tMK5(module, exports) {
+      function onClick1(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+
+      function onClick2(element) {
+        document.getElementById("img02").src = element.src;
+        document.getElementById("modal02").style.display = "block";
+      }
       /***/
 
     },
@@ -21856,6 +32100,11 @@
           value: function imagecourtesy() {
             this.router.navigate(['imagecourtesy']);
           }
+        }, {
+          key: "medival",
+          value: function medival() {
+            this.router.navigate(['medival-architecture']);
+          }
         }]);
 
         return ArtCultureComponent;
@@ -21868,9 +32117,9 @@
       ArtCultureComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: ArtCultureComponent,
         selectors: [["app-art-culture"]],
-        decls: 26,
+        decls: 30,
         vars: 0,
-        consts: [[1, "cb-slideshow"], [1, "title"], [1, "comingsoon"], [1, "csoon"], [1, "cs1"], [1, "cs2"], [1, "cs3"]],
+        consts: [[1, "cb-slideshow"], [1, "title"], [1, "card-container"], [1, "card"], ["src", "../../assets/art_images/art5.jpg", "alt", "image", 1, "card-img-top", "img-conatiner"], [1, "card-body"], [1, "card-title"], [1, "btn", "btn-link", 3, "click"]],
         template: function ArtCultureComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -21929,33 +32178,49 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "section", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "h1", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "span", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "img", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "span", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Coming");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "h5", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "soon");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Medieval Architecture");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "button", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ArtCultureComponent_Template_button_click_25_listener() {
+              return ctx.medival();
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Click here");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "app-footer");
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"]],
-        styles: ["@import \"https://fonts.googleapis.com/css?family=Baloo+Paaji\";\n\n@font-face {\r\n  src: url('UnifrakturCook-Bold.ttf');\r\n  font-family: u;\r\n}\n@font-face {\r\n  src: url('CheltenhamBoldExtraCondensedBT.ttf');\r\n  font-family: c;\r\n}\n@font-face {\r\n  src: url('Montserrat-Regular.ttf');\r\n  font-family: m;\r\n}\n@font-face {\r\n  src: url('Amr.otf');\r\n  font-family: a;\r\n}\n@font-face {\r\n  src: url('Neon-e2wg.ttf');\r\n  font-family: neon;\r\n}\n@font-face {\r\n  src: url('Lobster-Regular.ttf');\r\n  font-family: l;\r\n}\n@font-face {\r\n  src: url('Merriweather-Regular.ttf');\r\n  font-family: merri;\r\n}\n@font-face {\r\n  src: url('BLKCHCRY.TTF');\r\n  font-family: blk;\r\n}\n@font-face {\r\n  src: url('OpenSans-Regular.ttf');\r\n  font-family: os;\r\n}\n@font-face {\r\n  src: url('WorkSans-VariableFont_wght.ttf');\r\n  font-family: ws;\r\n}\n@font-face {\r\n  src: url('Roboto-Light.ttf');\r\n  font-family: robo;\r\n}\n\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\n\n.cb-slideshow[_ngcontent-%COMP%], .cb-slideshow[_ngcontent-%COMP%]:after {\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0px;\r\n  left: 0px;\r\n  z-index: 0;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  background: transparent url() repeat top left;\r\n}\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0px;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: 50% 50%;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art1.jpg');\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art2.jpg');\r\n  -webkit-animation-delay: 6s;\r\n  animation-delay: 6s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(3)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art3.jpg');\r\n  -webkit-animation-delay: 12s;\r\n  animation-delay: 12s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(4)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art4.jpg');\r\n  -webkit-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(5)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art5.jpg');\r\n  -webkit-animation-delay: 24s;\r\n  animation-delay: 24s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(6)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art6.jpg');\r\n  -webkit-animation-delay: 30s;\r\n  animation-delay: 30s;\r\n}\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n            animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n            animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\n.no-cssanimations[_ngcontent-%COMP%]   .cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n}\n\n\n.title[_ngcontent-%COMP%] {\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n}\n\n.comingsoon[_ngcontent-%COMP%] {\r\n  margin: auto;\r\n  margin-top: 10em;\r\n  font-family: \"Baloo Paaji\", cursive;\r\n  border: black 2px solid;\r\n  width: 20em;\r\n  height: 12em;\r\n  align-content: center;\r\n  position: relative;\r\n  margin-bottom: 10px;\r\n}\n.comingsoon[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%] {\r\n  padding: 1em;\r\n  font-size: 40px;\r\n  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 1.1px 0 #2c2c2c,\r\n    0 1.2px 0 #2a2a2a, 0 1.3px 0 #282828, 0 1.4px 0 #262626, 0 1.5px 0 #242424,\r\n    0 1.6px 0 #222, 0 1.7px 0 #202020, 0 2px 0 #1e1e1e, 0 2.1px 0 #1c1c1c,\r\n    0 2.2px 0 #1a1a1a, 0 2.3px 0 #181818, 0 2.4px 0 #161616, 0 2.5px 0 #141414,\r\n    0 2.8px 0 #121212, 0 3px 3px rgba(0, 0, 0, 0.9);\r\n\r\n  text-transform: uppercase;\r\n  text-align: center;\r\n  line-height: 1.3em;\r\n}\nspan.cs1[_ngcontent-%COMP%], span.cs2[_ngcontent-%COMP%], span.cs3[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  float: left;\r\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  transform: translateY(-50px);\r\n  opacity: 0;\r\n  -webkit-animation-name: comingsoon;\r\n          animation-name: comingsoon;\r\n  -webkit-animation-timing-function: ease;\r\n          animation-timing-function: ease;\r\n  -webkit-animation-duration: 6s;\r\n          animation-duration: 6s;\r\n  -webkit-animation-iteration-count: infinite;\r\n          animation-iteration-count: infinite;\r\n}\nspan.cs1[_ngcontent-%COMP%] {\r\n  color: pink;\r\n  -webkit-animation-delay: 3s;\r\n          animation-delay: 3s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\nspan.cs2[_ngcontent-%COMP%] {\r\n  color: white;\r\n  -webkit-animation-delay: 2s;\r\n          animation-delay: 2s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\nspan.cs3[_ngcontent-%COMP%] {\r\n  color: yellow;\r\n  -webkit-animation-delay: 1s;\r\n          animation-delay: 1s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\n@-webkit-keyframes comingsoon {\r\n  0% {\r\n    transform: translateY(-50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  }\r\n  20% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  80% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  100% {\r\n    transform: translateY(50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n  }\r\n}\n@keyframes comingsoon {\r\n  0% {\r\n    transform: translateY(-50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  }\r\n  20% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  80% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  100% {\r\n    transform: translateY(50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n  }\r\n}\n\n.swiper-container[_ngcontent-%COMP%] {\r\n  margin: 0 auto;\r\n  top: 2em;\r\n  width: 85%;\r\n}\n.card[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  background: #fff;\r\n  width: 200px;\r\n  height: 400px;\r\n  margin: 0 auto;\r\n  font-family: c;\r\n}\n.card[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n\r\n  box-sizing: border-box;\r\n}\n.card[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n\r\n  text-decoration: none;\r\n  border: 1px solid #262626;\r\n  color: #262626;\r\n  font-weight: 20px;\r\n}\n.card[_ngcontent-%COMP%]   .slidertext[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 50px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: #000;\r\n}\n.card[_ngcontent-%COMP%]   .slidertext[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\r\n  color: #fff;\r\n  font-size: 20px;\r\n}\n.swiper-slide[_ngcontent-%COMP%] {\r\n  max-width: 200px;\r\n}\nimg[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n  height: 200px;\r\n}\n@font-face {\r\n  font-family: swiper-icons;\r\n  src: url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA\")\r\n    format(\"woff\");\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}\n[_ngcontent-%COMP%]:root {\r\n  --swiper-theme-color: #007aff;\r\n}\n.swiper-container[_ngcontent-%COMP%] {\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  position: relative;\r\n  overflow: hidden;\r\n  list-style: none;\r\n  padding: 0;\r\n  z-index: 1;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-direction: column;\r\n}\n.swiper-wrapper[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  z-index: 1;\r\n  display: flex;\r\n  transition-property: transform;\r\n  box-sizing: content-box;\r\n}\n.swiper-container-android[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%], .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transform: translate3d(0px, 0, 0);\r\n}\n.swiper-container-multirow[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n}\n.swiper-container-multirow-column[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n  flex-direction: column;\r\n}\n.swiper-container-free-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transition-timing-function: ease-out;\r\n  margin: 0 auto;\r\n}\n.swiper-slide[_ngcontent-%COMP%] {\r\n  flex-shrink: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n  transition-property: transform;\r\n}\n.swiper-slide-invisible-blank[_ngcontent-%COMP%] {\r\n  visibility: hidden;\r\n}\n.swiper-container-autoheight[_ngcontent-%COMP%], .swiper-container-autoheight[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  height: auto;\r\n}\n.swiper-container-autoheight[_ngcontent-%COMP%]   .swiper-wrapper[_ngcontent-%COMP%] {\r\n  align-items: flex-start;\r\n  transition-property: transform, height;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%] {\r\n  perspective: 1200px;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-cube-shadow[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transform-style: preserve-3d;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  pointer-events: none;\r\n  z-index: 10;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to left,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to right,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to top,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to bottom,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  overflow: auto;\r\n  scrollbar-width: none;\r\n  -ms-overflow-style: none;\r\n}\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%]::-webkit-scrollbar {\r\n  display: none;\r\n}\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%]    > .swiper-slide[_ngcontent-%COMP%] {\r\n  scroll-snap-align: start start;\r\n}\n.swiper-container-horizontal.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  -ms-scroll-snap-type: x mandatory;\r\n      scroll-snap-type: x mandatory;\r\n}\n.swiper-container-vertical.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  -ms-scroll-snap-type: y mandatory;\r\n      scroll-snap-type: y mandatory;\r\n}\n[_ngcontent-%COMP%]:root {\r\n  --swiper-navigation-size: 44px;\r\n}\n.swiper-button-next[_ngcontent-%COMP%], .swiper-button-prev[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  top: 50%;\r\n  width: calc(var(--swiper-navigation-size) / 44 * 27);\r\n  height: var(--swiper-navigation-size);\r\n  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);\r\n  z-index: 10;\r\n  cursor: pointer;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: var(--swiper-navigation-color, var(--swiper-theme-color));\r\n}\n.swiper-button-next.swiper-button-disabled[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-disabled[_ngcontent-%COMP%] {\r\n  opacity: 0.35;\r\n  cursor: auto;\r\n  pointer-events: none;\r\n}\n.swiper-button-next[_ngcontent-%COMP%]:after, .swiper-button-prev[_ngcontent-%COMP%]:after {\r\n  font-family: swiper-icons;\r\n  font-size: var(--swiper-navigation-size);\r\n  text-transform: none !important;\r\n  letter-spacing: 0;\r\n  text-transform: none;\r\n  font-variant: initial;\r\n  line-height: 1;\r\n}\n.swiper-button-prev[_ngcontent-%COMP%], .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-next[_ngcontent-%COMP%] {\r\n  left: 10px;\r\n  right: auto;\r\n}\n.swiper-button-prev[_ngcontent-%COMP%]:after, .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-next[_ngcontent-%COMP%]:after {\r\n  content: \"prev\";\r\n}\n.swiper-button-next[_ngcontent-%COMP%], .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-prev[_ngcontent-%COMP%] {\r\n  right: 10px;\r\n  left: auto;\r\n}\n.swiper-button-next[_ngcontent-%COMP%]:after, .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-prev[_ngcontent-%COMP%]:after {\r\n  content: \"next\";\r\n}\n.swiper-button-next.swiper-button-white[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-white[_ngcontent-%COMP%] {\r\n  --swiper-navigation-color: #ffffff;\r\n}\n.swiper-button-next.swiper-button-black[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-black[_ngcontent-%COMP%] {\r\n  --swiper-navigation-color: #000000;\r\n}\n.swiper-button-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\n.swiper-pagination[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  text-align: center;\r\n  transition: 0.3s opacity;\r\n  transform: translate3d(0, 0, 0);\r\n  z-index: 10;\r\n}\n.swiper-pagination.swiper-pagination-hidden[_ngcontent-%COMP%] {\r\n  opacity: 0;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%], .swiper-pagination-custom[_ngcontent-%COMP%], .swiper-pagination-fraction[_ngcontent-%COMP%] {\r\n  bottom: 10px;\r\n  left: 0;\r\n  width: 100%;\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  overflow: hidden;\r\n  font-size: 0;\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n  position: relative;\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active[_ngcontent-%COMP%] {\r\n  transform: scale(1);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-main[_ngcontent-%COMP%] {\r\n  transform: scale(1);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-prev[_ngcontent-%COMP%] {\r\n  transform: scale(0.66);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-prev-prev[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-next[_ngcontent-%COMP%] {\r\n  transform: scale(0.66);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-next-next[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n}\n.swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  width: 8px;\r\n  height: 8px;\r\n  display: inline-block;\r\n  border-radius: 100%;\r\n  background: #000;\r\n  opacity: 0.2;\r\n}\nbutton.swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  border: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-shadow: none;\r\n  -webkit-appearance: none;\r\n  -moz-appearance: none;\r\n  appearance: none;\r\n}\n.swiper-pagination-clickable[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\n.swiper-pagination-bullet-active[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n  background: var(--swiper-pagination-color, var(--swiper-theme-color));\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%] {\r\n  right: 10px;\r\n  top: 50%;\r\n  transform: translate3d(0px, -50%, 0);\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  margin: 6px 0;\r\n  display: block;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  top: 50%;\r\n  transform: translateY(-50%);\r\n  width: 8px;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  transition: 0.2s transform, 0.2s top;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  margin: 0 4px;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  left: 50%;\r\n  transform: translateX(-50%);\r\n  white-space: nowrap;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transition: 0.2s transform, 0.2s left;\r\n}\n.swiper-container-horizontal.swiper-container-rtl[_ngcontent-%COMP%]    > .swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transition: 0.2s transform, 0.2s right;\r\n}\n.swiper-pagination-progressbar[_ngcontent-%COMP%] {\r\n  background: rgba(0, 0, 0, 0.25);\r\n  position: absolute;\r\n}\n.swiper-pagination-progressbar[_ngcontent-%COMP%]   .swiper-pagination-progressbar-fill[_ngcontent-%COMP%] {\r\n  background: var(--swiper-pagination-color, var(--swiper-theme-color));\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  transform: scale(0);\r\n  transform-origin: left top;\r\n}\n.swiper-container-rtl[_ngcontent-%COMP%]   .swiper-pagination-progressbar[_ngcontent-%COMP%]   .swiper-pagination-progressbar-fill[_ngcontent-%COMP%] {\r\n  transform-origin: right top;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-progressbar[_ngcontent-%COMP%], .swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 4px;\r\n  left: 0;\r\n  top: 0;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite[_ngcontent-%COMP%], .swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-progressbar[_ngcontent-%COMP%] {\r\n  width: 4px;\r\n  height: 100%;\r\n  left: 0;\r\n  top: 0;\r\n}\n.swiper-pagination-white[_ngcontent-%COMP%] {\r\n  --swiper-pagination-color: #ffffff;\r\n}\n.swiper-pagination-black[_ngcontent-%COMP%] {\r\n  --swiper-pagination-color: #000000;\r\n}\n.swiper-pagination-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\n.swiper-scrollbar[_ngcontent-%COMP%] {\r\n  border-radius: 10px;\r\n  position: relative;\r\n  -ms-touch-action: none;\r\n  background: rgba(0, 0, 0, 0.1);\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-scrollbar[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 1%;\r\n  bottom: 3px;\r\n  z-index: 50;\r\n  height: 5px;\r\n  width: 98%;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-scrollbar[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  right: 3px;\r\n  top: 1%;\r\n  z-index: 50;\r\n  width: 5px;\r\n  height: 98%;\r\n}\n.swiper-scrollbar-drag[_ngcontent-%COMP%] {\r\n  height: 100%;\r\n  width: 100%;\r\n  position: relative;\r\n  background: rgba(0, 0, 0, 0.5);\r\n  border-radius: 10px;\r\n  left: 0;\r\n  top: 0;\r\n}\n.swiper-scrollbar-cursor-drag[_ngcontent-%COMP%] {\r\n  cursor: move;\r\n}\n.swiper-scrollbar-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\n.swiper-zoom-container[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n}\n.swiper-zoom-container[_ngcontent-%COMP%]    > canvas[_ngcontent-%COMP%], .swiper-zoom-container[_ngcontent-%COMP%]    > img[_ngcontent-%COMP%], .swiper-zoom-container[_ngcontent-%COMP%]    > svg[_ngcontent-%COMP%] {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  -o-object-fit: contain;\r\n     object-fit: contain;\r\n}\n.swiper-slide-zoomed[_ngcontent-%COMP%] {\r\n  cursor: move;\r\n}\n.swiper-lazy-preloader[_ngcontent-%COMP%] {\r\n  width: 42px;\r\n  height: 42px;\r\n  position: absolute;\r\n  left: 50%;\r\n  top: 50%;\r\n  margin-left: -21px;\r\n  margin-top: -21px;\r\n  z-index: 10;\r\n  transform-origin: 50%;\r\n  -webkit-animation: swiper-preloader-spin 1s infinite linear;\r\n          animation: swiper-preloader-spin 1s infinite linear;\r\n  box-sizing: border-box;\r\n  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));\r\n  border-radius: 50%;\r\n  border-top-color: transparent;\r\n}\n.swiper-lazy-preloader-white[_ngcontent-%COMP%] {\r\n  --swiper-preloader-color: #fff;\r\n}\n.swiper-lazy-preloader-black[_ngcontent-%COMP%] {\r\n  --swiper-preloader-color: #000;\r\n}\n@-webkit-keyframes swiper-preloader-spin {\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\n@keyframes swiper-preloader-spin {\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\n.swiper-container[_ngcontent-%COMP%]   .swiper-notification[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  pointer-events: none;\r\n  opacity: 0;\r\n  z-index: -1000;\r\n}\n.swiper-container-fade.swiper-container-free-mode[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  transition-timing-function: ease-out;\r\n}\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  transition-property: opacity;\r\n}\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%] {\r\n  overflow: visible;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  z-index: 1;\r\n  visibility: hidden;\r\n  transform-origin: 0 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\n.swiper-container-cube.swiper-container-rtl[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  transform-origin: 100% 0;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-next[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-next[_ngcontent-%COMP%]    + .swiper-slide[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-prev[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n  visibility: visible;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-cube-shadow[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  bottom: 0px;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #000;\r\n  opacity: 0.6;\r\n  -webkit-filter: blur(50px);\r\n  filter: blur(50px);\r\n  z-index: 0;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%] {\r\n  overflow: visible;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  z-index: 1;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n}\n*[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\n/*# sourceMappingURL=data:application/json;base64,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Q25DLDJCQUEyQjtFQUMzQixVQUFVO0FBQ1o7QUFDQTtFQUNFLG9CQUFvQjtBQUN0QjtBQUNBOztFQUVFLG9CQUFvQjtBQUN0QjtBQUNBOzs7O0VBSUUsVUFBVTtFQUNWLG1DQUFtQztFQUNuQywyQkFBMkI7QUFDN0I7QUFFQTtFQUNFLGVBQWU7QUFDakIiLCJmaWxlIjoiYXJ0LWN1bHR1cmUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEZvbnRzICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuQGltcG9ydCBcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1CYWxvbytQYWFqaVwiO1xyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvVW5pZnJha3R1ckNvb2svVW5pZnJha3R1ckNvb2stQm9sZC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiB1O1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hlbHRlbmhhbUJvbGRFeHRyYUNvbmRlbnNlZEJULnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL01vbnRzZXJyYXQvTW9udHNlcnJhdC1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG07XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTtcclxuICBmb250LWZhbWlseTogYTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvbmVvbi1mb250L05lb24tZTJ3Zy50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBuZW9uO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9Mb2JzdGVyL0xvYnN0ZXItUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBsO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9NZXJyaXdlYXRoZXIvTWVycml3ZWF0aGVyLVJlZ3VsYXIudHRmKTtcclxuICBmb250LWZhbWlseTogbWVycmk7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL2JsYWNrY2hhbmNlcnkvQkxLQ0hDUlkuVFRGKTtcclxuICBmb250LWZhbWlseTogYmxrO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9PcGVuX1NhbnMvT3BlblNhbnMtUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvV29ya19TYW5zL1dvcmtTYW5zLVZhcmlhYmxlRm9udF93Z2h0LnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9Sb2JvdG8vUm9ib3RvLUxpZ2h0LnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IHJvYm87XHJcbn1cclxuXHJcbi8qIE5hdmlnYXRpb24gIEJhciAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbioge1xyXG4gIG1hcmdpbjogMCU7XHJcbiAgcGFkZGluZzogMCU7XHJcbn1cclxuXHJcblxyXG5cclxuLyogQmFja2dyb3VuZCAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi5jYi1zbGlkZXNob3csXHJcbi5jYi1zbGlkZXNob3c6YWZ0ZXIge1xyXG4gIHBvc2l0aW9uOiBmaXhlZDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgdG9wOiAwcHg7XHJcbiAgbGVmdDogMHB4O1xyXG4gIHotaW5kZXg6IDA7XHJcbn1cclxuLmNiLXNsaWRlc2hvdzphZnRlciB7XHJcbiAgY29udGVudDogXCJcIjtcclxuICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudCB1cmwoKSByZXBlYXQgdG9wIGxlZnQ7XHJcbn1cclxuXHJcbmxpIHtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaSBzcGFuIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogMHB4O1xyXG4gIGxlZnQ6IDBweDtcclxuICBjb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA1MCUgNTAlO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBub25lO1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgei1pbmRleDogMDtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICAtd2Via2l0LWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICAtbW96LWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICAtby1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgLW1zLWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICBhbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbn1cclxuXHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDEpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQxLmpwZyk7XHJcbn1cclxuXHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDIpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQyLmpwZyk7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiA2cztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIC1tcy1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogNnM7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoMykgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDMuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG59XHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDQpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQ0LmpwZyk7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZGVsYXk6IDE4cztcclxuICAtbW96LWFuaW1hdGlvbi1kZWxheTogMThzO1xyXG4gIC1vLWFuaW1hdGlvbi1kZWxheTogMThzO1xyXG4gIC1tcy1hbmltYXRpb24tZGVsYXk6IDE4cztcclxuICBhbmltYXRpb24tZGVsYXk6IDE4cztcclxufVxyXG4uY2Itc2xpZGVzaG93IGxpOm50aC1jaGlsZCg1KSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0NS5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiAyNHM7XHJcbiAgLW1vei1hbmltYXRpb24tZGVsYXk6IDI0cztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDI0cztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiAyNHM7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAyNHM7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoNikgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDYuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG59XHJcblxyXG5ALXdlYmtpdC1rZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtd2Via2l0LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtd2Via2l0LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkAtbW96LWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tb3otYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC1tb3otYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQC1vLWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1vLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgLW8tYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW8tdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5ALW1zLWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tcy1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1zLXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtbXMtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1zLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkBrZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuXHJcbi5uby1jc3NhbmltYXRpb25zIC5jYi1zbGlkZXNob3cgbGkgc3BhbiB7XHJcbiAgb3BhY2l0eTogMTtcclxufVxyXG5cclxuLyogY29udGVudCAgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG5cclxuLyogdGl0bGUgKioqKioqICovXHJcbi50aXRsZSB7XHJcbiAgY29sb3I6IHNub3c7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiA0NXB4O1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJhY2tncm91bmQ6IHJnYigwLCAwLCAwLCAwLjgpO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDJlbTtcclxufVxyXG5cclxuLyogY29taW5nc29vbiAqKioqKioqKiAqL1xyXG4uY29taW5nc29vbiB7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDEwZW07XHJcbiAgZm9udC1mYW1pbHk6IFwiQmFsb28gUGFhamlcIiwgY3Vyc2l2ZTtcclxuICBib3JkZXI6IGJsYWNrIDJweCBzb2xpZDtcclxuICB3aWR0aDogMjBlbTtcclxuICBoZWlnaHQ6IDEyZW07XHJcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG59XHJcblxyXG4uY29taW5nc29vbiBoMSxcclxuaDIge1xyXG4gIHBhZGRpbmc6IDFlbTtcclxuICBmb250LXNpemU6IDQwcHg7XHJcbiAgdGV4dC1zaGFkb3c6IDAgLTFweCAwICNmZmYsIDAgMXB4IDAgIzJlMmUyZSwgMCAxLjFweCAwICMyYzJjMmMsXHJcbiAgICAwIDEuMnB4IDAgIzJhMmEyYSwgMCAxLjNweCAwICMyODI4MjgsIDAgMS40cHggMCAjMjYyNjI2LCAwIDEuNXB4IDAgIzI0MjQyNCxcclxuICAgIDAgMS42cHggMCAjMjIyLCAwIDEuN3B4IDAgIzIwMjAyMCwgMCAycHggMCAjMWUxZTFlLCAwIDIuMXB4IDAgIzFjMWMxYyxcclxuICAgIDAgMi4ycHggMCAjMWExYTFhLCAwIDIuM3B4IDAgIzE4MTgxOCwgMCAyLjRweCAwICMxNjE2MTYsIDAgMi41cHggMCAjMTQxNDE0LFxyXG4gICAgMCAyLjhweCAwICMxMjEyMTIsIDAgM3B4IDNweCByZ2JhKDAsIDAsIDAsIDAuOSk7XHJcblxyXG4gIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGxpbmUtaGVpZ2h0OiAxLjNlbTtcclxufVxyXG5cclxuc3Bhbi5jczEsXHJcbnNwYW4uY3MyLFxyXG5zcGFuLmNzMyB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgZmxvYXQ6IGxlZnQ7XHJcbiAgLXdlYmtpdC1jbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCA4MCUpO1xyXG4gIGNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDgwJSk7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MHB4KTtcclxuICBvcGFjaXR5OiAwO1xyXG4gIGFuaW1hdGlvbi1uYW1lOiBjb21pbmdzb29uO1xyXG4gIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2U7XHJcbiAgYW5pbWF0aW9uLWR1cmF0aW9uOiA2cztcclxuICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcclxufVxyXG5cclxuc3Bhbi5jczEge1xyXG4gIGNvbG9yOiBwaW5rO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogM3M7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZmlsbC1tb2RlOiBmb3J3YXJkcztcclxufVxyXG5zcGFuLmNzMiB7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMnM7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZmlsbC1tb2RlOiBmb3J3YXJkcztcclxufVxyXG5zcGFuLmNzMyB7XHJcbiAgY29sb3I6IHllbGxvdztcclxuICBhbmltYXRpb24tZGVsYXk6IDFzO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgY29taW5nc29vbiB7XHJcbiAgMCUge1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MHB4KTtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDgwJSk7XHJcbiAgICBjbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCA4MCUpO1xyXG4gIH1cclxuICAyMCUge1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApO1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC13ZWJraXQtY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgMTUlKTtcclxuICAgIGNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDE1JSk7XHJcbiAgfVxyXG4gIDgwJSB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLXdlYmtpdC1jbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCAxNSUpO1xyXG4gICAgY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgMTUlKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoNTBweCk7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLXdlYmtpdC1jbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIC0wJSwgMCAxMDAlLCAwIDEwMCUpO1xyXG4gICAgY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAtMCUsIDAgMTAwJSwgMCAxMDAlKTtcclxuICB9XHJcbn1cclxuXHJcbi8qIFRleHRzbGlkZWJveCAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuXHJcbi5zd2lwZXItY29udGFpbmVyIHtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICB0b3A6IDJlbTtcclxuICB3aWR0aDogODUlO1xyXG59XHJcblxyXG4uY2FyZCB7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJhY2tncm91bmQ6ICNmZmY7XHJcbiAgd2lkdGg6IDIwMHB4O1xyXG4gIGhlaWdodDogNDAwcHg7XHJcbiAgbWFyZ2luOiAwIGF1dG87XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbn1cclxuLmNhcmQgLmNvbnRlbnQge1xyXG4gIHdpZHRoOiAyMDBweDtcclxuXHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufVxyXG4uY2FyZCAuY29udGVudCBhIHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcblxyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBib3JkZXI6IDFweCBzb2xpZCAjMjYyNjI2O1xyXG4gIGNvbG9yOiAjMjYyNjI2O1xyXG4gIGZvbnQtd2VpZ2h0OiAyMHB4O1xyXG59XHJcbi5jYXJkIC5zbGlkZXJ0ZXh0IHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA1MHB4O1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwO1xyXG59XHJcbi5jYXJkIC5zbGlkZXJ0ZXh0IGgzIHtcclxuICBjb2xvcjogI2ZmZjtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbn1cclxuXHJcbi5zd2lwZXItc2xpZGUge1xyXG4gIG1heC13aWR0aDogMjAwcHg7XHJcbn1cclxuXHJcbmltZyB7XHJcbiAgd2lkdGg6IDIwMHB4O1xyXG4gIGhlaWdodDogMjAwcHg7XHJcbn1cclxuXHJcbkBmb250LWZhY2Uge1xyXG4gIGZvbnQtZmFtaWx5OiBzd2lwZXItaWNvbnM7XHJcbiAgc3JjOiB1cmwoXCJkYXRhOmFwcGxpY2F0aW9uL2ZvbnQtd29mZjtjaGFyc2V0PXV0Zi04O2Jhc2U2NCwgZDA5R1JnQUJBQUFBQUFaZ0FCQUFBQUFBREFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJHUmxSTkFBQUdSQUFBQUJvQUFBQWNpNnFIa1VkRVJVWUFBQVdnQUFBQUl3QUFBQ1FBWUFCWFIxQlBVd0FBQmhRQUFBQXVBQUFBTnVBWTcreEhVMVZDQUFBRnhBQUFBRkFBQUFCbTJmUGN6VTlUTHpJQUFBSGNBQUFBU2dBQUFHQlA5VjVSWTIxaGNBQUFBa1FBQUFDSUFBQUJZdDZGMGNCamRuUWdBQUFDekFBQUFBUUFBQUFFQUJFQlJHZGhjM0FBQUFXWUFBQUFDQUFBQUFqLy93QURaMng1WmdBQUF5d0FBQURNQUFBRDJNSHRyeVZvWldGa0FBQUJiQUFBQURBQUFBQTJFMitlb1dob1pXRUFBQUdjQUFBQUh3QUFBQ1FDOWdEemFHMTBlQUFBQWlnQUFBQVpBQUFBcmdKa0FCRnNiMk5oQUFBQzBBQUFBRm9BQUFCYUZRQVVHRzFoZUhBQUFBRzhBQUFBSHdBQUFDQUFjQUJBYm1GdFpRQUFBL2dBQUFFNUFBQUNYdkZkQndsd2IzTjBBQUFGTkFBQUFHSUFBQUNFNXM3NGhYamFZMkJrWUdBQVlwZjVIdS9qK1cyK01uQXpNWURBemFYNlFqRDYvNC8vQnhqNUdBOEF1UndNWUdrQVB5d0wxM2phWTJCa1lHQTg4UDhBZ3g0aisvOGZRRFlmQTFBRUJXZ0RBSUIyQk9vQWVOcGpZR1JnWU5CaDRHZGdZZ0FCRU1uSUFCSnpZTkFEQ1FBQUNXZ0FzUUI0Mm1OZ1lmekNPSUdCbFlHQjBZY3hqWUdCd1IxS2YyV1FaR2hoWUdCaVlHVm1nQUZHQmlRUWtPYWF3dERBb01CUXhYamcvd0VHUGNZRERBNHdOVUEyQ0Nnd3NBQUFPNEVMNmdBQWVOcGoyTTBneUFBQ3F4Z0dOV0JrWjJENC93TUEreGtEZGdBQUFIamFZMkJnWUdhQVlCa0dSZ1lRaUFIeUdNRjhGZ1lISU0zRHdNSEFCR1FyTU9neVdETEVNMVQ5L3c4VUJmRU1nTHpFLy8vL1AvNS8vZi9WL3h2K3I0ZWFBQWVNYkF4d0lVWW1JTUhFZ0tZQVlqVWNzREF3c0xLeGMzQnljZlB3OGpFUUEvZ1pCQVNGaEVWRXhjUWxKS1drWldUbDVCVVVsWlJWVk5YVU5UUVpCZ01BQU1SK0UrZ0FFUUZFQUFBQUtnQXFBQ29BTkFBK0FFZ0FVZ0JjQUdZQWNBQjZBSVFBamdDWUFLSUFyQUMyQU1BQXlnRFVBTjRBNkFEeUFQd0JCZ0VRQVJvQkpBRXVBVGdCUWdGTUFWWUJZQUZxQVhRQmZnR0lBWklCbkFHbUFiSUJ6Z0hzQUFCNDJ1Mk5NUTZDVUF5R1c1Njh4OUFuZVlZZ200TUpiaEtGYUV4SU9BVlg4QXBld1N0NEJpYzRBZmVBaWQzVk9CaXhEeGZQWUV6YTVPK1hmaTA0WUFEZ2dpVUlVTEN1RUpLOFZoTzRiU3ZwZG5rdEhJNVFDWXRkaTJzbDhablhhSGxxVXJOS3pkS2NUOGNqbHErcndaU3ZJVmN6TmllenNmblAvdXpubWZQRkJOT0RNMks3TVRRNDVZRUFacUdQODFBbUdHY0YzaVBxT29wMHIxU1BUYVRiVmtmVWU0SFhqOTd3WUUreU53V1l4d1d1NHYxdWdXSGdvM1MxWGRaRVZxV003RVQwY2ZuTEd4V2ZrZ1I0Mm8yUHZXckRNQlNGai9JSExhRjB6S2pSZ2RpVk13U2NOUkFvV1VvSDc4WTJpY0IveUlZMDlBbjZBSDJCZHUvVUIreXhvcFlzaFFpRXZudnUwZFVSZ0R0OFFlQzhQRHc3RnBqaTNmRUE0ei9QRUo2WU9CNWhLaDRkajNFdlhoeFBxSC9TS1VZM3JKN3NyWjRGWm5oMVBNQXRQaHdQNmZsMlBNSk1QRGdlUTRyWThZVDZHemFvMGVBRUE0MDlEdWdnbVRuRm5PY1NDaUVpTE1neENpVEk2Q3E1RFpVZDNRbXAxMHZPMExhTFRkMmNqTjRmT3VtbGM3bFVZYlNRY1pGa3V0Ukc3ZzZKS1pLeTBSbWRMWTY4MENEbkVKK1VNa3BGRmUxUk43bnhkVnBYckM0YVR0bmF1ck9uWWVyY1pnMllWbUxOL2QvZ2N6ZkVpbXJFL2ZzL2JPdXEyOVptbjh0bG9PUmFYZ1pnR2E3OHlPOS9jblhtMkJwYUd2cTI1RHY5UzRFOSs1U0ljOVBxdXBKS2hZRlNTbDQ3K1FjcjFtWU5BQUFBZU5wdHcwY0t3a0FBQU1EWkpBOFE3T1VKdmtMc1BmWjZ6RlZFUlB5OHFIaDJZRVIrM2kvQlA4M3ZJQkxMeVNzb0tpbXJxS3FwYTJocDYranE2UnNZR2htYm1KcVpTeTBzcmF4dGJPM3NIUnlkbkVNVTR1UjZ5eDdKSlh2ZVA3V3JEeWNBQUFBQUFBSC8vd0FDZU5wallHUmdZT0FCWWhrZ1pnSkNaZ1pOQmtZR0xRWnRJSnNGTE1ZQUFBdzNBTGdBZU5vbGl6RUtnREFRQkNjaFJiQzJzRkVSMFlENnFWUWlCQ3YvSDllekdJNlo1WEJBdzhDQksvbTVpUVFWYXVWYlhMbk9yTVp2Mm9MZEtGYThQanVydTJoSnpHYWJtT1NMek5NenZ1dHBCM040Mm1OZ1pHQmc0R0tRWXpCaFlNeEpMTWxqNEdCZ0FZb3cvUC9QQUpKaExNNnNTb1dLZldDQUF3REFqZ2JSQUFCNDJtTmdZR0JrQUlJYkNabzVJUHJtVW4waEdBMEFPOEVGVFFBQVwiKVxyXG4gICAgZm9ybWF0KFwid29mZlwiKTtcclxuICBmb250LXdlaWdodDogNDAwO1xyXG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxufVxyXG46cm9vdCB7XHJcbiAgLS1zd2lwZXItdGhlbWUtY29sb3I6ICMwMDdhZmY7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXIge1xyXG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xyXG4gIG1hcmdpbi1yaWdodDogYXV0bztcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICBsaXN0LXN0eWxlOiBub25lO1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgei1pbmRleDogMTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbCA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG4uc3dpcGVyLXdyYXBwZXIge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgei1pbmRleDogMTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIHRyYW5zaXRpb24tcHJvcGVydHk6IHRyYW5zZm9ybTtcclxuICBib3gtc2l6aW5nOiBjb250ZW50LWJveDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1hbmRyb2lkIC5zd2lwZXItc2xpZGUsXHJcbi5zd2lwZXItd3JhcHBlciB7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgwcHgsIDAsIDApO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLW11bHRpcm93ID4gLnN3aXBlci13cmFwcGVyIHtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItbXVsdGlyb3ctY29sdW1uID4gLnN3aXBlci13cmFwcGVyIHtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mcmVlLW1vZGUgPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIHRyYW5zaXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICBtYXJnaW46IDAgYXV0bztcclxufVxyXG4uc3dpcGVyLXNsaWRlIHtcclxuICBmbGV4LXNocmluazogMDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHRyYW5zaXRpb24tcHJvcGVydHk6IHRyYW5zZm9ybTtcclxufVxyXG4uc3dpcGVyLXNsaWRlLWludmlzaWJsZS1ibGFuayB7XHJcbiAgdmlzaWJpbGl0eTogaGlkZGVuO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWF1dG9oZWlnaHQsXHJcbi5zd2lwZXItY29udGFpbmVyLWF1dG9oZWlnaHQgLnN3aXBlci1zbGlkZSB7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWF1dG9oZWlnaHQgLnN3aXBlci13cmFwcGVyIHtcclxuICBhbGlnbi1pdGVtczogZmxleC1zdGFydDtcclxuICB0cmFuc2l0aW9uLXByb3BlcnR5OiB0cmFuc2Zvcm0sIGhlaWdodDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCB7XHJcbiAgcGVyc3BlY3RpdmU6IDEyMDBweDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLWN1YmUtc2hhZG93LFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1ib3R0b20sXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LWxlZnQsXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LXJpZ2h0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy10b3AsXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItd3JhcHBlciB7XHJcbiAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1ib3R0b20sXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LWxlZnQsXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LXJpZ2h0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy10b3Age1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAwO1xyXG4gIHRvcDogMDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbiAgei1pbmRleDogMTA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctbGVmdCB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgdG8gbGVmdCxcclxuICAgIHJnYmEoMCwgMCwgMCwgMC41KSxcclxuICAgIHJnYmEoMCwgMCwgMCwgMClcclxuICApO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LXJpZ2h0IHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXHJcbiAgICB0byByaWdodCxcclxuICAgIHJnYmEoMCwgMCwgMCwgMC41KSxcclxuICAgIHJnYmEoMCwgMCwgMCwgMClcclxuICApO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LXRvcCB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgdG8gdG9wLFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwLjUpLFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwKVxyXG4gICk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctYm90dG9tIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXHJcbiAgICB0byBib3R0b20sXHJcbiAgICByZ2JhKDAsIDAsIDAsIDAuNSksXHJcbiAgICByZ2JhKDAsIDAsIDAsIDApXHJcbiAgKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jc3MtbW9kZSA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgb3ZlcmZsb3c6IGF1dG87XHJcbiAgc2Nyb2xsYmFyLXdpZHRoOiBub25lO1xyXG4gIC1tcy1vdmVyZmxvdy1zdHlsZTogbm9uZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jc3MtbW9kZSA+IC5zd2lwZXItd3JhcHBlcjo6LXdlYmtpdC1zY3JvbGxiYXIge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3NzLW1vZGUgPiAuc3dpcGVyLXdyYXBwZXIgPiAuc3dpcGVyLXNsaWRlIHtcclxuICBzY3JvbGwtc25hcC1hbGlnbjogc3RhcnQgc3RhcnQ7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbC5zd2lwZXItY29udGFpbmVyLWNzcy1tb2RlID4gLnN3aXBlci13cmFwcGVyIHtcclxuICBzY3JvbGwtc25hcC10eXBlOiB4IG1hbmRhdG9yeTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbC5zd2lwZXItY29udGFpbmVyLWNzcy1tb2RlID4gLnN3aXBlci13cmFwcGVyIHtcclxuICBzY3JvbGwtc25hcC10eXBlOiB5IG1hbmRhdG9yeTtcclxufVxyXG46cm9vdCB7XHJcbiAgLS1zd2lwZXItbmF2aWdhdGlvbi1zaXplOiA0NHB4O1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQsXHJcbi5zd2lwZXItYnV0dG9uLXByZXYge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDUwJTtcclxuICB3aWR0aDogY2FsYyh2YXIoLS1zd2lwZXItbmF2aWdhdGlvbi1zaXplKSAvIDQ0ICogMjcpO1xyXG4gIGhlaWdodDogdmFyKC0tc3dpcGVyLW5hdmlnYXRpb24tc2l6ZSk7XHJcbiAgbWFyZ2luLXRvcDogY2FsYygtMSAqIHZhcigtLXN3aXBlci1uYXZpZ2F0aW9uLXNpemUpIC8gMik7XHJcbiAgei1pbmRleDogMTA7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBjb2xvcjogdmFyKC0tc3dpcGVyLW5hdmlnYXRpb24tY29sb3IsIHZhcigtLXN3aXBlci10aGVtZS1jb2xvcikpO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQuc3dpcGVyLWJ1dHRvbi1kaXNhYmxlZCxcclxuLnN3aXBlci1idXR0b24tcHJldi5zd2lwZXItYnV0dG9uLWRpc2FibGVkIHtcclxuICBvcGFjaXR5OiAwLjM1O1xyXG4gIGN1cnNvcjogYXV0bztcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0OmFmdGVyLFxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2OmFmdGVyIHtcclxuICBmb250LWZhbWlseTogc3dpcGVyLWljb25zO1xyXG4gIGZvbnQtc2l6ZTogdmFyKC0tc3dpcGVyLW5hdmlnYXRpb24tc2l6ZSk7XHJcbiAgdGV4dC10cmFuc2Zvcm06IG5vbmUgIWltcG9ydGFudDtcclxuICBsZXR0ZXItc3BhY2luZzogMDtcclxuICB0ZXh0LXRyYW5zZm9ybTogbm9uZTtcclxuICBmb250LXZhcmlhbnQ6IGluaXRpYWw7XHJcbiAgbGluZS1oZWlnaHQ6IDE7XHJcbn1cclxuLnN3aXBlci1idXR0b24tcHJldixcclxuLnN3aXBlci1jb250YWluZXItcnRsIC5zd2lwZXItYnV0dG9uLW5leHQge1xyXG4gIGxlZnQ6IDEwcHg7XHJcbiAgcmlnaHQ6IGF1dG87XHJcbn1cclxuLnN3aXBlci1idXR0b24tcHJldjphZnRlcixcclxuLnN3aXBlci1jb250YWluZXItcnRsIC5zd2lwZXItYnV0dG9uLW5leHQ6YWZ0ZXIge1xyXG4gIGNvbnRlbnQ6IFwicHJldlwiO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQsXHJcbi5zd2lwZXItY29udGFpbmVyLXJ0bCAuc3dpcGVyLWJ1dHRvbi1wcmV2IHtcclxuICByaWdodDogMTBweDtcclxuICBsZWZ0OiBhdXRvO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQ6YWZ0ZXIsXHJcbi5zd2lwZXItY29udGFpbmVyLXJ0bCAuc3dpcGVyLWJ1dHRvbi1wcmV2OmFmdGVyIHtcclxuICBjb250ZW50OiBcIm5leHRcIjtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0LnN3aXBlci1idXR0b24td2hpdGUsXHJcbi5zd2lwZXItYnV0dG9uLXByZXYuc3dpcGVyLWJ1dHRvbi13aGl0ZSB7XHJcbiAgLS1zd2lwZXItbmF2aWdhdGlvbi1jb2xvcjogI2ZmZmZmZjtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0LnN3aXBlci1idXR0b24tYmxhY2ssXHJcbi5zd2lwZXItYnV0dG9uLXByZXYuc3dpcGVyLWJ1dHRvbi1ibGFjayB7XHJcbiAgLS1zd2lwZXItbmF2aWdhdGlvbi1jb2xvcjogIzAwMDAwMDtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1sb2NrIHtcclxuICBkaXNwbGF5OiBub25lO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbiB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB0cmFuc2l0aW9uOiAwLjNzIG9wYWNpdHk7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgwLCAwLCAwKTtcclxuICB6LWluZGV4OiAxMDtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24uc3dpcGVyLXBhZ2luYXRpb24taGlkZGVuIHtcclxuICBvcGFjaXR5OiAwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWwgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cyxcclxuLnN3aXBlci1wYWdpbmF0aW9uLWN1c3RvbSxcclxuLnN3aXBlci1wYWdpbmF0aW9uLWZyYWN0aW9uIHtcclxuICBib3R0b206IDEwcHg7XHJcbiAgbGVmdDogMDtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIHtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIGZvbnQtc2l6ZTogMDtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMC4zMyk7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMSk7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZS1tYWluIHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDEpO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUtcHJldiB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwLjY2KTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlLXByZXYtcHJldiB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwLjMzKTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlLW5leHQge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMC42Nik7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZS1uZXh0LW5leHQge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMC4zMyk7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgd2lkdGg6IDhweDtcclxuICBoZWlnaHQ6IDhweDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgYm9yZGVyLXJhZGl1czogMTAwJTtcclxuICBiYWNrZ3JvdW5kOiAjMDAwO1xyXG4gIG9wYWNpdHk6IDAuMjtcclxufVxyXG5idXR0b24uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICBib3JkZXI6IG5vbmU7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgYm94LXNoYWRvdzogbm9uZTtcclxuICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7XHJcbiAgLW1vei1hcHBlYXJhbmNlOiBub25lO1xyXG4gIGFwcGVhcmFuY2U6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWNsaWNrYWJsZSAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUge1xyXG4gIG9wYWNpdHk6IDE7XHJcbiAgYmFja2dyb3VuZDogdmFyKC0tc3dpcGVyLXBhZ2luYXRpb24tY29sb3IsIHZhcigtLXN3aXBlci10aGVtZS1jb2xvcikpO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMge1xyXG4gIHJpZ2h0OiAxMHB4O1xyXG4gIHRvcDogNTAlO1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlM2QoMHB4LCAtNTAlLCAwKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHNcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICBtYXJnaW46IDZweCAwO1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMge1xyXG4gIHRvcDogNTAlO1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTAlKTtcclxuICB3aWR0aDogOHB4O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWNcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgdHJhbnNpdGlvbjogMC4ycyB0cmFuc2Zvcm0sIDAuMnMgdG9wO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgbWFyZ2luOiAwIDRweDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMge1xyXG4gIGxlZnQ6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XHJcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWNcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICB0cmFuc2l0aW9uOiAwLjJzIHRyYW5zZm9ybSwgMC4ycyBsZWZ0O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWwuc3dpcGVyLWNvbnRhaW5lci1ydGxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWNcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICB0cmFuc2l0aW9uOiAwLjJzIHRyYW5zZm9ybSwgMC4ycyByaWdodDtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXIge1xyXG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC4yNSk7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2JhciAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXItZmlsbCB7XHJcbiAgYmFja2dyb3VuZDogdmFyKC0tc3dpcGVyLXBhZ2luYXRpb24tY29sb3IsIHZhcigtLXN3aXBlci10aGVtZS1jb2xvcikpO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAwO1xyXG4gIHRvcDogMDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwKTtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiBsZWZ0IHRvcDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ydGxcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXJcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXItZmlsbCB7XHJcbiAgdHJhbnNmb3JtLW9yaWdpbjogcmlnaHQgdG9wO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWwgPiAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXIsXHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXIuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXItb3Bwb3NpdGUge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogNHB4O1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2Jhci5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2Jhci1vcHBvc2l0ZSxcclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWwgPiAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXIge1xyXG4gIHdpZHRoOiA0cHg7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi13aGl0ZSB7XHJcbiAgLS1zd2lwZXItcGFnaW5hdGlvbi1jb2xvcjogI2ZmZmZmZjtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYmxhY2sge1xyXG4gIC0tc3dpcGVyLXBhZ2luYXRpb24tY29sb3I6ICMwMDAwMDA7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWxvY2sge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1zY3JvbGxiYXIge1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIC1tcy10b3VjaC1hY3Rpb246IG5vbmU7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjEpO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWwgPiAuc3dpcGVyLXNjcm9sbGJhciB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGxlZnQ6IDElO1xyXG4gIGJvdHRvbTogM3B4O1xyXG4gIHotaW5kZXg6IDUwO1xyXG4gIGhlaWdodDogNXB4O1xyXG4gIHdpZHRoOiA5OCU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWwgPiAuc3dpcGVyLXNjcm9sbGJhciB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHJpZ2h0OiAzcHg7XHJcbiAgdG9wOiAxJTtcclxuICB6LWluZGV4OiA1MDtcclxuICB3aWR0aDogNXB4O1xyXG4gIGhlaWdodDogOTglO1xyXG59XHJcbi5zd2lwZXItc2Nyb2xsYmFyLWRyYWcge1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB3aWR0aDogMTAwJTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbn1cclxuLnN3aXBlci1zY3JvbGxiYXItY3Vyc29yLWRyYWcge1xyXG4gIGN1cnNvcjogbW92ZTtcclxufVxyXG4uc3dpcGVyLXNjcm9sbGJhci1sb2NrIHtcclxuICBkaXNwbGF5OiBub25lO1xyXG59XHJcbi5zd2lwZXItem9vbS1jb250YWluZXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbi5zd2lwZXItem9vbS1jb250YWluZXIgPiBjYW52YXMsXHJcbi5zd2lwZXItem9vbS1jb250YWluZXIgPiBpbWcsXHJcbi5zd2lwZXItem9vbS1jb250YWluZXIgPiBzdmcge1xyXG4gIG1heC13aWR0aDogMTAwJTtcclxuICBtYXgtaGVpZ2h0OiAxMDAlO1xyXG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbn1cclxuLnN3aXBlci1zbGlkZS16b29tZWQge1xyXG4gIGN1cnNvcjogbW92ZTtcclxufVxyXG4uc3dpcGVyLWxhenktcHJlbG9hZGVyIHtcclxuICB3aWR0aDogNDJweDtcclxuICBoZWlnaHQ6IDQycHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGxlZnQ6IDUwJTtcclxuICB0b3A6IDUwJTtcclxuICBtYXJnaW4tbGVmdDogLTIxcHg7XHJcbiAgbWFyZ2luLXRvcDogLTIxcHg7XHJcbiAgei1pbmRleDogMTA7XHJcbiAgdHJhbnNmb3JtLW9yaWdpbjogNTAlO1xyXG4gIGFuaW1hdGlvbjogc3dpcGVyLXByZWxvYWRlci1zcGluIDFzIGluZmluaXRlIGxpbmVhcjtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIGJvcmRlcjogNHB4IHNvbGlkIHZhcigtLXN3aXBlci1wcmVsb2FkZXItY29sb3IsIHZhcigtLXN3aXBlci10aGVtZS1jb2xvcikpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICBib3JkZXItdG9wLWNvbG9yOiB0cmFuc3BhcmVudDtcclxufVxyXG4uc3dpcGVyLWxhenktcHJlbG9hZGVyLXdoaXRlIHtcclxuICAtLXN3aXBlci1wcmVsb2FkZXItY29sb3I6ICNmZmY7XHJcbn1cclxuLnN3aXBlci1sYXp5LXByZWxvYWRlci1ibGFjayB7XHJcbiAgLS1zd2lwZXItcHJlbG9hZGVyLWNvbG9yOiAjMDAwO1xyXG59XHJcbkBrZXlmcmFtZXMgc3dpcGVyLXByZWxvYWRlci1zcGluIHtcclxuICAxMDAlIHtcclxuICAgIHRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7XHJcbiAgfVxyXG59XHJcbi5zd2lwZXItY29udGFpbmVyIC5zd2lwZXItbm90aWZpY2F0aW9uIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbiAgb3BhY2l0eTogMDtcclxuICB6LWluZGV4OiAtMTAwMDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mYWRlLnN3aXBlci1jb250YWluZXItZnJlZS1tb2RlIC5zd2lwZXItc2xpZGUge1xyXG4gIHRyYW5zaXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mYWRlIC5zd2lwZXItc2xpZGUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG4gIHRyYW5zaXRpb24tcHJvcGVydHk6IG9wYWNpdHk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmFkZSAuc3dpcGVyLXNsaWRlIC5zd2lwZXItc2xpZGUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZhZGUgLnN3aXBlci1zbGlkZS1hY3RpdmUsXHJcbi5zd2lwZXItY29udGFpbmVyLWZhZGUgLnN3aXBlci1zbGlkZS1hY3RpdmUgLnN3aXBlci1zbGlkZS1hY3RpdmUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBhdXRvO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUge1xyXG4gIG92ZXJmbG93OiB2aXNpYmxlO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIHotaW5kZXg6IDE7XHJcbiAgdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlIC5zd2lwZXItc2xpZGUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUuc3dpcGVyLWNvbnRhaW5lci1ydGwgLnN3aXBlci1zbGlkZSB7XHJcbiAgdHJhbnNmb3JtLW9yaWdpbjogMTAwJSAwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1hY3RpdmUsXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1hY3RpdmUgLnN3aXBlci1zbGlkZS1hY3RpdmUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBhdXRvO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1hY3RpdmUsXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1uZXh0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtbmV4dCArIC5zd2lwZXItc2xpZGUsXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1wcmV2IHtcclxuICBwb2ludGVyLWV2ZW50czogYXV0bztcclxuICB2aXNpYmlsaXR5OiB2aXNpYmxlO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1zaGFkb3ctYm90dG9tLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtc2hhZG93LWxlZnQsXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1zaGFkb3ctcmlnaHQsXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1zaGFkb3ctdG9wIHtcclxuICB6LWluZGV4OiAwO1xyXG4gIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItY3ViZS1zaGFkb3cge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAwO1xyXG4gIGJvdHRvbTogMHB4O1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBiYWNrZ3JvdW5kOiAjMDAwO1xyXG4gIG9wYWNpdHk6IDAuNjtcclxuICAtd2Via2l0LWZpbHRlcjogYmx1cig1MHB4KTtcclxuICBmaWx0ZXI6IGJsdXIoNTBweCk7XHJcbiAgei1pbmRleDogMDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIHtcclxuICBvdmVyZmxvdzogdmlzaWJsZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG4gIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICB6LWluZGV4OiAxO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZSAuc3dpcGVyLXNsaWRlIHtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUtYWN0aXZlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUtYWN0aXZlIC5zd2lwZXItc2xpZGUtYWN0aXZlIHtcclxuICBwb2ludGVyLWV2ZW50czogYXV0bztcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUtc2hhZG93LWJvdHRvbSxcclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1sZWZ0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUtc2hhZG93LXJpZ2h0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUtc2hhZG93LXRvcCB7XHJcbiAgei1pbmRleDogMDtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbn1cclxuXHJcbiogYSB7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbiJdfQ== */"]
+        styles: ["@import \"https://fonts.googleapis.com/css?family=Baloo+Paaji\";\n\n@font-face {\r\n  src: url('UnifrakturCook-Bold.ttf');\r\n  font-family: u;\r\n}\n@font-face {\r\n  src: url('CheltenhamBoldExtraCondensedBT.ttf');\r\n  font-family: c;\r\n}\n@font-face {\r\n  src: url('Montserrat-Regular.ttf');\r\n  font-family: m;\r\n}\n@font-face {\r\n  src: url('Amr.otf');\r\n  font-family: a;\r\n}\n@font-face {\r\n  src: url('Neon-e2wg.ttf');\r\n  font-family: neon;\r\n}\n@font-face {\r\n  src: url('Lobster-Regular.ttf');\r\n  font-family: l;\r\n}\n@font-face {\r\n  src: url('Merriweather-Regular.ttf');\r\n  font-family: merri;\r\n}\n@font-face {\r\n  src: url('BLKCHCRY.TTF');\r\n  font-family: blk;\r\n}\n@font-face {\r\n  src: url('OpenSans-Regular.ttf');\r\n  font-family: os;\r\n}\n@font-face {\r\n  src: url('WorkSans-VariableFont_wght.ttf');\r\n  font-family: ws;\r\n}\n@font-face {\r\n  src: url('Roboto-Light.ttf');\r\n  font-family: robo;\r\n}\n\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\n\n.cb-slideshow[_ngcontent-%COMP%], .cb-slideshow[_ngcontent-%COMP%]:after {\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0px;\r\n  left: 0px;\r\n  z-index: 0;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  background: transparent url() repeat top left;\r\n}\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0px;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: 50% 50%;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art1.1.jpg');\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art2.2.jpg');\r\n  -webkit-animation-delay: 6s;\r\n  animation-delay: 6s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(3)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art3.jpg');\r\n  -webkit-animation-delay: 12s;\r\n  animation-delay: 12s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(4)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art4.4.jpg');\r\n  -webkit-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(5)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art6.6.jpg');\r\n  -webkit-animation-delay: 30s;\r\n  animation-delay: 30s;\r\n}\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n            animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n            animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\n.no-cssanimations[_ngcontent-%COMP%]   .cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n}\n\n\n.title[_ngcontent-%COMP%] {\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n}\n\n.comingsoon[_ngcontent-%COMP%] {\r\n  margin: auto;\r\n  margin-top: 10em;\r\n  font-family: \"Baloo Paaji\", cursive;\r\n  border: black 2px solid;\r\n  width: 20em;\r\n  height: 12em;\r\n  align-content: center;\r\n  position: relative;\r\n  margin-bottom: 10px;\r\n}\n.comingsoon[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%] {\r\n  padding: 1em;\r\n  font-size: 40px;\r\n  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 1.1px 0 #2c2c2c,\r\n    0 1.2px 0 #2a2a2a, 0 1.3px 0 #282828, 0 1.4px 0 #262626, 0 1.5px 0 #242424,\r\n    0 1.6px 0 #222, 0 1.7px 0 #202020, 0 2px 0 #1e1e1e, 0 2.1px 0 #1c1c1c,\r\n    0 2.2px 0 #1a1a1a, 0 2.3px 0 #181818, 0 2.4px 0 #161616, 0 2.5px 0 #141414,\r\n    0 2.8px 0 #121212, 0 3px 3px rgba(0, 0, 0, 0.9);\r\n\r\n  text-transform: uppercase;\r\n  text-align: center;\r\n  line-height: 1.3em;\r\n}\nspan.cs1[_ngcontent-%COMP%], span.cs2[_ngcontent-%COMP%], span.cs3[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  float: left;\r\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  transform: translateY(-50px);\r\n  opacity: 0;\r\n  -webkit-animation-name: comingsoon;\r\n          animation-name: comingsoon;\r\n  -webkit-animation-timing-function: ease;\r\n          animation-timing-function: ease;\r\n  -webkit-animation-duration: 6s;\r\n          animation-duration: 6s;\r\n  -webkit-animation-iteration-count: infinite;\r\n          animation-iteration-count: infinite;\r\n}\nspan.cs1[_ngcontent-%COMP%] {\r\n  color: pink;\r\n  -webkit-animation-delay: 3s;\r\n          animation-delay: 3s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\nspan.cs2[_ngcontent-%COMP%] {\r\n  color: white;\r\n  -webkit-animation-delay: 2s;\r\n          animation-delay: 2s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\nspan.cs3[_ngcontent-%COMP%] {\r\n  color: yellow;\r\n  -webkit-animation-delay: 1s;\r\n          animation-delay: 1s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\n@-webkit-keyframes comingsoon {\r\n  0% {\r\n    transform: translateY(-50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  }\r\n  20% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  80% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  100% {\r\n    transform: translateY(50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n  }\r\n}\n@keyframes comingsoon {\r\n  0% {\r\n    transform: translateY(-50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  }\r\n  20% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  80% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  100% {\r\n    transform: translateY(50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n  }\r\n}\n\n.swiper-container[_ngcontent-%COMP%] {\r\n  margin: 0 auto;\r\n  top: 2em;\r\n  width: 85%;\r\n}\n.card[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  background: #fff;\r\n  width: 200px;\r\n  height: 300px;\r\n  margin: 0 auto;\r\n  font-family: c;\r\n}\n.card[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n\r\n  box-sizing: border-box;\r\n}\n.card[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n\r\n  text-decoration: none;\r\n  border: 1px solid #262626;\r\n  color: #262626;\r\n  font-weight: 20px;\r\n}\n.card[_ngcontent-%COMP%]   .slidertext[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 50px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: #000;\r\n}\n.card[_ngcontent-%COMP%]   .slidertext[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\r\n  color: #fff;\r\n  font-size: 20px;\r\n}\n.swiper-slide[_ngcontent-%COMP%] {\r\n  max-width: 200px;\r\n}\nimg[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n  height: 200px;\r\n}\n@font-face {\r\n  font-family: swiper-icons;\r\n  src: url(\"data:application/font-woff;charset=utf-8;base64, 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\")\r\n    format(\"woff\");\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}\n[_ngcontent-%COMP%]:root {\r\n  --swiper-theme-color: #007aff;\r\n}\n.swiper-container[_ngcontent-%COMP%] {\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  position: relative;\r\n  overflow: hidden;\r\n  list-style: none;\r\n  padding: 0;\r\n  z-index: 1;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-direction: column;\r\n}\n.swiper-wrapper[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  z-index: 1;\r\n  display: flex;\r\n  transition-property: transform;\r\n  box-sizing: content-box;\r\n}\n.swiper-container-android[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%], .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transform: translate3d(0px, 0, 0);\r\n}\n.swiper-container-multirow[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n}\n.swiper-container-multirow-column[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n  flex-direction: column;\r\n}\n.swiper-container-free-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transition-timing-function: ease-out;\r\n  margin: 0 auto;\r\n}\n.swiper-slide[_ngcontent-%COMP%] {\r\n  flex-shrink: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n  transition-property: transform;\r\n}\n.swiper-slide-invisible-blank[_ngcontent-%COMP%] {\r\n  visibility: hidden;\r\n}\n.swiper-container-autoheight[_ngcontent-%COMP%], .swiper-container-autoheight[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  height: auto;\r\n}\n.swiper-container-autoheight[_ngcontent-%COMP%]   .swiper-wrapper[_ngcontent-%COMP%] {\r\n  align-items: flex-start;\r\n  transition-property: transform, height;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%] {\r\n  perspective: 1200px;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-cube-shadow[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transform-style: preserve-3d;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  pointer-events: none;\r\n  z-index: 10;\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to left,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to right,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to top,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to bottom,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  overflow: auto;\r\n  scrollbar-width: none;\r\n  -ms-overflow-style: none;\r\n}\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%]::-webkit-scrollbar {\r\n  display: none;\r\n}\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%]    > .swiper-slide[_ngcontent-%COMP%] {\r\n  scroll-snap-align: start start;\r\n}\n.swiper-container-horizontal.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  -ms-scroll-snap-type: x mandatory;\r\n      scroll-snap-type: x mandatory;\r\n}\n.swiper-container-vertical.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  -ms-scroll-snap-type: y mandatory;\r\n      scroll-snap-type: y mandatory;\r\n}\n[_ngcontent-%COMP%]:root {\r\n  --swiper-navigation-size: 44px;\r\n}\n.swiper-button-next[_ngcontent-%COMP%], .swiper-button-prev[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  top: 50%;\r\n  width: calc(var(--swiper-navigation-size) / 44 * 27);\r\n  height: var(--swiper-navigation-size);\r\n  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);\r\n  z-index: 10;\r\n  cursor: pointer;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: var(--swiper-navigation-color, var(--swiper-theme-color));\r\n}\n.swiper-button-next.swiper-button-disabled[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-disabled[_ngcontent-%COMP%] {\r\n  opacity: 0.35;\r\n  cursor: auto;\r\n  pointer-events: none;\r\n}\n.swiper-button-next[_ngcontent-%COMP%]:after, .swiper-button-prev[_ngcontent-%COMP%]:after {\r\n  font-family: swiper-icons;\r\n  font-size: var(--swiper-navigation-size);\r\n  text-transform: none !important;\r\n  letter-spacing: 0;\r\n  text-transform: none;\r\n  font-variant: initial;\r\n  line-height: 1;\r\n}\n.swiper-button-prev[_ngcontent-%COMP%], .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-next[_ngcontent-%COMP%] {\r\n  left: 10px;\r\n  right: auto;\r\n}\n.swiper-button-prev[_ngcontent-%COMP%]:after, .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-next[_ngcontent-%COMP%]:after {\r\n  content: \"prev\";\r\n}\n.swiper-button-next[_ngcontent-%COMP%], .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-prev[_ngcontent-%COMP%] {\r\n  right: 10px;\r\n  left: auto;\r\n}\n.swiper-button-next[_ngcontent-%COMP%]:after, .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-prev[_ngcontent-%COMP%]:after {\r\n  content: \"next\";\r\n}\n.swiper-button-next.swiper-button-white[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-white[_ngcontent-%COMP%] {\r\n  --swiper-navigation-color: #ffffff;\r\n}\n.swiper-button-next.swiper-button-black[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-black[_ngcontent-%COMP%] {\r\n  --swiper-navigation-color: #000000;\r\n}\n.swiper-button-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\n.swiper-pagination[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  text-align: center;\r\n  transition: 0.3s opacity;\r\n  transform: translate3d(0, 0, 0);\r\n  z-index: 10;\r\n}\n.swiper-pagination.swiper-pagination-hidden[_ngcontent-%COMP%] {\r\n  opacity: 0;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%], .swiper-pagination-custom[_ngcontent-%COMP%], .swiper-pagination-fraction[_ngcontent-%COMP%] {\r\n  bottom: 10px;\r\n  left: 0;\r\n  width: 100%;\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  overflow: hidden;\r\n  font-size: 0;\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n  position: relative;\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active[_ngcontent-%COMP%] {\r\n  transform: scale(1);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-main[_ngcontent-%COMP%] {\r\n  transform: scale(1);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-prev[_ngcontent-%COMP%] {\r\n  transform: scale(0.66);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-prev-prev[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-next[_ngcontent-%COMP%] {\r\n  transform: scale(0.66);\r\n}\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-next-next[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n}\n.swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  width: 8px;\r\n  height: 8px;\r\n  display: inline-block;\r\n  border-radius: 100%;\r\n  background: #000;\r\n  opacity: 0.2;\r\n}\nbutton.swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  border: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-shadow: none;\r\n  -webkit-appearance: none;\r\n  -moz-appearance: none;\r\n  appearance: none;\r\n}\n.swiper-pagination-clickable[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\n.swiper-pagination-bullet-active[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n  background: var(--swiper-pagination-color, var(--swiper-theme-color));\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%] {\r\n  right: 10px;\r\n  top: 50%;\r\n  transform: translate3d(0px, -50%, 0);\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  margin: 6px 0;\r\n  display: block;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  top: 50%;\r\n  transform: translateY(-50%);\r\n  width: 8px;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  transition: 0.2s transform, 0.2s top;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  margin: 0 4px;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  left: 50%;\r\n  transform: translateX(-50%);\r\n  white-space: nowrap;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transition: 0.2s transform, 0.2s left;\r\n}\n.swiper-container-horizontal.swiper-container-rtl[_ngcontent-%COMP%]    > .swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transition: 0.2s transform, 0.2s right;\r\n}\n.swiper-pagination-progressbar[_ngcontent-%COMP%] {\r\n  background: rgba(0, 0, 0, 0.25);\r\n  position: absolute;\r\n}\n.swiper-pagination-progressbar[_ngcontent-%COMP%]   .swiper-pagination-progressbar-fill[_ngcontent-%COMP%] {\r\n  background: var(--swiper-pagination-color, var(--swiper-theme-color));\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  transform: scale(0);\r\n  transform-origin: left top;\r\n}\n.swiper-container-rtl[_ngcontent-%COMP%]   .swiper-pagination-progressbar[_ngcontent-%COMP%]   .swiper-pagination-progressbar-fill[_ngcontent-%COMP%] {\r\n  transform-origin: right top;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-progressbar[_ngcontent-%COMP%], .swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 4px;\r\n  left: 0;\r\n  top: 0;\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite[_ngcontent-%COMP%], .swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-progressbar[_ngcontent-%COMP%] {\r\n  width: 4px;\r\n  height: 100%;\r\n  left: 0;\r\n  top: 0;\r\n}\n.swiper-pagination-white[_ngcontent-%COMP%] {\r\n  --swiper-pagination-color: #ffffff;\r\n}\n.swiper-pagination-black[_ngcontent-%COMP%] {\r\n  --swiper-pagination-color: #000000;\r\n}\n.swiper-pagination-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\n.swiper-scrollbar[_ngcontent-%COMP%] {\r\n  border-radius: 10px;\r\n  position: relative;\r\n  -ms-touch-action: none;\r\n  background: rgba(0, 0, 0, 0.1);\r\n}\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-scrollbar[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 1%;\r\n  bottom: 3px;\r\n  z-index: 50;\r\n  height: 5px;\r\n  width: 98%;\r\n}\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-scrollbar[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  right: 3px;\r\n  top: 1%;\r\n  z-index: 50;\r\n  width: 5px;\r\n  height: 98%;\r\n}\n.swiper-scrollbar-drag[_ngcontent-%COMP%] {\r\n  height: 100%;\r\n  width: 100%;\r\n  position: relative;\r\n  background: rgba(0, 0, 0, 0.5);\r\n  border-radius: 10px;\r\n  left: 0;\r\n  top: 0;\r\n}\n.swiper-scrollbar-cursor-drag[_ngcontent-%COMP%] {\r\n  cursor: move;\r\n}\n.swiper-scrollbar-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\n.swiper-zoom-container[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n}\n.swiper-zoom-container[_ngcontent-%COMP%]    > canvas[_ngcontent-%COMP%], .swiper-zoom-container[_ngcontent-%COMP%]    > img[_ngcontent-%COMP%], .swiper-zoom-container[_ngcontent-%COMP%]    > svg[_ngcontent-%COMP%] {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  -o-object-fit: contain;\r\n     object-fit: contain;\r\n}\n.swiper-slide-zoomed[_ngcontent-%COMP%] {\r\n  cursor: move;\r\n}\n.swiper-lazy-preloader[_ngcontent-%COMP%] {\r\n  width: 42px;\r\n  height: 42px;\r\n  position: absolute;\r\n  left: 50%;\r\n  top: 50%;\r\n  margin-left: -21px;\r\n  margin-top: -21px;\r\n  z-index: 10;\r\n  transform-origin: 50%;\r\n  -webkit-animation: swiper-preloader-spin 1s infinite linear;\r\n          animation: swiper-preloader-spin 1s infinite linear;\r\n  box-sizing: border-box;\r\n  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));\r\n  border-radius: 50%;\r\n  border-top-color: transparent;\r\n}\n.swiper-lazy-preloader-white[_ngcontent-%COMP%] {\r\n  --swiper-preloader-color: #fff;\r\n}\n.swiper-lazy-preloader-black[_ngcontent-%COMP%] {\r\n  --swiper-preloader-color: #000;\r\n}\n@-webkit-keyframes swiper-preloader-spin {\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\n@keyframes swiper-preloader-spin {\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\n.swiper-container[_ngcontent-%COMP%]   .swiper-notification[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  pointer-events: none;\r\n  opacity: 0;\r\n  z-index: -1000;\r\n}\n.swiper-container-fade.swiper-container-free-mode[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  transition-timing-function: ease-out;\r\n}\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  transition-property: opacity;\r\n}\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%] {\r\n  overflow: visible;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  z-index: 1;\r\n  visibility: hidden;\r\n  transform-origin: 0 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\n.swiper-container-cube.swiper-container-rtl[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  transform-origin: 100% 0;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-next[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-next[_ngcontent-%COMP%]    + .swiper-slide[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-prev[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n  visibility: visible;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n}\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-cube-shadow[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  bottom: 0px;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #000;\r\n  opacity: 0.6;\r\n  -webkit-filter: blur(50px);\r\n  filter: blur(50px);\r\n  z-index: 0;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%] {\r\n  overflow: visible;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  z-index: 1;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n}\n*[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\n.card-container[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding-top: 50px;\r\n}\n.img-conatiner[_ngcontent-%COMP%] {\r\n  width: 199px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,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O0FBQ0E7O0VBRUUsb0JBQW9CO0FBQ3RCO0FBQ0E7Ozs7RUFJRSxVQUFVO0VBQ1YsbUNBQW1DO0VBQ25DLDJCQUEyQjtBQUM3QjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsYUFBYTtFQUNiLGVBQWU7RUFDZixpQkFBaUI7QUFDbkI7QUFFQTtFQUNFLFlBQVk7QUFDZCIsImZpbGUiOiJhcnQtY3VsdHVyZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogRm9udHMgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG5AaW1wb3J0IFwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUJhbG9vK1BhYWppXCI7XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9VbmlmcmFrdHVyQ29vay9VbmlmcmFrdHVyQ29vay1Cb2xkLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IHU7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL2NoZWx0ZW5obS9DaGVsdGVuaGFtQm9sZEV4dHJhQ29uZGVuc2VkQlQudHRmKTtcclxuICBmb250LWZhbWlseTogYztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmKTtcclxuICBmb250LWZhbWlseTogbTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvQW1yL0Ftci5vdGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBhO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9uZW9uLWZvbnQvTmVvbi1lMndnLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG5lb247XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL0xvYnN0ZXIvTG9ic3Rlci1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGw7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBtZXJyaTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvYmxhY2tjaGFuY2VyeS9CTEtDSENSWS5UVEYpO1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL09wZW5fU2Fucy9PcGVuU2Fucy1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtVmFyaWFibGVGb250X3dnaHQudHRmKTtcclxuICBmb250LWZhbWlseTogd3M7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL1JvYm90by9Sb2JvdG8tTGlnaHQudHRmKTtcclxuICBmb250LWZhbWlseTogcm9ibztcclxufVxyXG5cclxuLyogTmF2aWdhdGlvbiAgQmFyICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuKiB7XHJcbiAgbWFyZ2luOiAwJTtcclxuICBwYWRkaW5nOiAwJTtcclxufVxyXG5cclxuXHJcblxyXG4vKiBCYWNrZ3JvdW5kICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuLmNiLXNsaWRlc2hvdyxcclxuLmNiLXNsaWRlc2hvdzphZnRlciB7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB0b3A6IDBweDtcclxuICBsZWZ0OiAwcHg7XHJcbiAgei1pbmRleDogMDtcclxufVxyXG4uY2Itc2xpZGVzaG93OmFmdGVyIHtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50IHVybCgpIHJlcGVhdCB0b3AgbGVmdDtcclxufVxyXG5cclxubGkge1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxufVxyXG4uY2Itc2xpZGVzaG93IGxpIHNwYW4ge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAwcHg7XHJcbiAgbGVmdDogMHB4O1xyXG4gIGNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gIGJhY2tncm91bmQtcG9zaXRpb246IDUwJSA1MCU7XHJcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vbmU7XHJcbiAgb3BhY2l0eTogMDtcclxuICB6LWluZGV4OiAwO1xyXG4gIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAzNnMgbGluZWFyIGluZmluaXRlIDBzO1xyXG4gIC1tb3otYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAzNnMgbGluZWFyIGluZmluaXRlIDBzO1xyXG4gIC1vLWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICAtbXMtYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAzNnMgbGluZWFyIGluZmluaXRlIDBzO1xyXG4gIGFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxufVxyXG5cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoMSkgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDEuMS5qcGcpO1xyXG59XHJcblxyXG4uY2Itc2xpZGVzaG93IGxpOm50aC1jaGlsZCgyKSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0Mi4yLmpwZyk7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiA2cztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIC1tcy1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogNnM7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoMykgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDMuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG59XHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDQpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQ0LjQuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogMThzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiAxOHM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiAxOHM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogMThzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMThzO1xyXG59XHJcblxyXG4uY2Itc2xpZGVzaG93IGxpOm50aC1jaGlsZCg1KSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0Ni42LmpwZyk7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZGVsYXk6IDMwcztcclxuICAtbW96LWFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG4gIC1vLWFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG4gIC1tcy1hbmltYXRpb24tZGVsYXk6IDMwcztcclxuICBhbmltYXRpb24tZGVsYXk6IDMwcztcclxufVxyXG5cclxuQC13ZWJraXQta2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLXdlYmtpdC1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgLXdlYmtpdC1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5ALW1vei1rZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtbW96LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbW96LXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtbW96LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkAtby1rZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtby1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW8tdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC1vLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQC1tcy1rZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtbXMtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1tcy10cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgLW1zLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1tcy10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1zLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5Aa2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcblxyXG4ubm8tY3NzYW5pbWF0aW9ucyAuY2Itc2xpZGVzaG93IGxpIHNwYW4ge1xyXG4gIG9wYWNpdHk6IDE7XHJcbn1cclxuXHJcbi8qIGNvbnRlbnQgICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuXHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGUge1xyXG4gIGNvbG9yOiBzbm93O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogNDVweDtcclxuICB3aWR0aDogODAlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAyZW07XHJcbn1cclxuXHJcbi8qIGNvbWluZ3Nvb24gKioqKioqKiogKi9cclxuLmNvbWluZ3Nvb24ge1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAxMGVtO1xyXG4gIGZvbnQtZmFtaWx5OiBcIkJhbG9vIFBhYWppXCIsIGN1cnNpdmU7XHJcbiAgYm9yZGVyOiBibGFjayAycHggc29saWQ7XHJcbiAgd2lkdGg6IDIwZW07XHJcbiAgaGVpZ2h0OiAxMmVtO1xyXG4gIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxufVxyXG5cclxuLmNvbWluZ3Nvb24gaDEsXHJcbmgyIHtcclxuICBwYWRkaW5nOiAxZW07XHJcbiAgZm9udC1zaXplOiA0MHB4O1xyXG4gIHRleHQtc2hhZG93OiAwIC0xcHggMCAjZmZmLCAwIDFweCAwICMyZTJlMmUsIDAgMS4xcHggMCAjMmMyYzJjLFxyXG4gICAgMCAxLjJweCAwICMyYTJhMmEsIDAgMS4zcHggMCAjMjgyODI4LCAwIDEuNHB4IDAgIzI2MjYyNiwgMCAxLjVweCAwICMyNDI0MjQsXHJcbiAgICAwIDEuNnB4IDAgIzIyMiwgMCAxLjdweCAwICMyMDIwMjAsIDAgMnB4IDAgIzFlMWUxZSwgMCAyLjFweCAwICMxYzFjMWMsXHJcbiAgICAwIDIuMnB4IDAgIzFhMWExYSwgMCAyLjNweCAwICMxODE4MTgsIDAgMi40cHggMCAjMTYxNjE2LCAwIDIuNXB4IDAgIzE0MTQxNCxcclxuICAgIDAgMi44cHggMCAjMTIxMjEyLCAwIDNweCAzcHggcmdiYSgwLCAwLCAwLCAwLjkpO1xyXG5cclxuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBsaW5lLWhlaWdodDogMS4zZW07XHJcbn1cclxuXHJcbnNwYW4uY3MxLFxyXG5zcGFuLmNzMixcclxuc3Bhbi5jczMge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGZsb2F0OiBsZWZ0O1xyXG4gIC13ZWJraXQtY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgODAlKTtcclxuICBjbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCA4MCUpO1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTBweCk7XHJcbiAgb3BhY2l0eTogMDtcclxuICBhbmltYXRpb24tbmFtZTogY29taW5nc29vbjtcclxuICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlO1xyXG4gIGFuaW1hdGlvbi1kdXJhdGlvbjogNnM7XHJcbiAgYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XHJcbn1cclxuXHJcbnNwYW4uY3MxIHtcclxuICBjb2xvcjogcGluaztcclxuICBhbmltYXRpb24tZGVsYXk6IDNzO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XHJcbn1cclxuc3Bhbi5jczIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBhbmltYXRpb24tZGVsYXk6IDJzO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XHJcbn1cclxuc3Bhbi5jczMge1xyXG4gIGNvbG9yOiB5ZWxsb3c7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAxcztcclxuICAtd2Via2l0LWFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzO1xyXG59XHJcblxyXG5Aa2V5ZnJhbWVzIGNvbWluZ3Nvb24ge1xyXG4gIDAlIHtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTBweCk7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLXdlYmtpdC1jbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCA4MCUpO1xyXG4gICAgY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgODAlKTtcclxuICB9XHJcbiAgMjAlIHtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDE1JSk7XHJcbiAgICBjbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCAxNSUpO1xyXG4gIH1cclxuICA4MCUge1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApO1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC13ZWJraXQtY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgMTUlKTtcclxuICAgIGNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDE1JSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDUwcHgpO1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC13ZWJraXQtY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAtMCUsIDAgMTAwJSwgMCAxMDAlKTtcclxuICAgIGNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgLTAlLCAwIDEwMCUsIDAgMTAwJSk7XHJcbiAgfVxyXG59XHJcblxyXG4vKiBUZXh0c2xpZGVib3ggKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcblxyXG4uc3dpcGVyLWNvbnRhaW5lciB7XHJcbiAgbWFyZ2luOiAwIGF1dG87XHJcbiAgdG9wOiAyZW07XHJcbiAgd2lkdGg6IDg1JTtcclxufVxyXG5cclxuLmNhcmQge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBiYWNrZ3JvdW5kOiAjZmZmO1xyXG4gIHdpZHRoOiAyMDBweDtcclxuICBoZWlnaHQ6IDMwMHB4O1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG59XHJcbi5jYXJkIC5jb250ZW50IHtcclxuICB3aWR0aDogMjAwcHg7XHJcblxyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuLmNhcmQgLmNvbnRlbnQgYSB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgYm9yZGVyOiAxcHggc29saWQgIzI2MjYyNjtcclxuICBjb2xvcjogIzI2MjYyNjtcclxuICBmb250LXdlaWdodDogMjBweDtcclxufVxyXG4uY2FyZCAuc2xpZGVydGV4dCB7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogNTBweDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDtcclxufVxyXG4uY2FyZCAuc2xpZGVydGV4dCBoMyB7XHJcbiAgY29sb3I6ICNmZmY7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG59XHJcblxyXG4uc3dpcGVyLXNsaWRlIHtcclxuICBtYXgtd2lkdGg6IDIwMHB4O1xyXG59XHJcblxyXG5pbWcge1xyXG4gIHdpZHRoOiAyMDBweDtcclxuICBoZWlnaHQ6IDIwMHB4O1xyXG59XHJcblxyXG5AZm9udC1mYWNlIHtcclxuICBmb250LWZhbWlseTogc3dpcGVyLWljb25zO1xyXG4gIHNyYzogdXJsKFwiZGF0YTphcHBsaWNhdGlvbi9mb250LXdvZmY7Y2hhcnNldD11dGYtODtiYXNlNjQsIGQwOUdSZ0FCQUFBQUFBWmdBQkFBQUFBQURBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCR1JsUk5BQUFHUkFBQUFCb0FBQUFjaTZxSGtVZEVSVVlBQUFXZ0FBQUFJd0FBQUNRQVlBQlhSMUJQVXdBQUJoUUFBQUF1QUFBQU51QVk3K3hIVTFWQ0FBQUZ4QUFBQUZBQUFBQm0yZlBjelU5VEx6SUFBQUhjQUFBQVNnQUFBR0JQOVY1UlkyMWhjQUFBQWtRQUFBQ0lBQUFCWXQ2RjBjQmpkblFnQUFBQ3pBQUFBQVFBQUFBRUFCRUJSR2RoYzNBQUFBV1lBQUFBQ0FBQUFBai8vd0FEWjJ4NVpnQUFBeXdBQUFETUFBQUQyTUh0cnlWb1pXRmtBQUFCYkFBQUFEQUFBQUEyRTIrZW9XaG9aV0VBQUFHY0FBQUFId0FBQUNRQzlnRHphRzEwZUFBQUFpZ0FBQUFaQUFBQXJnSmtBQkZzYjJOaEFBQUMwQUFBQUZvQUFBQmFGUUFVR0cxaGVIQUFBQUc4QUFBQUh3QUFBQ0FBY0FCQWJtRnRaUUFBQS9nQUFBRTVBQUFDWHZGZEJ3bHdiM04wQUFBRk5BQUFBR0lBQUFDRTVzNzRoWGphWTJCa1lHQUFZcGY1SHUvaitXMitNbkF6TVlEQXphWDZRakQ2LzQvL0J4ajVHQThBdVJ3TVlHa0FQeXdMMTNqYVkyQmtZR0E4OFA4QWd4NGorLzhmUURZZkExQUVCV2dEQUlCMkJPb0FlTnBqWUdSZ1lOQmg0R2RnWWdBQkVNbklBQkp6WU5BRENRQUFDV2dBc1FCNDJtTmdZZnpDT0lHQmxZR0IwWWN4allHQndSMUtmMldRWkdoaFlHQmlZR1ZtZ0FGR0JpUVFrT2Fhd3REQW9NQlF4WGpnL3dFR1BjWUREQTR3TlVBMkNDZ3dzQUFBTzRFTDZnQUFlTnBqMk0wZ3lBQUNxeGdHTldCa1oyRDQvd01BK3hrRGRnQUFBSGphWTJCZ1lHYUFZQmtHUmdZUWlBSHlHTUY4RmdZSElNM0R3TUhBQkdRck1PZ3lXRExFTTFUOS93OFVCZkVNZ0x6RS8vLy9QLzUvL2YvVi94dityNGVhQUFlTWJBeHdJVVltSU1IRWdLWUFZalVjc0RBd3NMS3hjM0J5Y2ZQdzhqRVFBL2daQkFTRmhFVkV4Y1FsSktXa1pXVGw1QlVVbFpSVlZOWFVOVFFaQmdNQUFNUitFK2dBRVFGRUFBQUFLZ0FxQUNvQU5BQStBRWdBVWdCY0FHWUFjQUI2QUlRQWpnQ1lBS0lBckFDMkFNQUF5Z0RVQU40QTZBRHlBUHdCQmdFUUFSb0JKQUV1QVRnQlFnRk1BVllCWUFGcUFYUUJmZ0dJQVpJQm5BR21BYklCemdIc0FBQjQydTJOTVE2Q1VBeUdXNTY4eDlBbmVZWWdtNE1KYmhLRmFFeElPQVZYOEFwZXdTdDRCaWM0QWZlQWlkM1ZPQml4RHhmUFlFemE1TytYZmkwNFlBRGdnaVVJVUxDdUVKSzhWaE80YlN2cGRua3RISTVRQ1l0ZGkyc2w4Wm5YYUhscVVyTkt6ZEtjVDhjamxxK3J3WlN2SVZjek5pZXpzZm5QL3V6bm1mUEZCTk9ETTJLN01UUTQ1WUVBWnFHUDgxQW1HR2NGM2lQcU9vcDByMVNQVGFUYlZrZlVlNEhYajk3d1lFK3lOd1dZeHdXdTR2MXVnV0hnbzNTMVhkWkVWcVdNN0VUMGNmbkxHeFdma2dSNDJvMlB2V3JETUJTRmovSUhMYUYwektqUmdkaVZNd1NjTlJBb1dVb0g3OFkyaWNCL3lJWTA5QW42QUgyQmR1L1VCK3l4b3BZc2hRaUV2bnZ1MGRVUmdEdDhRZUM4UER3N0ZwamkzZkVBNHovUEVKNllPQjVoS2g0ZGozRXZYaHhQcUgvU0tVWTNySjdzclo0RlpuaDFQTUF0UGh3UDZmbDJQTUpNUERnZVE0clk4WVQ2R3phbzBlQUVBNDA5RHVnZ21UbkZuT2NTQ2lFaUxNZ3hDaVRJNkNxNURaVWQzUW1wMTB2TzBMYUxUZDJjak40Zk91bWxjN2xVWWJTUWNaRmt1dFJHN2c2SktaS3kwUm1kTFk2ODBDRG5FSitVTWtwRkZlMVJON254ZFZwWHJDNGFUdG5hdXJPblllcmNaZzJZVm1MTi9kL2djemZFaW1yRS9mcy9iT3VxMjlabW44dGxvT1JhWGdaZ0dhNzh5TzkvY25YbTJCcGFHdnEyNUR2OVM0RTkrNVNJYzlQcXVwSktoWUZTU2w0NytRY3IxbVlOQUFBQWVOcHR3MGNLd2tBQUFNRFpKQThRN09VSnZrTHNQZlo2ekZWRVJQeThxSGgyWUVSKzNpL0JQODN2SUJMTHlTc29LaW1ycUtxcGEyaHA2K2pxNlJzWUdobWJtSnFaU3kwc3JheHRiTzNzSFJ5ZG5FTVU0dVI2eXg3SkpYdmVQN1dyRHljQUFBQUFBQUgvL3dBQ2VOcGpZR1JnWU9BQlloa2daZ0pDWmdaTkJrWUdMUVp0SUpzRkxNWUFBQXczQUxnQWVOb2xpekVLZ0RBUUJDY2hSYkMyc0ZFUjBZRDZxVlFpQkN2L0g5ZXpHSTZaNVhCQXc4Q0JLL201aVFRVmF1VmJYTG5Pck1adjJvTGRLRmE4UGp1cnUyaEp6R2FibU9TTHpOTXp2dXRwQjNONDJtTmdaR0JnNEdLUVl6QmhZTXhKTE1sajRHQmdBWW93L1AvUEFKSmhMTTZzU29XS2ZXQ0FBd0RBamdiUkFBQjQybU5nWUdCa0FJSWJDWm81SVBybVVuMGhHQTBBTzhFRlRRQUFcIilcclxuICAgIGZvcm1hdChcIndvZmZcIik7XHJcbiAgZm9udC13ZWlnaHQ6IDQwMDtcclxuICBmb250LXN0eWxlOiBub3JtYWw7XHJcbn1cclxuOnJvb3Qge1xyXG4gIC0tc3dpcGVyLXRoZW1lLWNvbG9yOiAjMDA3YWZmO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyIHtcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxuICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgbGlzdC1zdHlsZTogbm9uZTtcclxuICBwYWRkaW5nOiAwO1xyXG4gIHotaW5kZXg6IDE7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWwgPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn1cclxuLnN3aXBlci13cmFwcGVyIHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHotaW5kZXg6IDE7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICB0cmFuc2l0aW9uLXByb3BlcnR5OiB0cmFuc2Zvcm07XHJcbiAgYm94LXNpemluZzogY29udGVudC1ib3g7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItYW5kcm9pZCAuc3dpcGVyLXNsaWRlLFxyXG4uc3dpcGVyLXdyYXBwZXIge1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlM2QoMHB4LCAwLCAwKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1tdWx0aXJvdyA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLW11bHRpcm93LWNvbHVtbiA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZnJlZS1tb2RlID4gLnN3aXBlci13cmFwcGVyIHtcclxuICB0cmFuc2l0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgbWFyZ2luOiAwIGF1dG87XHJcbn1cclxuLnN3aXBlci1zbGlkZSB7XHJcbiAgZmxleC1zaHJpbms6IDA7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB0cmFuc2l0aW9uLXByb3BlcnR5OiB0cmFuc2Zvcm07XHJcbn1cclxuLnN3aXBlci1zbGlkZS1pbnZpc2libGUtYmxhbmsge1xyXG4gIHZpc2liaWxpdHk6IGhpZGRlbjtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1hdXRvaGVpZ2h0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1hdXRvaGVpZ2h0IC5zd2lwZXItc2xpZGUge1xyXG4gIGhlaWdodDogYXV0bztcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1hdXRvaGVpZ2h0IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgYWxpZ24taXRlbXM6IGZsZXgtc3RhcnQ7XHJcbiAgdHJhbnNpdGlvbi1wcm9wZXJ0eTogdHJhbnNmb3JtLCBoZWlnaHQ7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2Qge1xyXG4gIHBlcnNwZWN0aXZlOiAxMjAwcHg7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1jdWJlLXNoYWRvdyxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZSxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctYm90dG9tLFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1sZWZ0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1yaWdodCxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctdG9wLFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIHRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctYm90dG9tLFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1sZWZ0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1yaWdodCxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctdG9wIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG4gIHotaW5kZXg6IDEwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LWxlZnQge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChcclxuICAgIHRvIGxlZnQsXHJcbiAgICByZ2JhKDAsIDAsIDAsIDAuNSksXHJcbiAgICByZ2JhKDAsIDAsIDAsIDApXHJcbiAgKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1yaWdodCB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgdG8gcmlnaHQsXHJcbiAgICByZ2JhKDAsIDAsIDAsIDAuNSksXHJcbiAgICByZ2JhKDAsIDAsIDAsIDApXHJcbiAgKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy10b3Age1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChcclxuICAgIHRvIHRvcCxcclxuICAgIHJnYmEoMCwgMCwgMCwgMC41KSxcclxuICAgIHJnYmEoMCwgMCwgMCwgMClcclxuICApO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LWJvdHRvbSB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgdG8gYm90dG9tLFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwLjUpLFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwKVxyXG4gICk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3NzLW1vZGUgPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIG92ZXJmbG93OiBhdXRvO1xyXG4gIHNjcm9sbGJhci13aWR0aDogbm9uZTtcclxuICAtbXMtb3ZlcmZsb3ctc3R5bGU6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3NzLW1vZGUgPiAuc3dpcGVyLXdyYXBwZXI6Oi13ZWJraXQtc2Nyb2xsYmFyIHtcclxuICBkaXNwbGF5OiBub25lO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWNzcy1tb2RlID4gLnN3aXBlci13cmFwcGVyID4gLnN3aXBlci1zbGlkZSB7XHJcbiAgc2Nyb2xsLXNuYXAtYWxpZ246IHN0YXJ0IHN0YXJ0O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWwuc3dpcGVyLWNvbnRhaW5lci1jc3MtbW9kZSA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgc2Nyb2xsLXNuYXAtdHlwZTogeCBtYW5kYXRvcnk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWwuc3dpcGVyLWNvbnRhaW5lci1jc3MtbW9kZSA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgc2Nyb2xsLXNuYXAtdHlwZTogeSBtYW5kYXRvcnk7XHJcbn1cclxuOnJvb3Qge1xyXG4gIC0tc3dpcGVyLW5hdmlnYXRpb24tc2l6ZTogNDRweDtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0LFxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2IHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiA1MCU7XHJcbiAgd2lkdGg6IGNhbGModmFyKC0tc3dpcGVyLW5hdmlnYXRpb24tc2l6ZSkgLyA0NCAqIDI3KTtcclxuICBoZWlnaHQ6IHZhcigtLXN3aXBlci1uYXZpZ2F0aW9uLXNpemUpO1xyXG4gIG1hcmdpbi10b3A6IGNhbGMoLTEgKiB2YXIoLS1zd2lwZXItbmF2aWdhdGlvbi1zaXplKSAvIDIpO1xyXG4gIHotaW5kZXg6IDEwO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgY29sb3I6IHZhcigtLXN3aXBlci1uYXZpZ2F0aW9uLWNvbG9yLCB2YXIoLS1zd2lwZXItdGhlbWUtY29sb3IpKTtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0LnN3aXBlci1idXR0b24tZGlzYWJsZWQsXHJcbi5zd2lwZXItYnV0dG9uLXByZXYuc3dpcGVyLWJ1dHRvbi1kaXNhYmxlZCB7XHJcbiAgb3BhY2l0eTogMC4zNTtcclxuICBjdXJzb3I6IGF1dG87XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dDphZnRlcixcclxuLnN3aXBlci1idXR0b24tcHJldjphZnRlciB7XHJcbiAgZm9udC1mYW1pbHk6IHN3aXBlci1pY29ucztcclxuICBmb250LXNpemU6IHZhcigtLXN3aXBlci1uYXZpZ2F0aW9uLXNpemUpO1xyXG4gIHRleHQtdHJhbnNmb3JtOiBub25lICFpbXBvcnRhbnQ7XHJcbiAgbGV0dGVyLXNwYWNpbmc6IDA7XHJcbiAgdGV4dC10cmFuc2Zvcm06IG5vbmU7XHJcbiAgZm9udC12YXJpYW50OiBpbml0aWFsO1xyXG4gIGxpbmUtaGVpZ2h0OiAxO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLXByZXYsXHJcbi5zd2lwZXItY29udGFpbmVyLXJ0bCAuc3dpcGVyLWJ1dHRvbi1uZXh0IHtcclxuICBsZWZ0OiAxMHB4O1xyXG4gIHJpZ2h0OiBhdXRvO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLXByZXY6YWZ0ZXIsXHJcbi5zd2lwZXItY29udGFpbmVyLXJ0bCAuc3dpcGVyLWJ1dHRvbi1uZXh0OmFmdGVyIHtcclxuICBjb250ZW50OiBcInByZXZcIjtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1ydGwgLnN3aXBlci1idXR0b24tcHJldiB7XHJcbiAgcmlnaHQ6IDEwcHg7XHJcbiAgbGVmdDogYXV0bztcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1uZXh0OmFmdGVyLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1ydGwgLnN3aXBlci1idXR0b24tcHJldjphZnRlciB7XHJcbiAgY29udGVudDogXCJuZXh0XCI7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dC5zd2lwZXItYnV0dG9uLXdoaXRlLFxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2LnN3aXBlci1idXR0b24td2hpdGUge1xyXG4gIC0tc3dpcGVyLW5hdmlnYXRpb24tY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dC5zd2lwZXItYnV0dG9uLWJsYWNrLFxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2LnN3aXBlci1idXR0b24tYmxhY2sge1xyXG4gIC0tc3dpcGVyLW5hdmlnYXRpb24tY29sb3I6ICMwMDAwMDA7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbG9jayB7XHJcbiAgZGlzcGxheTogbm9uZTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24ge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdHJhbnNpdGlvbjogMC4zcyBvcGFjaXR5O1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlM2QoMCwgMCwgMCk7XHJcbiAgei1pbmRleDogMTA7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLnN3aXBlci1wYWdpbmF0aW9uLWhpZGRlbiB7XHJcbiAgb3BhY2l0eTogMDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMsXHJcbi5zd2lwZXItcGFnaW5hdGlvbi1jdXN0b20sXHJcbi5zd2lwZXItcGFnaW5hdGlvbi1mcmFjdGlvbiB7XHJcbiAgYm90dG9tOiAxMHB4O1xyXG4gIGxlZnQ6IDA7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyB7XHJcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICBmb250LXNpemU6IDA7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDAuMzMpO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlIHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDEpO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUtbWFpbiB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlLXByZXYge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMC42Nik7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZS1wcmV2LXByZXYge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMC4zMyk7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZS1uZXh0IHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDAuNjYpO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUtbmV4dC1uZXh0IHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDAuMzMpO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIHdpZHRoOiA4cHg7XHJcbiAgaGVpZ2h0OiA4cHg7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwMCU7XHJcbiAgYmFja2dyb3VuZDogIzAwMDtcclxuICBvcGFjaXR5OiAwLjI7XHJcbn1cclxuYnV0dG9uLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgYm9yZGVyOiBub25lO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nOiAwO1xyXG4gIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xyXG4gIC1tb3otYXBwZWFyYW5jZTogbm9uZTtcclxuICBhcHBlYXJhbmNlOiBub25lO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1jbGlja2FibGUgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlIHtcclxuICBvcGFjaXR5OiAxO1xyXG4gIGJhY2tncm91bmQ6IHZhcigtLXN3aXBlci1wYWdpbmF0aW9uLWNvbG9yLCB2YXIoLS1zd2lwZXItdGhlbWUtY29sb3IpKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbCA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzIHtcclxuICByaWdodDogMTBweDtcclxuICB0b3A6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDBweCwgLTUwJSwgMCk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgbWFyZ2luOiA2cHggMDtcclxuICBkaXNwbGF5OiBibG9jaztcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIHtcclxuICB0b3A6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSk7XHJcbiAgd2lkdGg6IDhweDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIHRyYW5zaXRpb246IDAuMnMgdHJhbnNmb3JtLCAwLjJzIHRvcDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0c1xyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIG1hcmdpbjogMCA0cHg7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIHtcclxuICBsZWZ0OiA1MCU7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC01MCUpO1xyXG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgdHJhbnNpdGlvbjogMC4ycyB0cmFuc2Zvcm0sIDAuMnMgbGVmdDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsLnN3aXBlci1jb250YWluZXItcnRsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgdHJhbnNpdGlvbjogMC4ycyB0cmFuc2Zvcm0sIDAuMnMgcmlnaHQ7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyIHtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuMjUpO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXIgLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLWZpbGwge1xyXG4gIGJhY2tncm91bmQ6IHZhcigtLXN3aXBlci1wYWdpbmF0aW9uLWNvbG9yLCB2YXIoLS1zd2lwZXItdGhlbWUtY29sb3IpKTtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMCk7XHJcbiAgdHJhbnNmb3JtLW9yaWdpbjogbGVmdCB0b3A7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItcnRsXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyXHJcbiAgLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLWZpbGwge1xyXG4gIHRyYW5zZm9ybS1vcmlnaW46IHJpZ2h0IHRvcDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsID4gLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLFxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLW9wcG9zaXRlIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDRweDtcclxuICBsZWZ0OiAwO1xyXG4gIHRvcDogMDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXIuc3dpcGVyLXBhZ2luYXRpb24tcHJvZ3Jlc3NiYXItb3Bwb3NpdGUsXHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsID4gLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyIHtcclxuICB3aWR0aDogNHB4O1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBsZWZ0OiAwO1xyXG4gIHRvcDogMDtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24td2hpdGUge1xyXG4gIC0tc3dpcGVyLXBhZ2luYXRpb24tY29sb3I6ICNmZmZmZmY7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJsYWNrIHtcclxuICAtLXN3aXBlci1wYWdpbmF0aW9uLWNvbG9yOiAjMDAwMDAwO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1sb2NrIHtcclxuICBkaXNwbGF5OiBub25lO1xyXG59XHJcbi5zd2lwZXItc2Nyb2xsYmFyIHtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAtbXMtdG91Y2gtYWN0aW9uOiBub25lO1xyXG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC4xKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsID4gLnN3aXBlci1zY3JvbGxiYXIge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAxJTtcclxuICBib3R0b206IDNweDtcclxuICB6LWluZGV4OiA1MDtcclxuICBoZWlnaHQ6IDVweDtcclxuICB3aWR0aDogOTglO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsID4gLnN3aXBlci1zY3JvbGxiYXIge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICByaWdodDogM3B4O1xyXG4gIHRvcDogMSU7XHJcbiAgei1pbmRleDogNTA7XHJcbiAgd2lkdGg6IDVweDtcclxuICBoZWlnaHQ6IDk4JTtcclxufVxyXG4uc3dpcGVyLXNjcm9sbGJhci1kcmFnIHtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG59XHJcbi5zd2lwZXItc2Nyb2xsYmFyLWN1cnNvci1kcmFnIHtcclxuICBjdXJzb3I6IG1vdmU7XHJcbn1cclxuLnN3aXBlci1zY3JvbGxiYXItbG9jayB7XHJcbiAgZGlzcGxheTogbm9uZTtcclxufVxyXG4uc3dpcGVyLXpvb20tY29udGFpbmVyIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4uc3dpcGVyLXpvb20tY29udGFpbmVyID4gY2FudmFzLFxyXG4uc3dpcGVyLXpvb20tY29udGFpbmVyID4gaW1nLFxyXG4uc3dpcGVyLXpvb20tY29udGFpbmVyID4gc3ZnIHtcclxuICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgbWF4LWhlaWdodDogMTAwJTtcclxuICBvYmplY3QtZml0OiBjb250YWluO1xyXG59XHJcbi5zd2lwZXItc2xpZGUtem9vbWVkIHtcclxuICBjdXJzb3I6IG1vdmU7XHJcbn1cclxuLnN3aXBlci1sYXp5LXByZWxvYWRlciB7XHJcbiAgd2lkdGg6IDQycHg7XHJcbiAgaGVpZ2h0OiA0MnB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiA1MCU7XHJcbiAgdG9wOiA1MCU7XHJcbiAgbWFyZ2luLWxlZnQ6IC0yMXB4O1xyXG4gIG1hcmdpbi10b3A6IC0yMXB4O1xyXG4gIHotaW5kZXg6IDEwO1xyXG4gIHRyYW5zZm9ybS1vcmlnaW46IDUwJTtcclxuICBhbmltYXRpb246IHN3aXBlci1wcmVsb2FkZXItc3BpbiAxcyBpbmZpbml0ZSBsaW5lYXI7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICBib3JkZXI6IDRweCBzb2xpZCB2YXIoLS1zd2lwZXItcHJlbG9hZGVyLWNvbG9yLCB2YXIoLS1zd2lwZXItdGhlbWUtY29sb3IpKTtcclxuICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgYm9yZGVyLXRvcC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbn1cclxuLnN3aXBlci1sYXp5LXByZWxvYWRlci13aGl0ZSB7XHJcbiAgLS1zd2lwZXItcHJlbG9hZGVyLWNvbG9yOiAjZmZmO1xyXG59XHJcbi5zd2lwZXItbGF6eS1wcmVsb2FkZXItYmxhY2sge1xyXG4gIC0tc3dpcGVyLXByZWxvYWRlci1jb2xvcjogIzAwMDtcclxufVxyXG5Aa2V5ZnJhbWVzIHN3aXBlci1wcmVsb2FkZXItc3BpbiB7XHJcbiAgMTAwJSB7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xyXG4gIH1cclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lciAuc3dpcGVyLW5vdGlmaWNhdGlvbiB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgei1pbmRleDogLTEwMDA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmFkZS5zd2lwZXItY29udGFpbmVyLWZyZWUtbW9kZSAuc3dpcGVyLXNsaWRlIHtcclxuICB0cmFuc2l0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmFkZSAuc3dpcGVyLXNsaWRlIHtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxuICB0cmFuc2l0aW9uLXByb3BlcnR5OiBvcGFjaXR5O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZhZGUgLnN3aXBlci1zbGlkZSAuc3dpcGVyLXNsaWRlIHtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mYWRlIC5zd2lwZXItc2xpZGUtYWN0aXZlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1mYWRlIC5zd2lwZXItc2xpZGUtYWN0aXZlIC5zd2lwZXItc2xpZGUtYWN0aXZlIHtcclxuICBwb2ludGVyLWV2ZW50czogYXV0bztcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIHtcclxuICBvdmVyZmxvdzogdmlzaWJsZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG4gIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICB6LWluZGV4OiAxO1xyXG4gIHZpc2liaWxpdHk6IGhpZGRlbjtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZSAuc3dpcGVyLXNsaWRlIHtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlLnN3aXBlci1jb250YWluZXItcnRsIC5zd2lwZXItc2xpZGUge1xyXG4gIHRyYW5zZm9ybS1vcmlnaW46IDEwMCUgMDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtYWN0aXZlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtYWN0aXZlIC5zd2lwZXItc2xpZGUtYWN0aXZlIHtcclxuICBwb2ludGVyLWV2ZW50czogYXV0bztcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtYWN0aXZlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtbmV4dCxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLW5leHQgKyAuc3dpcGVyLXNsaWRlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtcHJldiB7XHJcbiAgcG9pbnRlci1ldmVudHM6IGF1dG87XHJcbiAgdmlzaWJpbGl0eTogdmlzaWJsZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtc2hhZG93LWJvdHRvbSxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLXNoYWRvdy1sZWZ0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtc2hhZG93LXJpZ2h0LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUtc2hhZG93LXRvcCB7XHJcbiAgei1pbmRleDogMDtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLWN1YmUtc2hhZG93IHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgbGVmdDogMDtcclxuICBib3R0b206IDBweDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgYmFja2dyb3VuZDogIzAwMDtcclxuICBvcGFjaXR5OiAwLjY7XHJcbiAgLXdlYmtpdC1maWx0ZXI6IGJsdXIoNTBweCk7XHJcbiAgZmlsdGVyOiBibHVyKDUwcHgpO1xyXG4gIHotaW5kZXg6IDA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmxpcCB7XHJcbiAgb3ZlcmZsb3c6IHZpc2libGU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlIHtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgei1pbmRleDogMTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUgLnN3aXBlci1zbGlkZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlLWFjdGl2ZSxcclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlLWFjdGl2ZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IGF1dG87XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1ib3R0b20sXHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZS1zaGFkb3ctbGVmdCxcclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1yaWdodCxcclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlLXNoYWRvdy10b3Age1xyXG4gIHotaW5kZXg6IDA7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG59XHJcblxyXG4qIGEge1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmNhcmQtY29udGFpbmVyIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBwYWRkaW5nLXRvcDogNTBweDtcclxufVxyXG5cclxuLmltZy1jb25hdGluZXIge1xyXG4gIHdpZHRoOiAxOTlweDtcclxufVxyXG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -22094,6 +32359,48 @@
       var _modern_history_timeline_modern_history_timeline_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! ./modern-history-timeline/modern-history-timeline.component */
       "gvzR");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_home_medival_homepage_medival_homepage_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-home/medival-homepage/medival-homepage.component */
+      "rLrE");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_indo_islamic_indo_islamic_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/indo-islamic/indo-islamic.component */
+      "0ETu");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_delhi_sultante_delhi_sultante_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/delhi-sultante/delhi-sultante.component */
+      "DiYt");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_mughals_mughals_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/mughals/mughals.component */
+      "K5u/");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_kashmir_kashmir_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/kashmir/kashmir.component */
+      "EU7T");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_parsi_parsi_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/parsi/parsi.component */
+      "KP3X");
+      /* harmony import */
+
+
+      var _Medival_Architecture_medival_types_mughals_mughal_fort_mughal_forts_mughal_forts_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+      /*! ./Medival-Architecture/medival-types/mughals/mughal-fort/mughal-forts/mughal-forts.component */
+      "mC2e");
 
       var routes = [{
         path: 'home',
@@ -22137,6 +32444,27 @@
       }, {
         path: 'modernhistorytimeline',
         component: _modern_history_timeline_modern_history_timeline_component__WEBPACK_IMPORTED_MODULE_15__["ModernHistoryTimelineComponent"]
+      }, {
+        path: 'medival-architecture',
+        component: _Medival_Architecture_medival_home_medival_homepage_medival_homepage_component__WEBPACK_IMPORTED_MODULE_16__["MedivalHomepageComponent"]
+      }, {
+        path: 'indo-islamic',
+        component: _Medival_Architecture_medival_types_indo_islamic_indo_islamic_component__WEBPACK_IMPORTED_MODULE_17__["IndoIslamicComponent"]
+      }, {
+        path: 'delhisultante',
+        component: _Medival_Architecture_medival_types_delhi_sultante_delhi_sultante_component__WEBPACK_IMPORTED_MODULE_18__["DelhiSultanteComponent"]
+      }, {
+        path: 'mughals',
+        component: _Medival_Architecture_medival_types_mughals_mughals_component__WEBPACK_IMPORTED_MODULE_19__["MughalsComponent"]
+      }, {
+        path: 'kashmir',
+        component: _Medival_Architecture_medival_types_kashmir_kashmir_component__WEBPACK_IMPORTED_MODULE_20__["KashmirComponent"]
+      }, {
+        path: 'parsi',
+        component: _Medival_Architecture_medival_types_parsi_parsi_component__WEBPACK_IMPORTED_MODULE_21__["ParsiComponent"]
+      }, {
+        path: 'forts',
+        component: _Medival_Architecture_medival_types_mughals_mughal_fort_mughal_forts_mughal_forts_component__WEBPACK_IMPORTED_MODULE_22__["MughalFortsComponent"]
       }, {
         path: '**',
         component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"]
@@ -22666,24 +32994,24 @@
         }, {
           key: "getcomment",
           value: function getcomment() {
-            var _this6 = this;
+            var _this10 = this;
 
             this.service.getComment(this.category).subscribe(function (response) {
               console.log(response['resp']);
-              _this6.postComments = response['resp'];
+              _this10.postComments = response['resp'];
             });
           }
         }, {
           key: "comment",
           value: function comment() {
-            var _this7 = this;
+            var _this11 = this;
 
             this.service.postComment(this.commentForm.value, this.category).subscribe(function (response) {
               console.log(response);
 
-              _this7.getcomment();
+              _this11.getcomment();
 
-              _this7.commentform();
+              _this11.commentform();
             });
           }
         }]);
