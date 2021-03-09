@@ -13362,11 +13362,22 @@
       /*! @angular/router */
       "tyNb");
 
-      var AppComponent = function AppComponent() {
-        _classCallCheck(this, AppComponent);
+      var AppComponent = /*#__PURE__*/function () {
+        function AppComponent() {
+          _classCallCheck(this, AppComponent);
 
-        this.title = 'time-demo';
-      };
+          this.title = 'time-demo';
+        }
+
+        _createClass(AppComponent, [{
+          key: "onActivate",
+          value: function onActivate(event) {
+            window.scroll(0, 0);
+          }
+        }]);
+
+        return AppComponent;
+      }();
 
       AppComponent.ɵfac = function AppComponent_Factory(t) {
         return new (t || AppComponent)();
@@ -13377,11 +13388,18 @@
         selectors: [["app-root"]],
         decls: 2,
         vars: 0,
+        consts: [[3, "activate"]],
         template: function AppComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "router-outlet");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "router-outlet", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("activate", function AppComponent_Template_router_outlet_activate_1_listener($event) {
+              return ctx.onActivate($event);
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }

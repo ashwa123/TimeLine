@@ -20,6 +20,8 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              "src/favicon.ico",
+              "src/favicon.png",
               { 
                 "glob": "**/*.@(svg|png|gif)", 
                 "input": "./node_modules/photoswipe/src/css/default-skin", 
@@ -99,6 +101,8 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
+              "src/favicon.ico",
+              "src/favicon.png",
               "src/assets"
             ],
             "styles": [
