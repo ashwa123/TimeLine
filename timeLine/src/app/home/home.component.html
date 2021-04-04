@@ -1,6 +1,6 @@
-<app-navbar></app-navbar>
+<!-- <app-navbar></app-navbar> -->
 
-<div class="body-background">
+<!-- <div class="body-background">
     <div class="container">
         <header>
             <h1>Recently Added</h1>
@@ -114,8 +114,290 @@
             </h1>
         </section>
     </div>
+</div> -->
+
+<div class="home1">
+    <div class="tt">Timeline Trends</div>
+    <div class="tt2"> HISTORY<span>-</span>
+        <span>ART</span>
+        <span>-</span>
+        <span>CULTURE</span>
+    </div>
 </div>
 
+<header class="nava checkboxes">
+    <a class="logo " href="">Timeline Trends</a>
+    <input id="nav1" type="checkbox" class="">
+    <div class="biglabel"><label for="nav1"></label></div>
+    <nav class="navb">
+        <ul>
+            <li><a href="#section1" [routerLink]="['/home']" class="uncheck-all">Home</a></li>
+            <li><a href="#section2" [routerLink]="['/about']" class="uncheck-all">About Us</a></li>
+            <li><a href="#section3" [routerLink]="['/use']" class="uncheck-all">How to use</a></li>
+            <li><a href="#section4" [routerLink]="['/contact']" class="uncheck-all">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="home2" id="section1">
+    <div class="block100">
+        <div class="outerbox1">
+            <div class="box1">
+                <div class="icon1">
+                    <a class="mh" [routerLink]="['/modern-history']">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Modern History
+                    </a>
+                </div>
+                <div class="pmh">
+                    <p>Travel to your favourite timeline and explore the events.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="outerbox3">
+            <div class="box2">
+                <div class="icon2">
+                    <a class="ac" [routerLink]="['/art&culture']">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Art & Culture
+                    </a>
+                </div>
+                <div class="pmh">
+                    <p>Study about one of the world's richest and most diverse art & culture.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block2">
+        <div class="outerbox2">
+            <div class="wrapper">
+                <ul class="stage clearfix">
+                    <a [routerLink]="['/gallery']">
+                        <li class="scene">
+                            <div class="movie" onclick="return true">
+                                <div class="poster">
+                                </div>
+
+                                <div class="info">
+
+                                    <header>
+                                        <h1>Image Gallery</h1>
+                                    </header>
+                                    <p>Study through Images. <br> Here you can find pictures of different events. <br>
+                                        Picturization is more important, so you can remember the facts and events for
+                                        long.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="igtext">
+            <a [routerLink]="['/gallery']">
+                <h1>Image Gallery</h1>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="home3" id="section2">
+    <div class="titlecentre1">
+        <h1 class="gradient-text">About Us</h1>
+    </div>
+    <div>
+        <ul class="aboutuscontent">
+            <li>This website is for those who are appearing for government exams including UPSC, SPSC and others.</li>
+            <br>
+            <li>Timeline Trends mainly focus on History facts, Art and Culture, Environment Facts, Maps etc.</li><br>
+            <li>We will be uploading our content continuously (daily or weekly), so stay connected always for various
+                topics.
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="home4" id="section3">
+    <div class="home4box">
+        <div class="decor1"><img src="../../assets/home_img/howimg.jpeg" alt=""></div>
+        <div class="titlecentre2">
+            <h1 class="rainbow-text">How to use this website efficiently</h1>
+        </div>
+        <div class="howcontent">
+            <ul>
+                <li>Read the “Tips and mistakes to be avoided” section before reading every topic.</li>
+                <li>Read the standard book whichever you like once or twice, and use our website to revise.</li>
+                <li>After reading the content once, just read the bold letters to revise. So that you can revise
+                    quickly.</li>
+                <li>History is a subject full of facts, so revise every topic whenever you get free time daily even if
+                    you are
+                    well thorough in respective topics.</li>
+                <li>We will upload different topics daily or weekly, so stay connected always.</li>
+                <li>Make good use of pictures, timelines, maps, colour differentiations for places, names in our website
+                    to revise
+                    quickly and remember the facts for long time.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="home5" id="section4">
+    <div class="titlecentre3">
+        <h1 class="gradient-text">Contact Us</h1>
+    </div>
+
+    <div class="contactcontainer">
+        <div class="contactcontent">
+            <div>
+                <ul>
+                    <li>You can give your feedbacks in comment sections below each topics.</li><br>
+                    <li>You can indicate mistakes in the content in comment section below each topics so that we can
+                        correct
+                        it.</li><br>
+                    <li>You can tell us your favourite topics, doubts. We will reach you as soon as possible.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Feedback ************************************************************************************ -->
+        <!-- <div class="form-container">
+            <div>
+                <div>
+                    <div class="card cardcolor">
+                        <div class="card-header">Feedback</div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-groups">
+                                    <label>Name</label>
+                                    <input type="text" formControlName="name" id="name" class="form-control">
+                                </div>
+
+                                <div class="form-groups">
+                                    <label>Email</label>
+                                    <input type="email" formControlName="email" id="email" class="form-control">
+                                </div>
+
+                                <div class="form-groups">
+                                    <label>Comments</label>
+                                    <textarea class="form-control" rows="5" formControlName="comments"
+                                        id="comments"></textarea>
+                                </div>
+
+                                <div class="button-container">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
+<!-- Queries ************************************************************************************ -->
+<div class="queries ">
+    <div class="email">
+        For more queries contact us <br>
+        <div id="p1"> thetimelinetrends@gmail.com</div>
+        <span><button onclick="copyToClipboard('#p1')">Copy email</button></span>
+    </div>
+    <span class="insta">
+        <a href="#" class="instalink">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span> Timeline Trends</span>
+        </a>
+    </span>
+</div>
+
+<span class="insta instadown">
+    <a href="#" class="instalink">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <span> Timeline Trends</span>
+    </a>
+</span>
+
+<div class="details">
+    <div class="name">
+        <div> Author & Website Design:</div>
+        <div style="margin-top: 10px;">Vignesh Anand</div>
+        <div id="p2"> vigneshanand@gmail.com</div>
+        <span><button onclick="copyToClipboard('#p2')">Copy email</button></span>
+    </div>
+
+    <span class="insta">
+        <a href="https://instagram.com/vignesh_anand_vicky?igshid=cz5mrm5gcaxq" class="instalink">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span> vignesh_anand _vicky</span>
+        </a>
+    </span>
+</div>
+<span class="insta instadown">
+    <a href="https://instagram.com/vignesh_anand_vicky?igshid=cz5mrm5gcaxq" class="instalink">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <span> vignesh_anand _vicky</span>
+    </a>
+</span>
+
+<div class="details">
+    <div class="name">
+        <div>Website Developer:</div>
+        <div style="margin-top: 10px;">Ashwanth</div>
+        <div style="text-decoration: underline;">ashwanthchandrasekaran23 @gmail.com</div>
+        <div id="p3" style="display: none;">ashwanthchandrasekaran23@gmail.com</div>
+        <span><button onclick="copyToClipboard('#p3')">Copy email</button></span>
+
+
+    </div>
+
+    <span class="insta">
+        <a href="https://instagram.com/ashwanth_chandrasekaran?igshid=2zqm3qgjamgk" class="instalink">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span>ashwanth _chandrasekaran</span>
+        </a>
+    </span>
+</div>
+<span class="insta instadown">
+    <a href="https://instagram.com/ashwanth_chandrasekaran?igshid=2zqm3qgjamgk" class="instalink">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <span>ashwanth _chandrasekaran</span>
+    </a>
+</span>
+
+<div class="details">
+    <div class="name">
+        <div>Content Collector:</div>
+        <div style="margin-top: 10px;">Diwakar Anand</div>
+        <div id="p4">pugazhdiwa@gmail.com</div>
+        <span><button onclick="copyToClipboard('#p4')">Copy email</button></span>
+
+
+    </div>
+
+    <span class="insta ">
+        <a href="https://instagram.com/dapdiwa94?igshid=dibkg2unk62q" class="instalink">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span>dapdiwa94</span>
+        </a>
+    </span>
+</div>
+<span class="insta instadown">
+    <a href="https://instagram.com/dapdiwa94?igshid=dibkg2unk62q" class="instalink">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <span>dapdiwa94</span>
+    </a>
+</span>
+
+<br><br>
 <app-footer></app-footer>
 
 

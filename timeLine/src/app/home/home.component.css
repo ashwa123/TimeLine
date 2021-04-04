@@ -1,4 +1,4 @@
-/* Fonts      ################################################################################ */
+/* 
 @import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
 @font-face{src: url(../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf); font-family: u;}
 @font-face{src: url(../../assets/Fonts/cheltenhm/CheltenhamBoldExtraCondensedBT.ttf);  font-family: c;}
@@ -20,7 +20,7 @@
 
 
 
-/* Background      ################################################################################ */
+
 .body-background{
     overflow-x: hidden;
     background-image: url("../../assets/home_img/home1.jpg");
@@ -28,8 +28,6 @@
     background-size: cover ;
     background-position: top top;
     background-attachment: fixed;
-    /* height: 100%; */
-    /* position: relative; */
     width: 100%;
     border: 1px solid transparent;
 
@@ -161,12 +159,6 @@
     
 }
 
-
-
-/* content       ################################################################################ */
-
-
-/* Body Boxes ************* */
 .box1{
 	border: black 2px solid;
     max-width: 300px;	
@@ -298,7 +290,7 @@ a.mh span{
     }
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .box2{
     border: black 2px solid;
     max-width: 300px;	
@@ -425,7 +417,7 @@ a.ac span{
 }
 
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .box3{
 	border: black 2px solid;
     max-width: 300px;	
@@ -568,7 +560,6 @@ a.en span{
 
 
 
-/* Upcoming soon @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 .comingsoon{
     font-family: 'Baloo Paaji', cursive;
@@ -670,7 +661,6 @@ a.en span{
 
 
 
-/* Image Gallery Box   &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 .wrapper {
     width: 260px;
@@ -687,9 +677,6 @@ a.en span{
     margin: 0;
 }
 
-/*************************************
-Build the scene and rotate on hover
-**************************************/
 
 .scene {
 	width: 260px;
@@ -720,9 +707,6 @@ Build the scene and rotate on hover
 	transform: rotateY(-78deg) translateZ(20px);
 }
 
-/*************************************
-Transform and style the two planes
-**************************************/
 
 .movie .poster, 
 .movie .info {
@@ -751,9 +735,6 @@ Transform and style the two planes
 	font-size: 0.75em;
 }
 
-/*************************************
-Shadow beneath the 3D object
-**************************************/
 
 .csstransforms3d .movie::after {
 	content: '';
@@ -777,9 +758,6 @@ Shadow beneath the 3D object
 	box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
 }
 
-/*************************************
-Image gallery information
-**************************************/
 
 .info header {
 	color: crimson;
@@ -814,10 +792,6 @@ Image gallery information
 }
 
 
-/*************************************
-Generate "lighting" using box shadows
-**************************************/
-
 .movie .poster,
 .movie .info,
 .movie .info header {
@@ -844,10 +818,6 @@ Generate "lighting" using box shadows
 	box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
 }
 
-/*************************************
-Posters and still images
-**************************************/
-
 .scene:nth-child(1) .movie .poster {
   background-image: url(../../assets/gallery/ig3.jpg);
   background-size: contain;
@@ -859,18 +829,11 @@ background-color: black;}
 	background-image: url();
 }
 
-
-/*************************************
-Fallback
-**************************************/
 .no-csstransforms3d .movie .poster, 
 .no-csstransforms3d .movie .info {
 	position: relative;
 }
 
-/*************************************
-Media Queries
-**************************************/
 @media screen and (max-width: 60.75em){
 	.scene {
 		float: none;
@@ -878,11 +841,6 @@ Media Queries
 	}
 }
 
-
-
-
-
-/* Recentlyadded *********************************************************************************** */
 
 body{
     overflow-x: hidden;
@@ -894,9 +852,6 @@ body{
 	height: 40px;
 	position: relative;
 	text-align: center;
-	
-	
-	/* starts at half and contains all */
 	
 }
 .container header h1{
@@ -916,15 +871,8 @@ body{
 	width: 250px;
 	height: 40px;
 	position: relative;
-	
-	/* staticcontainer */
+
 }
-
-
-
-
-
-
 
 .dg-wrapper{
 	width: 250px;
@@ -941,8 +889,7 @@ body{
 	-o-perspective: 1000px;
 	-ms-perspective: 1000px;
 	perspective: 1000px;
-	
-	/* staticoutsidecontainer */
+
 
 }
 .dg-wrapper a{
@@ -965,7 +912,6 @@ body{
                0px 18px 23px rgba(0,0,0,0.1); 
 
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
-	/* moving outsidecontainer */
 }
 .dg-wrapper a.dg-transition{
 	-webkit-transition: all 0.5s ease-in-out;
@@ -978,7 +924,7 @@ body{
 	display: block;
 	width: 0px;
 	height: 0px;
-	/* imgsize */
+
 }
 
 .dg-wrapper a div{
@@ -994,7 +940,6 @@ body{
     text-shadow: 
       -1px -1px 1px #111, 
       2px 2px 1px #363636; 
-	/* downcaption size */
 }
 .dg-wrapper a.dg-center div{
 	display: block;
@@ -1014,9 +959,6 @@ body{
 	height: 40px;
 	position: relative;
 	text-align: center;
-	
-	
-	/* starts at half and contains all */
 	
 }
 .container header h1{
@@ -1041,14 +983,7 @@ body{
 	height: 40px;
 	position: relative;
 	overflow: hidden;
-	/* staticcontainer */
 }
-
-
-
-
-
-
 
 .dg-wrapper{
 	width: 95%;
@@ -1067,7 +1002,6 @@ body{
 	-ms-perspective: 1000px;
 	perspective: 1000px;
 	
-	/* staticoutsidecontainer */
 
 }
 .dg-wrapper a{
@@ -1090,7 +1024,7 @@ body{
     0px 8px 13px rgba(0,0,0,0.1),
     0px 18px 23px rgba(0,0,0,0.1); 
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
-	/* moving outsidecontainer */
+	
 }
 .dg-wrapper a.dg-transition{
 	-webkit-transition: all 0.5s ease-in-out;
@@ -1103,12 +1037,1228 @@ body{
 	display: block;
 	width: 0px;
 	height: 0px;
-	/* imgsize */
+
 }
 }
-
-
 
 * a{
     cursor: pointer;
+} */
+/* Fonts      ################################################################################ */
+@import "https://fonts.googleapis.com/css?family=Baloo+Paaji";
+@font-face {
+  src: url(../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf);
+  font-family: u;
+}
+@font-face {
+  src: url(../../assets/Fonts/cheltenhm/CheltenhamBoldExtraCondensedBT.ttf);
+  font-family: c;
+}
+@font-face {
+  src: url(../../assets/Fonts/Montserrat/Montserrat-Regular.ttf);
+  font-family: m;
+}
+@font-face {
+  src: url(../../assets/Fonts/Amr/Amr.otf);
+  font-family: a;
+}
+@font-face {
+  src: url(../../assets/Fonts/neon-font/Neon-e2wg.ttf);
+  font-family: neon;
+}
+@font-face {
+  src: url(../../assets/Fonts/Lobster/Lobster-Regular.ttf);
+  font-family: l;
+}
+@font-face {
+  src: url(../../assets/Fonts/Merriweather/Merriweather-Regular.ttf);
+  font-family: merri;
+}
+@font-face {
+  src: url(../../assets/Fonts/blackchancery/BLKCHCRY.TTF);
+  font-family: blk;
+}
+@font-face {
+  src: url(../../assets/Fonts/Open_Sans/OpenSans-Regular.ttf);
+  font-family: os;
+}
+@font-face {
+  src: url(../../assets/Fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+  font-family: ws;
+}
+@font-face {
+  src: url(../../assets/Fonts/Roboto/Roboto-Light.ttf);
+  font-family: robo;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.tt {
+  font-family: u;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 200px;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 1.1px 0 #2c2c2c,
+    0 1.2px 0 #2a2a2a, 0 1.3px 0 #282828, 0 1.4px 0 #262626, 0 1.5px 0 #242424,
+    0 1.6px 0 #222, 0 1.7px 0 #202020, 0 2px 0 #1e1e1e, 0 2.1px 0 #1c1c1c,
+    0 2.2px 0 #1a1a1a, 0 2.3px 0 #181818, 0 2.4px 0 #161616, 0 2.5px 0 #141414,
+    0 2.8px 0 #121212, 0 3px 3px rgba(0, 0, 0, 0.9);
+}
+.tt2 {
+  color: white;
+  font-family: m;
+  margin: auto;
+  text-align: center;
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.tt2 span {
+  margin-left: 30px;
+}
+
+.home1 {
+  height: 70%;
+  width: 100%;
+  background-image: url(../../assets/home_img/homeimg.jpg);
+  /* background: gray; */
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+header.nava {
+  overflow: hidden;
+  background-color: black;
+  z-index: 5;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.nava a,
+.navb a,
+.biglabel label {
+  display: block;
+  padding: 20px 15px 25px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 5px;
+  height: 20px;
+}
+
+.biglabel label:hover {
+  color: #aaa;
+}
+
+header.nava label {
+  float: right;
+  padding: 17px 20px;
+  cursor: pointer;
+}
+
+.biglabel label:after {
+  content: "\2261";
+  font-size: 1.6em;
+}
+
+.logo {
+  float: left;
+  font-family: u;
+  font-size: 29px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 1.1px 0 #2c2c2c,
+    0 1.2px 0 #2a2a2a, 0 1.3px 0 #282828, 0 1.4px 0 #262626, 0 1.5px 0 #242424,
+    0 1.6px 0 #222, 0 1.7px 0 #202020, 0 2px 0 #1e1e1e, 0 2.1px 0 #1c1c1c,
+    0 2.2px 0 #1a1a1a, 0 2.3px 0 #181818, 0 2.4px 0 #161616, 0 2.5px 0 #141414,
+    0 2.8px 0 #121212, 0 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+.navb {
+  background-color: black;
+  float: right;
+  max-height: 0;
+  width: 100%;
+  -webkit-transition: max-height 0.3s;
+  -moz-transition: max-height 0.3s;
+  -o-transition: max-height 0.3s;
+  transition: max-height 0.3s;
+
+  font-family: m;
+  font-size: 10px;
+  color: snow;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 1px 0 black;
+}
+
+.navb ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navb li {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.navb a {
+  width: 100%;
+}
+
+#nav1 {
+  display: none;
+}
+
+#nav1:checked ~ .navb {
+  max-height: 500px;
+}
+
+@media only screen and (min-width: 800px) {
+  .biglabel label {
+    display: none;
+  }
+
+  nav.navb {
+    width: auto;
+    max-height: none;
+  }
+
+  .navb ul {
+    padding: 0;
+    padding-right: 20px;
+  }
+
+  .navb li {
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: auto;
+    padding: 0;
+  }
+
+  header.nava nav a {
+    display: inline-block;
+
+    width: auto;
+  }
+}
+
+.navb a {
+  color: #fff;
+
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+
+  position: relative;
+}
+.navb a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navb a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.home2 {
+  position: relative;
+}
+
+.block100 {
+  /* border: violet 2px solid; */
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.block2 {
+  /* border: violet 2px solid; */
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.igtext {
+  margin: auto;
+}
+.igtext h1 {
+  font-family: l;
+  font-size: 60px;
+  color: black;
+}
+
+.igtext a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.igtext a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.igtext a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .block2 {
+    background: rgb(0, 0, 0, 0.2);
+  }
+  .outerbox2 {
+    padding: 30px;
+  }
+}
+
+.outerbox1 {
+  margin-top: 6em;
+}
+
+.outerbox3 {
+  margin-top: 6em;
+}
+
+@media screen and (max-width: 900px) {
+  .outerbox1 {
+    margin: auto;
+    margin-top: 6em;
+  }
+
+  .outerbox2 {
+    margin: auto;
+    padding: 20px;
+  }
+
+  .igtext h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .igtext a:after {
+    background-color: pink;
+  }
+}
+
+/* content       ################################################################################ */
+
+/* Body Boxes ************* */
+.box1 {
+  border: black 0.3px solid;
+  max-width: 300px;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+a.mh {
+  position: relative;
+  display: inline-block;
+  font-family: c;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  overflow: hidden;
+  padding: 15px 25px;
+  color: black;
+}
+
+a.mh:hover {
+  background-color: black;
+  color: white;
+
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.icon1 {
+  margin-top: 45px;
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+a.mh span {
+  position: absolute;
+  display: block;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.box2 {
+  border: black 0.3px solid;
+  max-width: 300px;
+  text-align: center;
+  background-color: white;
+
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+a.ac {
+  position: relative;
+  display: inline-block;
+  font-family: c;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  overflow: hidden;
+  padding: 15px 25px;
+  color: black;
+}
+
+a.ac:hover {
+  background-color: black;
+  color: white;
+
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.icon2 {
+  margin-top: 45px;
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+a.ac span {
+  position: absolute;
+  display: block;
+}
+
+.pmh p {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: ws;
+  color: black;
+  font-size: 18px;
+  max-width: 100%;
+  margin-bottom: 40px;
+
+  justify-content: space-evenly;
+}
+
+.home2 a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, black);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+.home2 a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, black);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.home2 a span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, black);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.home2 a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, black);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+/* Image Gallery Box   &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.wrapper {
+  width: 260px;
+  height: 400px;
+  margin: auto;
+}
+
+.stage {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*************************************
+Build the scene and rotate on hover
+**************************************/
+
+.scene {
+  width: 260px;
+  height: 400px;
+
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.movie {
+  width: 260px;
+  height: 400px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(-130px);
+  -moz-transform: translateZ(-130px);
+  transform: translateZ(-130px);
+  -webkit-transition: -webkit-transform 350ms;
+  -moz-transition: -moz-transform 350ms;
+  transition: transform 350ms;
+}
+
+.movie:hover {
+  -webkit-transform: rotateY(-78deg) translateZ(20px);
+  -moz-transform: rotateY(-78deg) translateZ(20px);
+  transform: rotateY(-78deg) translateZ(20px);
+}
+
+/*************************************
+Transform and style the two planes
+**************************************/
+
+.movie .poster,
+.movie .info {
+  position: absolute;
+  width: 260px;
+  height: 400px;
+  background-color: black;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.movie .poster {
+  -webkit-transform: translateZ(130px);
+  -moz-transform: translateZ(130px);
+  transform: translateZ(130px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.movie .info {
+  -webkit-transform: rotateY(90deg) translateZ(130px);
+  -moz-transform: rotateY(90deg) translateZ(130px);
+  transform: rotateY(90deg) translateZ(130px);
+  border: 1px solid white;
+  font-size: 0.75em;
+}
+
+/*************************************
+Shadow beneath the 3D object
+**************************************/
+
+.csstransforms3d .movie::after {
+  content: "";
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: rotateX(90deg) translateY(130px);
+  -moz-transform: rotateX(90deg) translateY(130px);
+  transform: rotateX(90deg) translateY(130px);
+  -webkit-transition: box-shadow 350ms;
+  -moz-transition: box-shadow 350ms;
+  transition: box-shadow 350ms;
+}
+
+.csstransforms3d .movie:hover::after {
+  box-shadow: 20px -5px 50px rgba(0, 0, 0, 0.3);
+}
+
+/*************************************
+Image gallery information
+**************************************/
+
+.info header {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  height: 100px;
+  background-color: black;
+  background-size: 300px 70px;
+  background-repeat: no-repeat;
+  text-shadow: 0px 1px 1px black;
+  font-family: u;
+  font-size: 20px;
+}
+
+.info header h1 {
+  margin: 0 0 2px;
+  font-size: 1.4em;
+}
+
+.info p {
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: white;
+  font-family: robo;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+/*************************************
+Generate "lighting" using box shadows
+**************************************/
+
+.movie .poster,
+.movie .info,
+.movie .info header {
+  -webkit-transition: box-shadow 350ms;
+  -moz-transition: box-shadow 350ms;
+  transition: box-shadow 350ms;
+}
+
+.csstransforms3d .movie .poster {
+  box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0);
+}
+
+.csstransforms3d .movie:hover .poster {
+  box-shadow: inset 300px 0px 40px rgba(255, 255, 255, 0.8);
+}
+
+.csstransforms3d .movie .info,
+.csstransforms3d .movie .info header {
+  box-shadow: inset -300px 0px 40px rgba(0, 0, 0, 0.5);
+}
+
+.csstransforms3d .movie:hover .info,
+.csstransforms3d .movie:hover .info header {
+  box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0);
+}
+
+/*************************************
+Posters and still images
+**************************************/
+
+.scene:nth-child(1) .movie .poster {
+  background-image: url(../../assets/home_img/1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-color: black;
+}
+
+.scene:nth-child(1) .info header {
+  background-image: url();
+}
+
+/*************************************
+Fallback
+**************************************/
+.no-csstransforms3d .movie .poster,
+.no-csstransforms3d .movie .info {
+  position: relative;
+}
+
+/*************************************
+Media Queries
+**************************************/
+@media screen and (max-width: 60.75em) {
+  .scene {
+    float: none;
+  }
+}
+
+.home3 {
+  max-width: var(--contentWidth);
+  height: 100%;
+  background-color: black;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.titlecentre1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.aboutuscontent {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  list-style-type: circle;
+  font-family: ws;
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
+}
+@media screen and (max-width: 800px) {
+  .aboutuscontent {
+    width: 70%;
+  }
+}
+
+/* Title colouring *************************************************************************** */
+.gradient-text {
+  font-family: c;
+  font-weight: 700;
+  font-size: 3em;
+  cursor: pointer;
+}
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #ca4246;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
+
+.home4 {
+  width: 100%;
+}
+
+.titlecentre2 {
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.howcontent {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  list-style-type: circle;
+  font-family: os;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .howcontent {
+    width: 80%;
+  }
+  .howcontent li {
+    list-style-position: inside;
+  }
+}
+
+.decor1 {
+  position: absolute;
+  margin: 100px 50px 0px 30px;
+}
+.decor1 img {
+  width: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+  .decor1 {
+    display: none;
+  }
+}
+
+/* title ************************************************************* */
+
+.rainbow-text {
+  font-family: c;
+}
+
+/* Style the rainbow text element. */
+.rainbow-text {
+  /* Create a conic gradient. */
+  /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+  background: #ca4246;
+  background-color: #ca4246;
+  background: conic-gradient(
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set thee background size and repeat properties. */
+  background-size: 57%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+/* Add animation on hover. */
+.rainbow-text:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+}
+
+.home5 {
+  background-color: lightpink;
+  padding-bottom: 50px;
+}
+
+.titlecentre3 {
+  text-align: center;
+  width: 100%;
+  margin-top: 200px;
+  padding-top: 85px;
+}
+
+.contactcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contactcontent {
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 30px;
+  margin: 30px;
+}
+.contactcontent li {
+  list-style-position: inside;
+}
+
+/* Feedback ************************************************************************************** */
+.form-container {
+  margin: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 0.1em;
+  margin-left: 2em;
+}
+
+.card-header {
+  font-family: c;
+  font-size: 30px;
+  color: honeydew;
+  padding: 10px 0 5px 0;
+  text-align: center;
+  border-bottom: rgb(255, 255, 240, 0.2) 1px solid;
+}
+
+.form-groups {
+  font-family: m;
+  font-size: 14px;
+  color: honeydew;
+  padding: 1em 5em 1em 2em;
+}
+
+.form-groups input {
+  width: 20em;
+  padding: 0.3em;
+  margin-top: 0.5em;
+}
+.form-groups textarea {
+  width: 20em;
+  padding: 0.3em;
+  margin-top: 0.5em;
+}
+
+.cardcolor {
+  background-color: black;
+  width: 375px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .form-container {
+    margin: auto;
+    margin-top: 4em;
+  }
+
+  * a {
+    cursor: pointer;
+  }
+}
+
+/* Insta Icons Styling ******************************************************* */
+.insta {
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.insta a span {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.insta a {
+  text-decoration: none;
+  display: absolute;
+  display: block;
+  width: 280px;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.insta a:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.insta a:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.insta a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.insta:hover .fa {
+  color: #fff;
+}
+
+.insta:hover span {
+  color: #fff;
+}
+
+.insta:hover a {
+  background: #e4405f;
+}
+
+.insta:hover a:before {
+  background: #d81c3f;
+}
+
+.insta:hover a:after {
+  background: #e46880;
+}
+
+/* Queries ************************************************************************ */
+.queries {
+  height: 150px;
+  margin-left: 2em;
+  margin-top: 10em;
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.email {
+  padding: 20px;
+  float: left;
+  line-height: 30px;
+  color: snow;
+  width: 500px;
+  font-size: 15px;
+  font-family: merri;
+}
+
+#p1,
+#p2,
+#p3,
+#p4 {
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-bottom: 8ex;
+  font-family: l;
+  height: 35px;
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: black;
+  color: azure;
+  transition: ease-in 0.2s;
+  border: whitesmoke solid 1px;
+}
+
+button:hover {
+  color: black;
+  background-color: teal;
+  transition: ease-in 0.2s;
+}
+
+.details {
+  height: 150px;
+  box-sizing: border-box;
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.name {
+  padding: 20px;
+  float: left;
+  line-height: 20px;
+  color: snow;
+  width: 500px;
+  font-family: merri;
+  font-size: 15px;
+}
+
+.queries,
+.details {
+  margin: auto;
+  margin-top: 6em;
+}
+
+@media screen and (max-width: 800px) {
+  .insta {
+    display: none;
+  }
+  .details {
+    margin: auto;
+    margin-top: 3em;
+  }
+}
+
+.instadown {
+  display: none;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .instadown {
+    display: block;
+    margin-left: 200px;
+    margin-top: 130px;
+  }
+}
+
+* a {
+  cursor: pointer;
 }
