@@ -49,6 +49,12 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+  $(function () { 
+    $('.uncheck-all').on('click', function () { 
+      $('.checkboxes input:checkbox').prop('checked', false); 
+    }); 
+  });
   
 
 // window.document.onload = navSlide();

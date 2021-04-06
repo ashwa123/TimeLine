@@ -31484,6 +31484,11 @@
 
         });
       });
+      $(function () {
+        $('.uncheck-all').on('click', function () {
+          $('.checkboxes input:checkbox').prop('checked', false);
+        });
+      });
       /***/
     },
 
