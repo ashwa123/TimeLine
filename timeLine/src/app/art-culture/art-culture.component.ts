@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
-import './art.js';
+
 
 declare var navSlide: any;
 
