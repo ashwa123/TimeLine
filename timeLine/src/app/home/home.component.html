@@ -1,13 +1,12 @@
-<header class="nava checkboxes">
+<header class="nava ">
     <a class="logo " href="">Timeline Trends</a>
-    <input id="nav1" type="checkbox" class="">
+    <input id="nav1"  class="">
     <div class="biglabel"><label for="nav1"></label></div>
     <nav class="navb">
         <ul>
-            <li><a href="#section1" class="uncheck-all">Home</a></li>
-            <li><a href="#section2" class="uncheck-all">About Us</a></li>
-            <li><a href="#section3" class="uncheck-all">How to use</a></li>
-            <li><a href="#section4" class="uncheck-all">Contact</a></li>
+            <li><a (click)="modernhistory()">History</a></li>
+            <li><a (click)="artculture()">Art</a></li>
+            <li><a  (click)="gallery()">Gallery</a></li>
         </ul>
     </nav>
 </header>
@@ -96,7 +95,7 @@
     </div>
 </div>
 
-<div class="home3" id="section2">
+<div class="home3">
     <div class="titlecentre1">
         <h1 class="gradient-text">About Us</h1>
     </div>
@@ -112,7 +111,7 @@
     </div>
 </div>
 
-<div class="home4" id="section3">
+<div class="home4">
     <div class="home4box">
         <div class="decor1"><img src="../../assets/home_img/howimg.jpeg" alt=""></div>
         <div class="titlecentre2">
@@ -136,7 +135,7 @@
     </div>
 </div>
 
-<div class="home5" id="section4">
+<div class="home5">
     <div class="titlecentre3">
         <h1 class="gradient-text">Contact Us</h1>
     </div>
@@ -250,7 +249,7 @@
     </a>
 </span>
 
-<br><br><br><br>
+
 <app-footer></app-footer>
 
 <script src="https://use.fontawesome.com/4bbd668d83.js"></script>

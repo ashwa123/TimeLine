@@ -484,3 +484,39 @@ text-align: center;
 margin: auto;
 }
 /* ************************************************************************************************************************** */
+
+
+
+
+
+.instruction {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+  font-family: ws;
+  
+}
+
+.instruction li{
+  margin-top: 1em;
+}
+
+.modelques{
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: merri;
+}
+.modelquesimg {
+  background-color: lightgray;
+  margin-top: 15px;
+  text-align: center;
+}
+.modelquesimg img{
+  padding: 15px;
+}
+img.profile-imagel {
+  width:350px ;
+  height:200px ;
+  }

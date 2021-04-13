@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { CommentserviceService } from '../shared/commentservice.service.js';
-import './Navigationbar.js';
+
 
 declare var navSlide: any;
 

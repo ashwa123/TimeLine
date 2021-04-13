@@ -1,49 +1,4 @@
-/* Fonts      ################################################################################ */
-@import "https://fonts.googleapis.com/css?family=Baloo+Paaji";
-@font-face {
-  src: url(../../assets/Fonts/cheltenhm/CheltenhamBoldExtraCondensedBT.ttf);
-  font-family: c;
-}
-@font-face {
-  src: url(../../assets/Fonts/Montserrat/Montserrat-Regular.ttf);
-  font-family: m;
-}
-@font-face {
-  src: url(../../assets/Fonts/Amr/Amr.otf);
-  font-family: a;
-}
-@font-face {
-  src: url(../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf);
-  font-family: u;
-}
-@font-face {
-  src: url(../../assets/Fonts/neon-font/Neon-e2wg.ttf);
-  font-family: neon;
-}
-@font-face {
-  src: url(../../assets/Fonts/Lobster/Lobster-Regular.ttf);
-  font-family: l;
-}
-@font-face {
-  src: url(../../assets/Fonts/Merriweather/Merriweather-Regular.ttf);
-  font-family: merri;
-}
-@font-face {
-  src: url(../../assets/Fonts/blackchancery/BLKCHCRY.TTF);
-  font-family: blk;
-}
-@font-face {
-  src: url(../../assets/Fonts/Open_Sans/OpenSans-Regular.ttf);
-  font-family: os;
-}
-@font-face {
-  src: url(../../assets/Fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
-  font-family: ws;
-}
-@font-face {
-  src: url(../../assets/Fonts/Roboto/Roboto-Light.ttf);
-  font-family: robo;
-}
+
 /* title ****** */
 .title{
   color: snow;
@@ -61,7 +16,27 @@
 }
 
 
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
+
+
+.swipe{
+  display: none;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: ws;
+  font-size: 5px;
+  margin-top: 20px;
+}
+@media screen and (max-width:800px) {
+  .swipe{
+    display: block;
+  }
+}
 
 
 
@@ -80,7 +55,7 @@
 }
 
 .category1 {
-  background-color: chartreuse;
+  background-color: rgba(128, 255, 0, 0.74);
 }
 
 .category2 {
@@ -90,28 +65,6 @@
 .category3 {
   background-color: pink;
 }
-
-
-
-.table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
-
-.table-conatiner {
-  padding-top: 55px;
-}
-
-
-
 
 
 
@@ -159,3 +112,96 @@ td {
 .comment{
   padding-left: 150px;
 }
+
+
+.commentsouter{
+  background-color: lightpink;
+  text-align: center;
+  line-height: 40px;
+  margin: auto;
+  width: 95%;
+  padding: 20px;
+}
+textarea{
+  border: black 1px solid;
+}
+input{
+  border: black 1px solid;
+}
+
+
+
+
+
+/* ************************************************************************************************************************** */
+.table1-spacing {
+  padding: 0;
+  margin: 0;
+  padding-top: 55px;
+  overflow-x: scroll;
+  font-family: ws;
+}
+
+
+.table1 th,
+.table1 td {
+border: 1px solid black;
+border-collapse: collapse;
+line-height: 26px;
+width: 230px;
+
+}
+.table1 td{
+  padding: 15px;
+}
+.table1 th{
+  padding: 7px;
+}
+
+.table1{
+border-collapse: collapse;
+text-align: center;
+}
+
+.table1 table{
+margin: auto;
+border-collapse: collapse;
+}
+
+.tablepoint li{
+  list-style-position: outside;
+  list-style-type: circle;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.table1 th{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: c;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+@media screen and (max-width:800px) {
+  tr > *:nth-child(5) {
+    min-width: 15rem;
+    z-index: 1;
+  }
+  tr > *:nth-child(6) {
+    min-width: 15rem;
+    z-index: 1;
+  }
+  
+}
+
+
+
+
+
+
+

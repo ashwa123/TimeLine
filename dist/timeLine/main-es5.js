@@ -48,69 +48,59 @@
       /* harmony import */
 
 
-      var _Navigationbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! ./Navigationbar.js */
-      "ry2A");
-      /* harmony import */
-
-
-      var _Navigationbar_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Navigationbar_js__WEBPACK_IMPORTED_MODULE_1__);
-      /* harmony import */
-
-
-      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/router */
       "tyNb");
       /* harmony import */
 
 
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/forms */
       "3Pt+");
       /* harmony import */
 
 
-      var _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! ../shared/commentservice.service.js */
       "Qlko");
       /* harmony import */
 
 
-      var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/platform-browser */
       "jhN1");
       /* harmony import */
 
 
-      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! ../navbar/navbar.component */
       "kWWo");
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/common */
       "ofXK");
       /* harmony import */
 
 
-      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! ../footer/footer.component */
       "fp1T");
 
-      function FamousPersonalitiesComponent_div_661_Template(rf, ctx) {
+      function FamousPersonalitiesComponent_div_715_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 42);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 45);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 43);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 46);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 44);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 47);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
 
@@ -207,15 +197,15 @@
       }();
 
       FamousPersonalitiesComponent.ɵfac = function FamousPersonalitiesComponent_Factory(t) {
-        return new (t || FamousPersonalitiesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_4__["CommentserviceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Meta"]));
+        return new (t || FamousPersonalitiesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_3__["CommentserviceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Meta"]));
       };
 
       FamousPersonalitiesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: FamousPersonalitiesComponent,
         selectors: [["app-famous-personalities"]],
-        decls: 663,
+        decls: 717,
         vars: 2,
-        consts: [[1, "title"], [1, "table-responsive", "content-spacing", "table-conatiner"], [1, "table", "table-hover"], [1, "table-active"], [1, "text1"], ["src", "../../assets/table/ishwar.jpg", 1, "profile-image"], [1, "list"], [1, "text7"], [1, "red"], [1, "text2"], ["src", "../../assets/table/balshastri.jpg", 1, "profile-image"], ["src", "../../assets/table/syed.jpg", 1, "profile-image"], [1, "text6"], ["src", "../../assets/table/Dtagore.jpg", 1, "profile-image"], ["src", "../../assets/table/keshab.jpg", 1, "profile-image"], ["src", "../../assets/table/ananda.jpg", 1, "profile-images"], ["src", "../../assets/table/shibchandra.jpg", 1, "profile-images"], ["src", "../../assets/table/umesh.jpg", 1, "profile-images"], [1, "text5"], [1, "text3"], ["src", "../../assets/table/gopalhari.jpg", 1, "profile-image"], ["src", "../../assets/table/annie.jpg", 1, "profile-image"], [1, "text4"], [1, "image-content"], ["src", "../../assets/table/gopalganesh.jpg", 1, "profile-image1"], [1, "instruction"], [2, "color", "green"], [2, "color", "skyblue"], [2, "color", "palevioletred"], [2, "color", "darkgreen"], [2, "color", "orange"], [2, "color", "lightgreen"], [1, "topic-container"], [1, "form-container"], [1, "form-display", 3, "formGroup"], [1, "form-group"], ["formControlName", "comment", "rows", "5", 1, "form-control"], ["type", "text", "formControlName", "name", 1, "form-control"], ["type", "email", "formControlName", "email", 1, "form-control"], [1, "post-button"], [1, "btn", "btn-danger", "button-size", 3, "click"], ["class", "comment-section", 4, "ngFor", "ngForOf"], [1, "comment-section"], ["width", "100", "height", "100", 3, "src"], [1, "comment"]],
+        consts: [[1, "title"], [1, "swipe"], [1, "table1-spacing"], [1, "table1"], [1, "table", "table-hover"], [1, "table-active"], [1, "green"], [1, "image-content"], ["src", "../../assets/table/ishwar.jpg", 1, "profile-imagep"], [1, "tablepoint"], [1, "red"], [1, "text7"], [1, "blue"], ["src", "../../assets/table/balshastri.jpg", 1, "profile-imagep"], ["src", "../../assets/table/syed.jpg", 1, "profile-imagep"], [1, "yellow"], [1, "tablepoint3"], ["src", "../../assets/table/Dtagore.jpg", 1, "profile-imagep"], [1, "tablepoint2"], ["src", "../../assets/table/keshab.jpg", 1, "profile-imagep"], ["src", "../../assets/table/ananda.jpg", 1, "profile-imagep"], ["src", "../../assets/table/shibchandra.jpg", 1, "profile-imagep"], ["src", "../../assets/table/umesh.jpg", 1, "profile-imagep"], [1, "thickgreen"], ["src", "../../assets/table/gopalhari.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/annie.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/gopalganesh.jpg", 1, "profile-imagesq"], [1, "instruction"], [2, "color", "green"], [2, "color", "skyblue"], [2, "color", "palevioletred"], [2, "color", "darkgreen"], [2, "color", "orange"], [2, "color", "lightgreen"], [1, "commentsouter"], [1, "topic-container"], [1, "form-container"], [1, "form-display", 3, "formGroup"], [1, "form-group"], ["formControlName", "comment", "rows", "5", 1, "form-control"], ["type", "text", "formControlName", "name", 1, "form-control"], ["type", "email", "formControlName", "email", 1, "form-control"], [1, "post-button"], [1, "btn", "btn-danger", "button-size", 3, "click"], ["class", "comment-section", 4, "ngFor", "ngForOf"], [1, "comment-section"], ["width", "100", "height", "100", 3, "src"], [1, "comment"]],
         template: function FamousPersonalitiesComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -232,135 +222,79 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "table", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h6");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "tr", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "YEAR");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Swipe right to view full table \u2192");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "PERSONALITIES");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "th");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "table", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "tr", 5);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "IDEAS & BELIEF");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Year");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "CONTRIBUTIONS");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Personalities");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Ideas & Belief");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Contribution");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "1800s");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "ISHWAR CHANDRA VIDYASAGAR");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "1800s");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "@Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "ISHWAR CHANDRA VIDYASAGAR");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Both ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Indian & western thought");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "To break ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Priest monopoly");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " of Scriptual knowledge");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Evolved ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "new methodology");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " to teach ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Sanskrit");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Included ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Western thoughts in Sanskrit");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " learning");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "@Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -368,145 +302,199 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "td", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Belief");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "img", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "High moral values");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Both ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Deep humanist");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Indian & western thought");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "To break ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "1850: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Sanskrit college principal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Priest monopoly");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, " (for also ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Non brahmins");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " of Scriptual knowledge");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, ")");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Evolved ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "new methodology");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " to teach ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Created ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Sanskrit");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Included ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Western thoughts in Sanskrit");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " learning");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Belief:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "High moral values");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Deep humanist");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "1850: ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "New Bengali Primer & New prose style");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Sanskrit college principal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, " (teached for also ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Movements:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Non-brahmins");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, ")");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Widow remarriage ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Created ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "New Bengali Primer & New prose style");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Against child marriage, Polygamy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Women education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "b", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Organised 35 girls schools");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "SOMPRAKASH");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, " magazine");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Secretary of ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Secretary of ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Bethune School");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "Bethune School");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Pioneer of Higher education for women");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Bethune School ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "span", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "@Calcutta");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Pioneer of Higher education for women");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " \u2013 resulted in powerful ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "Bethune School ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "rise of women education in 1850s");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "span", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "@Calcutta");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, " \u2013 resulted in powerful ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "rise of women education in 1850s");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -514,89 +502,71 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "b", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "SOMPRAKASH");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Movements:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, " magazine");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Widow remarriage ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "1812-1846");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Against child marriage, Polygamy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Women education");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "BALSHASTRI JAMBHEKAR ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Organised 35 girls schools");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 9);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "@Bombay");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "1812-1846");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](114, "img", 10);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "BALSHASTRI JAMBHEKAR ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Attacked Brahminical orthodoxy");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 12);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "Tried reform popular Hinduism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "To awake people by social reforms- Widow remarriage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Instill masses on ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "scientific approach to life");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "@Bombay");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -604,49 +574,41 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "td", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Journalism pioneer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](121, "img", 13);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Newspaper: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "b", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "DARPAN");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "Attacked Brahminical orthodoxy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, " 1832");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "Father of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "Marathi");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "Tried reform popular Hinduism");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, " journalism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "To awake people by social reforms- Widow remarriage");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Instill masses on ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "scientific approach to life");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -656,53 +618,107 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "Edited");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, "- DIGDARSHAN");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Journalism pioneer");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, " 1840 & publish Scientific and History subjects");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "Newspaper: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "b", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "DARPAN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Found: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "span", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "Bombay Native General library Native Improvement society");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](143, " 1832");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, " (branch: Student and scientific library) ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "Father of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "Marathi");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, "1st professor for ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "Hindi @Elphinston College");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, " journalism");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, " Director ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, "Edited");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, "- DIGDARSHAN");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, " 1840 & publish Scientific and History subjects");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "Found: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "span", 10);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "@Colaba Observatory");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "Bombay Native General library Native Improvement society");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, " (branch: Student and scientific library)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, "1st professor for ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](165, "Hindi @Elphinston College");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "Director ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](169, "@Colaba Observatory");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -712,279 +728,215 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, "1817-1898");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](172, "1817-1898");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, "SIR SYED AHMED KHAN");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "img", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](171, "Ready to ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "allow British patronage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, " to stimulate Growth in Indian muslim education and employment");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, "1876- Judicial service retired");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](180, "1878- At ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, "Imperial Legislative council");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "SIR SYED AHMED KHAN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "td", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "1888- ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](177, "img", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, "Knighthood");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Ready to ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](183, "allow British patronage");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, " to stimulate Growth in Indian muslim education and employment");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, "1876- Judicial service retired");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "1878- At ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "Imperial Legislative council");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, "Opposed political activity");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "-because it would invite hostility of British against Masses");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, "His enthu to promote educational interest is used by ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, "1888- ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "colonial as Divide and Rule");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "Knighthood");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "- To propogate divergence of Hindu-Mus interest");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](195, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "Belief:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "Both Western scientific");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "Opposed youth involve in political activity");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, " education and ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](205, "Quran");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "-because it would invite hostility of British against Masses.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](200, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "His enthu to promote educational interest is used by ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "colonial as Divide and Rule");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, "Interpret with rationality ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "But Quran");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](205, "- To propogate divergence of Hindu-Mus interest.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, " is ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](206, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, "Belief:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](210, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "ultimate authority");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "Both Western scientific");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, " education and ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](215, "Quran");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](216, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, "Freedom of thought");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](217, "Interpret with rationality ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](218, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](216, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](217, "Not complete dependence");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](219, "But Quran");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, " on ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, " is ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](219, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, "tradition, custom");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, "ultimate authority");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](223, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, "Insist on ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](223, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, "Critical");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, "Freedom of thought");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](225, " approach");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](227, "Not complete dependence");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](228, " on ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](227, "Practical ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, "Morality");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](230, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](232, "Unity of religions");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](230, "tradition, custom");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](232, "Insist on ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, "Critical");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](234, "i");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](235, "\u201C1st Acquire education, then catch up with Hindu counterparts\u201D");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](235, " approach");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](237, "Practical ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](238, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](238, "1875: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "span", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](240, "Mohammedan Oriental College");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "span", 12);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](242, "@Aligarh");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](239, "Morality");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](243, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](246, "Magazine: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "b", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](248, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](249, "TAHDHIB UL AKHLAQ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](250, " - social ideas, morals");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](251, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](252, "Translated books into urdu");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](242, "Unity of religions");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -992,35 +944,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](253, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](243, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](254, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "b", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](256, "ALIGARH MOVEMENT");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](258, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](260, "Liberal, Modern");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](261, " - Muslim intelligentsia");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](263, "Spread modern education -Without weakening Islam");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](246, "\u201C1st Acquire education, then catch up with Hindu counterparts\u201D");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1028,79 +958,99 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](248, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](266, "Social reform:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](250, "1875: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](251, "span", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](268, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](252, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](269, "Against ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](271, "Purdah");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](253, "Mohammedan Oriental College");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](272, ", Polygamy, widow remarriage, Women");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](254, "span", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](256, " @Aligarh");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](258, "Magazine: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "b", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](261, "TAHDHIB UL AKHLAQ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](262, " - social ideas, morals");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](264, "Translated books into ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](266, "urdu");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](267, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](268, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](269, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "b", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](271, "\"ALIGARH MOVEMENT\"");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](272, "ul", 16);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](273, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](274, "education, Abolish slavery, easy divorce ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](275, "Liberal, Modern");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](276, "Condem ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](277, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](278, "muridi, piri");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](276, " - Muslim intelligentsia");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](277, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](279, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](280, "Ideology: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](281, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](282, "Liberal interpretation of Quran");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](283, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](284, "Harmonise islam with ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](285, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](286, "modern liberal culture");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](288, "Impart distinct social cultural identity on modern lines");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](278, "Spread modern education -Without weakening Islam");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1108,105 +1058,89 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](289, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](279, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](280, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](291, "1817-1905");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](281, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](295, "DEBENDRANATH TAGORE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](282, "Social reform:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](283, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](296, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](284, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](297, "(Father of Rabindranath)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](285, "Against ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](286, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](298, "div", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](299, "@Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](287, "Purdah");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](300, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](301, "img", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](288, ", Polygamy, widow remarriage, Women");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](302, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](289, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](303, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](290, "education, Abolish slavery, easy divorce ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](291, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](292, "Condem ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](294, "muridi, piri");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](295, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](296, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](297, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](298, "Ideology: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](299, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](300, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](301, "Liberal interpretation of Quran");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](302, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](303, "Harmonise islam with ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](304, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](305, "Both Traditional");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](305, "modern liberal culture");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](306, " Indian learning and ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](307, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](308, "Western");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](309, " thought");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](306, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](310, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](311, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](312, "Support:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](313, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](315, "Widow remarriage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](316, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](317, "Women education");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](318, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](319, "Abolition of polygamy");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](321, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](322, "Improve ryot");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](323, " (peasant) conditions");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](307, "Impart distinct social cultural identity on modern lines");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1216,35 +1150,37 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](325, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](309, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](326, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](310, "1817-1905");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](327, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](328, "Gave definite form to ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](311, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](330, "THEIST MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](313, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](314, "DEBENDRANATH TAGORE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](331, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](315, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](332, "1839: Headed ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](333, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](334, "Tattvabdhini Sabha");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](316, "(Father of Rabindranath)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](335, " (dissoved with BS)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](317, "div", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](318, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](319, "@Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1252,99 +1188,143 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](336, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "td", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](338, "Tattvabodhini Patrika");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](321, "img", 17);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](339, " editor @Bengali (for systematic study of Indian past with rational outlook & Propagate Roy's idea)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](322, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](323, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](325, "Both Traditional");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](340, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](326, " Indian learning and ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](341, "1842- Joined Brahmo Samaj");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](327, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](342, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](343, "Gave new life to Brahmo samaj");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](328, "Western");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](344, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](345, "Who were Brahmo samaj members?");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](329, " thought");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](330, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](331, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](332, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](333, "Support:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](334, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](335, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](336, "Widow remarriage");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](338, "Women education");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](339, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](340, "Abolition of polygamy");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](341, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](342, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](343, "Improve ryot");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](344, " (peasant) conditions");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](345, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](346, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](347, "Followers of Roy, Derozians, Ishwar vidyasagar, Ashwini Kumar datt");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](348, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](348, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](349, "Gave definite form to ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](349, " Tagore: Worked on 2 fronts ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](350, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](350, "ol");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](351, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](352, "Within Hinduism as reformist movement");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](353, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](354, "Ouside- opposed Christianity Missionaries - which criticise Hindu");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](351, "THEIST MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](352, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](353, "1839: Headed ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](354, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](355, "Tattvabdhini Sabha");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](356, " (dissolved with BS)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](357, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](358, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](359, "Tattvabodhini Patrika");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](360, " editor [Bengali] (for systematic study of Indian past with rational outlook & Propagate Roy's idea)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](362, "1842- Joined Brahmo Samaj & Gave new life to Brahmo samaj");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](355, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](356, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](357, "1838-1884");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](358, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](359, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](360, "KESHAB CHANDRA SEN");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](362, "img", 14);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](363, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](363, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](364, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](365, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](365, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](366, "COSMOPOLITISATION OF BRAHMO SABHA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](366, "Who were Brahmo samaj members?");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1352,53 +1332,45 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](367, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](368, "(Inclusion of all religious teaching Strong views against caste Open support to Intercaste marriage too Radical) ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](368, "Followers of RRMRoy, Derozians, Ishwar vidyasagar, Ashwini Kumar datt");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](369, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](369, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](370, "These qualities - ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](370, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](371, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](371, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](372, "not liked by Tagore");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](372, "Tagore: Worked on 2 fronts");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](373, "ul", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](373, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](374, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](374, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](375, "Within Hinduism as ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](375, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](376, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](376, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](377, "1858: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](378, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](379, "Achariya of Brahmo Samaj");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](377, "reformist movement");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](380, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](378, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](381, "Branches opened ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](379, "Ouside- ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](382, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](380, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](383, "outside Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](381, "opposed Christianity Missionaries");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](384, " (UP, Madras, Punj, Bombay)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](382, " - which criticise Hindu");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1406,35 +1378,43 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](385, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](386, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](387, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](388, "1865: Dismissed from Brahmo samaj (Tagore don\u2019t liked his activities)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](389, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](383, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](390, "Then Tagore's BS became Adi Brahmo Samaj");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](384, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](385, "1838-1884");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](391, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](386, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](392, "1866: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](387, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](394, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](395, "Brahmo Samaj of India");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](388, "KESHAB CHANDRA SEN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](389, "td", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](390, "img", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](391, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](392, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](394, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](395, "COSMOPOLITISATION OF BRAHMO SABHA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1444,11 +1424,17 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](396, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](397, "1878: Marriage to his 13yr Daughter to Maharaj Cooch Behar- with orthodox Hindu rituals caused split in samaj - Keshab ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](397, "(Inclusion of all religious teaching Strong views against caste Open support to Intercaste marriage too Radical) ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](398, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](399, "accused of authoritarianism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](398, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](399, "These qualities - ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](400, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](401, "not liked by Tagore");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1456,47 +1442,35 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](402, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](400, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](403, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](401, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](402, "1878");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](403, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](404, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](404, "ul", 9);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](405, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](406, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](406, "1858: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](407, "ANANDA MOHAN BOSE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](407, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](408, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](409, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](410, "SHIBCHANDRA DEB");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](408, "Achariya of Brahmo Samaj");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](411, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](409, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](412, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](410, "Branches opened ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](413, "UMESH CHANDRA DATTA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](411, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](412, "outside Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](413, " (UP, Madras, Punj, Bombay)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1504,55 +1478,37 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](414, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](414, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](415, "img", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](415, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](416, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](416, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](417, "img", 16);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](418, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](419, "img", 17);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](420, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](417, "1865: Dismissed from Brahmo samaj (Tagore don\u2019t liked his activities)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](421, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](418, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](422, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](419, "Then Tagore's BS became ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](423, "Brahmo's doctrine of faith - ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](420, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](421, "Adi Brahmo Samaj");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](422, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](423, "1866: ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](424, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](425, "Supreme Being & one God");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](425, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](426, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](427, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](428, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](429, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](430, "No Scripture");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](431, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](432, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](433, "Man-Infallible");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](426, "Brahmo Samaj of India");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1562,55 +1518,63 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](434, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](435, "Belief- Reason, Truth, Moral");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](427, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](428, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](429, "1878: Marriage to his 13yr Daughter to Maharaj Cooch Behar- with orthodox Hindu rituals caused split in samaj - Keshab ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](430, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](431, "accused of authoritarianism");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](436, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](437, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](432, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](433, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](434, "1878");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](435, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](436, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](437, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](438, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](439, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](440, "Sadharan");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](439, "ANANDA MOHAN BOSE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](441, " Brahmo Sabha");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](440, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](441, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](442, "SHIBCHANDRA DEB");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](442, " (many opened @Madras)");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](443, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](443, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](444, "1910 ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](444, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](445, "span", 18);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](446, "@Punjab");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](447, " -");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](448, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](449, "Dayal Singh College");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](450, "span", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](451, "(Lahore)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](445, "UMESH CHANDRA DATTA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1620,65 +1584,65 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](452, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](446, "td", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](447, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](448, "img", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](449, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](450, "img", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](451, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](452, "img", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](453, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](454, "1823-1892");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](454, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](455, "Brahmo's doctrine of faith - ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](455, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](456, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](457, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](457, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](458, "GOPALHARI DESHMUKH");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](458, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](459, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](459, "div", 19);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](460, "@Maharastra");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](460, "Supreme Being & one God");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](461, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](461, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](462, "img", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](462, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](463, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](464, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](465, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](466, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](467, "Attacked ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](468, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](469, "Hindu orthodox");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](463, "No Scripture");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](470, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](464, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](471, "Support: Social religious ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](465, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](472, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](473, "equality");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](466, "Man-Infallible");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1688,27 +1652,19 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](474, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](467, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](475, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](468, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](476, "Reorganisation of Indian society");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](469, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](477, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](478, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](479, "Belief:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](470, "Belief:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](480, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](471, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](481, "Rational Principle, Modern, Humanistic, Secular");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](472, " Reason, Truth, Moral");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1716,79 +1672,55 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](482, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](473, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](483, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](474, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](484, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](475, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](485, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](476, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](486, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](477, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](487, "Judge");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](488, " under British raj");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](478, "Sadharan");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](489, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](490, "Weekly: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](491, "b", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](492, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](493, "PRABHAKAR");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](479, " Brahmo Sabha");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](494, " (Pen name: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](495, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](496, "LOKAHITAWADI, HITECHHU");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](480, " (many opened @Madras)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](497, ")");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](481, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](482, "1910 ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](483, "span", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](484, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](485, "@Punjab");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](486, " -");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](498, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](487, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](499, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](500, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](501, "Leading role in finding periodical:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](488, "Dayal Singh College");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](502, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](489, "span", 23);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](503, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](490, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](504, "GYAN PRAKASH");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](505, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](506, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](507, "INDU PRAKASH");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](491, " (Lahore)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1798,23 +1730,83 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](508, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](509, "Wrote against ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](510, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](492, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](511, "evil of caste");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](493, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](494, "1823-1892");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](495, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](496, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](497, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](498, "GOPALHARI DESHMUKH");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](512, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](499, "div", 12);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](513, "i");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](500, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](514, "\u201CIf religion doesn\u2019t sanction social reform then change the religion\u201D");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](501, "@Maharastra");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](502, "td", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](503, "img", 24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](504, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](505, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](506, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](507, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](508, "Attacked ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](509, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](510, "Hindu orthodox");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](511, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](512, "Support: Social religious ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](513, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](514, "equality");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](515, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](516, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](517, "Reorganisation of Indian society");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1824,91 +1816,105 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](515, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](518, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](516, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](519, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](517, "1847-1933");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](520, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](518, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](519, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](520, "ANNIE BESANT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](521, "Belief:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](522, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](521, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](523, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](522, "img", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](523, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](524, "Did much for Cause of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](525, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](526, "Women education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](524, "Rational Principle, Modern, Humanistic, Secular");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](527, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](528, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](529, "ul", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](525, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](530, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](526, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](531, "1893: Came India");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](527, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](528, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](529, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](530, "Judge");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](531, " under British raj");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](532, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](533, "1898: Foundation of ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](533, "Weekly: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](534, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](534, "b", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](535, "Central Hindu College");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](535, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](536, "span", 22);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](537, "@Benaras");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](536, "PRABHAKAR");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](537, " (Pen name: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](538, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](539, "LOKAHITAWADI, HITECHHU");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](540, ")");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](538, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](539, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](540, "Both Hindu religion & western scientific");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](541, " subjects @CHC");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](541, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](542, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](543, " 1916 CHC: nucleus of BENARAS HINDU UNIVERSTY");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](543, "ul", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](544, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](545, "Leading role in finding periodical:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](546, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](547, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](548, "GYAN PRAKASH");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](549, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](550, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](551, "INDU PRAKASH");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1916,161 +1922,99 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](544, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](545, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](546, "1856-1915");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](547, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](552, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](548, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](553, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](549, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](554, "Wrote against ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](550, "GOPAL GANESH AGARKAR");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](555, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](556, "evil of caste");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](551, "div", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](557, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](552, "@Maharastra");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](558, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](553, "td", 23);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](554, "img", 24);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](555, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](556, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](557, "Power of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](558, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](559, "Human reason");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](559, "\u201CIf religion doesn\u2019t sanction social reform then change the religion\u201D");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](560, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](561, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](562, "Criticized: Blind dependence");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](563, " on tradition, ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](560, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](561, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](562, "1847-1933");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](563, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](564, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](565, "false glorification of past");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](565, "ANNIE BESANT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](566, "td", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](566, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](567, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](568, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](569, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](570, "1st editor of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](571, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](572, "KESARI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](567, "img", 25);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](568, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](573, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](569, "Did much for Cause of ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](574, "own periodical: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](570, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](575, "b", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](576, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](577, "SUDHARAK");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](571, "Women education");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](578, " (spoke against ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](572, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](573, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](574, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](575, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](576, "1893: Came India");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](577, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](578, "1898: Foundation of ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](579, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](580, "Untouchabilty, caste system");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](580, "Central Hindu College");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](581, ")");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](581, "span", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](582, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](582, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](583, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](584, "Co-founder of:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](585, "ul", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](586, "li", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](587, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](588, "New English School");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](589, "li", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](590, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](591, "Deccan Education Society");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](592, "li", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](593, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](594, "Fergusson College");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](595, "(also principal)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](583, " @Benaras");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2078,13 +2022,99 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](596, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](584, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](597, "Other founders: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](585, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](586, "Both Hindu religion & western scientific");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](587, " subjects @CHC");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](588, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](589, " 1916 CHC: nucleus of BENARAS HINDU UNIVERSTY");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](590, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](591, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](592, "1856-1915");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](593, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](594, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](595, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](596, "GOPAL GANESH AGARKAR");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](597, "div", 12);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](598, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](599, "Thilak, V.Chiplunkar");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](599, "@Maharastra");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](600, "td", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](601, "img", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](602, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](603, "ul", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](604, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](605, "Power of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](606, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](607, "Human reason");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](608, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](609, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](610, "Criticized: Blind dependence");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](611, " on tradition, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](612, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](613, "false glorification of past");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2094,91 +2124,47 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](614, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](615, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](600, "div", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](616, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](601, "h4");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](617, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](602, "Mistakes to be avoided to score better:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](618, "1st editor of ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](619, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](603, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](604, "ul");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](605, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](606, "Don\u2019t confuse between \u2013 founder, co-founder, editor, helped in finding (To avoid confusion \u2013 Red colour is marked only for founder)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](607, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](608, "Colour Differentiation: Places (Make use the colour differentiation in the content so that it is easy to remember places) ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](609, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](610, "span", 26);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](611, " Bengal-green");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](612, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](613, "span", 27);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](614, "Bombay-blue");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](615, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](616, "span", 28);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](617, "Madras-pink");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](618, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](619, "span", 29);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](620, " Punjab-thick green");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](621, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](622, "span", 30);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](623, " UP-orange");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](624, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](625, "span", 31);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](626, "Kerala-light green");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](620, "KESARI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](627, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](621, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](628, "After reading the content once, just read the bold letters to revise, so that you can revise quickly (Bold letters are very important don\u2019t ignore them)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](622, "own periodical: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](623, "b", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](624, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](625, "SUDHARAK");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](629, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](630, "History is of facts and is easily forgotten, so keep on revising whenever you have time. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](626, " (spoke against ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](627, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](628, "Untouchabilty, caste system");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](629, ")");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2186,83 +2172,249 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](631, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](630, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](632, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](631, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](633, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](632, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](634, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](635, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](636, "h3", 32);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](637, "Add your thoughts");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](633, "Co-founder of:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](638, "div", 33);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](634, "ul", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](639, "form", 34);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](635, "li", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](640, "div", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](636, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](641, "label");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](637, "New English School");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](638, "li", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](639, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](640, "Deccan Education Society");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](641, "li", 10);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](642, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](643, "Comment");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](643, "Fergusson College");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](644, " (also principal)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](644, "textarea", 36);
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](645, "div", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](645, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](646, "label");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](646, " (Other founders: ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](647, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](648, "Name");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](648, "Thilak, V Chiplunkar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](649, ") ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](649, "input", 37);
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](650, "div", 35);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](651, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](652, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](653, "Email");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](654, "input", 38);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](650, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](651, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](652, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](653, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](654, "div", 27);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](655, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](656, "Mistakes to be avoided to score better:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](655, "div", 39);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](657, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](656, "button", 40);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](658, "ul");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FamousPersonalitiesComponent_Template_button_click_656_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](659, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](660, "Don\u2019t confuse between \u2013 founder, co-founder, editor, helped in finding (To avoid confusion \u2013 Red colour is marked only for founder)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](661, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](662, "Colour Differentiation: Places (Make use the colour differentiation in the content so that it is easy to remember places) ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](663, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](664, "span", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](665, " Bengal-green");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](666, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](667, "span", 29);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](668, "Bombay-blue");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](669, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](670, "span", 30);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](671, "Madras-pink");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](672, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](673, "span", 31);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](674, " Punjab-thick green");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](675, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](676, "span", 32);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](677, " UP-orange");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](678, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](679, "span", 33);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](680, "Kerala-light green");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](681, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](682, "After reading the content once, just read the bold letters to revise, so that you can revise quickly (Bold letters are very important don\u2019t ignore them)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](683, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](684, "History is of facts and is easily forgotten, so keep on revising whenever you have time. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](685, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](686, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](687, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](688, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](689, "div", 34);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](690, "h3", 35);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](691, "Add your thoughts");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](692, "div", 36);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](693, "form", 37);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](694, "div", 38);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](695, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](696, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](697, "Comment");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](698, "textarea", 39);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](699, "div", 38);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](700, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](701, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](702, "Name");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](703, "input", 40);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](704, "div", 38);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](705, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](706, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](707, "Email");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](708, "input", 41);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](709, "div", 42);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](710, "button", 43);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FamousPersonalitiesComponent_Template_button_click_710_listener() {
               return ctx.comment();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](657, "Post Comment");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](711, "Post Comment");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2274,23 +2426,23 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](658, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](712, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](659, "h3", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](713, "h3", 35);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](660, "Comments");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](661, FamousPersonalitiesComponent_div_661_Template, 6, 3, "div", 41);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](714, "Comments");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](662, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](715, FamousPersonalitiesComponent_div_715_Template, 6, 3, "div", 44);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](716, "app-footer");
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](639);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](693);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx.commentForm);
 
@@ -2299,8 +2451,8 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.postComments);
           }
         },
-        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__["NavbarComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"]],
-        styles: ["@import \"https://fonts.googleapis.com/css?family=Baloo+Paaji\";\n\n@font-face {\r\n  src: url('CheltenhamBoldExtraCondensedBT.ttf');\r\n  font-family: c;\r\n}\n@font-face {\r\n  src: url('Montserrat-Regular.ttf');\r\n  font-family: m;\r\n}\n@font-face {\r\n  src: url('Amr.otf');\r\n  font-family: a;\r\n}\n@font-face {\r\n  src: url('UnifrakturCook-Bold.ttf');\r\n  font-family: u;\r\n}\n@font-face {\r\n  src: url('Neon-e2wg.ttf');\r\n  font-family: neon;\r\n}\n@font-face {\r\n  src: url('Lobster-Regular.ttf');\r\n  font-family: l;\r\n}\n@font-face {\r\n  src: url('Merriweather-Regular.ttf');\r\n  font-family: merri;\r\n}\n@font-face {\r\n  src: url('BLKCHCRY.TTF');\r\n  font-family: blk;\r\n}\n@font-face {\r\n  src: url('OpenSans-Regular.ttf');\r\n  font-family: os;\r\n}\n@font-face {\r\n  src: url('WorkSans-VariableFont_wght.ttf');\r\n  font-family: ws;\r\n}\n@font-face {\r\n  src: url('Roboto-Light.ttf');\r\n  font-family: robo;\r\n}\n\n.title[_ngcontent-%COMP%]{\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n\r\n}\n.content-spacing[_ngcontent-%COMP%]{\r\n    padding: 24px;\r\n    margin: 24px;\r\n}\n.list[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    padding: 0\r\n}\n.table[_ngcontent-%COMP%], th[_ngcontent-%COMP%], td[_ngcontent-%COMP%] {\r\n    border: 1px solid black;\r\n    border-collapse: collapse;\r\n}\n.red[_ngcontent-%COMP%]{\r\n    color: red;\r\n}\n.text1[_ngcontent-%COMP%]{\r\n    color: lightgreen;\r\n}\n.text2[_ngcontent-%COMP%]{\r\n    color: skyblue;\r\n}\n.text3[_ngcontent-%COMP%]{\r\n    color: aqua;\r\n}\n.text4[_ngcontent-%COMP%]{\r\n    color:yellow;\r\n}\n.text5[_ngcontent-%COMP%]{\r\n    color: green;\r\n}\n.text6[_ngcontent-%COMP%]{\r\n    color: forestgreen\r\n}\n.text7[_ngcontent-%COMP%]{\r\n    color: limegreen\r\n}\n.profile-image[_ngcontent-%COMP%]{\r\n    height: 50%;\r\n    padding-left:5px;\r\n}\n.profile-images[_ngcontent-%COMP%]{\r\n    height: 25%;\r\n    padding-left:5px;\r\n}\n.profile-image1[_ngcontent-%COMP%]{\r\n    height: 28%;\r\n    width: 70%;\r\n    padding-left: 5px;\r\n}\n.image-content[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    width: 15%\r\n}\n.table-conatiner[_ngcontent-%COMP%]{\r\n\tpadding-top: 55px;\r\n}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n.instruction[_ngcontent-%COMP%] {\r\n    max-width: 800px;\r\n    width: 80%;\r\n    margin: auto;\r\n    font-family: ws;\r\n    \r\n  }\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    margin-top: 1em;\r\n  }\n.form-container[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: center;\r\n  }\n.form-display[_ngcontent-%COMP%]{\r\n    width: 500px;\r\n  }\n.post-button[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding: 10px 0;\r\n  }\n.button-size[_ngcontent-%COMP%]{\r\n    padding: 5px;\r\n  }\n.topic-container[_ngcontent-%COMP%]{\r\n    padding: 24px;\r\n  }\n.comment-section[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: 0 16px 0px 58px;\r\n  }\n.comment[_ngcontent-%COMP%]{\r\n    padding-left: 150px;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZhbW91cy1wZXJzb25hbGl0aWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLDZEQUE2RDtBQUQ3RCxnR0FBZ0c7QUFFaEc7RUFDRSw4Q0FBeUU7RUFDekUsY0FBYztBQUNoQjtBQUNBO0VBQ0Usa0NBQThEO0VBQzlELGNBQWM7QUFDaEI7QUFDQTtFQUNFLG1CQUF3QztFQUN4QyxjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxtQ0FBbUU7RUFDbkUsY0FBYztBQUNoQjtBQUNBO0VBQ0UseUJBQW9EO0VBQ3BELGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsK0JBQXdEO0VBQ3hELGNBQWM7QUFDaEI7QUFDQTtFQUNFLG9DQUFrRTtFQUNsRSxrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLHdCQUF1RDtFQUN2RCxnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdDQUEyRDtFQUMzRCxlQUFlO0FBQ2pCO0FBQ0E7RUFDRSwwQ0FBcUU7RUFDckUsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsNEJBQW9EO0VBQ3BELGlCQUFpQjtBQUNuQjtBQUNBLGlCQUFpQjtBQUNqQjtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsZUFBZTtFQUNmLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQUtBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7QUFDaEI7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQjtBQUNKO0FBRUE7SUFDSSx1QkFBdUI7SUFDdkIseUJBQXlCO0FBQzdCO0FBRUE7SUFDSSxVQUFVO0FBQ2Q7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjtBQUVBO0lBQ0ksY0FBYztBQUNsQjtBQUVBO0lBQ0ksV0FBVztBQUNmO0FBRUE7SUFDSSxZQUFZO0FBQ2hCO0FBRUE7SUFDSSxZQUFZO0FBQ2hCO0FBRUE7SUFDSTtBQUNKO0FBRUE7SUFDSTtBQUNKO0FBRUE7SUFDSSxXQUFXO0lBQ1gsZ0JBQWdCO0FBQ3BCO0FBRUE7SUFDSSxXQUFXO0lBQ1gsZ0JBQWdCO0FBQ3BCO0FBRUE7SUFDSSxXQUFXO0lBQ1gsVUFBVTtJQUNWLGlCQUFpQjtBQUNyQjtBQUVBO0lBQ0ksVUFBVTtJQUNWO0FBQ0o7QUFHQTtDQUNDLGlCQUFpQjtBQUNsQjtBQUVBO0NBQ0MsVUFBVTtDQUNWLFdBQVc7QUFDWjtBQUtFO0lBQ0UsZ0JBQWdCO0lBQ2hCLFVBQVU7SUFDVixZQUFZO0lBQ1osZUFBZTs7RUFFakI7QUFFQTtJQUNFLGVBQWU7RUFDakI7QUFFQTtJQUNFLGFBQWE7SUFDYix1QkFBdUI7RUFDekI7QUFFQTtJQUNFLFlBQVk7RUFDZDtBQUVBO0lBQ0UsYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixlQUFlO0VBQ2pCO0FBRUE7SUFDRSxZQUFZO0VBQ2Q7QUFFQTtJQUNFLGFBQWE7RUFDZjtBQUVBO0lBQ0UsYUFBYTtJQUNiLHNCQUFzQjtJQUN0Qix1QkFBdUI7RUFDekI7QUFFQTtJQUNFLG1CQUFtQjtFQUNyQiIsImZpbGUiOiJmYW1vdXMtcGVyc29uYWxpdGllcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogRm9udHMgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG5AaW1wb3J0IFwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUJhbG9vK1BhYWppXCI7XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hlbHRlbmhhbUJvbGRFeHRyYUNvbmRlbnNlZEJULnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL01vbnRzZXJyYXQvTW9udHNlcnJhdC1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG07XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTtcclxuICBmb250LWZhbWlseTogYTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvVW5pZnJha3R1ckNvb2svVW5pZnJha3R1ckNvb2stQm9sZC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiB1O1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9uZW9uLWZvbnQvTmVvbi1lMndnLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG5lb247XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL0xvYnN0ZXIvTG9ic3Rlci1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGw7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBtZXJyaTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvYmxhY2tjaGFuY2VyeS9CTEtDSENSWS5UVEYpO1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL09wZW5fU2Fucy9PcGVuU2Fucy1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtVmFyaWFibGVGb250X3dnaHQudHRmKTtcclxuICBmb250LWZhbWlseTogd3M7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL1JvYm90by9Sb2JvdG8tTGlnaHQudHRmKTtcclxuICBmb250LWZhbWlseTogcm9ibztcclxufVxyXG4vKiB0aXRsZSAqKioqKiogKi9cclxuLnRpdGxle1xyXG4gIGNvbG9yOiBzbm93O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogNDVweDtcclxuICB3aWR0aDogODAlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAyZW07XHJcblxyXG59XHJcblxyXG5cclxuXHJcblxyXG4uY29udGVudC1zcGFjaW5ne1xyXG4gICAgcGFkZGluZzogMjRweDtcclxuICAgIG1hcmdpbjogMjRweDtcclxufVxyXG5cclxuLmxpc3R7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgICBwYWRkaW5nOiAwXHJcbn1cclxuXHJcbi50YWJsZSwgdGgsIHRkIHtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG4gICAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxufVxyXG5cclxuLnJlZHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbn1cclxuXHJcbi50ZXh0MXtcclxuICAgIGNvbG9yOiBsaWdodGdyZWVuO1xyXG59XHJcblxyXG4udGV4dDJ7XHJcbiAgICBjb2xvcjogc2t5Ymx1ZTtcclxufVxyXG5cclxuLnRleHQze1xyXG4gICAgY29sb3I6IGFxdWE7XHJcbn1cclxuXHJcbi50ZXh0NHtcclxuICAgIGNvbG9yOnllbGxvdztcclxufVxyXG5cclxuLnRleHQ1e1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4udGV4dDZ7XHJcbiAgICBjb2xvcjogZm9yZXN0Z3JlZW5cclxufVxyXG5cclxuLnRleHQ3e1xyXG4gICAgY29sb3I6IGxpbWVncmVlblxyXG59XHJcblxyXG4ucHJvZmlsZS1pbWFnZXtcclxuICAgIGhlaWdodDogNTAlO1xyXG4gICAgcGFkZGluZy1sZWZ0OjVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2Vze1xyXG4gICAgaGVpZ2h0OiAyNSU7XHJcbiAgICBwYWRkaW5nLWxlZnQ6NXB4O1xyXG59XHJcblxyXG4ucHJvZmlsZS1pbWFnZTF7XHJcbiAgICBoZWlnaHQ6IDI4JTtcclxuICAgIHdpZHRoOiA3MCU7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDVweDtcclxufVxyXG5cclxuLmltYWdlLWNvbnRlbnR7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgd2lkdGg6IDE1JVxyXG59XHJcblxyXG5cclxuLnRhYmxlLWNvbmF0aW5lcntcclxuXHRwYWRkaW5nLXRvcDogNTVweDtcclxufVxyXG5cclxuKiB7XHJcblx0bWFyZ2luOiAwJTtcclxuXHRwYWRkaW5nOiAwJTtcclxufSBcclxuXHJcblxyXG5cclxuXHJcbiAgLmluc3RydWN0aW9uIHtcclxuICAgIG1heC13aWR0aDogODAwcHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgZm9udC1mYW1pbHk6IHdzO1xyXG4gICAgXHJcbiAgfVxyXG4gIFxyXG4gIC5pbnN0cnVjdGlvbiBsaXtcclxuICAgIG1hcmdpbi10b3A6IDFlbTtcclxuICB9XHJcblxyXG4gIC5mb3JtLWNvbnRhaW5lcntcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgLmZvcm0tZGlzcGxheXtcclxuICAgIHdpZHRoOiA1MDBweDtcclxuICB9XHJcbiAgXHJcbiAgLnBvc3QtYnV0dG9ue1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAwO1xyXG4gIH1cclxuICBcclxuICAuYnV0dG9uLXNpemV7XHJcbiAgICBwYWRkaW5nOiA1cHg7XHJcbiAgfVxyXG4gIFxyXG4gIC50b3BpYy1jb250YWluZXJ7XHJcbiAgICBwYWRkaW5nOiAyNHB4O1xyXG4gIH1cclxuICBcclxuICAuY29tbWVudC1zZWN0aW9ue1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICBtYXJnaW46IDAgMTZweCAwcHggNThweDtcclxuICB9XHJcbiAgXHJcbiAgLmNvbW1lbnR7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDE1MHB4O1xyXG4gIH1cclxuIl19 */"]
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"]],
+        styles: [".title[_ngcontent-%COMP%]{\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n\r\n}\r\n.swipe[_ngcontent-%COMP%]{\r\n  display: none;\r\n  width: 80%;\r\n  margin: auto;\r\n  text-align: center;\r\n  font-family: ws;\r\n  font-size: 5px;\r\n  margin-top: 20px;\r\n}\r\n@media screen and (max-width:1200px) {\r\n  .swipe[_ngcontent-%COMP%]{\r\n    display: block;\r\n  }\r\n}\r\n.image-content[_ngcontent-%COMP%] {\r\n  text-align: center;\r\n  }\r\n.image-content[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]{\r\n   margin-top: 15px;\r\n    }\r\nimg.profile-imagesq[_ngcontent-%COMP%] {\r\n  width:150px ;\r\n  height:150px ;\r\n  }\r\nimg.profile-imagel[_ngcontent-%COMP%] {\r\n  width:180px ;\r\n  height:150px ;\r\n  }\r\nimg.profile-imagep[_ngcontent-%COMP%] {\r\n  width:150px ;\r\n  height:200px ;\r\n  }\r\n.content-spacing[_ngcontent-%COMP%]{\r\n    padding: 24px;\r\n    margin: 24px;\r\n}\r\n.list[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    padding: 0\r\n}\r\n.table[_ngcontent-%COMP%], th[_ngcontent-%COMP%], td[_ngcontent-%COMP%] {\r\n    border: 1px solid black;\r\n    border-collapse: collapse;\r\n}\r\n.red[_ngcontent-%COMP%]{\r\n    color: red;\r\n}\r\n.green[_ngcontent-%COMP%]{\r\n    color: limegreen;\r\n}\r\n.thickgreen[_ngcontent-%COMP%]{\r\n  color: darkgreen;\r\n}\r\n.blue[_ngcontent-%COMP%]{\r\n    color: aqua;\r\n}\r\n.yellow[_ngcontent-%COMP%]{\r\n    color: goldenrod;\r\n}\r\n.profile-image[_ngcontent-%COMP%]{\r\n    height: 50%;\r\n    padding-left:5px;\r\n}\r\n.profile-images[_ngcontent-%COMP%]{\r\n    height: 25%;\r\n    padding-left:5px;\r\n}\r\n.profile-image1[_ngcontent-%COMP%]{\r\n    height: 28%;\r\n    width: 70%;\r\n    padding-left: 5px;\r\n}\r\n.image-content[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    width: 15%\r\n}\r\n.table-conatiner[_ngcontent-%COMP%]{\r\n\tpadding-top: 55px;\r\n}\r\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\r\n.instruction[_ngcontent-%COMP%] {\r\n    max-width: 800px;\r\n    width: 80%;\r\n    margin: auto;\r\n    font-family: ws;\r\n    \r\n  }\r\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    margin-top: 1em;\r\n  }\r\n.form-container[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: center;\r\n  }\r\n.form-display[_ngcontent-%COMP%]{\r\n    width: 500px;\r\n  }\r\n.post-button[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: center;\r\n    padding: 10px 0;\r\n  }\r\n.button-size[_ngcontent-%COMP%]{\r\n    padding: 5px;\r\n  }\r\n.topic-container[_ngcontent-%COMP%]{\r\n    padding: 24px;\r\n  }\r\n.comment-section[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: 0 16px 0px 58px;\r\n  }\r\n.comment[_ngcontent-%COMP%]{\r\n    padding-left: 150px;\r\n  }\r\n.commentsouter[_ngcontent-%COMP%]{\r\n    background-color: lightpink;\r\n    text-align: center;\r\n    line-height: 40px;\r\n    margin: auto;\r\n    width: 95%;\r\n    padding: 20px;\r\n  }\r\ntextarea[_ngcontent-%COMP%]{\r\n    border: black 1px solid;\r\n  }\r\ninput[_ngcontent-%COMP%]{\r\n    border: black 1px solid;\r\n  }\r\n\r\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\r\ntable[_ngcontent-%COMP%]{\r\n  font-size: 15px;\r\n}\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\nline-height: 26px;\r\n\r\n}\r\n.table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%]{\r\n  padding: 15px;\r\n}\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%]{\r\n  padding: 7px;\r\n}\r\n.table1[_ngcontent-%COMP%]{\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\r\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\nborder-collapse: collapse;\r\nwidth: 90%;\r\n}\r\n.tablepoint[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  list-style-position: outside;\r\n  list-style-type: circle;\r\n  margin-top: 10px;\r\n  margin-left: 10px;\r\n}\r\n.tablepoint2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  list-style-position: outside;\r\n  list-style-type: lower-roman;\r\n  margin-top: 10px;\r\n  margin-left: 15px;\r\n}\r\n.tablepoint3[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  list-style-position: outside;\r\n  list-style-type: square;\r\n  margin-top: 10px;\r\n  margin-left: 15px;\r\n}\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%]{\r\n  background-color: black;\r\n  color: white;\r\n  text-align: center;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  letter-spacing: 1px;\r\n\r\n}\r\ntr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(2) {\r\n  min-width: 14rem;\r\n  z-index: 1;\r\n}\r\n@media screen and (max-width:1200px) {\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(4) {\r\n    min-width: 25rem;\r\n    z-index: 1;\r\n  }\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(5) {\r\n    min-width: 25rem;\r\n    z-index: 1;\r\n  }\r\n  \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZhbW91cy1wZXJzb25hbGl0aWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLGlCQUFpQjtBQUNqQjtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsZUFBZTtFQUNmLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQU1BO0VBQ0UsYUFBYTtFQUNiLFVBQVU7RUFDVixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGVBQWU7RUFDZixjQUFjO0VBQ2QsZ0JBQWdCO0FBQ2xCO0FBQ0E7RUFDRTtJQUNFLGNBQWM7RUFDaEI7QUFDRjtBQU1BO0VBQ0Usa0JBQWtCO0VBQ2xCO0FBQ0E7R0FDQyxnQkFBZ0I7SUFDZjtBQUNGO0VBQ0EsWUFBWTtFQUNaLGFBQWE7RUFDYjtBQUNBO0VBQ0EsWUFBWTtFQUNaLGFBQWE7RUFDYjtBQUNBO0VBQ0EsWUFBWTtFQUNaLGFBQWE7RUFDYjtBQUtGO0lBQ0ksYUFBYTtJQUNiLFlBQVk7QUFDaEI7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQjtBQUNKO0FBRUE7SUFDSSx1QkFBdUI7SUFDdkIseUJBQXlCO0FBQzdCO0FBRUE7SUFDSSxVQUFVO0FBQ2Q7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUNBO0VBQ0UsZ0JBQWdCO0FBQ2xCO0FBRUE7SUFDSSxXQUFXO0FBQ2Y7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUlBO0lBQ0ksV0FBVztJQUNYLGdCQUFnQjtBQUNwQjtBQUVBO0lBQ0ksV0FBVztJQUNYLGdCQUFnQjtBQUNwQjtBQUVBO0lBQ0ksV0FBVztJQUNYLFVBQVU7SUFDVixpQkFBaUI7QUFDckI7QUFFQTtJQUNJLFVBQVU7SUFDVjtBQUNKO0FBR0E7Q0FDQyxpQkFBaUI7QUFDbEI7QUFFQTtDQUNDLFVBQVU7Q0FDVixXQUFXO0FBQ1o7QUFLRTtJQUNFLGdCQUFnQjtJQUNoQixVQUFVO0lBQ1YsWUFBWTtJQUNaLGVBQWU7O0VBRWpCO0FBRUE7SUFDRSxlQUFlO0VBQ2pCO0FBRUE7SUFDRSxhQUFhO0lBQ2IsdUJBQXVCO0VBQ3pCO0FBRUE7SUFDRSxZQUFZO0VBQ2Q7QUFFQTtJQUNFLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsZUFBZTtFQUNqQjtBQUVBO0lBQ0UsWUFBWTtFQUNkO0FBRUE7SUFDRSxhQUFhO0VBQ2Y7QUFFQTtJQUNFLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsdUJBQXVCO0VBQ3pCO0FBRUE7SUFDRSxtQkFBbUI7RUFDckI7QUFDQTtJQUNFLDJCQUEyQjtJQUMzQixrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLFlBQVk7SUFDWixVQUFVO0lBQ1YsYUFBYTtFQUNmO0FBQ0E7SUFDRSx1QkFBdUI7RUFDekI7QUFDQTtJQUNFLHVCQUF1QjtFQUN6QjtBQVNGLCtIQUErSDtBQUMvSDtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCO0FBR0E7RUFDRSxlQUFlO0FBQ2pCO0FBRUE7O0FBRUEsdUJBQXVCO0FBQ3ZCLHlCQUF5QjtBQUN6QixpQkFBaUI7O0FBRWpCO0FBQ0E7RUFDRSxhQUFhO0FBQ2Y7QUFDQTtFQUNFLFlBQVk7QUFDZDtBQUVBO0FBQ0EseUJBQXlCO0FBQ3pCLGtCQUFrQjtBQUNsQjtBQUVBO0FBQ0EsWUFBWTtBQUNaLHlCQUF5QjtBQUN6QixVQUFVO0FBQ1Y7QUFFQTtFQUNFLDRCQUE0QjtFQUM1Qix1QkFBdUI7RUFDdkIsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsNEJBQTRCO0VBQzVCLDRCQUE0QjtFQUM1QixnQkFBZ0I7RUFDaEIsaUJBQWlCO0FBQ25CO0FBQ0E7RUFDRSw0QkFBNEI7RUFDNUIsdUJBQXVCO0VBQ3ZCLGdCQUFnQjtFQUNoQixpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLHVCQUF1QjtFQUN2QixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGNBQWM7RUFDZCxlQUFlO0VBQ2YsbUJBQW1COztBQUVyQjtBQUdBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFVBQVU7QUFDWjtBQUNBO0VBQ0U7SUFDRSxnQkFBZ0I7SUFDaEIsVUFBVTtFQUNaO0VBQ0E7SUFDRSxnQkFBZ0I7SUFDaEIsVUFBVTtFQUNaOztBQUVGIiwiZmlsZSI6ImZhbW91cy1wZXJzb25hbGl0aWVzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLyogdGl0bGUgKioqKioqICovXHJcbi50aXRsZXtcclxuICBjb2xvcjogc25vdztcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDQ1cHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogcmdiKDAsIDAsIDAsIDAuOCk7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMmVtO1xyXG5cclxufVxyXG5cclxuXHJcblxyXG5cclxuXHJcbi5zd2lwZXtcclxuICBkaXNwbGF5OiBub25lO1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LWZhbWlseTogd3M7XHJcbiAgZm9udC1zaXplOiA1cHg7XHJcbiAgbWFyZ2luLXRvcDogMjBweDtcclxufVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjEyMDBweCkge1xyXG4gIC5zd2lwZXtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gIH1cclxufVxyXG5cclxuXHJcblxyXG5cclxuXHJcbi5pbWFnZS1jb250ZW50IHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgfVxyXG4gIC5pbWFnZS1jb250ZW50IGRpdntcclxuICAgbWFyZ2luLXRvcDogMTVweDtcclxuICAgIH1cclxuICBpbWcucHJvZmlsZS1pbWFnZXNxIHtcclxuICB3aWR0aDoxNTBweCA7XHJcbiAgaGVpZ2h0OjE1MHB4IDtcclxuICB9XHJcbiAgaW1nLnByb2ZpbGUtaW1hZ2VsIHtcclxuICB3aWR0aDoxODBweCA7XHJcbiAgaGVpZ2h0OjE1MHB4IDtcclxuICB9XHJcbiAgaW1nLnByb2ZpbGUtaW1hZ2VwIHtcclxuICB3aWR0aDoxNTBweCA7XHJcbiAgaGVpZ2h0OjIwMHB4IDtcclxuICB9XHJcbiAgXHJcbiAgXHJcblxyXG5cclxuLmNvbnRlbnQtc3BhY2luZ3tcclxuICAgIHBhZGRpbmc6IDI0cHg7XHJcbiAgICBtYXJnaW46IDI0cHg7XHJcbn1cclxuXHJcbi5saXN0e1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgcGFkZGluZzogMFxyXG59XHJcblxyXG4udGFibGUsIHRoLCB0ZCB7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuICAgIGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbn1cclxuXHJcbi5yZWR7XHJcbiAgICBjb2xvcjogcmVkO1xyXG59XHJcblxyXG4uZ3JlZW57XHJcbiAgICBjb2xvcjogbGltZWdyZWVuO1xyXG59XHJcbi50aGlja2dyZWVue1xyXG4gIGNvbG9yOiBkYXJrZ3JlZW47XHJcbn1cclxuXHJcbi5ibHVle1xyXG4gICAgY29sb3I6IGFxdWE7XHJcbn1cclxuXHJcbi55ZWxsb3d7XHJcbiAgICBjb2xvcjogZ29sZGVucm9kO1xyXG59XHJcblxyXG5cclxuXHJcbi5wcm9maWxlLWltYWdle1xyXG4gICAgaGVpZ2h0OiA1MCU7XHJcbiAgICBwYWRkaW5nLWxlZnQ6NXB4O1xyXG59XHJcblxyXG4ucHJvZmlsZS1pbWFnZXN7XHJcbiAgICBoZWlnaHQ6IDI1JTtcclxuICAgIHBhZGRpbmctbGVmdDo1cHg7XHJcbn1cclxuXHJcbi5wcm9maWxlLWltYWdlMXtcclxuICAgIGhlaWdodDogMjglO1xyXG4gICAgd2lkdGg6IDcwJTtcclxuICAgIHBhZGRpbmctbGVmdDogNXB4O1xyXG59XHJcblxyXG4uaW1hZ2UtY29udGVudHtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICB3aWR0aDogMTUlXHJcbn1cclxuXHJcblxyXG4udGFibGUtY29uYXRpbmVye1xyXG5cdHBhZGRpbmctdG9wOiA1NXB4O1xyXG59XHJcblxyXG4qIHtcclxuXHRtYXJnaW46IDAlO1xyXG5cdHBhZGRpbmc6IDAlO1xyXG59IFxyXG5cclxuXHJcblxyXG5cclxuICAuaW5zdHJ1Y3Rpb24ge1xyXG4gICAgbWF4LXdpZHRoOiA4MDBweDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBmb250LWZhbWlseTogd3M7XHJcbiAgICBcclxuICB9XHJcbiAgXHJcbiAgLmluc3RydWN0aW9uIGxpe1xyXG4gICAgbWFyZ2luLXRvcDogMWVtO1xyXG4gIH1cclxuXHJcbiAgLmZvcm0tY29udGFpbmVye1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIH1cclxuICBcclxuICAuZm9ybS1kaXNwbGF5e1xyXG4gICAgd2lkdGg6IDUwMHB4O1xyXG4gIH1cclxuICBcclxuICAucG9zdC1idXR0b257XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDA7XHJcbiAgfVxyXG4gIFxyXG4gIC5idXR0b24tc2l6ZXtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICB9XHJcbiAgXHJcbiAgLnRvcGljLWNvbnRhaW5lcntcclxuICAgIHBhZGRpbmc6IDI0cHg7XHJcbiAgfVxyXG4gIFxyXG4gIC5jb21tZW50LXNlY3Rpb257XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIG1hcmdpbjogMCAxNnB4IDBweCA1OHB4O1xyXG4gIH1cclxuICBcclxuICAuY29tbWVudHtcclxuICAgIHBhZGRpbmctbGVmdDogMTUwcHg7XHJcbiAgfVxyXG4gIC5jb21tZW50c291dGVye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRwaW5rO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbGluZS1oZWlnaHQ6IDQwcHg7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICB3aWR0aDogOTUlO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICB9XHJcbiAgdGV4dGFyZWF7XHJcbiAgICBib3JkZXI6IGJsYWNrIDFweCBzb2xpZDtcclxuICB9XHJcbiAgaW5wdXR7XHJcbiAgICBib3JkZXI6IGJsYWNrIDFweCBzb2xpZDtcclxuICB9XHJcbiAgXHJcblxyXG5cclxuXHJcblxyXG5cclxuICBcclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50YWJsZTEtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5cclxuXHJcbnRhYmxle1xyXG4gIGZvbnQtc2l6ZTogMTVweDtcclxufVxyXG5cclxuLnRhYmxlMSB0aCxcclxuLnRhYmxlMSB0ZCB7XHJcbmJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG5saW5lLWhlaWdodDogMjZweDtcclxuXHJcbn1cclxuLnRhYmxlMSB0ZHtcclxuICBwYWRkaW5nOiAxNXB4O1xyXG59XHJcbi50YWJsZTEgdGh7XHJcbiAgcGFkZGluZzogN3B4O1xyXG59XHJcblxyXG4udGFibGUxe1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi50YWJsZTEgdGFibGV7XHJcbm1hcmdpbjogYXV0bztcclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxud2lkdGg6IDkwJTtcclxufVxyXG5cclxuLnRhYmxlcG9pbnQgbGl7XHJcbiAgbGlzdC1zdHlsZS1wb3NpdGlvbjogb3V0c2lkZTtcclxuICBsaXN0LXN0eWxlLXR5cGU6IGNpcmNsZTtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50YWJsZXBvaW50MiBsaXtcclxuICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBvdXRzaWRlO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbG93ZXItcm9tYW47XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBtYXJnaW4tbGVmdDogMTVweDtcclxufVxyXG4udGFibGVwb2ludDMgbGl7XHJcbiAgbGlzdC1zdHlsZS1wb3NpdGlvbjogb3V0c2lkZTtcclxuICBsaXN0LXN0eWxlLXR5cGU6IHNxdWFyZTtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAxNXB4O1xyXG59XHJcbi50YWJsZTEgdGh7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgbGV0dGVyLXNwYWNpbmc6IDFweDtcclxuXHJcbn1cclxuXHJcblxyXG50ciA+ICo6bnRoLWNoaWxkKDIpIHtcclxuICBtaW4td2lkdGg6IDE0cmVtO1xyXG4gIHotaW5kZXg6IDE7XHJcbn1cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDoxMjAwcHgpIHtcclxuICB0ciA+ICo6bnRoLWNoaWxkKDQpIHtcclxuICAgIG1pbi13aWR0aDogMjVyZW07XHJcbiAgICB6LWluZGV4OiAxO1xyXG4gIH1cclxuICB0ciA+ICo6bnRoLWNoaWxkKDUpIHtcclxuICAgIG1pbi13aWR0aDogMjVyZW07XHJcbiAgICB6LWluZGV4OiAxO1xyXG4gIH1cclxuICBcclxufVxyXG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -2314,13 +2466,13 @@
           }]
         }], function () {
           return [{
-            type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]
           }, {
-            type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"]
+            type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]
           }, {
-            type: _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_4__["CommentserviceService"]
+            type: _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_3__["CommentserviceService"]
           }, {
-            type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Meta"]
+            type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Meta"]
           }];
         }, null);
       })();
@@ -2412,7 +2564,7 @@
       IndoIslamicComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: IndoIslamicComponent,
         selectors: [["app-indo-islamic"]],
-        decls: 194,
+        decls: 192,
         vars: 0,
         consts: [[1, "title"], [1, "whole"], [1, "feature"], [1, "format1"], [1, "f11"], ["src", "../../../../assets/medival/Indo-islamic/1.jpeg", "alt", ""], [1, "explanation"], [1, "f12"], [1, "f13"], [1, "before"], [1, "randomimg"], ["src", "../../../../assets/medival/Indo-islamic/arcuade_vs_trabeat.png", "alt", ""], [1, "f111"], ["src", "../../../../assets/medival/Indo-islamic/2.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/3.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/4.1.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/4.2.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/5.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/6.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/7.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/8.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/9.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/10.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/11.jpg", "alt", ""], ["src", "../../../../assets/medival/Indo-islamic/12.jpg", "alt", ""]],
         template: function IndoIslamicComponent_Template(rf, ctx) {
@@ -3019,11 +3171,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](191, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](193, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](191, "app-footer");
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_2__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
@@ -3394,7 +3542,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.swipercontainer = _t.first);
           }
         },
-        decls: 50,
+        decls: 45,
         vars: 0,
         consts: [[1, "body-background"], [1, "cb-slideshow"], [1, "title"], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../assets/txtslide_img/1.jpeg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "click"], ["src", "../../assets/txtslide_img/2.jpeg", "alt", ""], ["src", "../../assets/txtslide_img/3.jpeg", "alt", ""]],
         template: function ModernHistoryComponent_Template(rf, ctx) {
@@ -3551,17 +3699,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "app-footer");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
@@ -3757,9 +3895,9 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.dgcontainer = _t.first);
           }
         },
-        decls: 221,
+        decls: 214,
         vars: 8,
-        consts: [[1, "nava", "checkboxes"], ["href", "", 1, "logo"], ["id", "nav1", "type", "checkbox", 1, ""], [1, "biglabel"], ["for", "nav1"], [1, "navb"], ["href", "#section1", 1, "uncheck-all"], ["href", "#section2", 1, "uncheck-all"], ["href", "#section3", 1, "uncheck-all"], ["href", "#section4", 1, "uncheck-all"], [1, "home1"], [1, "tt"], [1, "tt2"], ["id", "section1", 1, "home2"], [1, "block100"], [1, "outerbox3"], [1, "box2"], [1, "icon2"], [1, "ac", 3, "routerLink"], [1, "pmh"], [1, "outerbox1"], [1, "box1"], [1, "icon1"], [1, "mh", 3, "routerLink"], [1, "block2"], [1, "outerbox2"], [1, "wrapper"], [1, "stage", "clearfix"], [3, "routerLink"], [1, "scene"], ["onclick", "return true", 1, "movie"], [1, "poster"], [1, "info"], [1, "igtext"], ["id", "section2", 1, "home3"], [1, "titlecentre1"], [1, "gradient-text"], [1, "aboutuscontent"], ["id", "section3", 1, "home4"], [1, "home4box"], [1, "decor1"], ["src", "../../assets/home_img/howimg.jpeg", "alt", ""], [1, "titlecentre2"], [1, "rainbow-text"], [1, "howcontent"], ["id", "section4", 1, "home5"], [1, "titlecentre3"], [1, "contactcontainer"], [1, "contactcontent"], [1, "queries"], [1, "email"], ["id", "p1"], ["onclick", "copyToClipboard('#p1')"], [1, "insta"], ["href", "https://www.instagram.com/timelinetrends", "target", "_blank", 1, "instalink"], ["aria-hidden", "true", 1, "fa", "fa-instagram"], [1, "insta", "instadown"], [1, "details"], [1, "name"], [2, "margin-top", "10px"], ["id", "p2"], ["onclick", "copyToClipboard('#p2')"], ["href", "https://instagram.com/vignesh_anand_vicky?igshid=cz5mrm5gcaxq", "target", "_blank", 1, "instalink"], [2, "text-decoration", "underline"], ["id", "p3", 2, "display", "none"], ["onclick", "copyToClipboard('#p3')"], ["href", "https://instagram.com/ashwanth_chandrasekaran?igshid=2zqm3qgjamgk", "target", "_blank", 1, "instalink"], ["id", "p4"], ["onclick", "copyToClipboard('#p4')"], ["href", "https://instagram.com/dapdiwa94?igshid=dibkg2unk62q", "target", "_blank", 1, "instalink"]],
+        consts: [[1, "nava"], ["href", "", 1, "logo"], ["id", "nav1", 1, ""], [1, "biglabel"], ["for", "nav1"], [1, "navb"], [3, "click"], [1, "home1"], [1, "tt"], [1, "tt2"], ["id", "section1", 1, "home2"], [1, "block100"], [1, "outerbox3"], [1, "box2"], [1, "icon2"], [1, "ac", 3, "routerLink"], [1, "pmh"], [1, "outerbox1"], [1, "box1"], [1, "icon1"], [1, "mh", 3, "routerLink"], [1, "block2"], [1, "outerbox2"], [1, "wrapper"], [1, "stage", "clearfix"], [3, "routerLink"], [1, "scene"], ["onclick", "return true", 1, "movie"], [1, "poster"], [1, "info"], [1, "igtext"], [1, "home3"], [1, "titlecentre1"], [1, "gradient-text"], [1, "aboutuscontent"], [1, "home4"], [1, "home4box"], [1, "decor1"], ["src", "../../assets/home_img/howimg.jpeg", "alt", ""], [1, "titlecentre2"], [1, "rainbow-text"], [1, "howcontent"], [1, "home5"], [1, "titlecentre3"], [1, "contactcontainer"], [1, "contactcontent"], [1, "queries"], [1, "email"], ["id", "p1"], ["onclick", "copyToClipboard('#p1')"], [1, "insta"], ["href", "https://www.instagram.com/timelinetrends", "target", "_blank", 1, "instalink"], ["aria-hidden", "true", 1, "fa", "fa-instagram"], [1, "insta", "instadown"], [1, "details"], [1, "name"], [2, "margin-top", "10px"], ["id", "p2"], ["onclick", "copyToClipboard('#p2')"], ["href", "https://instagram.com/vignesh_anand_vicky?igshid=cz5mrm5gcaxq", "target", "_blank", 1, "instalink"], [2, "text-decoration", "underline"], ["id", "p3", 2, "display", "none"], ["onclick", "copyToClipboard('#p3')"], ["href", "https://instagram.com/ashwanth_chandrasekaran?igshid=2zqm3qgjamgk", "target", "_blank", 1, "instalink"], ["id", "p4"], ["onclick", "copyToClipboard('#p4')"], ["href", "https://instagram.com/dapdiwa94?igshid=dibkg2unk62q", "target", "_blank", 1, "instalink"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header", 0);
@@ -3786,7 +3924,11 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Home");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_Template_a_click_9_listener() {
+              return ctx.modernhistory();
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "History");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3794,9 +3936,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "About Us");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_Template_a_click_12_listener() {
+              return ctx.artculture();
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Art");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3804,19 +3950,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "How to use");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_Template_a_click_15_listener() {
+              return ctx.gallery();
+            });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 9);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Contact");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Gallery");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3828,77 +3968,77 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 10);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Timeline Trends");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 12);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " HISTORY");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "-");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Timeline Trends");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "span");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "ART");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " HISTORY");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "-");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "-");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "span");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "CULTURE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "ART");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "-");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "CULTURE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 12);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 13);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 15);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 16);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "span");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " Art & Culture ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " Art & Culture ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Study about one of the world's richest and most diverse art & culture.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Study about one of the world's richest and most diverse art & culture.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3908,33 +4048,33 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "span");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, " Modern History ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, " Modern History ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Travel to your favourite timeline and explore the events.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Travel to your favourite timeline and explore the events.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3946,45 +4086,45 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 24);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 21);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 22);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 26);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 23);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "ul", 27);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "ul", 24);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "li", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "li", 26);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 27);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "div", 31);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "div", 28);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "div", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 29);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "header");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "header");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "h1");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Image Gallery");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Image Gallery");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Study through Images. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Study through Images. ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, " Here you can find pictures of different events. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, " Here you can find pictures of different events. ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, " Picturization is more important, so you can remember the facts and events for long. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](72, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, " Picturization is more important, so you can remember the facts and events for long. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4002,15 +4142,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 33);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 30);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "a", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "h1");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Image Gallery");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Image Gallery");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4020,25 +4158,35 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 34);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 31);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "h1", 36);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div", 32);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "About Us");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "h1", 33);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "About Us");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "ul", 37);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "ul", 34);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "This website is for those who are appearing for government exams including UPSC, SPSC and others.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](86, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "This website is for those who are appearing for government exams including UPSC, SPSC and others.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "Timeline Trends mainly focus on History facts, Art and Culture, Environment Facts, Maps etc.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4046,15 +4194,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Timeline Trends mainly focus on History facts, Art and Culture, Environment Facts, Maps etc.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](92, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "We will be uploading our content continuously (daily or weekly), so stay connected always for various topics. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "We will be uploading our content continuously (daily or weekly), so stay connected always for various topics. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4064,63 +4204,63 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 38);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 35);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div", 36);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 37);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "img", 38);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 39);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 40);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "h1", 40);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](98, "img", 41);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 42);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "h1", 43);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "How to use this website efficiently");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "How to use this website efficiently");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "div", 44);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 41);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "ul");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "ul");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Read the \u201CTips and mistakes to be avoided\u201D section before reading every topic.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Read the standard book whichever you like once or twice, and use our website to revise.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Read the \u201CTips and mistakes to be avoided\u201D section before reading every topic.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "After reading the content once, just read the bold letters to revise. So that you can revise quickly.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "History is a subject full of facts, so revise every topic whenever you get free time daily even if you are well thorough in respective topics.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "Read the standard book whichever you like once or twice, and use our website to revise.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "We will upload different topics daily or weekly, so stay connected always.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "After reading the content once, just read the bold letters to revise. So that you can revise quickly.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Make good use of pictures, timelines, maps, colour differentiations for places, names in our website to revise quickly and remember the facts for long time.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "History is a subject full of facts, so revise every topic whenever you get free time daily even if you are well thorough in respective topics.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "We will upload different topics daily or weekly, so stay connected always.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "Make good use of pictures, timelines, maps, colour differentiations for places, names in our website to revise quickly and remember the facts for long time.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4132,29 +4272,37 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 45);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div", 42);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 46);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 43);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "h1", 36);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "h1", 33);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "Contact Us");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Contact Us");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "div", 47);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "div", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 44);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div", 45);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "ul");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "You can give your feedbacks in comment sections below each topics.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](123, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "You can give your feedbacks in comment sections below each topics.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "You can indicate mistakes in the content in comment section below each topics so that we can correct it.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4162,15 +4310,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "You can indicate mistakes in the content in comment section below each topics so that we can correct it.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](129, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "You can tell us your favourite topics, doubts. We will reach you as soon as possible.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "You can tell us your favourite topics, doubts. We will reach you as soon as possible.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4184,41 +4324,25 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "div", 49);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 46);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 50);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "div", 47);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, " For more queries contact us ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, " For more queries contact us ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](132, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "div", 51);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "div", 48);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, " thetimelinetrends@gmail.com");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "button", 52);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](140, "Copy email");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, " thetimelinetrends@gmail.com");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "button", 49);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "span", 53);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "a", 54);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "i", 55);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, " Timeline Trends");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Copy email");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4226,67 +4350,15 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "span", 50);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "span", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "a", 51);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "a", 54);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](140, "i", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "i", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, " Timeline Trends");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 57);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "div", 58);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, " Author & Website Design:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "div", 59);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, "Vignesh Anand");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div", 60);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, " vigneshanand@gmail.com");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "button", 61);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Copy email");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "span", 53);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "a", 62);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](164, "i", 55);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, " vignesh_anand _vicky");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, " Timeline Trends");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4296,55 +4368,15 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "span", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "span", 53);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "a", 62);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "a", 51);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](169, "i", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "i", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "span");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](171, " vignesh_anand _vicky");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "div", 57);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "div", 58);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "Website Developer:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "div", 59);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "Ashwanth");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "div", 63);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "ashwanthchandrasekaran23 @gmail.com");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "div", 64);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "ashwanthchandrasekaran23@gmail.com");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "button", 65);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "Copy email");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, " Timeline Trends");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4352,15 +4384,33 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "span", 53);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "div", 54);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "a", 66);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "div", 55);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](187, "i", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "span");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, " Author & Website Design:");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, "ashwanth _chandrasekaran");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "div", 56);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, "Vignesh Anand");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "div", 57);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, " vigneshanand@gmail.com");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "button", 58);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, "Copy email");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4368,67 +4418,15 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "span", 50);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "span", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "a", 59);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "a", 66);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](161, "i", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "i", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "ashwanth _chandrasekaran");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "div", 57);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "div", 58);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "Content Collector:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "div", 59);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "Diwakar Anand");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "div", 67);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "pugazhdiwa@gmail.com");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "button", 68);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](205, "Copy email");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "span", 53);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "a", 69);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](208, "i", 55);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "dapdiwa94");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, " vignesh_anand _vicky");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4438,15 +4436,55 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "span", 56);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "span", 53);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](212, "a", 69);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "a", 59);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](213, "i", 55);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](166, "i", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "span");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](215, "dapdiwa94");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, " vignesh_anand _vicky");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 54);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "div", 55);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](172, "Website Developer:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "div", 56);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, "Ashwanth");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "div", 60);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "ashwanthchandrasekaran23 @gmail.com");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "div", 61);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, "ashwanthchandrasekaran23@gmail.com");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "button", 62);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "Copy email");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4454,19 +4492,113 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](216, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "span", 50);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](217, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "a", 63);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](218, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](184, "i", 52);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](219, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "span");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](220, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, "ashwanth _chandrasekaran");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "span", 53);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "a", 63);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](189, "i", 52);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "ashwanth _chandrasekaran");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "div", 54);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "div", 55);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "Content Collector:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "div", 56);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "Diwakar Anand");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "div", 64);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "pugazhdiwa@gmail.com");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "button", 65);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "Copy email");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "span", 50);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "a", 66);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](205, "i", 52);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, "dapdiwa94");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "span", 53);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "a", 66);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](210, "i", 52);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "dapdiwa94");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](213, "app-footer");
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](38);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](35);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c1));
 
@@ -4651,7 +4783,7 @@
       ImageCourtseyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: ImageCourtseyComponent,
         selectors: [["app-image-courtsey"]],
-        decls: 176,
+        decls: 161,
         vars: 0,
         consts: [[1, "title"], [1, "gradient-text"], [1, "subtitle"], ["href", ""], [1, "imgblock"], [1, "courtesy"], ["src", "../../assets/home_img/home1.jpg", "alt", ""], ["href", "https://unsplash.com/@alex_andrews"], ["src", "../../assets/home_img/home2.jpg", "alt", ""], ["href", "https://unsplash.com/@juanencalada"], ["src", "../../assets/home_img/home3.jpg", "alt", ""], ["href", "https://unsplash.com/@angelacompagnone "], ["src", "../../assets/home_img/home4.jpg", "alt", ""], ["href", "https://unsplash.com/@dariuszsankowski"], ["src", "../../assets/home_img/home5.jpg", "alt", ""], ["href", "https://unsplash.com/@jordanfmcqueen"], ["src", "../../assets/home_img/home6.jpg", "alt", ""], ["href", "https://unsplash.com/@iliketobike"], ["src", "../../assets/art_images/art1.jpg", "alt", "", 2, "width", "6em"], ["href", "https://unsplash.com/@derekstory"], ["src", "../../assets/art_images/art2.jpg", "alt", ""], ["href", "https://unsplash.com/@karanvir9"], ["src", "../../assets/art_images/art3.jpg", "alt", "", 2, "width", "6em"], ["href", "https://unsplash.com/@anniespratt"], ["src", "../../assets/art_images/art4.jpg", "alt", "", 2, "width", "6em"], ["href", "https://unsplash.com/@replysourabh"], ["src", "../../assets/art_images/art5.jpg", "alt", "", 2, "width", "6em"], ["src", "../../assets/art_images/art6.jpg", "alt", ""], ["href", "https://unsplash.com/@iatulp"], ["src", "../../assets/Environment_img/en1.jpg", "alt", ""], ["href", "https://unsplash.com/@sampower123"], ["src", "../../assets/Environment_img/en2.jpg", "alt", ""], ["href", "https://unsplash.com/@rohittandon"], ["src", "../../assets/Environment_img/en3.jpg", "alt", ""], ["href", "https://unsplash.com/@gautamarora1991"], ["src", "../../assets/Environment_img/en4.jpg", "alt", ""], ["href", "https://unsplash.com/@hisarahlee"], ["src", "../../assets/Environment_img/en5.jpg", "alt", ""], ["href", "https://unsplash.com/@adijoshi11"], ["src", "../../assets/Environment_img/en6.jpg", "alt", ""], ["href", "https://unsplash.com/@martinmohan"], [1, "imgblock", 2, "height", "150px"], ["src", "../../assets/other/Aboutus.jpg", "alt", ""], ["href", "https://unsplash.com/@rhemakallianpur"], ["src", "../../assets/other/contactus.jpg", "alt", ""], ["href", "https://unsplash.com/@bamin"], ["src", "../../assets/other/howto.jpg", "alt", ""]],
         template: function ImageCourtseyComponent_Template(rf, ctx) {
@@ -5196,37 +5328,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](160, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](161, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](162, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](163, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](164, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](165, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](166, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](167, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](169, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](170, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](175, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](160, "app-footer");
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"]],
@@ -9503,7 +9605,7 @@
       KashmirComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: KashmirComponent,
         selectors: [["app-kashmir"]],
-        decls: 7,
+        decls: 5,
         vars: 3,
         consts: [[4, "ngIf"], [1, "title"], [1, "points"], [1, "topichead"], [1, "li2"], ["href", " https://en.wikipedia.org/wiki/Chashme_Shahi ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "landport"], [1, "landscape"], ["src", "../../../../assets/medival/kashmir/Images/14_Chasm-e-Shahi.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], [1, "container"], [1, "imgname"], [1, "imgplace"], [1, "imgabout"], ["href", " https://en.wikipedia.org/wiki/Shalimar_Bagh,_Srinagar ", "target", "_blank", 1, "wiki"], [1, "li1"], ["src", "../../../../assets/medival/kashmir/Images/15_Shalimar-Bagh-Srinagar.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/15.1_Shalimar-Plan.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Nishat_Bagh ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/16_Nishat_Bagh.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images//17_Badamwari.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Anantnag_district#Achabal ", "target", "_blank", 1, "wiki"], ["id", "modal01", "onclick", "this.style.display='none'", 1, "modal1"], [1, "close"], [1, "content01"], ["id", "img01", 2, "max-width", "100%"], ["id", "modal02", "onclick", "this.style.display='none'", 1, "modal2"], [1, "content02"], ["id", "img02", 2, "max-width", "100%"], ["href", " https://en.wikipedia.org/wiki/Category:Mosques_in_Jammu_and_Kashmir ", "target", "_blank", 1, "wiki"], [1, "fullfeature"], [1, "featuretopic"], [1, "features"], [1, "featurelandscape", "featurebox"], [1, "featureimg"], ["src", "../../../../assets/medival/kashmir/Images/multilevelroof.jpg", "alt", ""], [1, "featurename"], ["src", "../../../../assets/medival/kashmir/Images/brickmasonry.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/stonemasonry.png", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/woodmasonry.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/cloister.jpg", "alt", ""], ["href", " https://en.wikipedia.org/wiki/Jamia_Masjid,_Srinagar ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/6_jama-masjid-kashmir.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Aali_Mosque ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/7_Aali_Masjid.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Pari_Mahal ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/8-pari-mahal-srinagar.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/13_Madin_Sahib_Mosque.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Madin_Sahib ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/9_Dastgir_Sahib.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Dastgeer_Sahib ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/10_Naqshband-sahib.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Ziyarat_Naqshband_Sahab ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/11_Khanaqa-of-Shah-Hamdan.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Khanqah-e-Moula ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/12_Zain-ul-Abidin.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/gulmarg/badshah-tomb.html ", "target", "_blank", 1, "wiki"], ["href", " https://en.wikipedia.org/wiki/List_of_Hindu_temples_in_Kashmir ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/pyramid.png", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/pediment.png", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/columns.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/cellular.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/enclosedcourtyard.jpg", "alt", ""], ["src", "../../../../assets/medival/kashmir/Images/steps.jpg", "alt", ""], [1, "featuresquare", "featurebox"], [1, "featureimg3"], ["src", "../../../../assets/medival/kashmir/Images/trefoil.png", "alt", ""], [1, "featurepotrait", "featurebox"], [1, "featureimg1"], ["src", "../../../../assets/medival/kashmir/Images/stonecurve.jpg", "alt", ""], ["href", " ^^^ ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/4-Mamleshwara.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Martand_Sun_Temple ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/1_Martand Temple.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/martandoriginal.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Parihaspore ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/5_Paraspore.jpeg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["href", " https://en.wikipedia.org/wiki/Avantiswami_Temple ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/kashmir/Images/2_Awantipora.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"], ["src", "../../../../assets/medival/kashmir/Images/3_Pandretha.jpg", "alt", "5 Terre", "onclick", "onClick1(this)", 1, "modal1-hover-opacity", 2, "width", "100%"]],
         template: function KashmirComponent_Template(rf, ctx) {
@@ -9516,11 +9618,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, KashmirComponent_div_3_Template, 267, 0, "div", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-footer");
           }
 
           if (rf & 2) {
@@ -9675,7 +9773,7 @@
       GalleryComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: GalleryComponent,
         selectors: [["app-gallery"]],
-        decls: 27,
+        decls: 12,
         vars: 0,
         consts: [[1, "title"], [1, "comingsoon"], [1, "csoon"], [1, "cs1"], [1, "cs2"], [1, "cs3"]],
         template: function GalleryComponent_Template(rf, ctx) {
@@ -9714,37 +9812,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "app-footer");
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"]],
@@ -12992,41 +13060,6 @@
     },
 
     /***/
-    "SbNO":
-    /*!**********************************************!*\
-      !*** ./src/app/association/Navigationbar.js ***!
-      \**********************************************/
-
-    /*! no static exports found */
-
-    /***/
-    function SbNO(module, exports) {
-      window.onload = function () {
-        var navSlide = function navSlide() {
-          var phonemenu = document.querySelector('.phonemenu');
-          var menu = document.querySelector('.menu');
-          var navLinks = document.querySelectorAll('.menu li');
-          phonemenu.addEventListener('click', function () {
-            menu.classList.toggle('menuclick');
-            navLinks.forEach(function (link, index) {
-              if (link.style.animation) {
-                link.style.animation = '';
-              } else {
-                link.style.animation = "navLinkFade 0.5s ease forwards ".concat(index / 7 + 0.3, "s");
-              }
-            });
-            phonemenu.classList.toggle('toggle');
-          });
-        };
-
-        navSlide();
-      }; // window.document.onload = navSlide();
-
-      /***/
-
-    },
-
-    /***/
     "Sy1n":
     /*!**********************************!*\
       !*** ./src/app/app.component.ts ***!
@@ -13187,19 +13220,19 @@
       /*! ../footer/footer.component */
       "fp1T");
 
-      function SocialReformsComponent_div_1344_Template(rf, ctx) {
+      function SocialReformsComponent_div_1504_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 58);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 65);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 59);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 66);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 60);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 67);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
 
@@ -13302,9 +13335,9 @@
       SocialReformsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: SocialReformsComponent,
         selectors: [["app-social-reforms"]],
-        decls: 1346,
+        decls: 1506,
         vars: 2,
-        consts: [[1, "title"], [1, "table-responsive", "content-spacing", "table-conatiner"], [1, "table", "table-hover"], [1, "table-active"], [1, "image-content"], ["src", "../../assets/table/mirnithar.jpg", 1, "profile-image"], [1, "green"], ["src", "../../assets/table/haji.jpg", 1, "profile-image"], [1, "list"], ["src", "../../assets/table/henry.jpg", 1, "profile-image"], ["src", "../../assets/table/radhakhant.jpg", 1, "profile-image1"], [1, "blue"], ["src", "../../assets/table/dadoba.jpg", 1, "profile-image"], ["src", "../../assets/table/wahabi.jpg", 1, "profile-image"], [1, "yellow"], ["src", "../../assets/table/shivdayal.jpg", 1, "profile-image"], ["src", "../../assets/table/mohamadqusim.jpg", 1, "profile-image9"], ["src", "../../assets/table/shibli.jpg", 1, "profile-image8"], ["src", "../../assets/table/parthana1.jpg", 1, "profile-image5"], ["src", "../../assets/table/parthana2.jpg", 1, "profile-image5"], ["src", "../../assets/table/dhondo.jpg", 1, "profile-image5"], [1, "pink"], ["src", "../../assets/table/madamehp.jpg", 1, "profile-image5"], ["src", "../../assets/table/annieB.jpg", 1, "profile-image5"], ["src", "../../assets/table/jyotiba.jpg", 1, "profile-image9"], ["src", "../../assets/table/singhsabha.jpg", 1, "profile-image"], ["src", "../../assets/table/shivnarayan.jpg", 1, "profile-image"], ["src", "../../assets/table/ragunathrao.jpg", 1, "profile-image5"], ["src", "../../assets/table/mirza.jpg", 1, "profile-image"], ["src", "../../assets/table/dindayalu.jpg", 1, "profile-image4"], ["src", "../../assets/table/madanmohan.jpg", 1, "profile-image4"], ["src", "../../assets/table/narayanguru.jpg", 1, "profile-image4"], ["src", "../../assets/table/kumaranasan.jpg", 1, "profile-image4"], ["src", "../../assets/table/ggg.jpg", 1, "profile-image4"], ["src", "../../assets/table/srinivas.jpg", 1, "profile-image4"], [1, "violet"], ["src", "../../assets/table/malabari.jpg", 1, "profile-image"], ["src", "../../assets/table/narayanmalhar.jpg", 1, "profile-image"], ["src", "../../assets/table/periyar.jpg", 1, "profile-image"], ["src", "../../assets/table/akhali.jpg", 1, "profile-image7"], ["src", "../../assets/table/kesavan.jpg", 1, "profile-image7"], [1, "instruction"], [2, "color", "green"], [2, "color", "skyblue"], [2, "color", "palevioletred"], [2, "color", "darkgreen"], [2, "color", "orange"], [2, "color", "lightgreen"], [1, "topic-container"], [1, "form-container"], [1, "form-display", 3, "formGroup"], [1, "form-group"], ["formControlName", "comment", "rows", "5", 1, "form-control"], ["type", "text", "formControlName", "name", 1, "form-control"], ["type", "email", "formControlName", "email", 1, "form-control"], [1, "post-button"], [1, "btn", "btn-danger", "button-size", 3, "click"], ["class", "comment-section", 4, "ngFor", "ngForOf"], [1, "comment-section"], ["width", "100", "height", "100", 3, "src"], [1, "comment"]],
+        consts: [[1, "title"], [1, "swipe"], [1, "table1-spacing"], [1, "table1"], [1, "table", "table-hover"], [1, "table-active"], [1, "image-content"], ["src", "../../assets/table/mirnithar.jpg", 1, "profile-imagesq"], [1, "green"], ["src", "../../assets/table/haji.jpg", 1, "profile-imagep"], [1, "tablepoint"], ["src", "../../assets/table/henry.jpg", 1, "profile-imagep"], [2, "margin-top", "10px"], ["src", "../../assets/table/radhakhant.jpg", 1, "profile-imagep"], [1, "blue"], ["src", "../../assets/table/dadoba.jpg", 1, "profile-imagep"], ["src", "../../assets/table/durgaram.jpg", "alt", "", 1, "profile-imagesq"], ["src", "../../assets/table/wahabi.jpg", 1, "profile-imagep"], [1, "yellow"], ["src", "../../assets/table/shivdayal.jpg", 1, "profile-imagep"], ["src", "../../assets/table/mohamadqusim.jpg", 1, "profile-imagep"], ["src", "../../assets/table/shibli.jpg", 1, "profile-imagep"], ["src", "../../assets/table/parthana1.jpg", 1, "profile-imagep"], ["src", "../../assets/table/parthana2.jpg", 1, "profile-imagep"], ["src", "../../assets/table/dhondo.jpg", 1, "profile-imagep"], [1, "tablepoint2"], [1, "pink"], ["src", "../../assets/table/madamehp.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/annieB.jpg", 1, "profile-imagep"], ["src", "../../assets/table/jyotiba.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/singhsabha.jpg", 1, "profile-imagep"], ["src", "../../assets/table/shivnarayan.jpg", 1, "profile-imagep"], ["src", "../../assets/table/ragunathrao.jpg", 1, "profile-imagep"], ["src", "../../assets/table/mirza.jpg", 1, "profile-imagep"], ["src", "../../assets/table/dindayalu.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/madanmohan.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/narayanguru.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/kumaranasan.jpg", 1, "profile-imagep"], ["src", "../../assets/table/ggg.jpg", 1, "profile-imagep"], ["src", "../../assets/table/srinivas.jpg", 1, "profile-imagep"], [1, "violet"], ["src", "../../assets/table/malabari.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/dayaram.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/narayanmalhar.jpg", 1, "profile-imagep"], ["src", "../../assets/table/periyar.jpg", 1, "profile-imagep"], ["src", "../../assets/table/akhali.jpg", 1, "profile-imagesq"], ["src", "../../assets/table/kesavan.jpg", 1, "profile-imagep"], [1, "instruction"], [2, "color", "green"], [2, "color", "skyblue"], [2, "color", "palevioletred"], [2, "color", "darkgreen"], [2, "color", "orange"], [2, "color", "lightgreen"], [1, "commentsouter"], [1, "topic-container"], [1, "form-container"], [1, "form-display", 3, "formGroup"], [1, "form-group"], ["formControlName", "comment", "rows", "5", 1, "form-control"], ["type", "text", "formControlName", "name", 1, "form-control"], ["type", "email", "formControlName", "email", 1, "form-control"], [1, "post-button"], [1, "btn", "btn-danger", "button-size", 3, "click"], ["class", "comment-section", 4, "ngFor", "ngForOf"], [1, "comment-section"], ["width", "100", "height", "100", 3, "src"], [1, "comment"]],
         template: function SocialReformsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -13321,93 +13354,95 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "table", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h6");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "tr", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "YEAR");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Swipe right to view full table \u2192");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "th");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "table", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "tr", 5);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "WHO");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Year");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "OBJECTIVE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Movement");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "th");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "EVENTS");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "OTHERS");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Who");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "1782");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Objective");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Events");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "TITU MIR'S MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Others");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "img", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "1782");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "MIR NITHAR ALI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "TITU MIR'S MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Wahhabism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "img", 7);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " & ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Sharia");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "MIR NITHAR ALI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -13415,91 +13450,79 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Organized ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "span", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " Bengal Muslim peasants");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Wahhabism");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " against Hindu landlord & British indigo planters");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " & ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Ali killed in 1831");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Sharia");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Organized ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "1812");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "span", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "FARAIZA MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, " Bengal Muslim peasants");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "(Fara'idi)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, " against Hindu landlord & British indigo planters");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "@E.Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Ali killed in 1831");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "1812");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "FARAIZA MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "img", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "HAJI SHARIATULLAH DUDU MIAN");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "(Fara'idi)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Islamic pillar of faith");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Eradication");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, " of social innovation, unislamic practices");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "@E.Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -13507,31 +13530,27 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "1840- Haji's Son DUDU MIAN became Revolutionary");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "img", 9);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Asked ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "not to pay rent");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "HAJI SHARIATULLAH");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "1847 arrested, so movement weakened");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "DUDU MIAN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -13539,57 +13558,119 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Formed ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Organisational system");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Islamic pillar of faith");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " (village to province) under ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "KHALIFA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Eradication");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, " of social innovation, unislamic practices");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, " (authorised deputy)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "#");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Paramilitary forces");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "1840- Haji's Son DUDU MIAN became Revolutionary");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Asked ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "not to pay rent");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "-to fight zamindaris (mostly Hindu, some Muslim)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "1847 arrested, so movement weakened");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "ul", 10);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "#Had ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Formed ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "own law courts");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "Organisational system");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " (village to province) under ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "KHALIFA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, " (authorised deputy)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Paramilitary forces");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "-to fight zamindaris (mostly Hindu, some Muslim)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "Had ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "own law courts");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -13601,53 +13682,31 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "1830");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "YOUNG BENGAL MOVEMENT ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "1830");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "@Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "YOUNG BENGAL MOVEMENT ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "img", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "HENRY VIVIAN DEROZIO");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "(Anglo Indian) 1st Poet of Modern India");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "@Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -13655,145 +13714,187 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Radical, intellectual trend among youth");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "#Surendranath describes him: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "i");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "\u201CPioneers of Modern civilization\u201D");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](120, "img", 11);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "ul", 10);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Questioned authority");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](125, "HENRY VIVIAN DEROZIO");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "love liberty, equality, freedom");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "div", 12);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "opposed customs, traditions");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Women rights, education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "(Anglo Indian) 1st Poet of Modern India");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Carried forward ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Radical, intellectual trend among youth.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "RRMRoy");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "Surendranath");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, " questions on public education, protection of zamindaris, High grade service-To Indians, Better treatment Indian labour abroad, Press freedom, Trial by jury");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, " describes him: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "Studied @Hindu college");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](140, "Inspiration: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "French Revolution");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "\u201CPioneers of Modern civilization\u201D");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "In 1831 removed from college");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, "Main reason for limited success:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, "Questioned authority");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "love liberty, equality, freedom");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "opposed customs, traditions");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "Women rights, education");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Prevailing social condition not ripe for adoption of radical ideas");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Carried forward ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "RRMRoy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "No support any social class,");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, " questions on public education, protection of zamindaris, High grade service-To Indians, Better treatment Indian labour abroad, Press freedom, Trial by jury");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](154, "Lacked link with mass");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "Failed");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, "Studied @Hindu college");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, " to take up ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, "Inspiration: ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "peasant cause");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "French Revolution");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, "In 1831 removed from college");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](164, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, "Main reason for limited success:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](169, "Prevailing social condition not ripe for adoption of radical ideas");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](171, "No support any social class,");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "Lacked link with mass");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "Failed");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, " to take up ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "peasant cause");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -13807,199 +13908,103 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, "1830");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](166, "DHARMA SABHA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, "1830");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](167, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](168, "img", 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](170, "RADHAKHANT DEB");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "Orthodox");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, " sect");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, "Preservation of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](180, "STATUS QUO");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, " in social religious matters");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](182, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](185, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, "Even ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "opposed Abolition of Sati");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "DHARMA SABHA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "But ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, "favored Western education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](187, "img", 13);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](193, " to girls");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "RADHAKHANT DEB");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](192, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](196, "1849");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "Orthodox");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](196, " sect");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](197, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](198, "Preservation of ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](199, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "PARAMAHANSA MANDALI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "STATUS QUO");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, " in social religious matters");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "div", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "@Maharastra");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](202, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "(Branches @Poona, Satara)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, "Even ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](206, "img", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, "DADOBA PANDURANG MEHTAJI DURGARAM");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](210, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "Secret society- to ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, "reform Hindu religion, society");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, "opposed Abolition of Sati");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](216, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "But ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](218, "One god");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "favored Western education");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](219, " worship");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](220, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](221, "Real religion- based on LOVE, MORAL");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "Freedom of thought encouraged- ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](225, "Rationality");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, " to girls");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14009,123 +14014,129 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](227, "Primarily interest: Break caste rules, ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, "food cook low caste");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, "1849");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](230, " taken, widow remarriage, women education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](218, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](219, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, "PARAMAHANSA MANDALI");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "div", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "@Maharastra");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](225, "(Branches @Poona, Satara)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](226, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](228, "img", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](230, "img", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](232, "Ideology: Closely linked to ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](232, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, "MANAV DHARMA SABHA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](234, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](235, "DADOBA PANDURANG");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](237, "MEHTAJI DURGARAM");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](237, "1849");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](238, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](241, "WAHABI/WALLIULLAH MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](241, "Secret society- to ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](242, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](242, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](243, "(refer-revolt)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](243, "reform Hindu religion, society");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](245, "img", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](246, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](246, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](248, "Desirability of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](250, "harmony between 4 school of Muslim");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](251, " (which is divided)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](252, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](253, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](254, "Main role in Revolt 1857 - spread anti-British feelings");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](247, "One god");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](256, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](257, "1851");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](248, " worship");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](258, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](260, "PARSI REFORM MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](250, "Real religion- based on LOVE, MORAL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](251, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](261, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](252, "Freedom of thought encouraged- ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](253, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](266, "RAHNUMAI MAZDAYASNAN SABHA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](254, "Rationality");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14133,35 +14144,29 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](268, "(group of educated parsis)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](256, "Primarily interest: Break caste rules, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](258, "food cook low caste");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](269, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](271, "NAOROJI FURDONJI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](259, " taken, widow remarriage, women education");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](272, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](273, "DADABHAI NAOROJI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](261, "Ideology: Closely linked to ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](275, "KR CAMMA");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](277, "SS BENGALEE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](263, "MANAV DHARMA SABHA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14169,139 +14174,195 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](279, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](280, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](281, "Regeneration of social conditions of Parsis");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](266, "1849");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](282, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](283, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](268, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](284, "Restore ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](269, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](285, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](286, "Zoroastrian religion");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](287, ",");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](288, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](289, "Religious rituals");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](291, "Creed redifined");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](270, "WAHABI/WALLIULLAH MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](271, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](293, "Women uplift, ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](295, "remove PURDAH");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](296, " / rise age marriage");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](272, "(refer-revolt)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](273, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](297, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](298, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](299, "Newspaper:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](274, "img", 17);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](300, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](275, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](301, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](302, "RAST GOFTAR");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](277, "Desirability of ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](278, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](303, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](304, "Emerged as most westernised section");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](279, "harmony between 4 school of Muslim");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](305, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](306, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](307, "1861");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](280, " (which is divided)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](281, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](309, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](282, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](310, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](311, "RADHASWAMI MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](283, "Main role in Revolt 1857 - spread anti-British feelings");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "div", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](284, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](313, "@Agra");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](285, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](286, "1851");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](288, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](289, "PARSI REFORM MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](290, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](315, "img", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](291, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](293, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](295, "RAHNUMAI MAZDAYASNAN SABHA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](316, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](296, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](297, "(group of educated parsis)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](298, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](299, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](300, "NAOROJI FURDONJI");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](301, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](302, "DADABHAI NAOROJI");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](303, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](304, "KR CAMMA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](305, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](306, "SS BENGALEE");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](307, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](309, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](310, "Regeneration of social conditions of Parsis");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](311, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](313, "Restore ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](315, "Zoroastrian religion");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](316, ",");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](317, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](318, "SHIV DAYAL SAHEB");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](318, "Religious rituals,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](319, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](320, "Creed redifined.");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](321, "(TULSI RAM)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](321, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](322, "Women uplift,");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](323, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](325, "remove PURDAH");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](326, ",");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](327, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](328, " rise marriage age");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14309,31 +14370,19 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](322, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](323, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](330, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](325, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](326, "One supreme");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](331, "Newspaper:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](327, " being");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](332, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](333, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](328, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](330, "Supremacy of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](331, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](332, "GURU");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](334, "RAST GOFTAR");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14341,59 +14390,39 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](333, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](335, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](334, "Simple social life, ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](335, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](336, "no worldly");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](336, "Emerged as most westernised section");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](337, " life");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](338, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](339, "1861");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](338, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](340, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](339, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](340, "Nonbelief");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](341, " in ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](341, "div");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](342, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](343, "Temple");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](344, ", sacred place");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](343, "RADHASWAMI MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](344, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](345, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](345, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](346, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](348, "Work of faith, charity, service, prayer");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](349, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](350, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](351, "All religion to be true");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](346, "@Agra");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14401,73 +14430,95 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](348, "img", 19);
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](352, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](349, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](353, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](350, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](354, "1866");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](351, "SHIV DAYAL SAHEB");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](352, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](353, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](354, "(TULSI RAM)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](355, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](356, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](356, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](357, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](357, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](358, "DEOBAND SCHOOL");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](358, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](359, "One supreme");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](360, " being");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](362, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](363, "Supremacy of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](364, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](365, "GURU");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](359, "div", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](360, "@Darul Uloom UP");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](366, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](367, "Simple social life, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](368, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](369, "no worldly");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](361, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](362, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](363, "img", 16);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](370, " life");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](364, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](365, "img", 17);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](366, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](367, "SHIBLI");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](368, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](369, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](370, "ul", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](371, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](372, "MOHAMAD QUSIM NANOTAVI,");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](372, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](373, "Nonbelief");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](373, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](374, " in ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](374, "RASHID AHMED GANGOHI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](375, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](376, "Temple");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](377, ", sacred place");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14475,25 +14526,23 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](375, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](378, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](376, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](379, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](377, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](378, "Later:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](379, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](380, "MAHUMUD UL HASAN");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](380, "ul", 10);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](381, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](382, "JAMIAT UL ULEMA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](382, "Work of faith, charity, service, prayer.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](383, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](384, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](385, "All religion to be true.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14501,55 +14550,35 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](383, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](384, "Supporter: SHIBLI NUMANI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](386, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](387, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](388, "1866");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](389, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](390, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](391, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](392, "DEOBAND SCHOOL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](385, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](386, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](394, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](387, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](388, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](389, "Orthodox");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](390, " Muslim section");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](391, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](392, "Propagate-");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](393, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](394, "Pure teaching");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](395, " of Quran, Hadis");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](396, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](397, "Keep ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](398, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](399, "spirit of Jihad");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](400, " against foreigners");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](395, "@Darul Uloom UP");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14557,59 +14586,43 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](401, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](396, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](402, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](397, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](403, "Train religious leaders, moral religious regeneration");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](404, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](405, "(");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](406, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](407, "Contrast to Aligarh");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](398, "img", 20);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](408, "-West education, support govt)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](399, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](400, "img", 21);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](409, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](401, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](410, "#HASAN: gave ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](411, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](412, "political & intellectual content to religious ideas");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](402, "SHIBLI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](413, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](403, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](414, "Synthesis of ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](404, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](415, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](405, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](416, "ISLAMIC PRINCIPLES + NATIONALIST ASPIRATION");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](406, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](407, "MOHAMAD QUSIM NANOTAVI,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](408, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](417, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](418, "#ULEMA: gave concrete shape to Hussan idea- protection of political religious rights in context of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](419, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](420, "National unity");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](409, "RASHID AHMED GANGOHI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14617,85 +14630,91 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](421, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](410, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](422, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](411, " Later: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](423, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](412, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](424, "Welcomed INC");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](413, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](414, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](425, " (not opposed)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](426, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](427, "Issued ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](428, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](429, "FATWA against Syed Ahmed's");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](415, "MAHUMUD UL HASAN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](430, "-United Patriotic Association Mohammaden Anglo-Orientation Association");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](416, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](417, "JAMIAT UL ULEMA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](431, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](432, "--------------------------------------------------------------------------------------------------------------------");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](433, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](418, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](434, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](419, " Supporter: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](435, "#SHIBLI:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](420, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](421, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](422, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](423, "SHIBLI NUMANI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](436, " Favoured inclusion of ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](424, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](425, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](426, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](427, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](428, "Orthodox");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](429, " Muslim section");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](430, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](431, "Propagate-");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](432, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](433, "Pure teaching");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](434, " of Quran, Hadis");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](435, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](436, "Keep ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](437, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](438, "English, European science");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](438, "spirit of Jihad");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](439, " in education");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](440, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](441, "Founded: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](442, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](443, "DHARUL ULOOM + NADWATAL ULAMA");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](444, "span", 14);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](445, "@Lucknow");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](446, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](447, "Believed: Idealism of INC & ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](448, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](449, "Co-operation bet Hindu Muslim");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](439, " against foreigners");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14703,155 +14722,171 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](440, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](450, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](441, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](451, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](442, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](452, "1867");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](453, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](454, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](455, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](456, "PRARTHANA SAMAJ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](443, "Train religious leaders, moral religious regeneration.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](444, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](457, "div", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](445, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](458, "@Bombay");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](446, "Contrast to Aligarh");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](459, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](460, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](461, "img", 18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](447, " (West education, support govt)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](462, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](448, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](463, "img", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](449, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](464, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](465, "img", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](450, "HASAN:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](466, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](451, " gave ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](467, "Dhondo Keshav Karve");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](452, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](468, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](469, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](470, "ATMARAM PANDURANG");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](453, "political & intellectual content to religious ideas");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](471, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](472, "(Help- Kesab chandra sen)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](454, ".");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](473, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](455, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](474, "1870:MAHADEO GOVIND RANADE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](456, "Synthesis of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](457, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](458, "ISLAMIC PRINCIPLES + NATIONALIST ASPIRATION");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](459, ".");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](475, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](460, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](476, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](461, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](477, "Secret society to Spread ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](462, "ULEMA:");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](478, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](479, "liberal ideas");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](463, " gave concrete shape to Hussan idea- protection of political religious rights in context of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](464, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](465, "National unity");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](466, ".");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](480, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](481, "Encourage breakdown of caste barriers");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](467, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](468, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](469, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](470, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](471, "Welcomed INC");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](482, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](483, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](484, "MONOTHEISM");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](472, " (not opposed).");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](485, " but mainly social reform than religion reform");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](473, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](474, "Issued ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](475, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](476, "FATWA against Syed Ahmed's");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](486, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](487, "Relied on education, importance to reason, not on confrontation-orthodox");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](477, " - United Patriotic Association Mohammaden Anglo-Orientation Association.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](488, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](478, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](489, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](479, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](490, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](480, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](491, "#4 Point agenda");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](481, "SHIBLI:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](492, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](493, "Disapproval of caste system");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](482, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](483, " Favoured inclusion of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](484, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](485, "English, European science");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](486, " in education");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](487, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](488, "Founded: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](489, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](490, "DHARUL ULOOM & NADWATAL ULAMA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](491, "span", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](492, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](493, " @Lucknow");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](494, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](495, "Women education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](495, "Believed: Idealism of INC & ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](496, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](496, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](497, "Widow remarriage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](498, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](499, "Raise age of marriage-both gender");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](497, "Co-operation bet Hindu Muslim");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14861,95 +14896,95 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](500, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](501, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](498, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](502, "Mahadeo efforts- Samaj gained all India character");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](499, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](500, "1867");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](503, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](501, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](504, "Sabha: Very attached to ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](502, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](505, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](503, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](506, "BHAKTI CULT of Maharashtra");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](507, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](508, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](509, "Precursor: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](510, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](511, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](512, "Paramahansa Sabha");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](504, "PRARTHANA SAMAJ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](505, "div", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](506, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](507, "@Bombay");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](508, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](509, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](510, "img", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](511, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](512, "img", 23);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](513, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](514, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](515, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](516, "Others:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](514, "img", 24);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](517, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](515, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](518, "RG Bhandarkar");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](516, "Dhondo Keshav Karve");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](517, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](518, "ul", 10);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](519, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](520, "NG Chandavarkar");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](520, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](521, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](522, "Dhondo Keshav Karve");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](523, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](524, "Vishnu Shastri");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](521, "ATMARAM PANDURANG");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](522, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](525, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](526, "#KARVE+RANADE- founded ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](527, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](528, "Widow Remarriage Association & Widow Home Association");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](523, "(Helped by - Kesab chandra sen)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](529, " To provide education, train widows");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](524, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](525, "After 1870 : ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](526, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](527, "MAHADEO GOVIND RANADE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -14957,83 +14992,87 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](530, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](531, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](532, "1872");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](533, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](528, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](534, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](529, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](535, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](530, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](536, "THEOSOPHICAL MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](531, "Secret society to Spread ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](532, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](537, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](538, "@New York");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](539, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](540, "span", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](541, "@Adyar");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](542, "1875");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](533, "liberal ideas");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](543, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](534, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](544, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](545, "img", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](535, "Encourage breakdown of caste barriers");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](546, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](536, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](547, "img", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](537, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](538, "MONOTHEISM");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](539, " but mainly social reform than religion reform");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](540, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](541, "Relied on education, importance to reason, not on confrontation-orthodox");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](542, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](543, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](544, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](545, "4 Point agenda");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](548, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](549, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](550, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](546, "ul", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](547, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](548, "Disapproval of caste system");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](549, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](550, "Women education");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](551, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](552, "MADAME HP");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](552, "Widow remarriage");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](553, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](554, "BLAVATSKY");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](555, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](556, "COLONEL MS OLCOTT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](554, "Raise age of marriage-both gender");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15041,35 +15080,27 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](557, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](555, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](558, "1907-ANNIE BESANT president");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](556, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](557, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](559, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](560, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](561, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](562, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](563, "Special relation between ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](564, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](565, "SOUL&GOD");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](558, "Mahadeo efforts- Samaj gained all India character.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](559, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](560, "Sabha: Very attached to ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](561, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](562, "BHAKTI CULT of Maharashtra");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](566, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](567, "Try achieve by prayer, revelation ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](563, ".");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15077,51 +15108,17 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](568, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](564, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](569, "Accepted Hindu beliefs- ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](565, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](570, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](566, "Precursor: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](571, "Karma, Reincarnation");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](567, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](568, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](572, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](573, "Inspiration: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](574, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](575, "Upanishad, yoga, Samkhya, Vedanta school");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](576, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](577, "Aim: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](578, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](579, "Universal brotherhood");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](580, "-without race, caste, colour");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](581, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](582, "To investigate unexplained law of nature, ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](583, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](584, "power latent in man");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](569, "Paramahansa Sabha");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15129,57 +15126,35 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](585, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](570, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](586, "oppose- Child marriage, caste, Improve widows conditions");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](571, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](572, "Others leaders: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](587, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](573, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](588, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](574, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](589, "Came to Allied with ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](590, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](591, "HINDU RENAISSANCE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](575, "RG Bhandarkar");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](592, ", At one time with Arya samaj also ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](576, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](577, "NG Chandavarkar");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](593, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](578, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](594, "#Provided ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](595, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](596, "common denominator-for various sects");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](579, "Dhondo Keshav Karve");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](597, ", fulfilled urge of educated Hindus");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](580, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](598, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](599, "But for average person lacked positive program, Impact limited to small westernised segment ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](600, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](601, "As a Religion revivers not succeeded, But as a movement of glorifying Indian religious, Philosophy traditions - gave much self-respect to India against British rule ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](602, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](603, "But if viewed in another perspective- it gave false sense of pride to Indians (Backward outdated Traditions)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](581, "Vishnu Shastri");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15187,71 +15162,139 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](604, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](582, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](605, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](583, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](606, "1873");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](584, "KARVE & RANADE- founded ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](585, "ul", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](607, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](586, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](608, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](587, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](609, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](610, "SATYASHODHAK SAMAJ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](588, "Widow Remarriage Association ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](589, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](611, "div", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](612, "@Maharastra");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](590, "Widow Home Association");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](613, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](614, "img", 24);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](591, " (To provide education, train widows)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](615, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](616, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](617, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](592, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](593, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](594, "1872");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](595, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](596, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](597, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](598, "THEOSOPHICAL MOVEMENT");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](599, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](600, "@New York");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](601, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](602, "span", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](603, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](604, "@Adyar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](605, " 1875");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](606, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](607, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](608, "img", 27);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](609, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](610, "img", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](611, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](612, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](613, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](614, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](615, "MADAME HP");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](616, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](617, "BLAVATSKY");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](618, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](619, "JYOTIBA PHULE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](619, "COLONEL MS OLCOTT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](620, "li", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](621, "@Satara");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](620, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](621, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](622, "1907 - ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](623, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](624, "ANNIE BESANT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](622, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](623, "Mali community-gardener");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](624, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](625, "Awarded: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](626, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](627, "MAHATMA TITLE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](625, " became president");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15259,21 +15302,143 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](626, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](627, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](628, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](629, "Special relation between ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](630, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](631, "SOUL & GOD");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](628, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](629, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](630, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](631, "Elected secratary:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](632, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](633, "Narayanrao Govindrao Kadalak");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](633, "Try achieve by prayer, revelation ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](634, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](635, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](636, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](637, "Accepted Hindu beliefs- ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](638, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](639, "Karma, Reincarnation.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](640, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](641, "Inspiration: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](642, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](643, "Upanishad, yoga, Samkhya, Vedanta school.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](644, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](645, "Aim: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](646, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](647, "Universal brotherhood");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](648, "-without race, caste, colour.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](649, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](650, "To investigate unexplained law of nature, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](651, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](652, "power latent in man");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](653, ".");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](654, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](655, "opposed- Child marriage, caste, Improve widows conditions");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](656, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](657, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](658, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](659, "Came to Allied with ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](660, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](661, "HINDU RENAISSANCE");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](662, ", At one time with Arya samaj also ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](663, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](664, "Provided ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](665, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](666, "common denominator-for various sects");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](667, ", fulfilled urge of educated Hindus");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](668, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](669, "But for average person lacked positive program, Impact limited to small westernised segment ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](670, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](671, "As a Religion revivers not succeeded, But as a movement of glorifying Indian religious, Philosophy traditions - gave much self-respect to India against British rule ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](672, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](673, "But if viewed in another perspective- it gave false sense of pride to Indians (Backward outdated Traditions)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15283,49 +15448,31 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](634, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](674, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](635, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](675, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](636, "Powerful movement-against upper class domination, Brahmanical supremacy");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](637, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](638, "Aim: Social service education among Low caste, women");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](676, "1873");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](639, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](677, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](640, "Complete abolition of caste, social economic inequalities");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](678, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](679, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](641, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](642, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](643, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](644, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](645, "Against: Sanskrit Hinduism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](680, "SATYASHODHAK SAMAJ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](646, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](681, "div", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](647, "Pioneer in women education");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](682, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](648, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](649, "(believe: gender quality)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](683, "@Maharastra");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15333,121 +15480,9 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](684, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](650, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](651, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](652, "Gave Leaderships to: Malis, Telis, Saris, Kunbis, Dhangars");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](653, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](654, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](655, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](656, "Phule: Inspiration for mass");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](657, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](658, "His movement-gave sense to depressed class against Brahmin (those who used religion to exploit masses)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](659, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](660, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](661, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](662, "Savitribhai (his wife) helped to open Girls school ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](663, "span", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](664, "@Poona");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](665, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](666, "Homes for widows 1854");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](667, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](668, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](669, "Phule works: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](670, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](671, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](672, "GULAMGIRI");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](673, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](674, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](675, "SARVAJANIK SATYADHARMA");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](676, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](677, "used Symbol of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](678, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](679, "RAJAH BALI opposed");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](680, " to Brahmins Symbol of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](681, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](682, "RAMA");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](683, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](684, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](685, "1873");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](685, "img", 29);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15455,65 +15490,69 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](687, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](688, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](688, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](689, "SINGH SABHA MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](689, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](690, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](690, "div", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](691, "@Amritsar");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](691, "JYOTIBA PHULE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](692, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](693, "img", 25);
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](694, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](692, "div", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](695, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](693, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](696, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](697, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](698, "Modern education");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](699, " to Sikhs");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](700, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](701, "To ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](702, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](703, "counter activities");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](704, "- Christain missionary, Bramho, Arya, Muslim maulvis");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](694, "@Satara");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](705, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](695, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](696, "Mali community-gardener");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](697, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](698, "Awarded: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](699, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](700, "MAHATMA TITLE");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](701, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](702, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](703, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](704, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](705, "Elected secratary: ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](706, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](707, "Khalsa school throughout Punjab");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](707, "Narayanrao Govindrao Kadalak");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15521,125 +15560,95 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](708, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](709, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](709, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](710, "Everything that is against guru teachings are rejected");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](710, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](711, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](712, "Rites/Customs which are Consistent with Sikh doctrine are accepted");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](711, "Powerful movement-against upper class domination, Brahmanical supremacy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](712, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](713, "Aim: Social service education among Low caste, women");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](713, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](714, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](714, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](715, "1887");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](716, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](717, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](718, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](719, "DEV SAMAJ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](715, "Complete abolition of caste, social economic inequalities");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](720, "div", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](716, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](721, "@Lahore");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](717, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](718, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](719, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](720, "Against: Sanskrit Hinduism");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](721, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](722, "i");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](723, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](724, "\"Pioneer in women education\"");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](722, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](723, "img", 26);
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](724, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](725, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](725, "SHIV NARAYAN AGNIHOTRI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](726, "Believed in ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](727, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](726, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](727, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](728, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](729, "Eternal of soul");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](728, "gender quality");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](729, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](730, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](731, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](732, "Supremacy of guru");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](731, "Gave Leaderships to: Malis, Telis, Saris, Kunbis, Dhangars.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](732, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](733, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](733, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](734, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](734, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](735, "Ideal social behaviours");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](736, "- No alcohol, bribe, violence, non veg");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](735, "Phule: Inspiration for masses");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](736, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](737, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](738, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](739, "DEVA SHASTRA BOOK");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](740, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](741, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](742, "SN Agnihotri - ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](743, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](744, "Brahmo follower");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](745, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](746, "Spoke against Child marriage");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](737, "His movement-gave sense to depressed class against Brahmin (those who used religion to exploit masses)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15647,75 +15656,25 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](747, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](738, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](748, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](739, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](749, "1887");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](740, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](741, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](750, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](751, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](752, "INDIAN SOCIAL CONFERENCE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](742, "Savitribhai");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](743, " (his wife) helped to open Girls school ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](753, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](744, "span", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](754, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](745, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](755, "img", 19);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](756, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](757, "img", 27);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](758, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](759, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](760, "MG RANADE");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](761, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](762, "RAGUNATH RAO");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](763, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](764, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](765, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](766, "Social issues,");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](767, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](768, "Intercaste marriage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](769, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](770, "Opposed polygamy, Kulinism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](746, "@Poona");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15723,53 +15682,101 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](771, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](747, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](748, "Homes for widows opened in 1854");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](749, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](750, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](751, " Phule works: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](752, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](753, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](754, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](755, "GULAMGIRI");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](756, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](757, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](758, "SARVAJANIK SATYADHARMA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](759, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](760, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](761, "Used Symbol of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](762, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](763, "RAJAH BALI opposed");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](764, " to Brahmins Symbol of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](765, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](766, "RAMA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](767, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](768, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](769, "1873");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](770, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](771, "div");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](772, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](773, "PLEDGE MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](773, "SINGH SABHA MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](774, "- inspire people against ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](774, "div", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](775, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](776, "Child marriage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](777, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](778, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](779, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](780, "1st session");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](781, "span", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](782, "@Madras");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](783, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](784, "(same venue with INC)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](785, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](786, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](787, "Social reform cell of INC");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](776, "@Amritsar");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15777,13 +15784,45 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](777, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](778, "img", 30);
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](788, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](779, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](789, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](780, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](790, "1889");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](781, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](782, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](783, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](784, "Modern education");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](785, " to Sikhs");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](786, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](787, "To ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](788, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](789, "counter activities");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](790, "- Christain missionary, Bramho, Arya, Muslim maulvis");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15791,97 +15830,59 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](792, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](793, "AHMADIYYA MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](793, "Khalsa school throughout Punjab");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](794, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](794, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](795, "img", 28);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](795, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](796, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](796, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](797, "MIRZA GHULAM AHMAD");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](797, "Everything that is against guru teachings are rejected");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](798, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](798, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](799, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](800, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](801, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](802, "Sect");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](803, " of Islam origin in India");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](799, "Rites/Customs which are Consistent with Sikh doctrine are accepted");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](800, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](801, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](802, "1887");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](803, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](804, "div");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](805, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](806, "Liberal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](806, "DEV SAMAJ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](807, " principles, ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](807, "div", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](808, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](809, "Western");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](810, " Liberal Education");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](811, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](812, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](813, "Mohammedan Renaissance");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](814, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](815, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](816, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](817, "Like Brahmo samaj:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](818, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](819, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](820, "PRINCIPLE OF UNIVERSAL");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](821, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](822, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](823, "RELIGION OPPOSING ZIHAD");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](809, "@Lahore");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -15889,167 +15890,137 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](810, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](811, "img", 31);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](824, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](812, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](825, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](813, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](826, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](827, "Ideologies:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](828, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](829, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](830, "Separation of Mosque from state");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](831, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](832, "Human Rights");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](833, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](834, "Religious Toleration");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](835, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](836, "Messiah came to end religious war, to install peace, justice, morality");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](814, "SHIV NARAYAN AGNIHOTRI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](815, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](816, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](817, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](818, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](819, "Eternal of soul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](820, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](821, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](822, "Supremacy of guru");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](823, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](824, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](825, "Ideal social behaviours");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](826, "- No alcohol, bribe, violence, non veg");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](837, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](827, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](828, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](829, "DEVA SHASTRA BOOK");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](830, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](831, "SN Agnihotri (");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](832, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](833, "Brahmo follower");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](834, ") Spoke against Child marriage");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](835, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](836, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](837, "1887");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](838, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](839, "1902");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](839, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](840, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](841, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](842, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](843, "BHARAT DHARMA MAHAMANDALA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](840, "INDIAN SOCIAL CONFERENCE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](844, "div", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](841, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](845, "@Varanasi");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](842, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](843, "img", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](844, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](845, "img", 32);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](846, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](846, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](847, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](847, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](848, "img", 29);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](848, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](849, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](849, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](850, "img", 30);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](850, "MG RANADE");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](851, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](851, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](852, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](853, "PANDIT DIN DAYALU SHARMA");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](854, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](855, "MADAN MOHAN MALAVYA prominent");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](856, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](857, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](858, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](859, "Defence of Orthodox");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](860, " Hinduism");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](861, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](862, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](863, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](864, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](865, "Opposed-Arya samaj,");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](866, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](867, "Theosophist, Ramkrishna");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](868, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](869, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](870, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](871, "Proper management of Hindu institution ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](872, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](873, "opened ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](874, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](875, "Hindu education institution");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](852, "RAGUNATH RAO");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16059,49 +16030,125 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](853, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](876, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](854, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](877, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](855, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](878, "Merged 3:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](879, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](880, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](881, "SANATANA DHARMA SABHA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](856, "Social issues,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](882, "+");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](857, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](858, "Intercaste marriage");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](883, "div", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](859, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](884, "DHARMA MAHA PARISHAD (S.IND)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](885, "span");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](886, "+");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](860, "Opposed polygamy, Kulinism");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](887, "div", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](888, "DHARMA MAHAMANDALA (Bengal)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](889, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](861, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](890, "All combined in 1902");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](862, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](863, "PLEDGE MOVEMENT");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](864, "-to inspire people against ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](865, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](866, "Child marriage");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](867, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](868, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](869, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](870, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](871, "1st session ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](872, "span", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](873, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](874, "@Madras");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](875, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](876, "(same venue with INC)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](877, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](878, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](879, "Social reform cell of INC");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](880, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](881, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](882, "1889");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](883, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](884, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](885, "AHMADIYYA MOVEMENT");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](886, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](887, "img", 33);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](888, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](889, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](890, "MIRZA GHULAM AHMAD");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16109,189 +16156,83 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](891, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](892, "Opened Hindu college- Din Dayal ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](892, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](893, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](894, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](895, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](896, "Sect");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](897, " of Islam origin in India");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](893, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](898, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](894, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](899, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](895, "1903");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](896, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](897, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](898, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](899, "ARUVIPPURAM SREE NARAYANA GURU DHARMA PARIPALANA YOGAM (SNDP)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](900, "Liberal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](901, " principles, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](902, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](903, "Western");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](900, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](901, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](902, "img", 31);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](904, " Liberal Education");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](903, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](905, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](904, "img", 32);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](906, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](907, "Mohammedan Renaissance");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](905, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](906, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](908, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](907, "SREE NARAYANA GURU SWAMY (Chairman)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](909, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](910, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](911, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](912, "Like Brahmo samaj:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](908, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](909, "KUMARAN ASAN (General secretary)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](910, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](911, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](912, "All religions be same");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](913, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](913, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](914, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](915, "Condem Animal sacrifice");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](915, "PRINCIPLE OF UNIVERSAL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](916, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](916, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](917, "SNDP: Right of admission in public schools, Pol representation, Access to roads, Recruit to govt services, Temple entry");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](917, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](918, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](919, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](920, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](921, "SNDP brought changes in :");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](922, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](923, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](924, "Federation of BC");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](925, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](926, "Shift in Traditional distribution of Power");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](927, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](928, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](929, "Upward social mobility");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](930, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](931, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](932, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](933, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](934, "Fight for social justice by creating");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](935, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](936, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](937, "EZHAVA MEMORIAL");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](938, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](939, "MALAYALI MEMORIAL");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](940, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](941, "Urged Ezhavas leave toddy tapping, stop liquor drinking");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](942, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](943, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](944, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](945, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](946, "@Aruvippuram temple");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](947, ": inscribed:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](948, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](949, "Devoid-all dividing walls of caste, race-all live in brotherhood");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](918, "RELIGION OPPOSING ZIHAD");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16301,61 +16242,41 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](950, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](951, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](919, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](952, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](920, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](953, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](921, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](954, "EZHAVAS");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](922, "Ideologies:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](923, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](955, " (low caste, untouchables, Toddy tappers) had conflict with upper caste Not allowed into temple single largest group of kerala 26% ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](924, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](956, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](957, "Guru took stone ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](958, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](959, "@R.Neyyar");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](925, "Separation of Mosque from state");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](960, "- as Linga @Aruvippuram 1888 to show idol not monopoly of highercaste");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](926, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](927, "Human Rights");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](961, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](928, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](962, "#Inspired Kumaran Asan poet");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](963, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](964, "#1889: ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](965, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](966, "Aruvipurram Khestra Yogam");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](929, "Religious Toleration");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](967, "-To help Ezhavas progress");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](930, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](968, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](969, "#1903:SNDP brought Under Indian companies Act ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](931, "Messiah came to end religious war, to install peace, justice, morality");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16363,117 +16284,249 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](970, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](971, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](932, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](972, "1905");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](933, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](934, "1902");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](973, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](935, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](936, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](937, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](938, "BHARAT DHARMA MAHAMANDALA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](939, "div", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](940, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](941, "@Varanasi");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](942, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](943, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](944, "img", 34);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](945, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](946, "img", 35);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](947, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](948, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](949, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](950, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](951, "PANDIT DIN DAYALU SHARMA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](952, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](953, "MADAN MOHAN MALAVYA prominent");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](954, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](955, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](956, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](957, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](958, "Defence of Orthodox");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](959, " Hinduism");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](960, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](961, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](962, "Opposed-Arya samaj, Theosophist, Ramkrishna");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](963, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](964, "Proper management of Hindu institution ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](965, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](966, "opened ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](967, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](968, "Hindu education institution");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](969, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](970, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](971, "Merged 3:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](972, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](973, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](974, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](975, "SERVANTS OF IND SOCIETY");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](975, "SANATANA DHARMA SABHA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](976, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](976, "+ ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](977, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](977, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](978, "img", 33);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](978, "span", 26);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](979, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](980, "img", 34);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](979, "DHARMA MAHA PARISHAD (S.IND)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](981, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](980, "+ ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](982, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](981, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](983, "GOPAL KRISH GOKUALE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](982, "span", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](984, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](985, "(liberal leader of INC)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](986, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](987, "1915- Gokuale die");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](988, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](989, "SRINIVASA SHASTRI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](983, "DHARMA MAHAMANDALA (Bengal)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](984, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](985, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](986, "All combined in 1902");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](987, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](988, "Opened Hindu college - Din Dayal ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](989, "tr");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](990, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](991, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](991, "1903");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](992, "To train ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](993, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](992, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](994, "national missionaries");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](993, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](994, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](995, "ARUVIPPURAM SREE NARAYANA GURU DHARMA PARIPALANA YOGAM (SNDP)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](995, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](996, "changes by ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](997, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](998, "constitutional means");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](996, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](997, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](998, "img", 36);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](999, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1000, "make sure youngster to ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1001, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1002, "stay away");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1003, " from p");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1004, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1005, "olitical activities, INC");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1000, "img", 37);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1006, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1001, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1007, "NOW: Still works- education, ashrams for tribal girls, Balwadis");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1002, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1003, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1004, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1005, "SREE NARAYANA GURU SWAMY (Chairman)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1006, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1007, "KUMARAN ASAN (General secretary)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16481,137 +16534,61 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1008, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1009, "Prepare cadre of selfless workers to devote life for country in ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1009, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1010, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1010, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1011, "religious spirit");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1011, "All religions be same");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1012, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1013, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1014, "Condem Animal sacrifice");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1012, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1015, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1013, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1016, "SNDP: Right of admission in public schools, Pol representation, Access to roads, Recruit to govt services, Temple entry");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1014, "Helped by: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1015, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1017, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1016, "MG RANADE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1018, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1019, "Upward social mobility");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1017, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1020, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1018, "1911- ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1021, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1019, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1022, "SNDP brought changes in : ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1020, "HITAVADA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1023, "ul", 25);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1024, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1021, " -published to protect society views");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1025, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1022, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1023, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1024, "1905");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1025, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1026, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1027, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1028, "VOKKALIGA SANGHA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1026, "Federation of BC");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1029, "div", 35);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1027, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1030, "@Mysore");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1031, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1032, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1033, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1034, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1035, "Anti-Brahmin movement");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1036, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1037, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1038, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1039, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1040, "1908");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1041, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1042, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1043, "SEVA SADAN");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1044, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1045, "img", 36);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1046, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1047, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1048, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1049, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1050, "BEHRAMJI M MALABARI");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1051, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1052, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1053, "(Indian spectator)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1028, "Shift in Traditional distribution of Power");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16621,131 +16598,213 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1054, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1055, "DIWAN DAYARAM GIDUMAL");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1029, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1030, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1031, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1032, "Fight for social justice by creating");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1033, "ul", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1034, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1035, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1036, "EZHAVA MEMORIAL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1056, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1037, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1057, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1038, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1058, "Child marriage, Widow remarriage,");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1059, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1060, "Taking care exploited women,");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1061, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1062, "give education on medical welfare services");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1063, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1064, "food to all caste");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1039, "MALAYALI MEMORIAL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1065, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1066, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1040, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1067, "led to ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1041, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1042, "Urged Ezhavas to leave toddy tapping, stop liquor drinking.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1043, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1044, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1045, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1046, "@Aruvippuram temple");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1047, ": inscribed: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1048, "i");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1049, "\"Devoid - all dividing walls of caste, race-all live in brotherhood\"");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1050, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1051, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1052, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1053, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1054, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1055, "EZHAVAS");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1056, " (low caste, untouchables, Toddy tappers) had conflict with upper caste. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1057, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1058, "(Not allowed into temple,");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1059, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1060, " Single largest group of kerala 26%) ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1061, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1062, "Guru took stone ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1063, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1064, "@R.Neyyar");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1065, "- as Linga @Aruvippuram 1888 to show idol not monopoly of highercaste");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1066, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1067, "Inspired ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1068, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1069, "AGE OF CONSENT ACT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1069, "Kumaran Asan");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1070, " poet");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1071, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1072, "1889: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1073, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1074, "Aruvipurram Khestra Yogam");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1075, "-To help Ezhavas progress");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1076, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1077, "1903: SNDP brought Under Indian companies Act ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1070, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1071, "(Female age consent)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1078, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1079, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1080, "1905");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1081, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1082, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1083, "SERVANTS OF IND SOCIETY");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1072, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1084, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1085, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1086, "img", 38);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1073, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1087, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1074, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1075, "1917");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1076, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1077, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1078, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1079, "JUSTICE MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1088, "img", 39);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1080, "div", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1089, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1081, "@Madras");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1090, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1082, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1083, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1084, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1085, "P. THEAGARAYA CHETTY");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1086, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1087, "C. NATESA MUDALIAR");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1088, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1089, "T. MADHAVA NAIR");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1090, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1091, "To secure job for ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1091, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1092, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1093, "Non Brahmins in ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1093, "GOPAL KRISH GOKUALE");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1094, "u");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1095, "legislature");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1094, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1095, "(liberal leader of INC) 1915- Gokuale die ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1096, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1097, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1098, "SRINIVASA SHASTRI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -16753,281 +16812,221 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1096, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1097, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1098, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1099, "Madras Presidency Association");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1100, "- formed");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1099, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1100, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1101, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1101, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1102, "Demand: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1102, "To train ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1103, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1104, "separate representation");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1105, " for lower caste in legislature");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1104, "national missionaries");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1106, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1105, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1106, "Changes by ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1107, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1107, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1108, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1109, "1920");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1110, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1111, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1112, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1113, "SOCIAL SERVICE LEAGUE");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1108, "constitutional means");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1114, "div", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1109, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1115, "@Bombay");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1110, "Make sure youngster to ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1111, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1112, "stay away");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1113, " from p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1114, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1115, "olitical activities, INC");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1116, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1116, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1117, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1118, "NARAYAN MALHAR JOSHI (Gokhale follower)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1119, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1120, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1121, "Secure masses for Better/");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1122, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1123, "Reasonable conditions and work");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1117, "NOW: Still works- education, ashrams for tribal girls, Balwadis");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1124, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1125, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1118, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1126, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1119, "Prepare cadre of selfless workers to devote life for country in ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1127, "Libraries, school co-operative society");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1120, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1121, "religious spirit");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1122, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1123, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1124, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1125, "Helped by: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1126, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1127, "MG RANADE");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1128, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1129, "legal aid, advice to poor");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1129, "1911- ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1130, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1131, "HITAVADA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1130, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1131, "theatrical performance, sanitary work,");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1132, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1133, "medical relief");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1134, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1135, "boys club, scout corps");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1132, " -published to protect society views");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1133, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1134, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1135, "1905");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1136, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1137, "Later he formed ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1137, "div");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1138, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1139, "ALL IND TRADE UNION FEDERATION 1920");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1140, " (VV Giri 1st President");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1139, "VOKKALIGA SANGHA");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1141, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1140, "div", 40);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1142, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1141, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1143, "1920");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1144, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1145, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1146, "SELF RESPECT MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1142, "@Mysore");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1147, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1148, "img", 37);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1143, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1144, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1145, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1146, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1147, "Anti-Brahmin movement");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1149, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1150, "i");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1148, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1151, "\u201CPERIYAR\u201D");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1149, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1152, "EV RAMASAMY");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1150, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1151, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1152, "1908");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1153, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1154, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1154, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1155, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1156, "Rejection of Brahmanical");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1157, " religion and culture");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1158, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1159, "Which is primary instrument for exploitation of lower caste");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1155, "SEVA SADAN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1160, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1156, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1161, "Formalised ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1157, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1162, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1163, "wedding without Priest");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1158, "img", 41);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1164, "-to undermine Brahmin position");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1159, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1165, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1166, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1167, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1168, "1921");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1169, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1170, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1171, "AKHALI MOVEMENT (GURUDWARA REFORM MOVEMENT)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1160, "img", 42);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1172, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1161, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1173, "img", 38);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1162, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1163, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1174, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1164, " BEHRAMJI M MALABARI ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1175, "Branch of Singh Sabha Movement");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1165, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1166, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1176, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1177, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1178, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1179, "Liberate Gurudwaras");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1167, "(Indian spectator)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1180, " - from Corrupt ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1181, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1182, "Udasi Mahants");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1183, " (post became hereditary)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1168, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1184, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1185, "Regional movement but ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1186, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1187, "not communal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1169, "DIWAN DAYARAM GIDUMAL");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -17035,53 +17034,89 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1188, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1170, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1189, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1171, "ul", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1190, "Govt repressed- Nonviolent, Non co-operative satyagraha-akalis");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1172, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1173, "Child marriage, Widow remarriage,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1191, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1174, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1192, "But passed ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1175, "Taking care exploited women,");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1176, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1177, "Give education on medical welfare services");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1178, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1179, "Food to all caste");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1180, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1181, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1182, "Led to ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1183, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1184, "AGE OF CONSENT ACT");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1185, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1186, "(Female age consent)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1187, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1188, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1189, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1190, "1917");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1191, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1192, "div");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1193, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1194, "SIKH GURUDWARAS ACT 1922");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1194, "JUSTICE MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1195, "- Control of gurudwara passed to Sikhs masses - through ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1195, "div", 26);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1196, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1197, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1198, "SHIROMANI GURUDWARA PRABANDHAK COMMITTEE");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1199, " (apex body) ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1200, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1201, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1202, "Mahants \u2013 who are loyal to govt, reactionaries to govt patronage");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1203, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1204, "AKALIS-notable role in National liberation struggle");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1197, "@Madras");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -17089,83 +17124,119 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1205, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1198, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1206, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1199, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1207, "1924");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1200, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1201, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1202, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1203, "P. THEAGARAYA CHETTY");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1204, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1205, "C. NATESA MUDALIAR");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1206, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1207, "T. MADHAVA NAIR");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1208, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1209, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1209, "To secure job for ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1210, "TEMPLE ENTRY MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1210, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1211, "Non Brahmins in ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1212, "u");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1211, "td", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1212, "img", 39);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1213, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1214, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1215, "KP KESAVAN");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1216, "div", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1217, "@Vaikom KL North Travancore");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1213, "legislature");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1218, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1219, "Demand- Open temple, roads to untouchables");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1214, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1215, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1216, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1217, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1218, "Madras Presidency Association");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1220, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1219, "- formed.");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1221, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1222, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1220, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1223, "ul", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1221, "Demand: ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1224, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1222, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1225, "Reinforced by ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1223, "separate representation");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1226, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1227, "u");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1228, "JATHAS");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1224, " for lower caste in legislature");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1229, " (from Punjab/ Madurai)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1225, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1230, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1226, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1227, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1228, "1920");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1229, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1230, "div");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1231, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1232, "Gandhi toured & support");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1232, "SOCIAL SERVICE LEAGUE");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1233, "div", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1234, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1235, "@Bombay");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -17173,339 +17244,229 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1236, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1233, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1234, "ul", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1235, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1236, "Earlier reformers:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1237, "img", 43);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1237, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1238, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1238, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1239, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1239, "Sree Narayana Guru");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1240, "NARAYAN MALHAR JOSHI");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1240, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1241, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1242, "N Kumaran Asan");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1241, " (Gokhale follower)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1242, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1243, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1244, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1245, "Tk Madhavan");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1243, "Secure masses for Better Reasonable conditions and work");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1246, " (deshabhimani editor)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1244, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1245, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1246, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1247, "Libraries, school co-operative society");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1248, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1249, "legal aid, advice to poor");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1250, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1251, "theatrical performance, sanitary work,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1247, "tr");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1252, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1248, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1249, "1931 (CDM)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1253, "medical relief");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1250, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1254, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1251, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1252, "TEMPLE ENTRY MOVEMENT");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1255, "boys club, scout corps");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1253, "td", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1254, "img", 40);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1256, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1257, "Later he formed ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1258, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1259, "ALL IND TRADE UNION FEDERATION 1920");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1255, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1260, " (");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1256, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1261, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1257, "Poet SUBRAMANIYAM TIRUMAMBU");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1258, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1259, "inspired from K. KELAPPAN ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1262, "VV Giri");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1260, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1261, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1262, "Issue of temple entry");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1263, "div", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1264, "@Travancore");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1263, " 1st President)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1264, "tr");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1265, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1266, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1266, "1920");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1267, "Entered ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1267, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1268, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1269, "Guruvayur temple");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1270, " with 6 volunteers, ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1271, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1272, "Singing sword of kerala");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1269, "SELF RESPECT MOVEMENT");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1273, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1270, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1274, "1936- Maharaja of Travancore- opened all govt control temples to all Hindus");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1271, "img", 44);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1272, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1273, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1274, "i");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1275, "\u201CPERIYAR\u201D");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1276, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1277, " EV RAMASAMY");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1275, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1278, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1276, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1279, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1277, "Satyagrahis- ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1280, "Rejection of Brahmanical");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1278, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1279, "AK GOPALAN P KRISHNA PILLAI");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1281, " religion and culture ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1282, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1283, " (Which is primary instrument for exploitation of lower caste) ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1284, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1285, "Formalised ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1286, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1287, "wedding without Priest");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1288, "-to undermine Brahmin position");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1289, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1290, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1291, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1292, "1921");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1293, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1294, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1295, "AKHALI MOVEMENT (GURUDWARA REFORM MOVEMENT)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1280, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1296, "td", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1281, "(1938-Rajaji similar ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1282, "span", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1283, "@Madras");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1297, "img", 45);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1284, ")");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1298, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1299, "Branch of Singh Sabha Movement");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1300, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1301, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1302, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1303, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1304, "Liberate Gurudwaras");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1305, " - from Corrupt ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1306, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1307, "Udasi Mahants");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1285, "div", 41);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1286, "h4");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1287, "Mistakes to be avoided to score better:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1308, " (post became hereditary)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1288, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1309, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1289, "ul");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1310, "Regional movement but ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1290, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1311, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1291, "Colour Differentiation: Places (Make use the colour differentiation in the content so that it is easy to remember places) ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1292, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1293, "span", 42);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1294, " Bengal-green");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1295, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1296, "span", 43);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1297, "Bombay-blue");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1298, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1299, "span", 44);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1300, "Madras-pink");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1301, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1302, "span", 45);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1303, " Punjab-thick green");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1304, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1305, "span", 46);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1306, " UP-orange");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1307, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1308, "span", 47);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1309, "Kerala-light green");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1310, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1311, "After reading the content once, just read the bold letters to revise, so that you can revise quickly (Bold letters are very important don\u2019t ignore them)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1312, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1313, "History is of facts and is easily forgotten, so keep on revising whenever you have time. ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1314, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1315, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1316, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1317, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1318, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1319, "h3", 48);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1320, "Add your thoughts");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1321, "div", 49);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1322, "form", 50);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1323, "div", 51);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1324, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1325, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1326, "Comment");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1327, "textarea", 52);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1328, "div", 51);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1329, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1330, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1331, "Name");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1332, "input", 53);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1333, "div", 51);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1334, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1335, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1336, "Email");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1337, "input", 54);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1338, "div", 55);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1339, "button", 56);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SocialReformsComponent_Template_button_click_1339_listener() {
-              return ctx.comment();
-            });
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1340, "Post Comment");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1312, "not communal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -17515,25 +17476,607 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1313, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1314, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1315, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1316, "Govt repressed- Nonviolent, Non co-operative satyagraha-akalis");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1317, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1318, "But passed ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1319, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1320, "SIKH GURUDWARAS ACT 1922");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1321, " - Control of gurudwara passed to Sikhs masses - through ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1322, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1323, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1324, "SHIROMANI GURUDWARA PRABANDHAK COMMITTEE");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1325, " (apex body) ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1326, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1327, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1328, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1329, "Mahants \u2013 who are loyal to govt, reactionaries to govt patronage");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1330, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1331, "AKALIS-notable role in National liberation struggle");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1332, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1333, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1334, "1924");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1335, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1336, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1337, "TEMPLE ENTRY MOVEMENT");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1338, "td", 6);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1339, "img", 46);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1340, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1341, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1342, "h3", 48);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1342, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1343, "Comments");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1344, SocialReformsComponent_div_1344_Template, 6, 3, "div", 57);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1343, "KP KESAVAN");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1345, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1344, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1345, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1346, "@Vaikom KL North Travancore");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1347, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1348, "Demand- Open ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1349, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1350, "temple, roads");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1351, " to untouchables");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1352, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1353, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1354, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1355, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1356, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1357, "Reinforced by ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1358, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1359, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1360, "JATHAS");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1361, " (at Punjab & Madurai).");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1362, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1363, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1364, "Gandhi toured & supported");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1365, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1366, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1367, "u");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1368, "Earlier reformers:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1369, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1370, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1371, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1372, "Sree Narayana Guru");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1373, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1374, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1375, "N Kumaran Asan");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1376, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1377, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1378, "Tk Madhavan");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1379, " (deshabhimani editor)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1380, "tr");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1381, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1382, "1931 (CDM)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1383, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1384, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1385, "TEMPLE ENTRY MOVEMENT");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1386, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1387, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1388, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1389, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1390, "Poet ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1391, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1392, "SUBRAMANIYAM TIRUMAMBU");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1393, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1394, "inspired from ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1395, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1396, " K. KELAPPAN");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1397, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1398, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1399, "Issue of temple entry");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1400, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1401, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1402, "@Travancore");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1403, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1404, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1405, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1406, "Entered ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1407, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1408, "Guruvayur temple");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1409, " with 6 volunteers, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1410, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1411, "Singing sword of kerala");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1412, ".");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1413, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1414, "1936- Maharaja of Travancore- opened all govt control temples to all Hindus.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1415, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1416, "ul", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1417, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1418, "Satyagrahis- ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1419, "ul", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1420, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1421, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1422, "AK GOPALAN ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1423, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1424, " P KRISHNA PILLAI");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1425, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1426, "1938 - ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1427, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1428, "Rajaji");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1429, " carried similar type movement ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1430, "span", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1431, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1432, "@Madras");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1433, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1434, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1435, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1436, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1437, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1438, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1439, "div", 47);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1440, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1441, "Mistakes to be avoided to score better:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1442, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1443, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1444, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1445, "Colour Differentiation: Places (Make use the colour differentiation in the content so that it is easy to remember places) ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1446, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1447, "span", 48);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1448, " Bengal-green");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1449, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1450, "span", 49);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1451, "Bombay-blue");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1452, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1453, "span", 50);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1454, "Madras-pink");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1455, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1456, "span", 51);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1457, " Punjab-thick green");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1458, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1459, "span", 52);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1460, " UP-orange");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1461, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1462, "span", 53);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1463, "Kerala-light green");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1464, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1465, "After reading the content once, just read the bold letters to revise, so that you can revise quickly (Bold letters are very important don\u2019t ignore them)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1466, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1467, "History is of facts and is easily forgotten, so keep on revising whenever you have time. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1468, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1469, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1470, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1471, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1472, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1473, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1474, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1475, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1476, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1477, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1478, "div", 54);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1479, "h3", 55);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1480, "Add your thoughts");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1481, "div", 56);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1482, "form", 57);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1483, "div", 58);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1484, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1485, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1486, "Comment");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1487, "textarea", 59);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1488, "div", 58);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1489, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1490, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1491, "Name");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1492, "input", 60);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1493, "div", 58);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1494, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1495, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1496, "Email");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1497, "input", 61);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1498, "div", 62);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1499, "button", 63);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SocialReformsComponent_Template_button_click_1499_listener() {
+              return ctx.comment();
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1500, "Post Comment");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1501, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1502, "h3", 55);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1503, "Comments");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1504, SocialReformsComponent_div_1504_Template, 6, 3, "div", 64);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1505, "app-footer");
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1322);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1482);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx.commentForm);
 
@@ -17543,7 +18086,7 @@
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"]],
-        styles: ["@import \"https://fonts.googleapis.com/css?family=Baloo+Paaji\";\n\n@font-face {\r\n  src: url('CheltenhamBoldExtraCondensedBT.ttf');\r\n  font-family: c;\r\n}\n@font-face {\r\n  src: url('Montserrat-Regular.ttf');\r\n  font-family: m;\r\n}\n@font-face {\r\n  src: url('Amr.otf');\r\n  font-family: a;\r\n}\n@font-face {\r\n  src: url('UnifrakturCook-Bold.ttf');\r\n  font-family: u;\r\n}\n@font-face {\r\n  src: url('Neon-e2wg.ttf');\r\n  font-family: neon;\r\n}\n@font-face {\r\n  src: url('Lobster-Regular.ttf');\r\n  font-family: l;\r\n}\n@font-face {\r\n  src: url('Merriweather-Regular.ttf');\r\n  font-family: merri;\r\n}\n@font-face {\r\n  src: url('BLKCHCRY.TTF');\r\n  font-family: blk;\r\n}\n@font-face {\r\n  src: url('OpenSans-Regular.ttf');\r\n  font-family: os;\r\n}\n@font-face {\r\n  src: url('WorkSans-VariableFont_wght.ttf');\r\n  font-family: ws;\r\n}\n@font-face {\r\n  src: url('Roboto-Light.ttf');\r\n  font-family: robo;\r\n}\n\n.title[_ngcontent-%COMP%]{\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n\r\n}\n.content-spacing[_ngcontent-%COMP%] {\r\n  padding: 24px;\r\n  margin: 24px;\r\n}\n.list[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n  padding: 0;\r\n}\n.table[_ngcontent-%COMP%], th[_ngcontent-%COMP%], td[_ngcontent-%COMP%] {\r\n  border: 1px solid black;\r\n  border-collapse: collapse;\r\n}\n.image-content[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  width: 15%;\r\n}\n.profile-image[_ngcontent-%COMP%] {\r\n  height: 50%;\r\n  padding-left: 5px;\r\n}\n.profile-image1[_ngcontent-%COMP%] {\r\n  height: 31%;\r\n  padding: 5px;\r\n}\n.profile-image2[_ngcontent-%COMP%] {\r\n  width: 22%;\r\n  padding: 5px;\r\n}\n.profile-image3[_ngcontent-%COMP%] {\r\n  width: 21%;\r\n  padding: 5px;\r\n}\n.profile-image4[_ngcontent-%COMP%] {\r\n  width: 63%;\r\n  padding: 5px;\r\n}\n.profile-image5[_ngcontent-%COMP%] {\r\n  width: 48%;\r\n  padding: 5px;\r\n}\n.profile-image6[_ngcontent-%COMP%] {\r\n  width: 30%;\r\n  padding: 5px;\r\n}\n.profile-image7[_ngcontent-%COMP%] {\r\n  width: 79%;\r\n  padding: 5px;\r\n}\n.profile-image8[_ngcontent-%COMP%] {\r\n  width: 70%;\r\n  padding: 5px;\r\n}\n.profile-image9[_ngcontent-%COMP%] {\r\n  width: 85%;\r\n  padding: 5px;\r\n}\n.profile-image7[_ngcontent-%COMP%] {\r\n  width: 79%;\r\n  padding: 5px;\r\n}\n.profile-images[_ngcontent-%COMP%] {\r\n  height: 25%;\r\n  padding-left: 5px;\r\n}\n.blue[_ngcontent-%COMP%] {\r\n  color: aqua;\r\n}\n.green[_ngcontent-%COMP%] {\r\n  color: green;\r\n}\n.yellow[_ngcontent-%COMP%] {\r\n  color: yellow;\r\n}\n.pink[_ngcontent-%COMP%] {\r\n  color: palevioletred;\r\n}\n.violet[_ngcontent-%COMP%] {\r\n  color: purple;\r\n}\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\n.table-conatiner[_ngcontent-%COMP%] {\r\n  padding-top: 55px;\r\n}\n.instruction[_ngcontent-%COMP%] {\r\n  max-width: 800px;\r\n  width: 80%;\r\n  margin: auto;\r\n  font-family: ws;\r\n  \r\n}\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  margin-top: 1em;\r\n}\n.form-container[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n}\n.form-display[_ngcontent-%COMP%]{\r\n  width: 500px;\r\n}\n.post-button[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 10px 0;\r\n}\n.button-size[_ngcontent-%COMP%]{\r\n  padding: 5px;\r\n}\n.topic-container[_ngcontent-%COMP%]{\r\n  padding: 24px;\r\n}\n.comment-section[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 0 16px 0px 58px;\r\n}\n.comment[_ngcontent-%COMP%]{\r\n  padding-left: 150px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNvY2lhbC1yZWZvcm1zLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLDZEQUE2RDtBQUQ3RCxnR0FBZ0c7QUFFaEc7RUFDRSw4Q0FBeUU7RUFDekUsY0FBYztBQUNoQjtBQUNBO0VBQ0Usa0NBQThEO0VBQzlELGNBQWM7QUFDaEI7QUFDQTtFQUNFLG1CQUF3QztFQUN4QyxjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxtQ0FBbUU7RUFDbkUsY0FBYztBQUNoQjtBQUNBO0VBQ0UseUJBQW9EO0VBQ3BELGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsK0JBQXdEO0VBQ3hELGNBQWM7QUFDaEI7QUFDQTtFQUNFLG9DQUFrRTtFQUNsRSxrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLHdCQUF1RDtFQUN2RCxnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdDQUEyRDtFQUMzRCxlQUFlO0FBQ2pCO0FBQ0E7RUFDRSwwQ0FBcUU7RUFDckUsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsNEJBQW9EO0VBQ3BELGlCQUFpQjtBQUNuQjtBQUNBLGlCQUFpQjtBQUNqQjtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsZUFBZTtFQUNmLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQVNBO0VBQ0UsYUFBYTtFQUNiLFlBQVk7QUFDZDtBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLFVBQVU7QUFDWjtBQUVBOzs7RUFHRSx1QkFBdUI7RUFDdkIseUJBQXlCO0FBQzNCO0FBRUE7RUFDRSxVQUFVO0VBQ1YsVUFBVTtBQUNaO0FBRUE7RUFDRSxXQUFXO0VBQ1gsaUJBQWlCO0FBQ25CO0FBRUE7RUFDRSxXQUFXO0VBQ1gsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkO0FBRUE7RUFDRSxXQUFXO0VBQ1gsaUJBQWlCO0FBQ25CO0FBRUE7RUFDRSxXQUFXO0FBQ2I7QUFFQTtFQUNFLFlBQVk7QUFDZDtBQUVBO0VBQ0UsYUFBYTtBQUNmO0FBRUE7RUFDRSxvQkFBb0I7QUFDdEI7QUFFQTtFQUNFLGFBQWE7QUFDZjtBQUVBO0VBQ0UsVUFBVTtFQUNWLFdBQVc7QUFDYjtBQUlBO0VBQ0UsaUJBQWlCO0FBQ25CO0FBT0E7RUFDRSxnQkFBZ0I7RUFDaEIsVUFBVTtFQUNWLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtBQUN6QjtBQUVBO0VBQ0UsWUFBWTtBQUNkO0FBRUE7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLGVBQWU7QUFDakI7QUFFQTtFQUNFLFlBQVk7QUFDZDtBQUVBO0VBQ0UsYUFBYTtBQUNmO0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtBQUN6QjtBQUVBO0VBQ0UsbUJBQW1CO0FBQ3JCIiwiZmlsZSI6InNvY2lhbC1yZWZvcm1zLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBGb250cyAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbkBpbXBvcnQgXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9QmFsb28rUGFhamlcIjtcclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL2NoZWx0ZW5obS9DaGVsdGVuaGFtQm9sZEV4dHJhQ29uZGVuc2VkQlQudHRmKTtcclxuICBmb250LWZhbWlseTogYztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmKTtcclxuICBmb250LWZhbWlseTogbTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvQW1yL0Ftci5vdGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBhO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9VbmlmcmFrdHVyQ29vay9VbmlmcmFrdHVyQ29vay1Cb2xkLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IHU7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL25lb24tZm9udC9OZW9uLWUyd2cudHRmKTtcclxuICBmb250LWZhbWlseTogbmVvbjtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvTG9ic3Rlci9Mb2JzdGVyLVJlZ3VsYXIudHRmKTtcclxuICBmb250LWZhbWlseTogbDtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvTWVycml3ZWF0aGVyL01lcnJpd2VhdGhlci1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG1lcnJpO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9ibGFja2NoYW5jZXJ5L0JMS0NIQ1JZLlRURik7XHJcbiAgZm9udC1mYW1pbHk6IGJsaztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvT3Blbl9TYW5zL09wZW5TYW5zLVJlZ3VsYXIudHRmKTtcclxuICBmb250LWZhbWlseTogb3M7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL1dvcmtfU2Fucy9Xb3JrU2Fucy1WYXJpYWJsZUZvbnRfd2dodC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvUm9ib3RvL1JvYm90by1MaWdodC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiByb2JvO1xyXG59XHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGV7XHJcbiAgY29sb3I6IHNub3c7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiA0NXB4O1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGJhY2tncm91bmQ6IHJnYigwLCAwLCAwLCAwLjgpO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDJlbTtcclxuXHJcbn1cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4uY29udGVudC1zcGFjaW5nIHtcclxuICBwYWRkaW5nOiAyNHB4O1xyXG4gIG1hcmdpbjogMjRweDtcclxufVxyXG5cclxuLmxpc3Qge1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4udGFibGUsXHJcbnRoLFxyXG50ZCB7XHJcbiAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcbiAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxufVxyXG5cclxuLmltYWdlLWNvbnRlbnQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgd2lkdGg6IDE1JTtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2Uge1xyXG4gIGhlaWdodDogNTAlO1xyXG4gIHBhZGRpbmctbGVmdDogNXB4O1xyXG59XHJcblxyXG4ucHJvZmlsZS1pbWFnZTEge1xyXG4gIGhlaWdodDogMzElO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2UyIHtcclxuICB3aWR0aDogMjIlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2UzIHtcclxuICB3aWR0aDogMjElO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U0IHtcclxuICB3aWR0aDogNjMlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U1IHtcclxuICB3aWR0aDogNDglO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U2IHtcclxuICB3aWR0aDogMzAlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U3IHtcclxuICB3aWR0aDogNzklO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U4IHtcclxuICB3aWR0aDogNzAlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U5IHtcclxuICB3aWR0aDogODUlO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2U3IHtcclxuICB3aWR0aDogNzklO1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnByb2ZpbGUtaW1hZ2VzIHtcclxuICBoZWlnaHQ6IDI1JTtcclxuICBwYWRkaW5nLWxlZnQ6IDVweDtcclxufVxyXG5cclxuLmJsdWUge1xyXG4gIGNvbG9yOiBhcXVhO1xyXG59XHJcblxyXG4uZ3JlZW4ge1xyXG4gIGNvbG9yOiBncmVlbjtcclxufVxyXG5cclxuLnllbGxvdyB7XHJcbiAgY29sb3I6IHllbGxvdztcclxufVxyXG5cclxuLnBpbmsge1xyXG4gIGNvbG9yOiBwYWxldmlvbGV0cmVkO1xyXG59XHJcblxyXG4udmlvbGV0IHtcclxuICBjb2xvcjogcHVycGxlO1xyXG59XHJcblxyXG4qIHtcclxuICBtYXJnaW46IDAlO1xyXG4gIHBhZGRpbmc6IDAlO1xyXG59XHJcblxyXG5cclxuXHJcbi50YWJsZS1jb25hdGluZXIge1xyXG4gIHBhZGRpbmctdG9wOiA1NXB4O1xyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbi5pbnN0cnVjdGlvbiB7XHJcbiAgbWF4LXdpZHRoOiA4MDBweDtcclxuICB3aWR0aDogODAlO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBmb250LWZhbWlseTogd3M7XHJcbiAgXHJcbn1cclxuXHJcbi5pbnN0cnVjdGlvbiBsaXtcclxuICBtYXJnaW4tdG9wOiAxZW07XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRhaW5lcntcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG59XHJcblxyXG4uZm9ybS1kaXNwbGF5e1xyXG4gIHdpZHRoOiA1MDBweDtcclxufVxyXG5cclxuLnBvc3QtYnV0dG9ue1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgcGFkZGluZzogMTBweCAwO1xyXG59XHJcblxyXG4uYnV0dG9uLXNpemV7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4udG9waWMtY29udGFpbmVye1xyXG4gIHBhZGRpbmc6IDI0cHg7XHJcbn1cclxuXHJcbi5jb21tZW50LXNlY3Rpb257XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIG1hcmdpbjogMCAxNnB4IDBweCA1OHB4O1xyXG59XHJcblxyXG4uY29tbWVudHtcclxuICBwYWRkaW5nLWxlZnQ6IDE1MHB4O1xyXG59XHJcbiJdfQ== */"]
+        styles: [".title[_ngcontent-%COMP%]{\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.swipe[_ngcontent-%COMP%]{\r\n  display: none;\r\n  width: 80%;\r\n  margin: auto;\r\n  text-align: center;\r\n  font-family: ws;\r\n  font-size: 5px;\r\n  margin-top: 20px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n@media screen and (max-width:1200px) {\r\n  .swipe[_ngcontent-%COMP%]{\r\n    display: block;\r\n  }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.image-content[_ngcontent-%COMP%] {\r\ntext-align: center;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.image-content[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]{\r\n margin-top: 15px;\r\n  }\r\n\r\n\r\n\r\n\r\n\r\n\r\nimg.profile-imagesq[_ngcontent-%COMP%] {\r\nwidth:150px ;\r\nheight:150px ;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\nimg.profile-imagel[_ngcontent-%COMP%] {\r\nwidth:250px ;\r\nheight:150px ;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\nimg.profile-imagep[_ngcontent-%COMP%] {\r\nwidth:150px ;\r\nheight:200px ;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.blue[_ngcontent-%COMP%] {\r\n  color: aqua;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.green[_ngcontent-%COMP%] {\r\n  color: green;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.yellow[_ngcontent-%COMP%] {\r\n  color: goldenrod;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.pink[_ngcontent-%COMP%] {\r\n  color: palevioletred;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.violet[_ngcontent-%COMP%] {\r\n  color: purple;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.instruction[_ngcontent-%COMP%] {\r\n  max-width: 800px;\r\n  width: 80%;\r\n  margin: auto;\r\n  font-family: ws;\r\n  \r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  margin-top: 1em;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.form-container[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.form-display[_ngcontent-%COMP%]{\r\n  width: 500px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.post-button[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 10px 0;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.button-size[_ngcontent-%COMP%]{\r\n  padding: 5px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.topic-container[_ngcontent-%COMP%]{\r\n  padding: 24px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.comment-section[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 0 16px 0px 58px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.comment[_ngcontent-%COMP%]{\r\n  padding-left: 150px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.commentsouter[_ngcontent-%COMP%]{\r\n  background-color: lightpink;\r\n  text-align: center;\r\n  line-height: 40px;\r\n  margin: auto;\r\n  width: 95%;\r\n  padding: 20px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ntextarea[_ngcontent-%COMP%]{\r\n  border: black 1px solid;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ninput[_ngcontent-%COMP%]{\r\n  border: black 1px solid;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ntable[_ngcontent-%COMP%]{\r\n  font-size: 15px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\nline-height: 26px;\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%]{\r\n  padding: 15px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%]{\r\n  padding: 7px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1[_ngcontent-%COMP%]{\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\nborder-collapse: collapse;\r\nwidth: 90%;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.tablepoint[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  list-style-position: outside;\r\n  list-style-type: circle;\r\n  margin-top: 10px;\r\n  margin-left: 10px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.tablepoint2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  list-style-position: outside;\r\n  list-style-type: lower-roman;\r\n  margin-top: 10px;\r\n  margin-left: 15px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%]{\r\n  background-color: black;\r\n  color: white;\r\n  text-align: center;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  letter-spacing: 1px;\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ntr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(4) {\r\n\r\n  min-width: 10rem;\r\n  z-index: 1;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ntr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(5) {\r\n\r\n  min-width: 15rem;\r\n  z-index: 1;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ntr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(6) {\r\n\r\n  min-width: 15rem;\r\n  z-index: 1;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\ntr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(7) {\r\n\r\n  min-width: 15rem;\r\n  z-index: 1;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n@media screen and (max-width:800px) {\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(5) {\r\n\r\n    min-width: 15rem;\r\n    z-index: 1;\r\n  }\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(6) {\r\n\r\n    min-width: 15rem;\r\n    z-index: 1;\r\n  }\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(7) {\r\n\r\n    min-width: 15rem;\r\n    z-index: 1;\r\n  }\r\n  \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNvY2lhbC1yZWZvcm1zLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0UsV0FBVztFQUNYLGNBQWM7RUFDZCxlQUFlO0VBQ2YsVUFBVTtFQUNWLGtCQUFrQjtFQUNsQix5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLDZCQUE2QjtFQUM3QixhQUFhO0VBQ2IsWUFBWTtFQUNaLGVBQWU7O0FBRWpCOzs7Ozs7O0FBT0E7RUFDRSxhQUFhO0VBQ2IsVUFBVTtFQUNWLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsZUFBZTtFQUNmLGNBQWM7RUFDZCxnQkFBZ0I7QUFDbEI7Ozs7Ozs7QUFDQTtFQUNFO0lBQ0UsY0FBYztFQUNoQjtBQUNGOzs7Ozs7O0FBTUE7QUFDQSxrQkFBa0I7QUFDbEI7Ozs7Ozs7QUFDQTtDQUNDLGdCQUFnQjtFQUNmOzs7Ozs7O0FBQ0Y7QUFDQSxZQUFZO0FBQ1osYUFBYTtBQUNiOzs7Ozs7O0FBQ0E7QUFDQSxZQUFZO0FBQ1osYUFBYTtBQUNiOzs7Ozs7O0FBQ0E7QUFDQSxZQUFZO0FBQ1osYUFBYTtBQUNiOzs7Ozs7O0FBUUE7RUFDRSxXQUFXO0FBQ2I7Ozs7Ozs7QUFFQTtFQUNFLFlBQVk7QUFDZDs7Ozs7OztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOzs7Ozs7O0FBRUE7RUFDRSxvQkFBb0I7QUFDdEI7Ozs7Ozs7QUFFQTtFQUNFLGFBQWE7QUFDZjs7Ozs7OztBQUVBO0VBQ0UsVUFBVTtFQUNWLFdBQVc7QUFDYjs7Ozs7OztBQVNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFVBQVU7RUFDVixZQUFZO0VBQ1osZUFBZTs7QUFFakI7Ozs7Ozs7QUFFQTtFQUNFLGVBQWU7QUFDakI7Ozs7Ozs7QUFFQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7QUFDekI7Ozs7Ozs7QUFFQTtFQUNFLFlBQVk7QUFDZDs7Ozs7OztBQUVBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixlQUFlO0FBQ2pCOzs7Ozs7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7Ozs7Ozs7QUFFQTtFQUNFLGFBQWE7QUFDZjs7Ozs7OztBQUVBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7QUFDekI7Ozs7Ozs7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjs7Ozs7OztBQUlBO0VBQ0UsMkJBQTJCO0VBQzNCLGtCQUFrQjtFQUNsQixpQkFBaUI7RUFDakIsWUFBWTtFQUNaLFVBQVU7RUFDVixhQUFhO0FBQ2Y7Ozs7Ozs7QUFDQTtFQUNFLHVCQUF1QjtBQUN6Qjs7Ozs7OztBQUNBO0VBQ0UsdUJBQXVCO0FBQ3pCOzs7Ozs7O0FBUUEsK0hBQStIOzs7Ozs7O0FBQy9IO0VBQ0UsVUFBVTtFQUNWLFNBQVM7RUFDVCxpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLGVBQWU7QUFDakI7Ozs7Ozs7QUFHQTtFQUNFLGVBQWU7QUFDakI7Ozs7Ozs7QUFFQTs7QUFFQSx1QkFBdUI7QUFDdkIseUJBQXlCO0FBQ3pCLGlCQUFpQjs7QUFFakI7Ozs7Ozs7QUFDQTtFQUNFLGFBQWE7QUFDZjs7Ozs7OztBQUNBO0VBQ0UsWUFBWTtBQUNkOzs7Ozs7O0FBRUE7QUFDQSx5QkFBeUI7QUFDekIsa0JBQWtCO0FBQ2xCOzs7Ozs7O0FBRUE7QUFDQSxZQUFZO0FBQ1oseUJBQXlCO0FBQ3pCLFVBQVU7QUFDVjs7Ozs7OztBQUVBO0VBQ0UsNEJBQTRCO0VBQzVCLHVCQUF1QjtFQUN2QixnQkFBZ0I7RUFDaEIsaUJBQWlCO0FBQ25COzs7Ozs7O0FBQ0E7RUFDRSw0QkFBNEI7RUFDNUIsNEJBQTRCO0VBQzVCLGdCQUFnQjtFQUNoQixpQkFBaUI7QUFDbkI7Ozs7Ozs7QUFDQTtFQUNFLHVCQUF1QjtFQUN2QixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGNBQWM7RUFDZCxlQUFlO0VBQ2YsbUJBQW1COztBQUVyQjs7Ozs7OztBQUlBOztFQUVFLGdCQUFnQjtFQUNoQixVQUFVO0FBQ1o7Ozs7Ozs7QUFDQTs7RUFFRSxnQkFBZ0I7RUFDaEIsVUFBVTtBQUNaOzs7Ozs7O0FBQ0E7O0VBRUUsZ0JBQWdCO0VBQ2hCLFVBQVU7QUFDWjs7Ozs7OztBQUNBOztFQUVFLGdCQUFnQjtFQUNoQixVQUFVO0FBQ1o7Ozs7Ozs7QUFFQTtFQUNFOztJQUVFLGdCQUFnQjtJQUNoQixVQUFVO0VBQ1o7RUFDQTs7SUFFRSxnQkFBZ0I7SUFDaEIsVUFBVTtFQUNaO0VBQ0E7O0lBRUUsZ0JBQWdCO0lBQ2hCLFVBQVU7RUFDWjs7QUFFRiIsImZpbGUiOiJzb2NpYWwtcmVmb3Jtcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi50aXRsZXtcclxuICBjb2xvcjogc25vdztcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDQ1cHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogcmdiKDAsIDAsIDAsIDAuOCk7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMmVtO1xyXG5cclxufVxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4uc3dpcGV7XHJcbiAgZGlzcGxheTogbm9uZTtcclxuICB3aWR0aDogODAlO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIGZvbnQtc2l6ZTogNXB4O1xyXG4gIG1hcmdpbi10b3A6IDIwcHg7XHJcbn1cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDoxMjAwcHgpIHtcclxuICAuc3dpcGV7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICB9XHJcbn1cclxuXHJcblxyXG5cclxuXHJcblxyXG4uaW1hZ2UtY29udGVudCB7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4uaW1hZ2UtY29udGVudCBkaXZ7XHJcbiBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIH1cclxuaW1nLnByb2ZpbGUtaW1hZ2VzcSB7XHJcbndpZHRoOjE1MHB4IDtcclxuaGVpZ2h0OjE1MHB4IDtcclxufVxyXG5pbWcucHJvZmlsZS1pbWFnZWwge1xyXG53aWR0aDoyNTBweCA7XHJcbmhlaWdodDoxNTBweCA7XHJcbn1cclxuaW1nLnByb2ZpbGUtaW1hZ2VwIHtcclxud2lkdGg6MTUwcHggO1xyXG5oZWlnaHQ6MjAwcHggO1xyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4uYmx1ZSB7XHJcbiAgY29sb3I6IGFxdWE7XHJcbn1cclxuXHJcbi5ncmVlbiB7XHJcbiAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ueWVsbG93IHtcclxuICBjb2xvcjogZ29sZGVucm9kO1xyXG59XHJcblxyXG4ucGluayB7XHJcbiAgY29sb3I6IHBhbGV2aW9sZXRyZWQ7XHJcbn1cclxuXHJcbi52aW9sZXQge1xyXG4gIGNvbG9yOiBwdXJwbGU7XHJcbn1cclxuXHJcbioge1xyXG4gIG1hcmdpbjogMCU7XHJcbiAgcGFkZGluZzogMCU7XHJcbn1cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4uaW5zdHJ1Y3Rpb24ge1xyXG4gIG1heC13aWR0aDogODAwcHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIFxyXG59XHJcblxyXG4uaW5zdHJ1Y3Rpb24gbGl7XHJcbiAgbWFyZ2luLXRvcDogMWVtO1xyXG59XHJcblxyXG4uZm9ybS1jb250YWluZXJ7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxufVxyXG5cclxuLmZvcm0tZGlzcGxheXtcclxuICB3aWR0aDogNTAwcHg7XHJcbn1cclxuXHJcbi5wb3N0LWJ1dHRvbntcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIHBhZGRpbmc6IDEwcHggMDtcclxufVxyXG5cclxuLmJ1dHRvbi1zaXple1xyXG4gIHBhZGRpbmc6IDVweDtcclxufVxyXG5cclxuLnRvcGljLWNvbnRhaW5lcntcclxuICBwYWRkaW5nOiAyNHB4O1xyXG59XHJcblxyXG4uY29tbWVudC1zZWN0aW9ue1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBtYXJnaW46IDAgMTZweCAwcHggNThweDtcclxufVxyXG5cclxuLmNvbW1lbnR7XHJcbiAgcGFkZGluZy1sZWZ0OiAxNTBweDtcclxufVxyXG5cclxuXHJcblxyXG4uY29tbWVudHNvdXRlcntcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHBpbms7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGxpbmUtaGVpZ2h0OiA0MHB4O1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB3aWR0aDogOTUlO1xyXG4gIHBhZGRpbmc6IDIwcHg7XHJcbn1cclxudGV4dGFyZWF7XHJcbiAgYm9yZGVyOiBibGFjayAxcHggc29saWQ7XHJcbn1cclxuaW5wdXR7XHJcbiAgYm9yZGVyOiBibGFjayAxcHggc29saWQ7XHJcbn1cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50YWJsZTEtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5cclxuXHJcbnRhYmxle1xyXG4gIGZvbnQtc2l6ZTogMTVweDtcclxufVxyXG5cclxuLnRhYmxlMSB0aCxcclxuLnRhYmxlMSB0ZCB7XHJcbmJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG5saW5lLWhlaWdodDogMjZweDtcclxuXHJcbn1cclxuLnRhYmxlMSB0ZHtcclxuICBwYWRkaW5nOiAxNXB4O1xyXG59XHJcbi50YWJsZTEgdGh7XHJcbiAgcGFkZGluZzogN3B4O1xyXG59XHJcblxyXG4udGFibGUxe1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi50YWJsZTEgdGFibGV7XHJcbm1hcmdpbjogYXV0bztcclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxud2lkdGg6IDkwJTtcclxufVxyXG5cclxuLnRhYmxlcG9pbnQgbGl7XHJcbiAgbGlzdC1zdHlsZS1wb3NpdGlvbjogb3V0c2lkZTtcclxuICBsaXN0LXN0eWxlLXR5cGU6IGNpcmNsZTtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50YWJsZXBvaW50MiBsaXtcclxuICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBvdXRzaWRlO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbG93ZXItcm9tYW47XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBtYXJnaW4tbGVmdDogMTVweDtcclxufVxyXG4udGFibGUxIHRoe1xyXG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG4gIGxldHRlci1zcGFjaW5nOiAxcHg7XHJcblxyXG59XHJcblxyXG5cclxuXHJcbnRyID4gKjpudGgtY2hpbGQoNCkge1xyXG5cclxuICBtaW4td2lkdGg6IDEwcmVtO1xyXG4gIHotaW5kZXg6IDE7XHJcbn1cclxudHIgPiAqOm50aC1jaGlsZCg1KSB7XHJcblxyXG4gIG1pbi13aWR0aDogMTVyZW07XHJcbiAgei1pbmRleDogMTtcclxufVxyXG50ciA+ICo6bnRoLWNoaWxkKDYpIHtcclxuXHJcbiAgbWluLXdpZHRoOiAxNXJlbTtcclxuICB6LWluZGV4OiAxO1xyXG59XHJcbnRyID4gKjpudGgtY2hpbGQoNykge1xyXG5cclxuICBtaW4td2lkdGg6IDE1cmVtO1xyXG4gIHotaW5kZXg6IDE7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6ODAwcHgpIHtcclxuICB0ciA+ICo6bnRoLWNoaWxkKDUpIHtcclxuXHJcbiAgICBtaW4td2lkdGg6IDE1cmVtO1xyXG4gICAgei1pbmRleDogMTtcclxuICB9XHJcbiAgdHIgPiAqOm50aC1jaGlsZCg2KSB7XHJcblxyXG4gICAgbWluLXdpZHRoOiAxNXJlbTtcclxuICAgIHotaW5kZXg6IDE7XHJcbiAgfVxyXG4gIHRyID4gKjpudGgtY2hpbGQoNykge1xyXG5cclxuICAgIG1pbi13aWR0aDogMTVyZW07XHJcbiAgICB6LWluZGV4OiAxO1xyXG4gIH1cclxuICBcclxufVxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -17891,88 +18434,124 @@
       FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: FooterComponent,
         selectors: [["app-footer"]],
-        decls: 52,
+        decls: 70,
         vars: 0,
         consts: [[1, "footer-inner"], [1, "footer-item"], [3, "click"], ["href", "#"], [1, "footer-button", 3, "click"]],
         template: function FooterComponent_Template(rf, ctx) {
           if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "section", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Timeline Trends");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "footer");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "nav", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "section", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h1");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Timeline Trends");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "h2");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "h2");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "section", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "section", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h3");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "h3");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Explore");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Explore");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "ul");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_11_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_29_listener() {
               return ctx.home();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Home");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Home");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_14_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_32_listener() {
               return ctx.about();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "About");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "About");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_17_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_35_listener() {
               return ctx.contact();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Contact");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Contact");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_20_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_38_listener() {
               return ctx.use();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "How to Use");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "How to Use");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -17982,89 +18561,25 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "section", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "section", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h3");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "h3");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Follow");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "ul");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Instagram");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Follow");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Instagram");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "section", 1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "h3");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Location");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "p");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Tamilnadu, India.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "section", 1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "h3");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Legal");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "ul");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Terms");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a", 3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Privacy");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "section", 1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_45_listener() {
-              return ctx.imagecourtsey();
-            });
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Image Courtesy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -18074,13 +18589,77 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h3");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Mail Us");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Location");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "thetimelinetrends@gmail.com");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Tamilnadu, India.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "section", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "h3");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Legal");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Terms");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Privacy");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "section", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FooterComponent_Template_a_click_63_listener() {
+              return ctx.imagecourtsey();
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Image Courtesy");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "section", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "h3");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Mail Us");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "thetimelinetrends@gmail.com");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -26187,9 +26766,9 @@
       MedivalHomepageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: MedivalHomepageComponent,
         selectors: [["app-medival-homepage"]],
-        decls: 172,
+        decls: 244,
         vars: 36,
-        consts: [[1, "title"], [1, "points"], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../../../assets/medival/Images/indo-islamic.jpg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "routerLink"], ["href", " https://en.wikipedia.org/wiki/Indo-Islamic_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "topichead"], [1, "li1"], [1, "topichead2"], [1, "li2"], ["src", "../../../../assets/medival/Images/delsul.jpg", "alt", ""], [3, "routerLink", "queryParams"], ["src", "../../../../assets/medival/Images/provincial.jpg", "alt", ""], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/Images/mughal.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/shersha.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/sikh.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/temple.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/masjid.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/garden.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/parsi.jpg", "alt", ""]],
+        consts: [[1, "title"], [1, "points"], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../../../assets/medival/Images/indo-islamic.jpg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "routerLink"], ["href", " https://en.wikipedia.org/wiki/Indo-Islamic_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/wikipedia.png", "alt", ""], [1, "topichead"], [1, "li1"], [1, "topichead2"], [1, "li2"], ["src", "../../../../assets/medival/Images/delsul.jpg", "alt", ""], [3, "routerLink", "queryParams"], ["src", "../../../../assets/medival/Images/provincial.jpg", "alt", ""], ["href", " https://en.wikipedia.org/wiki/Mughal_architecture ", "target", "_blank", 1, "wiki"], ["src", "../../../../assets/medival/Images/mughal.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/shersha.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/sikh.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/temple.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/masjid.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/garden.jpg", "alt", ""], ["src", "../../../../assets/medival/Images/parsi.jpg", "alt", ""], [1, "instruction"], [1, "modelques"], [1, "modelquesimg"], ["src", "../../assets/how/buland_darwaza.jpg", "alt", "", 1, "profile-imagel"], ["src", "../../assets/how/bara_imambara.jpg", "alt", "", 1, "profile-imagel"]],
         template: function MedivalHomepageComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -26742,7 +27321,183 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](172, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](173, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](174, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](175, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](176, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](177, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](178, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](179, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](180, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](181, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](182, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "div", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "Mistakes to be avoided to score better:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](186, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, "Read the standard book once and use The Timeline Trends contents to revise.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "Observe the picture carefully. Most of the time questions asked related to the aritectural details, ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](192, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](193, " like ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "Stone colour, Height, Special features, designs etc.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "div", 27);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, " For example, 2018 CSE question\n");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](198, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](199, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, " With reference to the cultural history of India, consider the following statements: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](201, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](202, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, " 1. White marble was used in making Buland Darwaza & Khankah at Fatehpur Sikri ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](204, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](205, " 2. Red sandstone and marble were used in Bara Imambara & Rumi Darwaza at Lucknow\n");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](206, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](207, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, " which statement is/are correct? ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](209, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, " a. 1 only ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](211, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, " b. 2 only ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](213, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, " c. Both 1 & 2 ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](215, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, " d. Neither 1 nor 2 ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](217, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](218, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](219, " Answer: a ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](220, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](221, "To answer this question just observe the below pictures, you can answer easily. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "div", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](223, "img", 29);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](224, "img", 30);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, "1st Image: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](228, "Buland Darwaza");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, " - which is made by redsand stone, but you can see the white marble which is used in the door and top for decoration. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](230, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](231, "2nd Image: ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](232, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](233, "Bara Imambara");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, " - which does not have any redsand stone. Hence the second statement is wrong.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](235, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](236, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](238, "Read the bold letters carefully.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](240, "After reading, it will take only 5 mins to revise if you see the content daily.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](242, "History is of facts and is easily forgotten, so keep on revising whenever you have time.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](243, "app-footer");
           }
 
           if (rf & 2) {
@@ -26788,7 +27543,7 @@
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__["NavbarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]],
-        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZGl2YWwtaG9tZXBhZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsNkRBQTZEO0FBRDdELGdHQUFnRztBQUVoRyxXQUFXLG1DQUF5RSxFQUFFLGNBQWMsQ0FBQztBQUNyRyxXQUFXLHdCQUF5RCxHQUFHLGNBQWMsQ0FBQztBQUN0RixXQUFXLGtDQUFvRSxFQUFFLGNBQWMsQ0FBQztBQUNoRyxXQUFXLG1CQUE4QyxFQUFFLGNBQWMsQ0FBQztBQUMxRSxXQUFXLHlCQUEwRCxFQUFFLGdCQUFnQixDQUFDO0FBQ3hGLFdBQVcsK0JBQThELEVBQUUsYUFBYSxDQUFDO0FBQ3pGLFdBQVcsb0NBQXdFLEVBQUUsaUJBQWlCLENBQUM7QUFDdkcsV0FBVyx3QkFBNkQsRUFBRSxlQUFlLENBQUM7QUFDMUYsV0FBVyxnQ0FBaUUsRUFBRSxjQUFjLENBQUM7QUFDN0YsV0FBVyxpREFBa0YsRUFBRSxjQUFjLENBQUM7QUFDOUcsV0FBVyw0QkFBMEQsRUFBRSxpQkFBaUIsQ0FBQztBQUd6RjtDQUNDLFVBQVU7Q0FDVixXQUFXO0FBQ1o7QUFHQSxtR0FBbUc7QUFDbkcsaUJBQWlCO0FBQ2pCO0lBQ0ksV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YsVUFBVTtJQUNWLGtCQUFrQjtJQUNsQix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLDZCQUE2QjtJQUM3QixhQUFhO0lBQ2IsWUFBWTtJQUNaLGVBQWU7O0FBRW5CO0FBSUEsK0hBQStIO0FBQy9IO0lBQ0ksK0JBQStCO0lBQy9CLFlBQVk7SUFDWixnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsVUFBVTtJQUNWLGFBQWE7RUFDZjtBQUVBO0lBQ0UscUJBQXFCO0lBQ3JCLG1CQUFtQjtJQUNuQiwyQkFBMkI7O0VBRTdCO0FBQ0E7SUFDRSxnQkFBZ0I7RUFDbEI7QUFDQTtJQUNFLHdCQUF3QjtFQUMxQjtBQUNBO0lBQ0Usa0JBQWtCO0lBQ2xCLDJCQUEyQjtFQUM3QjtBQUVBO0lBQ0UsY0FBYztJQUNkLGVBQWU7SUFDZiwwQkFBMEI7RUFDNUI7QUFDQTtJQUNFLGdCQUFnQjtFQUNsQjtBQVdGLCtIQUErSDtBQUMvSDtJQUNJLFVBQVU7SUFDVixTQUFTO0FBQ2I7QUFFQTtJQUNJLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsNEVBQTRFO0lBQzVFLG1CQUFtQjtJQUNuQixZQUFZO0VBQ2Q7QUFFRjtJQUNJLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsNEVBQTRFO0lBQzVFLG1CQUFtQjtJQUNuQixZQUFZO0VBQ2Q7QUFFQTtJQUNFLGtCQUFrQjtJQUNsQixrQkFBa0I7RUFDcEI7QUFFQTtJQUNFLGFBQWE7SUFDYiw2QkFBNkI7SUFDN0IsZUFBZTtJQUNmLGNBQWM7SUFDZCxZQUFZO0lBQ1osZ0JBQWdCOztFQUVsQjtBQU1GLCtIQUErSDtBQUMvSDtFQUNFLFNBQVM7RUFDVCxZQUFZO0VBQ1osY0FBYztFQUNkLE1BQU07RUFDTixLQUFLO0VBQ0wsVUFBVTtFQUNWLFdBQVc7RUFDWCxhQUFhO0VBQ2IsMkJBQTJCO0VBQzNCLGdDQUFnQztFQUNoQyxzQkFBc0I7QUFDeEI7QUFDQTtFQUNFLFNBQVM7RUFDVCxZQUFZO0VBQ1osY0FBYztFQUNkLE1BQU07RUFDTixLQUFLO0VBQ0wsVUFBVTtFQUNWLFdBQVc7RUFDWCxhQUFhO0VBQ2IsMkJBQTJCO0VBQzNCLGdDQUFnQztFQUNoQyxzQkFBc0I7QUFDeEI7QUFHQTtJQUNJLGNBQWM7SUFDZCxrQkFBa0I7TUFDaEIsUUFBUTtNQUNSLFNBQVM7TUFDVCxnQ0FBZ0M7TUFDaEMsWUFBWTtNQUNaLGNBQWM7SUFDaEI7QUFDSjtRQUNRLGNBQWM7UUFDZCxrQkFBa0I7VUFDaEIsT0FBTztVQUNQLFNBQVM7VUFDVCw4QkFBOEI7VUFDOUIsWUFBWTtVQUNaLGNBQWM7UUFDaEI7QUFDUDs7SUFFRztVQUNNLDhCQUE4QjtRQUNoQztDQUNQO0FBS0c7SUFDQSxTQUFTO0lBQ1QseUJBQXlCO0lBQ3pCO0lBQ0E7QUFDQTtRQUNJLFNBQVM7UUFDVCx5QkFBeUI7UUFDekI7UUFDQTtBQUNKO0lBQ0EsV0FBVztJQUNYLHdCQUF3QjtJQUN4QjtJQUNBO0FBQ0E7UUFDSSxXQUFXO1FBQ1gsd0JBQXdCO1FBQ3hCO0FBQ1I7QUFFQSwrSEFBK0g7QUFDL0g7RUFDRSxjQUFjO0VBQ2QsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YsZUFBZTs7QUFFakI7QUFDQTtFQUNFLGVBQWU7RUFDZixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0VBQ1YsdUNBQXVDO0VBQ3ZDLFlBQVk7RUFDWixnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLHdDQUFnQztVQUFoQyxnQ0FBZ0M7QUFDbEM7QUFHQSwrSEFBK0g7QUFDL0g7RUFDRSxZQUFZO0VBQ1osVUFBVTtFQUNWLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2IsNkJBQTZCO0VBQzdCLGVBQWU7QUFDakI7QUFDQTtFQUNFLHdDQUF3QztFQUN4QyxpQkFBaUI7RUFDakIsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsWUFBWTtBQUNkO0FBQ0E7RUFDRSxZQUFZO0VBQ1osY0FBYztFQUNkLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxlQUFlO0VBQ2YsWUFBWTtFQUNaLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxpQkFBaUI7O0FBRW5CO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIscUJBQXFCO0FBQ3ZCO0FBRUE7QUFDQSxrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFdBQVc7QUFDWCxTQUFTO0FBQ1QsVUFBVTtBQUNWLFdBQVc7QUFDWCxZQUFZO0FBQ1osV0FBVztBQUNYLDRCQUE0QjtBQUM1QixrQkFBa0I7QUFDbEIsa0JBQWtCOztBQUVsQjtBQUVBO0FBQ0EsV0FBVztBQUNYLFNBQVM7QUFDVCxVQUFVO0FBQ1YsV0FBVztBQUNYLFlBQVk7QUFDWixXQUFXO0FBQ1gsa0JBQWtCO0FBQ2xCLGtCQUFrQjtBQUNsQix5QkFBaUI7UUFBakIsaUJBQWlCOztFQUVmO0FBR0E7O01BRUksd0RBQXdEO0VBQzVEO0FBR0YsK0hBQStIO0FBQy9IO0lBQ0ksWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLHlDQUF5QztBQUM3QztBQUNBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLFlBQVk7QUFDZDtBQUVFO0lBQ0UsYUFBYTtJQUNiLDZCQUE2QjtJQUM3QixlQUFlO0VBQ2pCO0FBQ0E7SUFDRSx3Q0FBd0M7SUFDeEMsaUJBQWlCO0lBQ2pCLFdBQVc7SUFDWCxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxnQkFBZ0I7RUFDbEI7QUFDQTtJQUNFLHdDQUF3QztJQUN4QyxpQkFBaUI7SUFDakIsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGdCQUFnQjtFQUNsQjtBQUNBO0lBQ0Usd0NBQXdDO0lBQ3hDLGlCQUFpQjtJQUNqQixXQUFXO0lBQ1gsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSxhQUFhO0lBQ2IsV0FBVztJQUNYLGtCQUFrQjtFQUNwQjtBQUNBO0lBQ0UsWUFBWTtJQUNaLFlBQVk7SUFDWixrQkFBa0I7RUFDcEI7QUFDQTtJQUNFLFlBQVk7SUFDWixhQUFhO0lBQ2Isa0JBQWtCO0VBQ3BCO0FBQ0E7SUFDRSxrQkFBa0I7SUFDbEIsaUJBQWlCO0VBQ25CO0FBQ0E7SUFDRSxjQUFjO0lBQ2QsZUFBZTtJQUNmLFlBQVk7SUFDWixrQkFBa0I7RUFDcEI7QUFFQTtFQUNBLGtCQUFrQjtFQUNsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLGtCQUFrQjtFQUNsQixrQkFBa0I7O0VBRWxCO0FBRUE7RUFDQSxXQUFXO0VBQ1gsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsWUFBWTtFQUNaLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLHlCQUFpQjtVQUFqQixpQkFBaUI7O0FBRW5CO0FBQ0E7O1FBRVEsd0RBQXdEO0NBQy9EO0FBSUQsK0hBQStIO0FBQzlIO0VBQ0M7O3NCQUVvQjtFQUNwQixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7QUFDZDtBQUlBLCtIQUErSDtBQUMvSDtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCO0FBR0E7O0FBRUEsdUJBQXVCO0FBQ3ZCLHlCQUF5QjtBQUN6QixhQUFhO0FBQ2Isa0JBQWtCO0FBQ2xCLFlBQVk7QUFDWjtBQUVBOztBQUVBLHlCQUF5QjtBQUN6QixrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFlBQVk7QUFDWjtBQUNBLCtIQUErSCIsImZpbGUiOiJtZWRpdmFsLWhvbWVwYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBGb250cyAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbkBpbXBvcnQgJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1CYWxvbytQYWFqaSc7XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1VuaWZyYWt0dXJDb29rL1VuaWZyYWt0dXJDb29rLUJvbGQudHRmKTsgZm9udC1mYW1pbHk6IHU7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hsdGJveGMudHRmKTsgIGZvbnQtZmFtaWx5OiBjO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTW9udHNlcnJhdC9Nb250c2VycmF0LVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6IG07fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9BbXIvQW1yLm90Zik7IGZvbnQtZmFtaWx5OiBhO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvbmVvbi1mb250L05lb24tZTJ3Zy50dGYpOyBmb250LWZhbWlseTpuZW9uO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTG9ic3Rlci9Mb2JzdGVyLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6bDt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTptZXJyaTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2JsYWNrY2hhbmNlcnkvQkxLQ0hDUlkuVFRGKTsgZm9udC1mYW1pbHk6YmxrO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvT3Blbl9TYW5zL09wZW5TYW5zLVJlZ3VsYXIudHRmKTsgZm9udC1mYW1pbHk6b3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtSXRhbGljLVZhcmlhYmxlRm9udF93Z2h0LnR0Zik7IGZvbnQtZmFtaWx5OndzO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvUm9ib3RvL1JvYm90by1MaWdodC50dGYpOyBmb250LWZhbWlseTogcm9ibzt9XHJcblxyXG5cclxuKiB7XHJcblx0bWFyZ2luOiAwJTtcclxuXHRwYWRkaW5nOiAwJTtcclxufSBcclxuXHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi8qIHRpdGxlICoqKioqKiAqL1xyXG4udGl0bGV7XHJcbiAgICBjb2xvcjogc25vdztcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiA0NXB4O1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAyZW07XHJcblxyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5wb2ludHN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBwYWxldHVycXVvaXNlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgbWFyZ2luLXRvcDogMzBweDtcclxuICAgIGZvbnQtZmFtaWx5OiBvcztcclxuICAgIGZvbnQtc2l6ZTogMWVtO1xyXG4gICAgbGluZS1oZWlnaHQ6IDMwcHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICB9XHJcbiAgXHJcbiAgLnBvaW50cyBsaXtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiBcclxuICB9XHJcbiAgLnBvaW50cyBsaTpudGgtY2hpbGQoMSl7XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIH1cclxuICAubGkxIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBkZWNpbWFsO1xyXG4gIH1cclxuICAubGkyIGxpe1xyXG4gICAgbGlzdC1zdHlsZTogc3F1YXJlO1xyXG4gICAgbGlzdC1zdHlsZS1wb3NpdGlvbjogaW5zaWRlO1xyXG4gIH1cclxuICBcclxuICAudG9waWNoZWFke1xyXG4gICAgZm9udC1mYW1pbHk6IHU7XHJcbiAgICBmb250LXNpemU6IDMwcHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxuICB9XHJcbiAgLnRvcGljaGVhZDJ7XHJcbiAgICBmb250LXNpemU6IDEuMmVtO1xyXG4gIH1cclxuICBcclxuICBcclxuICBcclxuXHJcbiAgXHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuYm9keXtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBtYXJnaW46IDA7XHJcbn1cclxuXHJcbmRpdi5sYW5kc2NhcGUge1xyXG4gICAgd2lkdGg6IDUwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG5kaXYucG90cmFpdCB7IFxyXG4gICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxuICB9XHJcblxyXG4gIGRpdi5jb250YWluZXIge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmxhbmRwb3J0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgbWF4LXdpZHRoOiA5MCU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgXHJcbiAgfVxyXG5cclxuXHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5tb2RhbDF7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59XHJcbi5tb2RhbDJ7XHJcbiAgei1pbmRleDoxO1xyXG4gIGRpc3BsYXk6bm9uZTtcclxuICBwb3NpdGlvbjpmaXhlZDtcclxuICBsZWZ0OjA7XHJcbiAgdG9wOjA7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBoZWlnaHQ6MTAwJTtcclxuICBvdmVyZmxvdzphdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDAsMCwwKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYmEoMCwwLDAsMC44KTtcclxuICBib3gtc2l6aW5nOmNvbnRlbnQtYm94O1xyXG59ICAgIFxyXG5cclxuICAgICAgXHJcbi5jb250ZW50MDF7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgdG9wOiA1MCU7XHJcbiAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7IFxyXG4gICAgICB3aWR0aDogODAwcHg7XHJcbiAgICAgIG1heC13aWR0aDogOTUlO1xyXG4gICAgfVxyXG4uY29udGVudDAye1xyXG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgIHRvcDogMCU7XHJcbiAgICAgICAgICBsZWZ0OiA1MCU7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAzJSk7IFxyXG4gICAgICAgICAgd2lkdGg6IDQ1MHB4O1xyXG4gICAgICAgICAgbWF4LXdpZHRoOiA5NSU7ICAgXHJcbiAgICAgICAgfVxyXG4gQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMjAwcHgpIHtcclxuICAgICBcclxuICAgIC5jb250ZW50MDJ7XHJcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAwJSk7IFxyXG4gICAgICAgIH1cclxuIH1cclxuXHJcbiAgICBcclxuICAgIFxyXG4gICAgXHJcbiAgICAubW9kYWwxLWhvdmVyLW9wYWNpdHkge1xyXG4gICAgb3BhY2l0eToxO1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eSB7XHJcbiAgICAgICAgb3BhY2l0eToxO1xyXG4gICAgICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTEwMCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgICAgIH1cclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICBvcGFjaXR5OjAuNjtcclxuICAgIGZpbHRlcjphbHBoYShvcGFjaXR5PTYwKTtcclxuICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxuICAgIH1cclxuICAgIC5tb2RhbDItaG92ZXItb3BhY2l0eTpob3ZlciB7XHJcbiAgICAgICAgb3BhY2l0eTowLjY7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgICAgIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTpoaWRkZW5cclxufVxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmZlYXR1cmVuYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxufVxyXG4uZmVhdHVyZWFib3V0e1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuN2VtO1xyXG59XHJcbi5pbWduYW1le1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGNvbG9yOiBcdCMzQ0IzNzE7XHJcbiBcclxufVxyXG4uaW1ncGxhY2V7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjllbTtcclxuICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG4uaW1nYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC44ZW07XHJcbn1cclxuXHJcbi5rZXl3b3Jkc3tcclxuICBwYWRkaW5nOiAzcHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIwLCAyMCwgNjAsIDAuNCk7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmltcHdvcmR7XHJcbiAgZm9udC1zaXplOiAxLjFlbTtcclxuICB0ZXh0LWRlY29yYXRpb246IGJsYWNrIHVuZGVybGluZTtcclxufVxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50ZXh0ZGl2e1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB3aWR0aDogOTAlO1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuLnRleHRib3h7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTBlbTtcclxuICBoZWlnaHQ6IDE3ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIG1hcmdpbjogMTVweDtcclxufVxyXG4udGV4dGltZyBpbWd7XHJcbiAgd2lkdGg6IDkuOGVtO1xyXG4gIGhlaWdodDogMTIuNWVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4udGV4dGltZ3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLXRvcDogMC4xZW07XHJcbn1cclxuLnRleHR0ZXh0e1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50ZXh0bGlua3tcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7IFxyXG4gXHJcbn1cclxuLnRleHRsaW5rIGF7XHJcbiAgY29sb3I6IGRlZXBza3libHVlO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuLmJveHh7XHJcbnBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmJveHg6YmVmb3Jle1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMTtcclxuYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5wb3NpdGlvbjogYWJzb2x1dGU7XHJcblxyXG59XHJcblxyXG4uYm94eDphZnRlcntcclxuY29udGVudDogJyc7XHJcbnRvcDogLTFweDtcclxubGVmdDogLTFweDtcclxucmlnaHQ6IC0xcHg7XHJcbmJvdHRvbTogLTFweDtcclxuei1pbmRleDogLTI7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHJcbiAgfVxyXG5cclxuXHJcbiAgLmJveHg6YWZ0ZXIsXHJcbiAgLmJveHg6YmVmb3Jle1xyXG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuICB9XHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZnVsbGZlYXR1cmV7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICAvKiB3aWR0aDogMTIwMHB4OyAqL1xyXG4gICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMiwgMTg0LCAxMzUsIDAuMik7XHJcbn1cclxuLmZlYXR1cmV0b3BpY3tcclxuICBmb250LWZhbWlseTogbDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpibGFjaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4gIC5mZWF0dXJlc3tcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICB9XHJcbiAgLmZlYXR1cmVsYW5kc2NhcGV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTVlbTtcclxuICAgIGhlaWdodDogMTBlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVwb3RyYWl0e1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDE1ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlc3F1YXJle1xyXG4gICAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgd2lkdGg6IDEwZW07XHJcbiAgICBoZWlnaHQ6IDEzZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nIGltZ3tcclxuICAgIHdpZHRoOiAxNC44ZW07XHJcbiAgICBoZWlnaHQ6IDhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcxIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWczIGltZ3tcclxuICAgIHdpZHRoOiA5LjhlbTtcclxuICAgIGhlaWdodDogOS44ZW07XHJcbiAgICBib3JkZXItcmFkaXVzOiAwcHg7XHJcbiAgfVxyXG4gIC5mZWF0dXJlaW1nLCAuZmVhdHVyZWltZzEsIC5mZWF0dXJlaW1nM3tcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDAuMWVtO1xyXG4gIH1cclxuICAuZmVhdHVyZW5hbWV7XHJcbiAgICBmb250LWZhbWlseTogYztcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3h7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDpiZWZvcmV7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0xO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2U7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBcclxuICB9XHJcbiAgXHJcbiAgLmZlYXR1cmVib3g6YWZ0ZXJ7XHJcbiAgY29udGVudDogJyc7XHJcbiAgdG9wOiAtMXB4O1xyXG4gIGxlZnQ6IC0xcHg7XHJcbiAgcmlnaHQ6IC0xcHg7XHJcbiAgYm90dG9tOiAtMXB4O1xyXG4gIHotaW5kZXg6IC0yO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgZmlsdGVyOiBibHVyKDNweCk7XHJcbiAgXHJcbn1cclxuLmZlYXR1cmVib3g6YWZ0ZXIsXHJcbi5mZWF0dXJlYm94OmJlZm9yZXtcclxuICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuIH0gIFxyXG4gIFxyXG4gIFxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuIGEud2lraXtcclxuICAvKiB0ZXh0LWFsaWduOiBlbmQ7XHJcblxyXG4gIG1hcmdpbi1yaWdodDogNXB4OyAqL1xyXG4gIGZsb2F0OiByaWdodDtcclxuICBtYXJnaW4tcmlnaHQ6IC0yNXB4O1xyXG59XHJcbi53aWtpIGltZ3tcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgd2lkdGg6IDE1cHg7XHJcbiAgaGVpZ2h0OiAxNXB4O1xyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50YWJsZTEtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMDtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbiAgb3ZlcmZsb3cteDogc2Nyb2xsO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxufVxyXG5cclxuXHJcbi50YWJsZTEgdGgsXHJcbi50YWJsZTEgdGQge1xyXG5ib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcclxucGFkZGluZzogMTVweDtcclxudGV4dC1hbGlnbjogY2VudGVyO1xyXG53aWR0aDogMjAwcHg7XHJcbn1cclxuXHJcbi50YWJsZTF7XHJcblxyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi50YWJsZTEgdGFibGV7XHJcbm1hcmdpbjogYXV0bztcclxufVxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4iXX0= */"]
+        styles: ["@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';\n\n@font-face{src: url('UnifrakturCook-Bold.ttf'); font-family: u;}\n@font-face{src: url('Chltboxc.ttf');  font-family: c;}\n@font-face{src: url('Montserrat-Regular.ttf'); font-family: m;}\n@font-face{src: url('Amr.otf'); font-family: a;}\n@font-face{src: url('Neon-e2wg.ttf'); font-family:neon;}\n@font-face{src: url('Lobster-Regular.ttf'); font-family:l;}\n@font-face{src: url('Merriweather-Regular.ttf'); font-family:merri;}\n@font-face{src: url('BLKCHCRY.TTF'); font-family:blk;}\n@font-face{src: url('OpenSans-Regular.ttf'); font-family:os;}\n@font-face{src: url('WorkSans-Italic-VariableFont_wght.ttf'); font-family:ws;}\n@font-face{src: url('Roboto-Light.ttf'); font-family: robo;}\n*[_ngcontent-%COMP%] {\r\n\tmargin: 0%;\r\n\tpadding: 0%;\r\n}\n\n\n.title[_ngcontent-%COMP%]{\r\n    color: snow;\r\n    font-family: c;\r\n    font-size: 45px;\r\n    width: 80%;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    background: rgb(0, 0, 0, 0.8);\r\n    padding: 10px;\r\n    margin: auto;\r\n    margin-top: 2em;\r\n\r\n}\n\n.points[_ngcontent-%COMP%]{\r\n    background-color: paleturquoise;\r\n    margin: auto;\r\n    margin-top: 30px;\r\n    font-family: os;\r\n    font-size: 1em;\r\n    line-height: 30px;\r\n    width: 80%;\r\n    padding: 20px;\r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: none;\r\n    margin-bottom: 10px;\r\n    list-style-position: inside;\r\n \r\n  }\n.points[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1){\r\n    margin-top: 10px;\r\n  }\n.li1[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style-type: decimal;\r\n  }\n.li2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n    list-style: square;\r\n    list-style-position: inside;\r\n  }\n.topichead[_ngcontent-%COMP%]{\r\n    font-family: u;\r\n    font-size: 30px;\r\n    text-decoration: underline;\r\n  }\n.topichead2[_ngcontent-%COMP%]{\r\n    font-size: 1.2em;\r\n  }\n\nbody[_ngcontent-%COMP%]{\r\n    padding: 0;\r\n    margin: 0;\r\n}\ndiv.landscape[_ngcontent-%COMP%] {\r\n    width: 500px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.potrait[_ngcontent-%COMP%] { \r\n    width: 200px;\r\n    background-color: white;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    margin-bottom: 25px;\r\n    margin: 10px;\r\n  }\ndiv.container[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    padding: 10px 20px;\r\n  }\ndiv.landport[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    max-width: 90%;\r\n    margin: auto;\r\n    margin-top: 10px;\r\n    \r\n  }\n\n.modal1[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.modal2[_ngcontent-%COMP%]{\r\n  z-index:1;\r\n  display:none;\r\n  position:fixed;\r\n  left:0;\r\n  top:0;\r\n  width:100%;\r\n  height:100%;\r\n  overflow:auto;\r\n  background-color:rgb(0,0,0);\r\n  background-color:rgba(0,0,0,0.8);\r\n  box-sizing:content-box;\r\n}\n.content01[_ngcontent-%COMP%]{\r\n    display: block;\r\n    position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%); \r\n      width: 800px;\r\n      max-width: 95%;\r\n    }\n.content02[_ngcontent-%COMP%]{\r\n        display: block;\r\n        position: absolute;\r\n          top: 0%;\r\n          left: 50%;\r\n          transform: translate(-50%, 3%); \r\n          width: 450px;\r\n          max-width: 95%;   \r\n        }\n@media only screen and (max-width: 1200px) {\r\n     \r\n    .content02[_ngcontent-%COMP%]{\r\n          transform: translate(-50%, 0%); \r\n        }\r\n }\n.modal1-hover-opacity[_ngcontent-%COMP%] {\r\n    opacity:1;\r\n    filter:alpha(opacity=100);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%] {\r\n        opacity:1;\r\n        filter:alpha(opacity=100);\r\n        -webkit-backface-visibility:hidden\r\n        }\n.modal1-hover-opacity[_ngcontent-%COMP%]:hover {\r\n    opacity:0.6;\r\n    filter:alpha(opacity=60);\r\n    -webkit-backface-visibility:hidden\r\n    }\n.modal2-hover-opacity[_ngcontent-%COMP%]:hover {\r\n        opacity:0.6;\r\n        filter:alpha(opacity=60);\r\n        -webkit-backface-visibility:hidden\r\n}\n\n.featurename[_ngcontent-%COMP%]{\r\n  font-family: c;\r\n  font-size: 25px;\r\n}\n.featureabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.7em;\r\n}\n.imgname[_ngcontent-%COMP%]{\r\n  font-family: blk;\r\n  font-size: 25px;\r\n  color: \t#3CB371;\r\n \r\n}\n.imgplace[_ngcontent-%COMP%]{\r\n  color: \t#3CB371;\r\n  font-family: os;\r\n  font-size: 0.9em;\r\n  margin-left: 10px;\r\n}\n.imgabout[_ngcontent-%COMP%]{\r\n  padding-top: 10px;\r\n  font-family: os;\r\n  font-size: 0.8em;\r\n}\n.keywords[_ngcontent-%COMP%]{\r\n  padding: 3px;\r\n  width: 80%;\r\n  background-color: rgb(220, 20, 60, 0.4);\r\n  margin: auto;\r\n  margin-top: 10px;\r\n  font-family: ws;\r\n  text-align: center;\r\n}\n.impword[_ngcontent-%COMP%]{\r\n  font-size: 1.1em;\r\n  -webkit-text-decoration: black underline;\r\n          text-decoration: black underline;\r\n}\n\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\n\n.fullfeature[_ngcontent-%COMP%]{\r\n    margin: auto;\r\n    \r\n    max-width: 95%;\r\n    margin-top: 20px;\r\n    background-color: rgb(222, 184, 135, 0.2);\r\n}\n.featuretopic[_ngcontent-%COMP%]{\r\n  font-family: l;\r\n  font-size: 20px;\r\n  background-color:black;\r\n  color: white;\r\n  padding: 5px;\r\n}\n.features[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n  }\n.featurelandscape[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 15em;\r\n    height: 10em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featurepotrait[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 15em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featuresquare[_ngcontent-%COMP%]{\r\n    border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n    background: white;\r\n    width: 10em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n    margin: 5px;\r\n    margin-top: 15px;\r\n  }\n.featureimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 14.8em;\r\n    height: 8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg1[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 13em;\r\n    border-radius: 0px;\r\n  }\n.featureimg3[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n    width: 9.8em;\r\n    height: 9.8em;\r\n    border-radius: 0px;\r\n  }\n.featureimg[_ngcontent-%COMP%], .featureimg1[_ngcontent-%COMP%], .featureimg3[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    margin-top: 0.1em;\r\n  }\n.featurename[_ngcontent-%COMP%]{\r\n    font-family: c;\r\n    font-size: 20px;\r\n    color: black;\r\n    text-align: center;\r\n  }\n.featurebox[_ngcontent-%COMP%]{\r\n  position: relative;\r\n  }\n.featurebox[_ngcontent-%COMP%]:before{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -1;\r\n  background-color: whitesmoke;\r\n  border-radius: 5px;\r\n  position: absolute;\r\n  \r\n  }\n.featurebox[_ngcontent-%COMP%]:after{\r\n  content: '';\r\n  top: -1px;\r\n  left: -1px;\r\n  right: -1px;\r\n  bottom: -1px;\r\n  z-index: -2;\r\n  position: absolute;\r\n  border-radius: 5px;\r\n  -webkit-filter: blur(3px);\r\n          filter: blur(3px);\r\n  \r\n}\n.featurebox[_ngcontent-%COMP%]:after, .featurebox[_ngcontent-%COMP%]:before{\r\n        background: linear-gradient(235deg, black, white, black);\r\n }\n\na.wiki[_ngcontent-%COMP%]{\r\n  \r\n  float: right;\r\n  margin-right: -25px;\r\n}\n.wiki[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  width: 15px;\r\n  height: 15px;\r\n}\n\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\npadding: 15px;\r\ntext-align: center;\r\nwidth: 200px;\r\n}\n.table1[_ngcontent-%COMP%]{\r\n\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\n}\n\n.instruction[_ngcontent-%COMP%] {\r\n  max-width: 800px;\r\n  width: 80%;\r\n  margin: auto;\r\n  font-family: ws;\r\n  \r\n}\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  margin-top: 1em;\r\n}\n.modelques[_ngcontent-%COMP%]{\r\n  background-color: lightgray;\r\n  padding: 20px;\r\n  margin-top: 15px;\r\n  font-size: 14px;\r\n  font-family: merri;\r\n}\n.modelquesimg[_ngcontent-%COMP%] {\r\n  background-color: lightgray;\r\n  margin-top: 15px;\r\n  text-align: center;\r\n}\n.modelquesimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  padding: 15px;\r\n}\nimg.profile-imagel[_ngcontent-%COMP%] {\r\n  width:350px ;\r\n  height:200px ;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZGl2YWwtaG9tZXBhZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0EsNkRBQTZEO0FBRDdELGdHQUFnRztBQUVoRyxXQUFXLG1DQUF5RSxFQUFFLGNBQWMsQ0FBQztBQUNyRyxXQUFXLHdCQUF5RCxHQUFHLGNBQWMsQ0FBQztBQUN0RixXQUFXLGtDQUFvRSxFQUFFLGNBQWMsQ0FBQztBQUNoRyxXQUFXLG1CQUE4QyxFQUFFLGNBQWMsQ0FBQztBQUMxRSxXQUFXLHlCQUEwRCxFQUFFLGdCQUFnQixDQUFDO0FBQ3hGLFdBQVcsK0JBQThELEVBQUUsYUFBYSxDQUFDO0FBQ3pGLFdBQVcsb0NBQXdFLEVBQUUsaUJBQWlCLENBQUM7QUFDdkcsV0FBVyx3QkFBNkQsRUFBRSxlQUFlLENBQUM7QUFDMUYsV0FBVyxnQ0FBaUUsRUFBRSxjQUFjLENBQUM7QUFDN0YsV0FBVyxpREFBa0YsRUFBRSxjQUFjLENBQUM7QUFDOUcsV0FBVyw0QkFBMEQsRUFBRSxpQkFBaUIsQ0FBQztBQUd6RjtDQUNDLFVBQVU7Q0FDVixXQUFXO0FBQ1o7QUFHQSxtR0FBbUc7QUFDbkcsaUJBQWlCO0FBQ2pCO0lBQ0ksV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YsVUFBVTtJQUNWLGtCQUFrQjtJQUNsQix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLDZCQUE2QjtJQUM3QixhQUFhO0lBQ2IsWUFBWTtJQUNaLGVBQWU7O0FBRW5CO0FBSUEsK0hBQStIO0FBQy9IO0lBQ0ksK0JBQStCO0lBQy9CLFlBQVk7SUFDWixnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsVUFBVTtJQUNWLGFBQWE7RUFDZjtBQUVBO0lBQ0UscUJBQXFCO0lBQ3JCLG1CQUFtQjtJQUNuQiwyQkFBMkI7O0VBRTdCO0FBQ0E7SUFDRSxnQkFBZ0I7RUFDbEI7QUFDQTtJQUNFLHdCQUF3QjtFQUMxQjtBQUNBO0lBQ0Usa0JBQWtCO0lBQ2xCLDJCQUEyQjtFQUM3QjtBQUVBO0lBQ0UsY0FBYztJQUNkLGVBQWU7SUFDZiwwQkFBMEI7RUFDNUI7QUFDQTtJQUNFLGdCQUFnQjtFQUNsQjtBQVdGLCtIQUErSDtBQUMvSDtJQUNJLFVBQVU7SUFDVixTQUFTO0FBQ2I7QUFFQTtJQUNJLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsNEVBQTRFO0lBQzVFLG1CQUFtQjtJQUNuQixZQUFZO0VBQ2Q7QUFFRjtJQUNJLFlBQVk7SUFDWix1QkFBdUI7SUFDdkIsNEVBQTRFO0lBQzVFLG1CQUFtQjtJQUNuQixZQUFZO0VBQ2Q7QUFFQTtJQUNFLGtCQUFrQjtJQUNsQixrQkFBa0I7RUFDcEI7QUFFQTtJQUNFLGFBQWE7SUFDYiw2QkFBNkI7SUFDN0IsZUFBZTtJQUNmLGNBQWM7SUFDZCxZQUFZO0lBQ1osZ0JBQWdCOztFQUVsQjtBQU1GLCtIQUErSDtBQUMvSDtFQUNFLFNBQVM7RUFDVCxZQUFZO0VBQ1osY0FBYztFQUNkLE1BQU07RUFDTixLQUFLO0VBQ0wsVUFBVTtFQUNWLFdBQVc7RUFDWCxhQUFhO0VBQ2IsMkJBQTJCO0VBQzNCLGdDQUFnQztFQUNoQyxzQkFBc0I7QUFDeEI7QUFDQTtFQUNFLFNBQVM7RUFDVCxZQUFZO0VBQ1osY0FBYztFQUNkLE1BQU07RUFDTixLQUFLO0VBQ0wsVUFBVTtFQUNWLFdBQVc7RUFDWCxhQUFhO0VBQ2IsMkJBQTJCO0VBQzNCLGdDQUFnQztFQUNoQyxzQkFBc0I7QUFDeEI7QUFHQTtJQUNJLGNBQWM7SUFDZCxrQkFBa0I7TUFDaEIsUUFBUTtNQUNSLFNBQVM7TUFDVCxnQ0FBZ0M7TUFDaEMsWUFBWTtNQUNaLGNBQWM7SUFDaEI7QUFDSjtRQUNRLGNBQWM7UUFDZCxrQkFBa0I7VUFDaEIsT0FBTztVQUNQLFNBQVM7VUFDVCw4QkFBOEI7VUFDOUIsWUFBWTtVQUNaLGNBQWM7UUFDaEI7QUFDUDs7SUFFRztVQUNNLDhCQUE4QjtRQUNoQztDQUNQO0FBS0c7SUFDQSxTQUFTO0lBQ1QseUJBQXlCO0lBQ3pCO0lBQ0E7QUFDQTtRQUNJLFNBQVM7UUFDVCx5QkFBeUI7UUFDekI7UUFDQTtBQUNKO0lBQ0EsV0FBVztJQUNYLHdCQUF3QjtJQUN4QjtJQUNBO0FBQ0E7UUFDSSxXQUFXO1FBQ1gsd0JBQXdCO1FBQ3hCO0FBQ1I7QUFFQSwrSEFBK0g7QUFDL0g7RUFDRSxjQUFjO0VBQ2QsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YsZUFBZTs7QUFFakI7QUFDQTtFQUNFLGVBQWU7RUFDZixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0VBQ1YsdUNBQXVDO0VBQ3ZDLFlBQVk7RUFDWixnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLHdDQUFnQztVQUFoQyxnQ0FBZ0M7QUFDbEM7QUFHQSwrSEFBK0g7QUFDL0g7RUFDRSxZQUFZO0VBQ1osVUFBVTtFQUNWLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2IsNkJBQTZCO0VBQzdCLGVBQWU7QUFDakI7QUFDQTtFQUNFLHdDQUF3QztFQUN4QyxpQkFBaUI7RUFDakIsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsWUFBWTtBQUNkO0FBQ0E7RUFDRSxZQUFZO0VBQ1osY0FBYztFQUNkLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxlQUFlO0VBQ2YsWUFBWTtFQUNaLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxpQkFBaUI7O0FBRW5CO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIscUJBQXFCO0FBQ3ZCO0FBRUE7QUFDQSxrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFdBQVc7QUFDWCxTQUFTO0FBQ1QsVUFBVTtBQUNWLFdBQVc7QUFDWCxZQUFZO0FBQ1osV0FBVztBQUNYLDRCQUE0QjtBQUM1QixrQkFBa0I7QUFDbEIsa0JBQWtCOztBQUVsQjtBQUVBO0FBQ0EsV0FBVztBQUNYLFNBQVM7QUFDVCxVQUFVO0FBQ1YsV0FBVztBQUNYLFlBQVk7QUFDWixXQUFXO0FBQ1gsa0JBQWtCO0FBQ2xCLGtCQUFrQjtBQUNsQix5QkFBaUI7UUFBakIsaUJBQWlCOztFQUVmO0FBR0E7O01BRUksd0RBQXdEO0VBQzVEO0FBR0YsK0hBQStIO0FBQy9IO0lBQ0ksWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLHlDQUF5QztBQUM3QztBQUNBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLFlBQVk7QUFDZDtBQUVFO0lBQ0UsYUFBYTtJQUNiLDZCQUE2QjtJQUM3QixlQUFlO0VBQ2pCO0FBQ0E7SUFDRSx3Q0FBd0M7SUFDeEMsaUJBQWlCO0lBQ2pCLFdBQVc7SUFDWCxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxnQkFBZ0I7RUFDbEI7QUFDQTtJQUNFLHdDQUF3QztJQUN4QyxpQkFBaUI7SUFDakIsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGdCQUFnQjtFQUNsQjtBQUNBO0lBQ0Usd0NBQXdDO0lBQ3hDLGlCQUFpQjtJQUNqQixXQUFXO0lBQ1gsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSxhQUFhO0lBQ2IsV0FBVztJQUNYLGtCQUFrQjtFQUNwQjtBQUNBO0lBQ0UsWUFBWTtJQUNaLFlBQVk7SUFDWixrQkFBa0I7RUFDcEI7QUFDQTtJQUNFLFlBQVk7SUFDWixhQUFhO0lBQ2Isa0JBQWtCO0VBQ3BCO0FBQ0E7SUFDRSxrQkFBa0I7SUFDbEIsaUJBQWlCO0VBQ25CO0FBQ0E7SUFDRSxjQUFjO0lBQ2QsZUFBZTtJQUNmLFlBQVk7SUFDWixrQkFBa0I7RUFDcEI7QUFFQTtFQUNBLGtCQUFrQjtFQUNsQjtBQUVBO0VBQ0EsV0FBVztFQUNYLFNBQVM7RUFDVCxVQUFVO0VBQ1YsV0FBVztFQUNYLFlBQVk7RUFDWixXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLGtCQUFrQjtFQUNsQixrQkFBa0I7O0VBRWxCO0FBRUE7RUFDQSxXQUFXO0VBQ1gsU0FBUztFQUNULFVBQVU7RUFDVixXQUFXO0VBQ1gsWUFBWTtFQUNaLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLHlCQUFpQjtVQUFqQixpQkFBaUI7O0FBRW5CO0FBQ0E7O1FBRVEsd0RBQXdEO0NBQy9EO0FBSUQsK0hBQStIO0FBQzlIO0VBQ0M7O3NCQUVvQjtFQUNwQixZQUFZO0VBQ1osbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7QUFDZDtBQUlBLCtIQUErSDtBQUMvSDtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0FBQ2pCO0FBR0E7O0FBRUEsdUJBQXVCO0FBQ3ZCLHlCQUF5QjtBQUN6QixhQUFhO0FBQ2Isa0JBQWtCO0FBQ2xCLFlBQVk7QUFDWjtBQUVBOztBQUVBLHlCQUF5QjtBQUN6QixrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFlBQVk7QUFDWjtBQUNBLCtIQUErSDtBQU0vSDtFQUNFLGdCQUFnQjtFQUNoQixVQUFVO0VBQ1YsWUFBWTtFQUNaLGVBQWU7O0FBRWpCO0FBRUE7RUFDRSxlQUFlO0FBQ2pCO0FBRUE7RUFDRSwyQkFBMkI7RUFDM0IsYUFBYTtFQUNiLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSwyQkFBMkI7RUFDM0IsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsYUFBYTtBQUNmO0FBQ0E7RUFDRSxZQUFZO0VBQ1osYUFBYTtFQUNiIiwiZmlsZSI6Im1lZGl2YWwtaG9tZXBhZ2UuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEZvbnRzICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuQGltcG9ydCAnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUJhbG9vK1BhYWppJztcclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvVW5pZnJha3R1ckNvb2svVW5pZnJha3R1ckNvb2stQm9sZC50dGYpOyBmb250LWZhbWlseTogdTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL2NoZWx0ZW5obS9DaGx0Ym94Yy50dGYpOyAgZm9udC1mYW1pbHk6IGM7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Nb250c2VycmF0L01vbnRzZXJyYXQtUmVndWxhci50dGYpOyBmb250LWZhbWlseTogbTt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTsgZm9udC1mYW1pbHk6IGE7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9uZW9uLWZvbnQvTmVvbi1lMndnLnR0Zik7IGZvbnQtZmFtaWx5Om5lb247fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Mb2JzdGVyL0xvYnN0ZXItUmVndWxhci50dGYpOyBmb250LWZhbWlseTpsO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvTWVycml3ZWF0aGVyL01lcnJpd2VhdGhlci1SZWd1bGFyLnR0Zik7IGZvbnQtZmFtaWx5Om1lcnJpO31cclxuQGZvbnQtZmFjZXtzcmM6IHVybCguLi8uLi8uLi8uLi9hc3NldHMvRm9udHMvYmxhY2tjaGFuY2VyeS9CTEtDSENSWS5UVEYpOyBmb250LWZhbWlseTpibGs7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9PcGVuX1NhbnMvT3BlblNhbnMtUmVndWxhci50dGYpOyBmb250LWZhbWlseTpvczt9XHJcbkBmb250LWZhY2V7c3JjOiB1cmwoLi4vLi4vLi4vLi4vYXNzZXRzL0ZvbnRzL1dvcmtfU2Fucy9Xb3JrU2Fucy1JdGFsaWMtVmFyaWFibGVGb250X3dnaHQudHRmKTsgZm9udC1mYW1pbHk6d3M7fVxyXG5AZm9udC1mYWNle3NyYzogdXJsKC4uLy4uLy4uLy4uL2Fzc2V0cy9Gb250cy9Sb2JvdG8vUm9ib3RvLUxpZ2h0LnR0Zik7IGZvbnQtZmFtaWx5OiByb2JvO31cclxuXHJcblxyXG4qIHtcclxuXHRtYXJnaW46IDAlO1xyXG5cdHBhZGRpbmc6IDAlO1xyXG59IFxyXG5cclxuXHJcbi8qIGNvbnRlbnQgICAgICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuLyogdGl0bGUgKioqKioqICovXHJcbi50aXRsZXtcclxuICAgIGNvbG9yOiBzbm93O1xyXG4gICAgZm9udC1mYW1pbHk6IGM7XHJcbiAgICBmb250LXNpemU6IDQ1cHg7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJhY2tncm91bmQ6IHJnYigwLCAwLCAwLCAwLjgpO1xyXG4gICAgcGFkZGluZzogMTBweDtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDJlbTtcclxuXHJcbn1cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnBvaW50c3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHBhbGV0dXJxdW9pc2U7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IG9zO1xyXG4gICAgZm9udC1zaXplOiAxZW07XHJcbiAgICBsaW5lLWhlaWdodDogMzBweDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBwYWRkaW5nOiAyMHB4O1xyXG4gIH1cclxuICBcclxuICAucG9pbnRzIGxpe1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgIGxpc3Qtc3R5bGUtcG9zaXRpb246IGluc2lkZTtcclxuIFxyXG4gIH1cclxuICAucG9pbnRzIGxpOm50aC1jaGlsZCgxKXtcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgfVxyXG4gIC5saTEgbGl7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IGRlY2ltYWw7XHJcbiAgfVxyXG4gIC5saTIgbGl7XHJcbiAgICBsaXN0LXN0eWxlOiBzcXVhcmU7XHJcbiAgICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNpZGU7XHJcbiAgfVxyXG4gIFxyXG4gIC50b3BpY2hlYWR7XHJcbiAgICBmb250LWZhbWlseTogdTtcclxuICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG4gIH1cclxuICAudG9waWNoZWFkMntcclxuICAgIGZvbnQtc2l6ZTogMS4yZW07XHJcbiAgfVxyXG4gIFxyXG4gIFxyXG4gIFxyXG5cclxuICBcclxuXHJcblxyXG5cclxuXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG5ib2R5e1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIG1hcmdpbjogMDtcclxufVxyXG5cclxuZGl2LmxhbmRzY2FwZSB7XHJcbiAgICB3aWR0aDogNTAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA2cHggMjBweCAwIHJnYmEoMCwgMCwgMCwgMC4xOSk7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxuXHJcbmRpdi5wb3RyYWl0IHsgXHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA2cHggMjBweCAwIHJnYmEoMCwgMCwgMCwgMC4xOSk7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyNXB4O1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxuXHJcbiAgZGl2LmNvbnRhaW5lciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XHJcbiAgfVxyXG5cclxuICBkaXYubGFuZHBvcnR7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1ldmVubHk7XHJcbiAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICBtYXgtd2lkdGg6IDkwJTtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICBcclxuICB9XHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLm1vZGFsMXtcclxuICB6LWluZGV4OjE7XHJcbiAgZGlzcGxheTpub25lO1xyXG4gIHBvc2l0aW9uOmZpeGVkO1xyXG4gIGxlZnQ6MDtcclxuICB0b3A6MDtcclxuICB3aWR0aDoxMDAlO1xyXG4gIGhlaWdodDoxMDAlO1xyXG4gIG92ZXJmbG93OmF1dG87XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwwLDApO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjgpO1xyXG4gIGJveC1zaXppbmc6Y29udGVudC1ib3g7XHJcbn1cclxuLm1vZGFsMntcclxuICB6LWluZGV4OjE7XHJcbiAgZGlzcGxheTpub25lO1xyXG4gIHBvc2l0aW9uOmZpeGVkO1xyXG4gIGxlZnQ6MDtcclxuICB0b3A6MDtcclxuICB3aWR0aDoxMDAlO1xyXG4gIGhlaWdodDoxMDAlO1xyXG4gIG92ZXJmbG93OmF1dG87XHJcbiAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwwLDApO1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiYSgwLDAsMCwwLjgpO1xyXG4gIGJveC1zaXppbmc6Y29udGVudC1ib3g7XHJcbn0gICAgXHJcblxyXG4gICAgICBcclxuLmNvbnRlbnQwMXtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICB0b3A6IDUwJTtcclxuICAgICAgbGVmdDogNTAlO1xyXG4gICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTsgXHJcbiAgICAgIHdpZHRoOiA4MDBweDtcclxuICAgICAgbWF4LXdpZHRoOiA5NSU7XHJcbiAgICB9XHJcbi5jb250ZW50MDJ7XHJcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgdG9wOiAwJTtcclxuICAgICAgICAgIGxlZnQ6IDUwJTtcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDMlKTsgXHJcbiAgICAgICAgICB3aWR0aDogNDUwcHg7XHJcbiAgICAgICAgICBtYXgtd2lkdGg6IDk1JTsgICBcclxuICAgICAgICB9XHJcbiBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEyMDBweCkge1xyXG4gICAgIFxyXG4gICAgLmNvbnRlbnQwMntcclxuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIDAlKTsgXHJcbiAgICAgICAgfVxyXG4gfVxyXG5cclxuICAgIFxyXG4gICAgXHJcbiAgICBcclxuICAgIC5tb2RhbDEtaG92ZXItb3BhY2l0eSB7XHJcbiAgICBvcGFjaXR5OjE7XHJcbiAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT0xMDApO1xyXG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgfVxyXG4gICAgLm1vZGFsMi1ob3Zlci1vcGFjaXR5IHtcclxuICAgICAgICBvcGFjaXR5OjE7XHJcbiAgICAgICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9MTAwKTtcclxuICAgICAgICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6aGlkZGVuXHJcbiAgICAgICAgfVxyXG4gICAgLm1vZGFsMS1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICAgIG9wYWNpdHk6MC42O1xyXG4gICAgZmlsdGVyOmFscGhhKG9wYWNpdHk9NjApO1xyXG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG4gICAgfVxyXG4gICAgLm1vZGFsMi1ob3Zlci1vcGFjaXR5OmhvdmVyIHtcclxuICAgICAgICBvcGFjaXR5OjAuNjtcclxuICAgICAgICBmaWx0ZXI6YWxwaGEob3BhY2l0eT02MCk7XHJcbiAgICAgICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OmhpZGRlblxyXG59XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uZmVhdHVyZW5hbWV7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG59XHJcbi5mZWF0dXJlYWJvdXR7XHJcbiAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG4gIGZvbnQtc2l6ZTogMC43ZW07XHJcbn1cclxuLmltZ25hbWV7XHJcbiAgZm9udC1mYW1pbHk6IGJsaztcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgY29sb3I6IFx0IzNDQjM3MTtcclxuIFxyXG59XHJcbi5pbWdwbGFjZXtcclxuICBjb2xvcjogXHQjM0NCMzcxO1xyXG4gIGZvbnQtZmFtaWx5OiBvcztcclxuICBmb250LXNpemU6IDAuOWVtO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi5pbWdhYm91dHtcclxuICBwYWRkaW5nLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogb3M7XHJcbiAgZm9udC1zaXplOiAwLjhlbTtcclxufVxyXG5cclxuLmtleXdvcmRze1xyXG4gIHBhZGRpbmc6IDNweDtcclxuICB3aWR0aDogODAlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyMjAsIDIwLCA2MCwgMC40KTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBmb250LWZhbWlseTogd3M7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uaW1wd29yZHtcclxuICBmb250LXNpemU6IDEuMWVtO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogYmxhY2sgdW5kZXJsaW5lO1xyXG59XHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRleHRkaXZ7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIHdpZHRoOiA5MCU7XHJcbiAgbWFyZ2luLXRvcDogMzBweDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG4udGV4dGJveHtcclxuICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gIHdpZHRoOiAxMGVtO1xyXG4gIGhlaWdodDogMTdlbTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgbWFyZ2luOiAxNXB4O1xyXG59XHJcbi50ZXh0aW1nIGltZ3tcclxuICB3aWR0aDogOS44ZW07XHJcbiAgaGVpZ2h0OiAxMi41ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcbi50ZXh0aW1ne1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBtYXJnaW4tdG9wOiAwLjFlbTtcclxufVxyXG4udGV4dHRleHR7XHJcbiAgbWFyZ2luLXRvcDogM3B4O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBjb2xvcjogYmxhY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLnRleHRsaW5re1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBtYXJnaW4tbGVmdDogMTBweDsgXHJcbiBcclxufVxyXG4udGV4dGxpbmsgYXtcclxuICBjb2xvcjogZGVlcHNreWJsdWU7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59XHJcblxyXG4uYm94eHtcclxucG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcblxyXG4uYm94eDpiZWZvcmV7XHJcbmNvbnRlbnQ6ICcnO1xyXG50b3A6IC0xcHg7XHJcbmxlZnQ6IC0xcHg7XHJcbnJpZ2h0OiAtMXB4O1xyXG5ib3R0b206IC0xcHg7XHJcbnotaW5kZXg6IC0xO1xyXG5iYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xyXG5ib3JkZXItcmFkaXVzOiA1cHg7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHJcbn1cclxuXHJcbi5ib3h4OmFmdGVye1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMjtcclxucG9zaXRpb246IGFic29sdXRlO1xyXG5ib3JkZXItcmFkaXVzOiA1cHg7XHJcbmZpbHRlcjogYmx1cigzcHgpO1xyXG5cclxuICB9XHJcblxyXG5cclxuICAuYm94eDphZnRlcixcclxuICAuYm94eDpiZWZvcmV7XHJcbiAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG4gIH1cclxuICBcclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5mdWxsZmVhdHVyZXtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIC8qIHdpZHRoOiAxMjAwcHg7ICovXHJcbiAgICBtYXgtd2lkdGg6IDk1JTtcclxuICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIyLCAxODQsIDEzNSwgMC4yKTtcclxufVxyXG4uZmVhdHVyZXRvcGlje1xyXG4gIGZvbnQtZmFtaWx5OiBsO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBwYWRkaW5nOiA1cHg7XHJcbn1cclxuXHJcbiAgLmZlYXR1cmVze1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG4gIH1cclxuICAuZmVhdHVyZWxhbmRzY2FwZXtcclxuICAgIGJvcmRlcjogMS41cHggc29saWQgcmdiKDUxLCA1MSwgNTEsIDAuNyk7XHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICAgIHdpZHRoOiAxNWVtO1xyXG4gICAgaGVpZ2h0OiAxMGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gICAgbWFyZ2luOiA1cHg7XHJcbiAgICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIH1cclxuICAuZmVhdHVyZXBvdHJhaXR7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTBlbTtcclxuICAgIGhlaWdodDogMTVlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVzcXVhcmV7XHJcbiAgICBib3JkZXI6IDEuNXB4IHNvbGlkIHJnYig1MSwgNTEsIDUxLCAwLjcpO1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICB3aWR0aDogMTBlbTtcclxuICAgIGhlaWdodDogMTNlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcgaW1ne1xyXG4gICAgd2lkdGg6IDE0LjhlbTtcclxuICAgIGhlaWdodDogOGVtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZzEgaW1ne1xyXG4gICAgd2lkdGg6IDkuOGVtO1xyXG4gICAgaGVpZ2h0OiAxM2VtO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4O1xyXG4gIH1cclxuICAuZmVhdHVyZWltZzMgaW1ne1xyXG4gICAgd2lkdGg6IDkuOGVtO1xyXG4gICAgaGVpZ2h0OiA5LjhlbTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDBweDtcclxuICB9XHJcbiAgLmZlYXR1cmVpbWcsIC5mZWF0dXJlaW1nMSwgLmZlYXR1cmVpbWcze1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbWFyZ2luLXRvcDogMC4xZW07XHJcbiAgfVxyXG4gIC5mZWF0dXJlbmFtZXtcclxuICAgIGZvbnQtZmFtaWx5OiBjO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgfVxyXG4gIFxyXG4gIC5mZWF0dXJlYm94OmJlZm9yZXtcclxuICBjb250ZW50OiAnJztcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTE7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIFxyXG4gIH1cclxuICBcclxuICAuZmVhdHVyZWJveDphZnRlcntcclxuICBjb250ZW50OiAnJztcclxuICB0b3A6IC0xcHg7XHJcbiAgbGVmdDogLTFweDtcclxuICByaWdodDogLTFweDtcclxuICBib3R0b206IC0xcHg7XHJcbiAgei1pbmRleDogLTI7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBmaWx0ZXI6IGJsdXIoM3B4KTtcclxuICBcclxufVxyXG4uZmVhdHVyZWJveDphZnRlcixcclxuLmZlYXR1cmVib3g6YmVmb3Jle1xyXG4gICAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyMzVkZWcsIGJsYWNrLCB3aGl0ZSwgYmxhY2spO1xyXG4gfSAgXHJcbiAgXHJcbiAgXHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4gYS53aWtpe1xyXG4gIC8qIHRleHQtYWxpZ246IGVuZDtcclxuXHJcbiAgbWFyZ2luLXJpZ2h0OiA1cHg7ICovXHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIG1hcmdpbi1yaWdodDogLTI1cHg7XHJcbn1cclxuLndpa2kgaW1ne1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogMTVweDtcclxuICBoZWlnaHQ6IDE1cHg7XHJcbn1cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRhYmxlMS1zcGFjaW5nIHtcclxuICBwYWRkaW5nOiAwO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nLXRvcDogNTVweDtcclxuICBvdmVyZmxvdy14OiBzY3JvbGw7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG59XHJcblxyXG5cclxuLnRhYmxlMSB0aCxcclxuLnRhYmxlMSB0ZCB7XHJcbmJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG5wYWRkaW5nOiAxNXB4O1xyXG50ZXh0LWFsaWduOiBjZW50ZXI7XHJcbndpZHRoOiAyMDBweDtcclxufVxyXG5cclxuLnRhYmxlMXtcclxuXHJcbmJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnRhYmxlMSB0YWJsZXtcclxubWFyZ2luOiBhdXRvO1xyXG59XHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcblxyXG5cclxuXHJcblxyXG5cclxuLmluc3RydWN0aW9uIHtcclxuICBtYXgtd2lkdGg6IDgwMHB4O1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxuICBcclxufVxyXG5cclxuLmluc3RydWN0aW9uIGxpe1xyXG4gIG1hcmdpbi10b3A6IDFlbTtcclxufVxyXG5cclxuLm1vZGVscXVlc3tcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XHJcbiAgcGFkZGluZzogMjBweDtcclxuICBtYXJnaW4tdG9wOiAxNXB4O1xyXG4gIGZvbnQtc2l6ZTogMTRweDtcclxuICBmb250LWZhbWlseTogbWVycmk7XHJcbn1cclxuLm1vZGVscXVlc2ltZyB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1xyXG4gIG1hcmdpbi10b3A6IDE1cHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbi5tb2RlbHF1ZXNpbWcgaW1ne1xyXG4gIHBhZGRpbmc6IDE1cHg7XHJcbn1cclxuaW1nLnByb2ZpbGUtaW1hZ2VsIHtcclxuICB3aWR0aDozNTBweCA7XHJcbiAgaGVpZ2h0OjIwMHB4IDtcclxuICB9Il19 */"]
       });
       /*@__PURE__*/
 
@@ -26838,12 +27593,12 @@
           } // End if
 
         });
-      });
-      $(function () {
-        $('.uncheck-all').on('click', function () {
-          $('.checkboxes input:checkbox').prop('checked', false);
-        });
-      });
+      }); // $(function () { 
+      //   $('.uncheck-all').on('click', function () { 
+      //     $('.checkboxes input:checkbox').prop('checked', false); 
+      //   }); 
+      // });
+
       /***/
     },
 
@@ -26866,41 +27621,6 @@
         document.getElementById("img02").src = element.src;
         document.getElementById("modal02").style.display = "block";
       }
-      /***/
-
-    },
-
-    /***/
-    "ry2A":
-    /*!*******************************************************!*\
-      !*** ./src/app/famous-personalities/Navigationbar.js ***!
-      \*******************************************************/
-
-    /*! no static exports found */
-
-    /***/
-    function ry2A(module, exports) {
-      window.onload = function () {
-        var navSlide = function navSlide() {
-          var phonemenu = document.querySelector('.phonemenu');
-          var menu = document.querySelector('.menu');
-          var navLinks = document.querySelectorAll('.menu li');
-          phonemenu.addEventListener('click', function () {
-            menu.classList.toggle('menuclick');
-            navLinks.forEach(function (link, index) {
-              if (link.style.animation) {
-                link.style.animation = '';
-              } else {
-                link.style.animation = "navLinkFade 0.5s ease forwards ".concat(index / 7 + 0.3, "s");
-              }
-            });
-            phonemenu.classList.toggle('toggle');
-          });
-        };
-
-        navSlide();
-      }; // window.document.onload = navSlide();
-
       /***/
 
     },
@@ -27045,9 +27765,9 @@
       ArtCultureComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: ArtCultureComponent,
         selectors: [["app-art-culture"]],
-        decls: 38,
+        decls: 36,
         vars: 0,
-        consts: [[1, "cb-slideshow"], [1, "title"], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../assets/art_images/art5.jpg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "click"]],
+        consts: [[1, "cb-slideshow"], [1, "cb-slideshow2"], [1, "title"], [1, "textdiv"], [1, "textbox", "boxx"], [1, "textimg"], ["src", "../../assets/art_images/art5.jpg", "alt", ""], [1, "texttext"], [1, "textlink"], [3, "click"]],
         template: function ArtCultureComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -27098,39 +27818,65 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h1", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Art & Culture");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "span");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "span");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h1", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "img", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Art & Culture");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Medieval Architecture");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 3);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 4);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 6);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Medieval Architecture");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ArtCultureComponent_Template_a_click_25_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ArtCultureComponent_Template_a_click_33_listener() {
               return ctx.medival();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Click Here");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Click Here");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -27140,31 +27886,11 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "app-footer");
           }
         },
         directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_3__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__["FooterComponent"]],
-        styles: ["*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\r\n\r\n.cb-slideshow[_ngcontent-%COMP%], .cb-slideshow[_ngcontent-%COMP%]:after {\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0px;\r\n  left: 0px;\r\n  z-index: 0;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  background: transparent url() repeat top left;\r\n}\r\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0px;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: 50% 50%;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art1.1.jpg');\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art2.2.jpg');\r\n  -webkit-animation-delay: 6s;\r\n  animation-delay: 6s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(3)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art3.jpg');\r\n  -webkit-animation-delay: 12s;\r\n  animation-delay: 12s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(4)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art4.4.jpg');\r\n  -webkit-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(5)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art6.6.jpg');\r\n  -webkit-animation-delay: 30s;\r\n  animation-delay: 30s;\r\n}\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n            animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n            animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.no-cssanimations[_ngcontent-%COMP%]   .cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n}\r\n\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n}\r\n\r\n.comingsoon[_ngcontent-%COMP%] {\r\n  margin: auto;\r\n  margin-top: 10em;\r\n  font-family: \"Baloo Paaji\", cursive;\r\n  border: black 2px solid;\r\n  width: 20em;\r\n  height: 12em;\r\n  align-content: center;\r\n  position: relative;\r\n  margin-bottom: 10px;\r\n}\r\n.comingsoon[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%] {\r\n  padding: 1em;\r\n  font-size: 40px;\r\n  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 1.1px 0 #2c2c2c,\r\n    0 1.2px 0 #2a2a2a, 0 1.3px 0 #282828, 0 1.4px 0 #262626, 0 1.5px 0 #242424,\r\n    0 1.6px 0 #222, 0 1.7px 0 #202020, 0 2px 0 #1e1e1e, 0 2.1px 0 #1c1c1c,\r\n    0 2.2px 0 #1a1a1a, 0 2.3px 0 #181818, 0 2.4px 0 #161616, 0 2.5px 0 #141414,\r\n    0 2.8px 0 #121212, 0 3px 3px rgba(0, 0, 0, 0.9);\r\n\r\n  text-transform: uppercase;\r\n  text-align: center;\r\n  line-height: 1.3em;\r\n}\r\nspan.cs1[_ngcontent-%COMP%], span.cs2[_ngcontent-%COMP%], span.cs3[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  float: left;\r\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  transform: translateY(-50px);\r\n  opacity: 0;\r\n  -webkit-animation-name: comingsoon;\r\n          animation-name: comingsoon;\r\n  -webkit-animation-timing-function: ease;\r\n          animation-timing-function: ease;\r\n  -webkit-animation-duration: 6s;\r\n          animation-duration: 6s;\r\n  -webkit-animation-iteration-count: infinite;\r\n          animation-iteration-count: infinite;\r\n}\r\nspan.cs1[_ngcontent-%COMP%] {\r\n  color: pink;\r\n  -webkit-animation-delay: 3s;\r\n          animation-delay: 3s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\r\nspan.cs2[_ngcontent-%COMP%] {\r\n  color: white;\r\n  -webkit-animation-delay: 2s;\r\n          animation-delay: 2s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\r\nspan.cs3[_ngcontent-%COMP%] {\r\n  color: yellow;\r\n  -webkit-animation-delay: 1s;\r\n          animation-delay: 1s;\r\n  -webkit-animation-fill-mode: forwards;\r\n}\r\n@-webkit-keyframes comingsoon {\r\n  0% {\r\n    transform: translateY(-50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  }\r\n  20% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  80% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  100% {\r\n    transform: translateY(50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n  }\r\n}\r\n@keyframes comingsoon {\r\n  0% {\r\n    transform: translateY(-50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);\r\n  }\r\n  20% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  80% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);\r\n  }\r\n  100% {\r\n    transform: translateY(50px);\r\n    opacity: 0;\r\n    -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n    clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);\r\n  }\r\n}\r\n\r\n.swiper-container[_ngcontent-%COMP%] {\r\n  margin: 0 auto;\r\n  top: 2em;\r\n  width: 85%;\r\n}\r\n.card[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  background: #fff;\r\n  width: 200px;\r\n  height: 300px;\r\n  margin: 0 auto;\r\n  font-family: c;\r\n}\r\n.card[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n\r\n  box-sizing: border-box;\r\n}\r\n.card[_ngcontent-%COMP%]   .content[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n\r\n  text-decoration: none;\r\n  border: 1px solid #262626;\r\n  color: #262626;\r\n  font-weight: 20px;\r\n}\r\n.card[_ngcontent-%COMP%]   .slidertext[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 50px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: #000;\r\n}\r\n.card[_ngcontent-%COMP%]   .slidertext[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\r\n  color: #fff;\r\n  font-size: 20px;\r\n}\r\n.swiper-slide[_ngcontent-%COMP%] {\r\n  max-width: 200px;\r\n}\r\nimg[_ngcontent-%COMP%] {\r\n  width: 200px;\r\n  height: 200px;\r\n}\r\n@font-face {\r\n  font-family: swiper-icons;\r\n  src: url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA\")\r\n    format(\"woff\");\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}\r\n[_ngcontent-%COMP%]:root {\r\n  --swiper-theme-color: #007aff;\r\n}\r\n.swiper-container[_ngcontent-%COMP%] {\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  position: relative;\r\n  overflow: hidden;\r\n  list-style: none;\r\n  padding: 0;\r\n  z-index: 1;\r\n}\r\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-direction: column;\r\n}\r\n.swiper-wrapper[_ngcontent-%COMP%] {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  z-index: 1;\r\n  display: flex;\r\n  transition-property: transform;\r\n  box-sizing: content-box;\r\n}\r\n.swiper-container-android[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%], .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transform: translate3d(0px, 0, 0);\r\n}\r\n.swiper-container-multirow[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n}\r\n.swiper-container-multirow-column[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  flex-wrap: wrap;\r\n  flex-direction: column;\r\n}\r\n.swiper-container-free-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transition-timing-function: ease-out;\r\n  margin: 0 auto;\r\n}\r\n.swiper-slide[_ngcontent-%COMP%] {\r\n  flex-shrink: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n  transition-property: transform;\r\n}\r\n.swiper-slide-invisible-blank[_ngcontent-%COMP%] {\r\n  visibility: hidden;\r\n}\r\n.swiper-container-autoheight[_ngcontent-%COMP%], .swiper-container-autoheight[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  height: auto;\r\n}\r\n.swiper-container-autoheight[_ngcontent-%COMP%]   .swiper-wrapper[_ngcontent-%COMP%] {\r\n  align-items: flex-start;\r\n  transition-property: transform, height;\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%] {\r\n  perspective: 1200px;\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-cube-shadow[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-wrapper[_ngcontent-%COMP%] {\r\n  transform-style: preserve-3d;\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  pointer-events: none;\r\n  z-index: 10;\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to left,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to right,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to top,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\r\n.swiper-container-3d[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%] {\r\n  background-image: linear-gradient(\r\n    to bottom,\r\n    rgba(0, 0, 0, 0.5),\r\n    rgba(0, 0, 0, 0)\r\n  );\r\n}\r\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  overflow: auto;\r\n  scrollbar-width: none;\r\n  -ms-overflow-style: none;\r\n}\r\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%]::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%]    > .swiper-slide[_ngcontent-%COMP%] {\r\n  scroll-snap-align: start start;\r\n}\r\n.swiper-container-horizontal.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  -ms-scroll-snap-type: x mandatory;\r\n      scroll-snap-type: x mandatory;\r\n}\r\n.swiper-container-vertical.swiper-container-css-mode[_ngcontent-%COMP%]    > .swiper-wrapper[_ngcontent-%COMP%] {\r\n  -ms-scroll-snap-type: y mandatory;\r\n      scroll-snap-type: y mandatory;\r\n}\r\n[_ngcontent-%COMP%]:root {\r\n  --swiper-navigation-size: 44px;\r\n}\r\n.swiper-button-next[_ngcontent-%COMP%], .swiper-button-prev[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  top: 50%;\r\n  width: calc(var(--swiper-navigation-size) / 44 * 27);\r\n  height: var(--swiper-navigation-size);\r\n  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);\r\n  z-index: 10;\r\n  cursor: pointer;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: var(--swiper-navigation-color, var(--swiper-theme-color));\r\n}\r\n.swiper-button-next.swiper-button-disabled[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-disabled[_ngcontent-%COMP%] {\r\n  opacity: 0.35;\r\n  cursor: auto;\r\n  pointer-events: none;\r\n}\r\n.swiper-button-next[_ngcontent-%COMP%]:after, .swiper-button-prev[_ngcontent-%COMP%]:after {\r\n  font-family: swiper-icons;\r\n  font-size: var(--swiper-navigation-size);\r\n  text-transform: none !important;\r\n  letter-spacing: 0;\r\n  text-transform: none;\r\n  font-variant: initial;\r\n  line-height: 1;\r\n}\r\n.swiper-button-prev[_ngcontent-%COMP%], .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-next[_ngcontent-%COMP%] {\r\n  left: 10px;\r\n  right: auto;\r\n}\r\n.swiper-button-prev[_ngcontent-%COMP%]:after, .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-next[_ngcontent-%COMP%]:after {\r\n  content: \"prev\";\r\n}\r\n.swiper-button-next[_ngcontent-%COMP%], .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-prev[_ngcontent-%COMP%] {\r\n  right: 10px;\r\n  left: auto;\r\n}\r\n.swiper-button-next[_ngcontent-%COMP%]:after, .swiper-container-rtl[_ngcontent-%COMP%]   .swiper-button-prev[_ngcontent-%COMP%]:after {\r\n  content: \"next\";\r\n}\r\n.swiper-button-next.swiper-button-white[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-white[_ngcontent-%COMP%] {\r\n  --swiper-navigation-color: #ffffff;\r\n}\r\n.swiper-button-next.swiper-button-black[_ngcontent-%COMP%], .swiper-button-prev.swiper-button-black[_ngcontent-%COMP%] {\r\n  --swiper-navigation-color: #000000;\r\n}\r\n.swiper-button-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\r\n.swiper-pagination[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  text-align: center;\r\n  transition: 0.3s opacity;\r\n  transform: translate3d(0, 0, 0);\r\n  z-index: 10;\r\n}\r\n.swiper-pagination.swiper-pagination-hidden[_ngcontent-%COMP%] {\r\n  opacity: 0;\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%], .swiper-pagination-custom[_ngcontent-%COMP%], .swiper-pagination-fraction[_ngcontent-%COMP%] {\r\n  bottom: 10px;\r\n  left: 0;\r\n  width: 100%;\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  overflow: hidden;\r\n  font-size: 0;\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n  position: relative;\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active[_ngcontent-%COMP%] {\r\n  transform: scale(1);\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-main[_ngcontent-%COMP%] {\r\n  transform: scale(1);\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-prev[_ngcontent-%COMP%] {\r\n  transform: scale(0.66);\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-prev-prev[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-next[_ngcontent-%COMP%] {\r\n  transform: scale(0.66);\r\n}\r\n.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet-active-next-next[_ngcontent-%COMP%] {\r\n  transform: scale(0.33);\r\n}\r\n.swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  width: 8px;\r\n  height: 8px;\r\n  display: inline-block;\r\n  border-radius: 100%;\r\n  background: #000;\r\n  opacity: 0.2;\r\n}\r\nbutton.swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  border: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-shadow: none;\r\n  -webkit-appearance: none;\r\n  -moz-appearance: none;\r\n  appearance: none;\r\n}\r\n.swiper-pagination-clickable[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\r\n.swiper-pagination-bullet-active[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n  background: var(--swiper-pagination-color, var(--swiper-theme-color));\r\n}\r\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%] {\r\n  right: 10px;\r\n  top: 50%;\r\n  transform: translate3d(0px, -50%, 0);\r\n}\r\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  margin: 6px 0;\r\n  display: block;\r\n}\r\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  top: 50%;\r\n  transform: translateY(-50%);\r\n  width: 8px;\r\n}\r\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  transition: 0.2s transform, 0.2s top;\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  margin: 0 4px;\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%] {\r\n  left: 50%;\r\n  transform: translateX(-50%);\r\n  white-space: nowrap;\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transition: 0.2s transform, 0.2s left;\r\n}\r\n.swiper-container-horizontal.swiper-container-rtl[_ngcontent-%COMP%]    > .swiper-pagination-bullets-dynamic[_ngcontent-%COMP%]   .swiper-pagination-bullet[_ngcontent-%COMP%] {\r\n  transition: 0.2s transform, 0.2s right;\r\n}\r\n.swiper-pagination-progressbar[_ngcontent-%COMP%] {\r\n  background: rgba(0, 0, 0, 0.25);\r\n  position: absolute;\r\n}\r\n.swiper-pagination-progressbar[_ngcontent-%COMP%]   .swiper-pagination-progressbar-fill[_ngcontent-%COMP%] {\r\n  background: var(--swiper-pagination-color, var(--swiper-theme-color));\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  transform: scale(0);\r\n  transform-origin: left top;\r\n}\r\n.swiper-container-rtl[_ngcontent-%COMP%]   .swiper-pagination-progressbar[_ngcontent-%COMP%]   .swiper-pagination-progressbar-fill[_ngcontent-%COMP%] {\r\n  transform-origin: right top;\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-progressbar[_ngcontent-%COMP%], .swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 4px;\r\n  left: 0;\r\n  top: 0;\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite[_ngcontent-%COMP%], .swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-pagination-progressbar[_ngcontent-%COMP%] {\r\n  width: 4px;\r\n  height: 100%;\r\n  left: 0;\r\n  top: 0;\r\n}\r\n.swiper-pagination-white[_ngcontent-%COMP%] {\r\n  --swiper-pagination-color: #ffffff;\r\n}\r\n.swiper-pagination-black[_ngcontent-%COMP%] {\r\n  --swiper-pagination-color: #000000;\r\n}\r\n.swiper-pagination-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\r\n.swiper-scrollbar[_ngcontent-%COMP%] {\r\n  border-radius: 10px;\r\n  position: relative;\r\n  -ms-touch-action: none;\r\n  background: rgba(0, 0, 0, 0.1);\r\n}\r\n.swiper-container-horizontal[_ngcontent-%COMP%]    > .swiper-scrollbar[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 1%;\r\n  bottom: 3px;\r\n  z-index: 50;\r\n  height: 5px;\r\n  width: 98%;\r\n}\r\n.swiper-container-vertical[_ngcontent-%COMP%]    > .swiper-scrollbar[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  right: 3px;\r\n  top: 1%;\r\n  z-index: 50;\r\n  width: 5px;\r\n  height: 98%;\r\n}\r\n.swiper-scrollbar-drag[_ngcontent-%COMP%] {\r\n  height: 100%;\r\n  width: 100%;\r\n  position: relative;\r\n  background: rgba(0, 0, 0, 0.5);\r\n  border-radius: 10px;\r\n  left: 0;\r\n  top: 0;\r\n}\r\n.swiper-scrollbar-cursor-drag[_ngcontent-%COMP%] {\r\n  cursor: move;\r\n}\r\n.swiper-scrollbar-lock[_ngcontent-%COMP%] {\r\n  display: none;\r\n}\r\n.swiper-zoom-container[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n}\r\n.swiper-zoom-container[_ngcontent-%COMP%]    > canvas[_ngcontent-%COMP%], .swiper-zoom-container[_ngcontent-%COMP%]    > img[_ngcontent-%COMP%], .swiper-zoom-container[_ngcontent-%COMP%]    > svg[_ngcontent-%COMP%] {\r\n  max-width: 100%;\r\n  max-height: 100%;\r\n  -o-object-fit: contain;\r\n     object-fit: contain;\r\n}\r\n.swiper-slide-zoomed[_ngcontent-%COMP%] {\r\n  cursor: move;\r\n}\r\n.swiper-lazy-preloader[_ngcontent-%COMP%] {\r\n  width: 42px;\r\n  height: 42px;\r\n  position: absolute;\r\n  left: 50%;\r\n  top: 50%;\r\n  margin-left: -21px;\r\n  margin-top: -21px;\r\n  z-index: 10;\r\n  transform-origin: 50%;\r\n  -webkit-animation: swiper-preloader-spin 1s infinite linear;\r\n          animation: swiper-preloader-spin 1s infinite linear;\r\n  box-sizing: border-box;\r\n  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));\r\n  border-radius: 50%;\r\n  border-top-color: transparent;\r\n}\r\n.swiper-lazy-preloader-white[_ngcontent-%COMP%] {\r\n  --swiper-preloader-color: #fff;\r\n}\r\n.swiper-lazy-preloader-black[_ngcontent-%COMP%] {\r\n  --swiper-preloader-color: #000;\r\n}\r\n@-webkit-keyframes swiper-preloader-spin {\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n@keyframes swiper-preloader-spin {\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n.swiper-container[_ngcontent-%COMP%]   .swiper-notification[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  pointer-events: none;\r\n  opacity: 0;\r\n  z-index: -1000;\r\n}\r\n.swiper-container-fade.swiper-container-free-mode[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  transition-timing-function: ease-out;\r\n}\r\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  transition-property: opacity;\r\n}\r\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\r\n.swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-fade[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%] {\r\n  overflow: visible;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  z-index: 1;\r\n  visibility: hidden;\r\n  transform-origin: 0 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\r\n.swiper-container-cube.swiper-container-rtl[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  transform-origin: 100% 0;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-next[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-next[_ngcontent-%COMP%]    + .swiper-slide[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-prev[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n  visibility: visible;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-cube[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n}\r\n.swiper-container-cube[_ngcontent-%COMP%]   .swiper-cube-shadow[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  left: 0;\r\n  bottom: 0px;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #000;\r\n  opacity: 0.6;\r\n  -webkit-filter: blur(50px);\r\n  filter: blur(50px);\r\n  z-index: 0;\r\n}\r\n.swiper-container-flip[_ngcontent-%COMP%] {\r\n  overflow: visible;\r\n}\r\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  z-index: 1;\r\n}\r\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%]   .swiper-slide[_ngcontent-%COMP%] {\r\n  pointer-events: none;\r\n}\r\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%]   .swiper-slide-active[_ngcontent-%COMP%] {\r\n  pointer-events: auto;\r\n}\r\n.swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-bottom[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-left[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-right[_ngcontent-%COMP%], .swiper-container-flip[_ngcontent-%COMP%]   .swiper-slide-shadow-top[_ngcontent-%COMP%] {\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n}\r\n*[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\r\n.card-container[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  padding-top: 50px;\r\n}\r\n.img-conatiner[_ngcontent-%COMP%] {\r\n  width: 199px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFydC1jdWx0dXJlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLHVHQUF1RztBQUN2RztFQUNFLFVBQVU7RUFDVixXQUFXO0FBQ2I7QUFJQSxxR0FBcUc7QUFDckc7O0VBRUUsZUFBZTtFQUNmLFdBQVc7RUFDWCxZQUFZO0VBQ1osUUFBUTtFQUNSLFNBQVM7RUFDVCxVQUFVO0FBQ1o7QUFDQTtFQUNFLFdBQVc7RUFDWCw2Q0FBNkM7QUFDL0M7QUFFQTtFQUNFLHFCQUFxQjtBQUN2QjtBQUNBO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFNBQVM7RUFDVCxrQkFBa0I7RUFDbEIsc0JBQXNCO0VBQ3RCLDRCQUE0QjtFQUM1Qix1QkFBdUI7RUFDdkIsVUFBVTtFQUNWLFVBQVU7RUFDVixtQ0FBbUM7RUFDbkMsd0RBQXdEO0VBSXhELGdEQUFnRDtBQUNsRDtBQUVBO0VBQ0UsbUNBQXlEO0FBQzNEO0FBRUE7RUFDRSxtQ0FBeUQ7RUFDekQsMkJBQTJCO0VBSTNCLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0UsaUNBQXVEO0VBQ3ZELDRCQUE0QjtFQUk1QixvQkFBb0I7QUFDdEI7QUFDQTtFQUNFLG1DQUF5RDtFQUN6RCw0QkFBNEI7RUFJNUIsb0JBQW9CO0FBQ3RCO0FBRUE7RUFDRSxtQ0FBeUQ7RUFDekQsNEJBQTRCO0VBSTVCLG9CQUFvQjtBQUN0QjtBQUVBO0VBQ0U7SUFDRSxVQUFVO0lBQ1YsMENBQTBDO0VBQzVDO0VBQ0E7SUFDRSxVQUFVO0lBQ1YsOEJBQThCO0lBQzlCLDJDQUEyQztFQUM3QztFQUNBO0lBQ0UsVUFBVTtJQUNWLDZCQUE2QjtFQUMvQjtFQUNBO0lBQ0UsVUFBVTtJQUNWLDZCQUE2QjtFQUMvQjtFQUNBO0lBQ0UsVUFBVTtFQUNaO0FBQ0Y7QUFtRUE7RUFDRTtJQUNFLFVBQVU7SUFDViwwQ0FBa0M7WUFBbEMsa0NBQWtDO0VBQ3BDO0VBQ0E7SUFDRSxVQUFVO0lBQ1Ysc0JBQXNCO0lBQ3RCLDJDQUFtQztZQUFuQyxtQ0FBbUM7RUFDckM7RUFDQTtJQUNFLFVBQVU7SUFDVixxQkFBcUI7RUFDdkI7RUFDQTtJQUNFLFVBQVU7SUFDVixxQkFBcUI7RUFDdkI7RUFDQTtJQUNFLFVBQVU7RUFDWjtBQUNGO0FBRUE7RUFDRSxVQUFVO0FBQ1o7QUFFQSxtR0FBbUc7QUFFbkcsaUJBQWlCO0FBQ2pCO0VBQ0UsV0FBVztFQUNYLGNBQWM7RUFDZCxlQUFlO0VBQ2YsVUFBVTtFQUNWLGtCQUFrQjtFQUNsQix5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLDZCQUE2QjtFQUM3QixhQUFhO0VBQ2IsWUFBWTtFQUNaLGVBQWU7QUFDakI7QUFFQSx3QkFBd0I7QUFDeEI7RUFDRSxZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLG1DQUFtQztFQUNuQyx1QkFBdUI7RUFDdkIsV0FBVztFQUNYLFlBQVk7RUFDWixxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLG1CQUFtQjtBQUNyQjtBQUVBOztFQUVFLFlBQVk7RUFDWixlQUFlO0VBQ2Y7Ozs7bURBSWlEOztFQUVqRCx5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQUNwQjtBQUVBOzs7RUFHRSxXQUFXO0VBQ1gsV0FBVztFQUNYLDREQUE0RDtFQUM1RCxvREFBb0Q7RUFDcEQsNEJBQTRCO0VBQzVCLFVBQVU7RUFDVixrQ0FBMEI7VUFBMUIsMEJBQTBCO0VBQzFCLHVDQUErQjtVQUEvQiwrQkFBK0I7RUFDL0IsOEJBQXNCO1VBQXRCLHNCQUFzQjtFQUN0QiwyQ0FBbUM7VUFBbkMsbUNBQW1DO0FBQ3JDO0FBRUE7RUFDRSxXQUFXO0VBQ1gsMkJBQW1CO1VBQW5CLG1CQUFtQjtFQUNuQixxQ0FBcUM7QUFDdkM7QUFDQTtFQUNFLFlBQVk7RUFDWiwyQkFBbUI7VUFBbkIsbUJBQW1CO0VBQ25CLHFDQUFxQztBQUN2QztBQUNBO0VBQ0UsYUFBYTtFQUNiLDJCQUFtQjtVQUFuQixtQkFBbUI7RUFDbkIscUNBQXFDO0FBQ3ZDO0FBRUE7RUFDRTtJQUNFLDRCQUE0QjtJQUM1QixVQUFVO0lBQ1YsNERBQTREO0lBQzVELG9EQUFvRDtFQUN0RDtFQUNBO0lBQ0Usd0JBQXdCO0lBQ3hCLFVBQVU7SUFDViw0REFBNEQ7SUFDNUQsb0RBQW9EO0VBQ3REO0VBQ0E7SUFDRSx3QkFBd0I7SUFDeEIsVUFBVTtJQUNWLDREQUE0RDtJQUM1RCxvREFBb0Q7RUFDdEQ7RUFDQTtJQUNFLDJCQUEyQjtJQUMzQixVQUFVO0lBQ1YsNERBQTREO0lBQzVELG9EQUFvRDtFQUN0RDtBQUNGO0FBekJBO0VBQ0U7SUFDRSw0QkFBNEI7SUFDNUIsVUFBVTtJQUNWLDREQUE0RDtJQUM1RCxvREFBb0Q7RUFDdEQ7RUFDQTtJQUNFLHdCQUF3QjtJQUN4QixVQUFVO0lBQ1YsNERBQTREO0lBQzVELG9EQUFvRDtFQUN0RDtFQUNBO0lBQ0Usd0JBQXdCO0lBQ3hCLFVBQVU7SUFDViw0REFBNEQ7SUFDNUQsb0RBQW9EO0VBQ3REO0VBQ0E7SUFDRSwyQkFBMkI7SUFDM0IsVUFBVTtJQUNWLDREQUE0RDtJQUM1RCxvREFBb0Q7RUFDdEQ7QUFDRjtBQUVBLHlHQUF5RztBQUV6RztFQUNFLGNBQWM7RUFDZCxRQUFRO0VBQ1IsVUFBVTtBQUNaO0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLFlBQVk7RUFDWixhQUFhO0VBQ2IsY0FBYztFQUNkLGNBQWM7QUFDaEI7QUFDQTtFQUNFLFlBQVk7O0VBRVosc0JBQXNCO0FBQ3hCO0FBQ0E7RUFDRSxxQkFBcUI7O0VBRXJCLHFCQUFxQjtFQUNyQix5QkFBeUI7RUFDekIsY0FBYztFQUNkLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsc0JBQXNCO0FBQ3hCO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCO0FBRUE7RUFDRSxZQUFZO0VBQ1osYUFBYTtBQUNmO0FBRUE7RUFDRSx5QkFBeUI7RUFDekI7a0JBQ2dCO0VBQ2hCLGdCQUFnQjtFQUNoQixrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLDZCQUE2QjtBQUMvQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixVQUFVO0VBQ1YsVUFBVTtBQUNaO0FBQ0E7RUFDRSxzQkFBc0I7QUFDeEI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixXQUFXO0VBQ1gsWUFBWTtFQUNaLFVBQVU7RUFDVixhQUFhO0VBQ2IsOEJBQThCO0VBQzlCLHVCQUF1QjtBQUN6QjtBQUNBOztFQUVFLGlDQUFpQztBQUNuQztBQUNBO0VBQ0UsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLHNCQUFzQjtBQUN4QjtBQUNBO0VBQ0Usb0NBQW9DO0VBQ3BDLGNBQWM7QUFDaEI7QUFDQTtFQUNFLGNBQWM7RUFDZCxXQUFXO0VBQ1gsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQiw4QkFBOEI7QUFDaEM7QUFDQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUNBOztFQUVFLFlBQVk7QUFDZDtBQUNBO0VBQ0UsdUJBQXVCO0VBQ3ZCLHNDQUFzQztBQUN4QztBQUNBO0VBQ0UsbUJBQW1CO0FBQ3JCO0FBQ0E7Ozs7Ozs7RUFPRSw0QkFBNEI7QUFDOUI7QUFDQTs7OztFQUlFLGtCQUFrQjtFQUNsQixPQUFPO0VBQ1AsTUFBTTtFQUNOLFdBQVc7RUFDWCxZQUFZO0VBQ1osb0JBQW9CO0VBQ3BCLFdBQVc7QUFDYjtBQUNBO0VBQ0U7Ozs7R0FJQztBQUNIO0FBQ0E7RUFDRTs7OztHQUlDO0FBQ0g7QUFDQTtFQUNFOzs7O0dBSUM7QUFDSDtBQUNBO0VBQ0U7Ozs7R0FJQztBQUNIO0FBQ0E7RUFDRSxjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLHdCQUF3QjtBQUMxQjtBQUNBO0VBQ0UsYUFBYTtBQUNmO0FBQ0E7RUFDRSw4QkFBOEI7QUFDaEM7QUFDQTtFQUNFLGlDQUE2QjtNQUE3Qiw2QkFBNkI7QUFDL0I7QUFDQTtFQUNFLGlDQUE2QjtNQUE3Qiw2QkFBNkI7QUFDL0I7QUFDQTtFQUNFLDhCQUE4QjtBQUNoQztBQUNBOztFQUVFLGtCQUFrQjtFQUNsQixRQUFRO0VBQ1Isb0RBQW9EO0VBQ3BELHFDQUFxQztFQUNyQyx3REFBd0Q7RUFDeEQsV0FBVztFQUNYLGVBQWU7RUFDZixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2QixnRUFBZ0U7QUFDbEU7QUFDQTs7RUFFRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLG9CQUFvQjtBQUN0QjtBQUNBOztFQUVFLHlCQUF5QjtFQUN6Qix3Q0FBd0M7RUFDeEMsK0JBQStCO0VBQy9CLGlCQUFpQjtFQUNqQixvQkFBb0I7RUFDcEIscUJBQXFCO0VBQ3JCLGNBQWM7QUFDaEI7QUFDQTs7RUFFRSxVQUFVO0VBQ1YsV0FBVztBQUNiO0FBQ0E7O0VBRUUsZUFBZTtBQUNqQjtBQUNBOztFQUVFLFdBQVc7RUFDWCxVQUFVO0FBQ1o7QUFDQTs7RUFFRSxlQUFlO0FBQ2pCO0FBQ0E7O0VBRUUsa0NBQWtDO0FBQ3BDO0FBQ0E7O0VBRUUsa0NBQWtDO0FBQ3BDO0FBQ0E7RUFDRSxhQUFhO0FBQ2Y7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIsd0JBQXdCO0VBQ3hCLCtCQUErQjtFQUMvQixXQUFXO0FBQ2I7QUFDQTtFQUNFLFVBQVU7QUFDWjtBQUNBOzs7RUFHRSxZQUFZO0VBQ1osT0FBTztFQUNQLFdBQVc7QUFDYjtBQUNBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFlBQVk7QUFDZDtBQUNBO0VBQ0Usc0JBQXNCO0VBQ3RCLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxtQkFBbUI7QUFDckI7QUFDQTtFQUNFLHNCQUFzQjtBQUN4QjtBQUNBO0VBQ0Usc0JBQXNCO0FBQ3hCO0FBQ0E7RUFDRSxzQkFBc0I7QUFDeEI7QUFDQTtFQUNFLHNCQUFzQjtBQUN4QjtBQUNBO0VBQ0UsVUFBVTtFQUNWLFdBQVc7RUFDWCxxQkFBcUI7RUFDckIsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixZQUFZO0FBQ2Q7QUFDQTtFQUNFLFlBQVk7RUFDWixTQUFTO0VBQ1QsVUFBVTtFQUNWLGdCQUFnQjtFQUNoQix3QkFBd0I7RUFDeEIscUJBQXFCO0VBQ3JCLGdCQUFnQjtBQUNsQjtBQUNBO0VBQ0UsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsVUFBVTtFQUNWLHFFQUFxRTtBQUN2RTtBQUNBO0VBQ0UsV0FBVztFQUNYLFFBQVE7RUFDUixvQ0FBb0M7QUFDdEM7QUFDQTs7O0VBR0UsYUFBYTtFQUNiLGNBQWM7QUFDaEI7QUFDQTs7RUFFRSxRQUFRO0VBQ1IsMkJBQTJCO0VBQzNCLFVBQVU7QUFDWjtBQUNBOzs7RUFHRSxxQkFBcUI7RUFDckIsb0NBQW9DO0FBQ3RDO0FBQ0E7OztFQUdFLGFBQWE7QUFDZjtBQUNBOztFQUVFLFNBQVM7RUFDVCwyQkFBMkI7RUFDM0IsbUJBQW1CO0FBQ3JCO0FBQ0E7OztFQUdFLHFDQUFxQztBQUN2QztBQUNBOzs7RUFHRSxzQ0FBc0M7QUFDeEM7QUFDQTtFQUNFLCtCQUErQjtFQUMvQixrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLHFFQUFxRTtFQUNyRSxrQkFBa0I7RUFDbEIsT0FBTztFQUNQLE1BQU07RUFDTixXQUFXO0VBQ1gsWUFBWTtFQUNaLG1CQUFtQjtFQUNuQiwwQkFBMEI7QUFDNUI7QUFDQTs7O0VBR0UsMkJBQTJCO0FBQzdCO0FBQ0E7OztFQUdFLFdBQVc7RUFDWCxXQUFXO0VBQ1gsT0FBTztFQUNQLE1BQU07QUFDUjtBQUNBOzs7RUFHRSxVQUFVO0VBQ1YsWUFBWTtFQUNaLE9BQU87RUFDUCxNQUFNO0FBQ1I7QUFDQTtFQUNFLGtDQUFrQztBQUNwQztBQUNBO0VBQ0Usa0NBQWtDO0FBQ3BDO0FBQ0E7RUFDRSxhQUFhO0FBQ2Y7QUFDQTtFQUNFLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsc0JBQXNCO0VBQ3RCLDhCQUE4QjtBQUNoQztBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUixXQUFXO0VBQ1gsV0FBVztFQUNYLFdBQVc7RUFDWCxVQUFVO0FBQ1o7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixVQUFVO0VBQ1YsT0FBTztFQUNQLFdBQVc7RUFDWCxVQUFVO0VBQ1YsV0FBVztBQUNiO0FBQ0E7RUFDRSxZQUFZO0VBQ1osV0FBVztFQUNYLGtCQUFrQjtFQUNsQiw4QkFBOEI7RUFDOUIsbUJBQW1CO0VBQ25CLE9BQU87RUFDUCxNQUFNO0FBQ1I7QUFDQTtFQUNFLFlBQVk7QUFDZDtBQUNBO0VBQ0UsYUFBYTtBQUNmO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0VBQ25CLGtCQUFrQjtBQUNwQjtBQUNBOzs7RUFHRSxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLHNCQUFtQjtLQUFuQixtQkFBbUI7QUFDckI7QUFDQTtFQUNFLFlBQVk7QUFDZDtBQUNBO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsU0FBUztFQUNULFFBQVE7RUFDUixrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLFdBQVc7RUFDWCxxQkFBcUI7RUFDckIsMkRBQW1EO1VBQW5ELG1EQUFtRDtFQUNuRCxzQkFBc0I7RUFDdEIsMEVBQTBFO0VBQzFFLGtCQUFrQjtFQUNsQiw2QkFBNkI7QUFDL0I7QUFDQTtFQUNFLDhCQUE4QjtBQUNoQztBQUNBO0VBQ0UsOEJBQThCO0FBQ2hDO0FBQ0E7RUFDRTtJQUNFLHlCQUF5QjtFQUMzQjtBQUNGO0FBSkE7RUFDRTtJQUNFLHlCQUF5QjtFQUMzQjtBQUNGO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsT0FBTztFQUNQLE1BQU07RUFDTixvQkFBb0I7RUFDcEIsVUFBVTtFQUNWLGNBQWM7QUFDaEI7QUFDQTtFQUNFLG9DQUFvQztBQUN0QztBQUNBO0VBQ0Usb0JBQW9CO0VBQ3BCLDRCQUE0QjtBQUM5QjtBQUNBO0VBQ0Usb0JBQW9CO0FBQ3RCO0FBQ0E7O0VBRUUsb0JBQW9CO0FBQ3RCO0FBQ0E7RUFDRSxpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLG9CQUFvQjtFQUNwQixtQ0FBbUM7RUFDbkMsMkJBQTJCO0VBQzNCLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIscUJBQXFCO0VBQ3JCLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7QUFDQTtFQUNFLG9CQUFvQjtBQUN0QjtBQUNBO0VBQ0Usd0JBQXdCO0FBQzFCO0FBQ0E7O0VBRUUsb0JBQW9CO0FBQ3RCO0FBQ0E7Ozs7RUFJRSxvQkFBb0I7RUFDcEIsbUJBQW1CO0FBQ3JCO0FBQ0E7Ozs7RUFJRSxVQUFVO0VBQ1YsbUNBQW1DO0VBQ25DLDJCQUEyQjtBQUM3QjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLE9BQU87RUFDUCxXQUFXO0VBQ1gsV0FBVztFQUNYLFlBQVk7RUFDWixnQkFBZ0I7RUFDaEIsWUFBWTtFQUNaLDBCQUEwQjtFQUMxQixrQkFBa0I7RUFDbEIsVUFBVTtBQUNaO0FBQ0E7RUFDRSxpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLG9CQUFvQjtFQUNwQixtQ0FBbUM7RUFDbkMsMkJBQTJCO0VBQzNCLFVBQVU7QUFDWjtBQUNBO0VBQ0Usb0JBQW9CO0FBQ3RCO0FBQ0E7O0VBRUUsb0JBQW9CO0FBQ3RCO0FBQ0E7Ozs7RUFJRSxVQUFVO0VBQ1YsbUNBQW1DO0VBQ25DLDJCQUEyQjtBQUM3QjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsYUFBYTtFQUNiLGVBQWU7RUFDZixpQkFBaUI7QUFDbkI7QUFFQTtFQUNFLFlBQVk7QUFDZCIsImZpbGUiOiJhcnQtY3VsdHVyZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi8qIE5hdmlnYXRpb24gIEJhciAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbioge1xyXG4gIG1hcmdpbjogMCU7XHJcbiAgcGFkZGluZzogMCU7XHJcbn1cclxuXHJcblxyXG5cclxuLyogQmFja2dyb3VuZCAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcbi5jYi1zbGlkZXNob3csXHJcbi5jYi1zbGlkZXNob3c6YWZ0ZXIge1xyXG4gIHBvc2l0aW9uOiBmaXhlZDtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgdG9wOiAwcHg7XHJcbiAgbGVmdDogMHB4O1xyXG4gIHotaW5kZXg6IDA7XHJcbn1cclxuLmNiLXNsaWRlc2hvdzphZnRlciB7XHJcbiAgY29udGVudDogXCJcIjtcclxuICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudCB1cmwoKSByZXBlYXQgdG9wIGxlZnQ7XHJcbn1cclxuXHJcbmxpIHtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaSBzcGFuIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogMHB4O1xyXG4gIGxlZnQ6IDBweDtcclxuICBjb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA1MCUgNTAlO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBub25lO1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgei1pbmRleDogMDtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICAtd2Via2l0LWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICAtbW96LWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICAtby1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgLW1zLWFuaW1hdGlvbjogaW1hZ2VBbmltYXRpb24gMzZzIGxpbmVhciBpbmZpbml0ZSAwcztcclxuICBhbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbn1cclxuXHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDEpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQxLjEuanBnKTtcclxufVxyXG5cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoMikgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDIuMi5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiA2cztcclxuICAtbW96LWFuaW1hdGlvbi1kZWxheTogNnM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiA2cztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiA2cztcclxuICBhbmltYXRpb24tZGVsYXk6IDZzO1xyXG59XHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDMpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQzLmpwZyk7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZGVsYXk6IDEycztcclxuICAtbW96LWFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG4gIC1vLWFuaW1hdGlvbi1kZWxheTogMTJzO1xyXG4gIC1tcy1hbmltYXRpb24tZGVsYXk6IDEycztcclxuICBhbmltYXRpb24tZGVsYXk6IDEycztcclxufVxyXG4uY2Itc2xpZGVzaG93IGxpOm50aC1jaGlsZCg0KSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0NC40LmpwZyk7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZGVsYXk6IDE4cztcclxuICAtbW96LWFuaW1hdGlvbi1kZWxheTogMThzO1xyXG4gIC1vLWFuaW1hdGlvbi1kZWxheTogMThzO1xyXG4gIC1tcy1hbmltYXRpb24tZGVsYXk6IDE4cztcclxuICBhbmltYXRpb24tZGVsYXk6IDE4cztcclxufVxyXG5cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoNSkgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDYuNi5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbiAgLW1vei1hbmltYXRpb24tZGVsYXk6IDMwcztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDMwcztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbn1cclxuXHJcbkAtd2Via2l0LWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQC1tb3ota2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1vei1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgLW1vei1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbW96LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtbW96LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5ALW8ta2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW8tYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtby1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW8tdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkAtbXMta2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1zLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC1tcy1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tcy10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQGtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5cclxuLm5vLWNzc2FuaW1hdGlvbnMgLmNiLXNsaWRlc2hvdyBsaSBzcGFuIHtcclxuICBvcGFjaXR5OiAxO1xyXG59XHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcblxyXG4vKiB0aXRsZSAqKioqKiogKi9cclxuLnRpdGxlIHtcclxuICBjb2xvcjogc25vdztcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDQ1cHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogcmdiKDAsIDAsIDAsIDAuOCk7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMmVtO1xyXG59XHJcblxyXG4vKiBjb21pbmdzb29uICoqKioqKioqICovXHJcbi5jb21pbmdzb29uIHtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMTBlbTtcclxuICBmb250LWZhbWlseTogXCJCYWxvbyBQYWFqaVwiLCBjdXJzaXZlO1xyXG4gIGJvcmRlcjogYmxhY2sgMnB4IHNvbGlkO1xyXG4gIHdpZHRoOiAyMGVtO1xyXG4gIGhlaWdodDogMTJlbTtcclxuICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbn1cclxuXHJcbi5jb21pbmdzb29uIGgxLFxyXG5oMiB7XHJcbiAgcGFkZGluZzogMWVtO1xyXG4gIGZvbnQtc2l6ZTogNDBweDtcclxuICB0ZXh0LXNoYWRvdzogMCAtMXB4IDAgI2ZmZiwgMCAxcHggMCAjMmUyZTJlLCAwIDEuMXB4IDAgIzJjMmMyYyxcclxuICAgIDAgMS4ycHggMCAjMmEyYTJhLCAwIDEuM3B4IDAgIzI4MjgyOCwgMCAxLjRweCAwICMyNjI2MjYsIDAgMS41cHggMCAjMjQyNDI0LFxyXG4gICAgMCAxLjZweCAwICMyMjIsIDAgMS43cHggMCAjMjAyMDIwLCAwIDJweCAwICMxZTFlMWUsIDAgMi4xcHggMCAjMWMxYzFjLFxyXG4gICAgMCAyLjJweCAwICMxYTFhMWEsIDAgMi4zcHggMCAjMTgxODE4LCAwIDIuNHB4IDAgIzE2MTYxNiwgMCAyLjVweCAwICMxNDE0MTQsXHJcbiAgICAwIDIuOHB4IDAgIzEyMTIxMiwgMCAzcHggM3B4IHJnYmEoMCwgMCwgMCwgMC45KTtcclxuXHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbGluZS1oZWlnaHQ6IDEuM2VtO1xyXG59XHJcblxyXG5zcGFuLmNzMSxcclxuc3Bhbi5jczIsXHJcbnNwYW4uY3MzIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBmbG9hdDogbGVmdDtcclxuICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDgwJSk7XHJcbiAgY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgODAlKTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwcHgpO1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgYW5pbWF0aW9uLW5hbWU6IGNvbWluZ3Nvb247XHJcbiAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZTtcclxuICBhbmltYXRpb24tZHVyYXRpb246IDZzO1xyXG4gIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xyXG59XHJcblxyXG5zcGFuLmNzMSB7XHJcbiAgY29sb3I6IHBpbms7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAzcztcclxuICAtd2Via2l0LWFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzO1xyXG59XHJcbnNwYW4uY3MyIHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAycztcclxuICAtd2Via2l0LWFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzO1xyXG59XHJcbnNwYW4uY3MzIHtcclxuICBjb2xvcjogeWVsbG93O1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMXM7XHJcbiAgLXdlYmtpdC1hbmltYXRpb24tZmlsbC1tb2RlOiBmb3J3YXJkcztcclxufVxyXG5cclxuQGtleWZyYW1lcyBjb21pbmdzb29uIHtcclxuICAwJSB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwcHgpO1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC13ZWJraXQtY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgODAlKTtcclxuICAgIGNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDgwJSk7XHJcbiAgfVxyXG4gIDIwJSB7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLXdlYmtpdC1jbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCAxNSUpO1xyXG4gICAgY2xpcC1wYXRoOiBwb2x5Z29uKDEwMCUgMCwgMTAwJSAxMDAlLCAwIDEwMCUsIDAgMTUlKTtcclxuICB9XHJcbiAgODAlIHtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgMTAwJSwgMCAxMDAlLCAwIDE1JSk7XHJcbiAgICBjbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIDEwMCUsIDAgMTAwJSwgMCAxNSUpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSg1MHB4KTtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbigxMDAlIDAsIDEwMCUgLTAlLCAwIDEwMCUsIDAgMTAwJSk7XHJcbiAgICBjbGlwLXBhdGg6IHBvbHlnb24oMTAwJSAwLCAxMDAlIC0wJSwgMCAxMDAlLCAwIDEwMCUpO1xyXG4gIH1cclxufVxyXG5cclxuLyogVGV4dHNsaWRlYm94ICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG5cclxuLnN3aXBlci1jb250YWluZXIge1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIHRvcDogMmVtO1xyXG4gIHdpZHRoOiA4NSU7XHJcbn1cclxuXHJcbi5jYXJkIHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogI2ZmZjtcclxuICB3aWR0aDogMjAwcHg7XHJcbiAgaGVpZ2h0OiAzMDBweDtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICBmb250LWZhbWlseTogYztcclxufVxyXG4uY2FyZCAuY29udGVudCB7XHJcbiAgd2lkdGg6IDIwMHB4O1xyXG5cclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG59XHJcbi5jYXJkIC5jb250ZW50IGEge1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuXHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICMyNjI2MjY7XHJcbiAgY29sb3I6ICMyNjI2MjY7XHJcbiAgZm9udC13ZWlnaHQ6IDIwcHg7XHJcbn1cclxuLmNhcmQgLnNsaWRlcnRleHQge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDUwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMwMDA7XHJcbn1cclxuLmNhcmQgLnNsaWRlcnRleHQgaDMge1xyXG4gIGNvbG9yOiAjZmZmO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxufVxyXG5cclxuLnN3aXBlci1zbGlkZSB7XHJcbiAgbWF4LXdpZHRoOiAyMDBweDtcclxufVxyXG5cclxuaW1nIHtcclxuICB3aWR0aDogMjAwcHg7XHJcbiAgaGVpZ2h0OiAyMDBweDtcclxufVxyXG5cclxuQGZvbnQtZmFjZSB7XHJcbiAgZm9udC1mYW1pbHk6IHN3aXBlci1pY29ucztcclxuICBzcmM6IHVybChcImRhdGE6YXBwbGljYXRpb24vZm9udC13b2ZmO2NoYXJzZXQ9dXRmLTg7YmFzZTY0LCBkMDlHUmdBQkFBQUFBQVpnQUJBQUFBQUFEQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQkdSbFJOQUFBR1JBQUFBQm9BQUFBY2k2cUhrVWRFUlVZQUFBV2dBQUFBSXdBQUFDUUFZQUJYUjFCUFV3QUFCaFFBQUFBdUFBQUFOdUFZNyt4SFUxVkNBQUFGeEFBQUFGQUFBQUJtMmZQY3pVOVRMeklBQUFIY0FBQUFTZ0FBQUdCUDlWNVJZMjFoY0FBQUFrUUFBQUNJQUFBQll0NkYwY0JqZG5RZ0FBQUN6QUFBQUFRQUFBQUVBQkVCUkdkaGMzQUFBQVdZQUFBQUNBQUFBQWovL3dBRFoyeDVaZ0FBQXl3QUFBRE1BQUFEMk1IdHJ5Vm9aV0ZrQUFBQmJBQUFBREFBQUFBMkUyK2VvV2hvWldFQUFBR2NBQUFBSHdBQUFDUUM5Z0R6YUcxMGVBQUFBaWdBQUFBWkFBQUFyZ0prQUJGc2IyTmhBQUFDMEFBQUFGb0FBQUJhRlFBVUdHMWhlSEFBQUFHOEFBQUFId0FBQUNBQWNBQkFibUZ0WlFBQUEvZ0FBQUU1QUFBQ1h2RmRCd2x3YjNOMEFBQUZOQUFBQUdJQUFBQ0U1czc0aFhqYVkyQmtZR0FBWXBmNUh1L2orVzIrTW5Bek1ZREF6YVg2UWpENi80Ly9CeGo1R0E4QXVSd01ZR2tBUHl3TDEzamFZMkJrWUdBODhQOEFneDRqKy84ZlFEWWZBMUFFQldnREFJQjJCT29BZU5wallHUmdZTkJoNEdkZ1lnQUJFTW5JQUJKellOQURDUUFBQ1dnQXNRQjQybU5nWWZ6Q09JR0JsWUdCMFljeGpZR0J3UjFLZjJXUVpHaGhZR0JpWUdWbWdBRkdCaVFRa09hYXd0REFvTUJReFhqZy93RUdQY1lEREE0d05VQTJDQ2d3c0FBQU80RUw2Z0FBZU5wajJNMGd5QUFDcXhnR05XQmtaMkQ0L3dNQSt4a0RkZ0FBQUhqYVkyQmdZR2FBWUJrR1JnWVFpQUh5R01GOEZnWUhJTTNEd01IQUJHUXJNT2d5V0RMRU0xVDkvdzhVQmZFTWdMekUvLy8vUC81Ly9mL1YveHYrcjRlYUFBZU1iQXh3SVVZbUlNSEVnS1lBWWpVY3NEQXdzTEt4YzNCeWNmUHc4akVRQS9nWkJBU0ZoRVZFeGNRbEpLV2taV1RsNUJVVWxaUlZWTlhVTlRRWkJnTUFBTVIrRStnQUVRRkVBQUFBS2dBcUFDb0FOQUErQUVnQVVnQmNBR1lBY0FCNkFJUUFqZ0NZQUtJQXJBQzJBTUFBeWdEVUFONEE2QUR5QVB3QkJnRVFBUm9CSkFFdUFUZ0JRZ0ZNQVZZQllBRnFBWFFCZmdHSUFaSUJuQUdtQWJJQnpnSHNBQUI0MnUyTk1RNkNVQXlHVzU2OHg5QW5lWVlnbTRNSmJoS0ZhRXhJT0FWWDhBcGV3U3Q0QmljNEFmZUFpZDNWT0JpeER4ZlBZRXphNU8rWGZpMDRZQURnZ2lVSVVMQ3VFSks4VmhPNGJTdnBkbmt0SEk1UUNZdGRpMnNsOFpuWGFIbHFVck5LemRLY1Q4Y2pscStyd1pTdklWY3pOaWV6c2ZuUC91em5tZlBGQk5PRE0ySzdNVFE0NVlFQVpxR1A4MUFtR0djRjNpUHFPb3AwcjFTUFRhVGJWa2ZVZTRIWGo5N3dZRSt5TndXWXh3V3U0djF1Z1dIZ28zUzFYZFpFVnFXTTdFVDBjZm5MR3hXZmtnUjQybzJQdldyRE1CU0ZqL0lITGFGMHpLalJnZGlWTXdTY05SQW9XVW9INzhZMmljQi95SVkwOUFuNkFIMkJkdS9VQit5eG9wWXNoUWlFdm52dTBkVVJnRHQ4UWVDOFBEdzdGcGppM2ZFQTR6L1BFSjZZT0I1aEtoNGRqM0V2WGh4UHFIL1NLVVkzcko3c3JaNEZabmgxUE1BdFBod1A2ZmwyUE1KTVBEZ2VRNHJZOFlUNkd6YW8wZUFFQTQwOUR1Z2dtVG5Gbk9jU0NpRWlMTWd4Q2lUSTZDcTVEWlVkM1FtcDEwdk8wTGFMVGQyY2pONGZPdW1sYzdsVVliU1FjWkZrdXRSRzdnNkpLWkt5MFJtZExZNjgwQ0RuRUorVU1rcEZGZTFSTjdueGRWcFhyQzRhVHRuYXVyT25ZZXJjWmcyWVZtTE4vZC9nY3pmRWltckUvZnMvYk91cTI5Wm1uOHRsb09SYVhnWmdHYTc4eU85L2NuWG0yQnBhR3ZxMjVEdjlTNEU5KzVTSWM5UHF1cEpLaFlGU1NsNDcrUWNyMW1ZTkFBQUFlTnB0dzBjS3drQUFBTURaSkE4UTdPVUp2a0xzUGZaNnpGVkVSUHk4cUhoMllFUiszaS9CUDgzdklCTEx5U3NvS2ltcnFLcXBhMmhwNitqcTZSc1lHaG1ibUpxWlN5MHNyYXh0Yk8zc0hSeWRuRU1VNHVSNnl4N0pKWHZlUDdXckR5Y0FBQUFBQUFILy93QUNlTnBqWUdSZ1lPQUJZaGtnWmdKQ1pnWk5Ca1lHTFFadElKc0ZMTVlBQUF3M0FMZ0FlTm9saXpFS2dEQVFCQ2NoUmJDMnNGRVIwWUQ2cVZRaUJDdi9IOWV6R0k2WjVYQkF3OENCSy9tNWlRUVZhdVZiWExuT3JNWnYyb0xkS0ZhOFBqdXJ1MmhKekdhYm1PU0x6Tk16dnV0cEIzTjQybU5nWkdCZzRHS1FZekJoWU14SkxNbGo0R0JnQVlvdy9QL1BBSkpoTE02c1NvV0tmV0NBQXdEQWpnYlJBQUI0Mm1OZ1lHQmtBSUliQ1pvNUlQcm1VbjBoR0EwQU84RUZUUUFBXCIpXHJcbiAgICBmb3JtYXQoXCJ3b2ZmXCIpO1xyXG4gIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG59XHJcbjpyb290IHtcclxuICAtLXN3aXBlci10aGVtZS1jb2xvcjogIzAwN2FmZjtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lciB7XHJcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgcGFkZGluZzogMDtcclxuICB6LWluZGV4OiAxO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsID4gLnN3aXBlci13cmFwcGVyIHtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG59XHJcbi5zd2lwZXItd3JhcHBlciB7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB6LWluZGV4OiAxO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgdHJhbnNpdGlvbi1wcm9wZXJ0eTogdHJhbnNmb3JtO1xyXG4gIGJveC1zaXppbmc6IGNvbnRlbnQtYm94O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWFuZHJvaWQgLnN3aXBlci1zbGlkZSxcclxuLnN3aXBlci13cmFwcGVyIHtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDBweCwgMCwgMCk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItbXVsdGlyb3cgPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1tdWx0aXJvdy1jb2x1bW4gPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZyZWUtbW9kZSA+IC5zd2lwZXItd3JhcHBlciB7XHJcbiAgdHJhbnNpdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG59XHJcbi5zd2lwZXItc2xpZGUge1xyXG4gIGZsZXgtc2hyaW5rOiAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgdHJhbnNpdGlvbi1wcm9wZXJ0eTogdHJhbnNmb3JtO1xyXG59XHJcbi5zd2lwZXItc2xpZGUtaW52aXNpYmxlLWJsYW5rIHtcclxuICB2aXNpYmlsaXR5OiBoaWRkZW47XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItYXV0b2hlaWdodCxcclxuLnN3aXBlci1jb250YWluZXItYXV0b2hlaWdodCAuc3dpcGVyLXNsaWRlIHtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItYXV0b2hlaWdodCAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0O1xyXG4gIHRyYW5zaXRpb24tcHJvcGVydHk6IHRyYW5zZm9ybSwgaGVpZ2h0O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIHtcclxuICBwZXJzcGVjdGl2ZTogMTIwMHB4O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItY3ViZS1zaGFkb3csXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUsXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LWJvdHRvbSxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctbGVmdCxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctcmlnaHQsXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LXRvcCxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci13cmFwcGVyIHtcclxuICB0cmFuc2Zvcm0tc3R5bGU6IHByZXNlcnZlLTNkO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LWJvdHRvbSxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctbGVmdCxcclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctcmlnaHQsXHJcbi5zd2lwZXItY29udGFpbmVyLTNkIC5zd2lwZXItc2xpZGUtc2hhZG93LXRvcCB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxuICB6LWluZGV4OiAxMDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1sZWZ0IHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXHJcbiAgICB0byBsZWZ0LFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwLjUpLFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwKVxyXG4gICk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctcmlnaHQge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChcclxuICAgIHRvIHJpZ2h0LFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwLjUpLFxyXG4gICAgcmdiYSgwLCAwLCAwLCAwKVxyXG4gICk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItM2QgLnN3aXBlci1zbGlkZS1zaGFkb3ctdG9wIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoXHJcbiAgICB0byB0b3AsXHJcbiAgICByZ2JhKDAsIDAsIDAsIDAuNSksXHJcbiAgICByZ2JhKDAsIDAsIDAsIDApXHJcbiAgKTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci0zZCAuc3dpcGVyLXNsaWRlLXNoYWRvdy1ib3R0b20ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChcclxuICAgIHRvIGJvdHRvbSxcclxuICAgIHJnYmEoMCwgMCwgMCwgMC41KSxcclxuICAgIHJnYmEoMCwgMCwgMCwgMClcclxuICApO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWNzcy1tb2RlID4gLnN3aXBlci13cmFwcGVyIHtcclxuICBvdmVyZmxvdzogYXV0bztcclxuICBzY3JvbGxiYXItd2lkdGg6IG5vbmU7XHJcbiAgLW1zLW92ZXJmbG93LXN0eWxlOiBub25lO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWNzcy1tb2RlID4gLnN3aXBlci13cmFwcGVyOjotd2Via2l0LXNjcm9sbGJhciB7XHJcbiAgZGlzcGxheTogbm9uZTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jc3MtbW9kZSA+IC5zd2lwZXItd3JhcHBlciA+IC5zd2lwZXItc2xpZGUge1xyXG4gIHNjcm9sbC1zbmFwLWFsaWduOiBzdGFydCBzdGFydDtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1ob3Jpem9udGFsLnN3aXBlci1jb250YWluZXItY3NzLW1vZGUgPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIHNjcm9sbC1zbmFwLXR5cGU6IHggbWFuZGF0b3J5O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsLnN3aXBlci1jb250YWluZXItY3NzLW1vZGUgPiAuc3dpcGVyLXdyYXBwZXIge1xyXG4gIHNjcm9sbC1zbmFwLXR5cGU6IHkgbWFuZGF0b3J5O1xyXG59XHJcbjpyb290IHtcclxuICAtLXN3aXBlci1uYXZpZ2F0aW9uLXNpemU6IDQ0cHg7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dCxcclxuLnN3aXBlci1idXR0b24tcHJldiB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogNTAlO1xyXG4gIHdpZHRoOiBjYWxjKHZhcigtLXN3aXBlci1uYXZpZ2F0aW9uLXNpemUpIC8gNDQgKiAyNyk7XHJcbiAgaGVpZ2h0OiB2YXIoLS1zd2lwZXItbmF2aWdhdGlvbi1zaXplKTtcclxuICBtYXJnaW4tdG9wOiBjYWxjKC0xICogdmFyKC0tc3dpcGVyLW5hdmlnYXRpb24tc2l6ZSkgLyAyKTtcclxuICB6LWluZGV4OiAxMDtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGNvbG9yOiB2YXIoLS1zd2lwZXItbmF2aWdhdGlvbi1jb2xvciwgdmFyKC0tc3dpcGVyLXRoZW1lLWNvbG9yKSk7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dC5zd2lwZXItYnV0dG9uLWRpc2FibGVkLFxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2LnN3aXBlci1idXR0b24tZGlzYWJsZWQge1xyXG4gIG9wYWNpdHk6IDAuMzU7XHJcbiAgY3Vyc29yOiBhdXRvO1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQ6YWZ0ZXIsXHJcbi5zd2lwZXItYnV0dG9uLXByZXY6YWZ0ZXIge1xyXG4gIGZvbnQtZmFtaWx5OiBzd2lwZXItaWNvbnM7XHJcbiAgZm9udC1zaXplOiB2YXIoLS1zd2lwZXItbmF2aWdhdGlvbi1zaXplKTtcclxuICB0ZXh0LXRyYW5zZm9ybTogbm9uZSAhaW1wb3J0YW50O1xyXG4gIGxldHRlci1zcGFjaW5nOiAwO1xyXG4gIHRleHQtdHJhbnNmb3JtOiBub25lO1xyXG4gIGZvbnQtdmFyaWFudDogaW5pdGlhbDtcclxuICBsaW5lLWhlaWdodDogMTtcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2LFxyXG4uc3dpcGVyLWNvbnRhaW5lci1ydGwgLnN3aXBlci1idXR0b24tbmV4dCB7XHJcbiAgbGVmdDogMTBweDtcclxuICByaWdodDogYXV0bztcclxufVxyXG4uc3dpcGVyLWJ1dHRvbi1wcmV2OmFmdGVyLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1ydGwgLnN3aXBlci1idXR0b24tbmV4dDphZnRlciB7XHJcbiAgY29udGVudDogXCJwcmV2XCI7XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dCxcclxuLnN3aXBlci1jb250YWluZXItcnRsIC5zd2lwZXItYnV0dG9uLXByZXYge1xyXG4gIHJpZ2h0OiAxMHB4O1xyXG4gIGxlZnQ6IGF1dG87XHJcbn1cclxuLnN3aXBlci1idXR0b24tbmV4dDphZnRlcixcclxuLnN3aXBlci1jb250YWluZXItcnRsIC5zd2lwZXItYnV0dG9uLXByZXY6YWZ0ZXIge1xyXG4gIGNvbnRlbnQ6IFwibmV4dFwiO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQuc3dpcGVyLWJ1dHRvbi13aGl0ZSxcclxuLnN3aXBlci1idXR0b24tcHJldi5zd2lwZXItYnV0dG9uLXdoaXRlIHtcclxuICAtLXN3aXBlci1uYXZpZ2F0aW9uLWNvbG9yOiAjZmZmZmZmO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLW5leHQuc3dpcGVyLWJ1dHRvbi1ibGFjayxcclxuLnN3aXBlci1idXR0b24tcHJldi5zd2lwZXItYnV0dG9uLWJsYWNrIHtcclxuICAtLXN3aXBlci1uYXZpZ2F0aW9uLWNvbG9yOiAjMDAwMDAwO1xyXG59XHJcbi5zd2lwZXItYnV0dG9uLWxvY2sge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHRyYW5zaXRpb246IDAuM3Mgb3BhY2l0eTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDAsIDAsIDApO1xyXG4gIHotaW5kZXg6IDEwO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi5zd2lwZXItcGFnaW5hdGlvbi1oaWRkZW4ge1xyXG4gIG9wYWNpdHk6IDA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbCA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLFxyXG4uc3dpcGVyLXBhZ2luYXRpb24tY3VzdG9tLFxyXG4uc3dpcGVyLXBhZ2luYXRpb24tZnJhY3Rpb24ge1xyXG4gIGJvdHRvbTogMTBweDtcclxuICBsZWZ0OiAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMge1xyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgZm9udC1zaXplOiAwO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldCB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwLjMzKTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZSB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlLW1haW4ge1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMSk7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZS1wcmV2IHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDAuNjYpO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUtcHJldi1wcmV2IHtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDAuMzMpO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLWR5bmFtaWMgLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldC1hY3RpdmUtbmV4dCB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwLjY2KTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cy1keW5hbWljIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQtYWN0aXZlLW5leHQtbmV4dCB7XHJcbiAgdHJhbnNmb3JtOiBzY2FsZSgwLjMzKTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICB3aWR0aDogOHB4O1xyXG4gIGhlaWdodDogOHB4O1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gIGJhY2tncm91bmQ6ICMwMDA7XHJcbiAgb3BhY2l0eTogMC4yO1xyXG59XHJcbmJ1dHRvbi5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIGJvcmRlcjogbm9uZTtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZzogMDtcclxuICBib3gtc2hhZG93OiBub25lO1xyXG4gIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcclxuICAtbW96LWFwcGVhcmFuY2U6IG5vbmU7XHJcbiAgYXBwZWFyYW5jZTogbm9uZTtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tY2xpY2thYmxlIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0LWFjdGl2ZSB7XHJcbiAgb3BhY2l0eTogMTtcclxuICBiYWNrZ3JvdW5kOiB2YXIoLS1zd2lwZXItcGFnaW5hdGlvbi1jb2xvciwgdmFyKC0tc3dpcGVyLXRoZW1lLWNvbG9yKSk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWwgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0cyB7XHJcbiAgcmlnaHQ6IDEwcHg7XHJcbiAgdG9wOiA1MCU7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgwcHgsIC01MCUsIDApO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXZlcnRpY2FsXHJcbiAgPiAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0c1xyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIG1hcmdpbjogNnB4IDA7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyB7XHJcbiAgdG9wOiA1MCU7XHJcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xyXG4gIHdpZHRoOiA4cHg7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pY1xyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICB0cmFuc2l0aW9uOiAwLjJzIHRyYW5zZm9ybSwgMC4ycyB0b3A7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHNcclxuICAuc3dpcGVyLXBhZ2luYXRpb24tYnVsbGV0IHtcclxuICBtYXJnaW46IDAgNHB4O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pYyB7XHJcbiAgbGVmdDogNTAlO1xyXG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgtNTAlKTtcclxuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWhvcml6b250YWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXRzLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pY1xyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIHRyYW5zaXRpb246IDAuMnMgdHJhbnNmb3JtLCAwLjJzIGxlZnQ7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbC5zd2lwZXItY29udGFpbmVyLXJ0bFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLWJ1bGxldHMtZHluYW1pY1xyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1idWxsZXQge1xyXG4gIHRyYW5zaXRpb246IDAuMnMgdHJhbnNmb3JtLCAwLjJzIHJpZ2h0O1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2JhciB7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjI1KTtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyIC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2Jhci1maWxsIHtcclxuICBiYWNrZ3JvdW5kOiB2YXIoLS1zd2lwZXItcGFnaW5hdGlvbi1jb2xvciwgdmFyKC0tc3dpcGVyLXRoZW1lLWNvbG9yKSk7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGxlZnQ6IDA7XHJcbiAgdG9wOiAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB0cmFuc2Zvcm06IHNjYWxlKDApO1xyXG4gIHRyYW5zZm9ybS1vcmlnaW46IGxlZnQgdG9wO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLXJ0bFxyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2JhclxyXG4gIC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2Jhci1maWxsIHtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiByaWdodCB0b3A7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbCA+IC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2JhcixcclxuLnN3aXBlci1jb250YWluZXItdmVydGljYWxcclxuICA+IC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2Jhci5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2Jhci1vcHBvc2l0ZSB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA0cHg7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbFxyXG4gID4gLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLnN3aXBlci1wYWdpbmF0aW9uLXByb2dyZXNzYmFyLW9wcG9zaXRlLFxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbCA+IC5zd2lwZXItcGFnaW5hdGlvbi1wcm9ncmVzc2JhciB7XHJcbiAgd2lkdGg6IDRweDtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgbGVmdDogMDtcclxuICB0b3A6IDA7XHJcbn1cclxuLnN3aXBlci1wYWdpbmF0aW9uLXdoaXRlIHtcclxuICAtLXN3aXBlci1wYWdpbmF0aW9uLWNvbG9yOiAjZmZmZmZmO1xyXG59XHJcbi5zd2lwZXItcGFnaW5hdGlvbi1ibGFjayB7XHJcbiAgLS1zd2lwZXItcGFnaW5hdGlvbi1jb2xvcjogIzAwMDAwMDtcclxufVxyXG4uc3dpcGVyLXBhZ2luYXRpb24tbG9jayB7XHJcbiAgZGlzcGxheTogbm9uZTtcclxufVxyXG4uc3dpcGVyLXNjcm9sbGJhciB7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgLW1zLXRvdWNoLWFjdGlvbjogbm9uZTtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItaG9yaXpvbnRhbCA+IC5zd2lwZXItc2Nyb2xsYmFyIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgbGVmdDogMSU7XHJcbiAgYm90dG9tOiAzcHg7XHJcbiAgei1pbmRleDogNTA7XHJcbiAgaGVpZ2h0OiA1cHg7XHJcbiAgd2lkdGg6IDk4JTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci12ZXJ0aWNhbCA+IC5zd2lwZXItc2Nyb2xsYmFyIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgcmlnaHQ6IDNweDtcclxuICB0b3A6IDElO1xyXG4gIHotaW5kZXg6IDUwO1xyXG4gIHdpZHRoOiA1cHg7XHJcbiAgaGVpZ2h0OiA5OCU7XHJcbn1cclxuLnN3aXBlci1zY3JvbGxiYXItZHJhZyB7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBsZWZ0OiAwO1xyXG4gIHRvcDogMDtcclxufVxyXG4uc3dpcGVyLXNjcm9sbGJhci1jdXJzb3ItZHJhZyB7XHJcbiAgY3Vyc29yOiBtb3ZlO1xyXG59XHJcbi5zd2lwZXItc2Nyb2xsYmFyLWxvY2sge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLnN3aXBlci16b29tLWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuLnN3aXBlci16b29tLWNvbnRhaW5lciA+IGNhbnZhcyxcclxuLnN3aXBlci16b29tLWNvbnRhaW5lciA+IGltZyxcclxuLnN3aXBlci16b29tLWNvbnRhaW5lciA+IHN2ZyB7XHJcbiAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gIG1heC1oZWlnaHQ6IDEwMCU7XHJcbiAgb2JqZWN0LWZpdDogY29udGFpbjtcclxufVxyXG4uc3dpcGVyLXNsaWRlLXpvb21lZCB7XHJcbiAgY3Vyc29yOiBtb3ZlO1xyXG59XHJcbi5zd2lwZXItbGF6eS1wcmVsb2FkZXIge1xyXG4gIHdpZHRoOiA0MnB4O1xyXG4gIGhlaWdodDogNDJweDtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgbGVmdDogNTAlO1xyXG4gIHRvcDogNTAlO1xyXG4gIG1hcmdpbi1sZWZ0OiAtMjFweDtcclxuICBtYXJnaW4tdG9wOiAtMjFweDtcclxuICB6LWluZGV4OiAxMDtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiA1MCU7XHJcbiAgYW5pbWF0aW9uOiBzd2lwZXItcHJlbG9hZGVyLXNwaW4gMXMgaW5maW5pdGUgbGluZWFyO1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgYm9yZGVyOiA0cHggc29saWQgdmFyKC0tc3dpcGVyLXByZWxvYWRlci1jb2xvciwgdmFyKC0tc3dpcGVyLXRoZW1lLWNvbG9yKSk7XHJcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gIGJvcmRlci10b3AtY29sb3I6IHRyYW5zcGFyZW50O1xyXG59XHJcbi5zd2lwZXItbGF6eS1wcmVsb2FkZXItd2hpdGUge1xyXG4gIC0tc3dpcGVyLXByZWxvYWRlci1jb2xvcjogI2ZmZjtcclxufVxyXG4uc3dpcGVyLWxhenktcHJlbG9hZGVyLWJsYWNrIHtcclxuICAtLXN3aXBlci1wcmVsb2FkZXItY29sb3I6ICMwMDA7XHJcbn1cclxuQGtleWZyYW1lcyBzd2lwZXItcHJlbG9hZGVyLXNwaW4ge1xyXG4gIDEwMCUge1xyXG4gICAgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcclxuICB9XHJcbn1cclxuLnN3aXBlci1jb250YWluZXIgLnN3aXBlci1ub3RpZmljYXRpb24ge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBsZWZ0OiAwO1xyXG4gIHRvcDogMDtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxuICBvcGFjaXR5OiAwO1xyXG4gIHotaW5kZXg6IC0xMDAwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZhZGUuc3dpcGVyLWNvbnRhaW5lci1mcmVlLW1vZGUgLnN3aXBlci1zbGlkZSB7XHJcbiAgdHJhbnNpdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZhZGUgLnN3aXBlci1zbGlkZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbiAgdHJhbnNpdGlvbi1wcm9wZXJ0eTogb3BhY2l0eTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1mYWRlIC5zd2lwZXItc2xpZGUgLnN3aXBlci1zbGlkZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmFkZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSxcclxuLnN3aXBlci1jb250YWluZXItZmFkZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IGF1dG87XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSB7XHJcbiAgb3ZlcmZsb3c6IHZpc2libGU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlIHtcclxuICBwb2ludGVyLWV2ZW50czogbm9uZTtcclxuICAtd2Via2l0LWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgei1pbmRleDogMTtcclxuICB2aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lci1jdWJlIC5zd2lwZXItc2xpZGUgLnN3aXBlci1zbGlkZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZS5zd2lwZXItY29udGFpbmVyLXJ0bCAuc3dpcGVyLXNsaWRlIHtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiAxMDAlIDA7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IGF1dG87XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLWFjdGl2ZSxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLW5leHQsXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1uZXh0ICsgLnN3aXBlci1zbGlkZSxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLXByZXYge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBhdXRvO1xyXG4gIHZpc2liaWxpdHk6IHZpc2libGU7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLXNoYWRvdy1ib3R0b20sXHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1zbGlkZS1zaGFkb3ctbGVmdCxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLXNoYWRvdy1yaWdodCxcclxuLnN3aXBlci1jb250YWluZXItY3ViZSAuc3dpcGVyLXNsaWRlLXNoYWRvdy10b3Age1xyXG4gIHotaW5kZXg6IDA7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWN1YmUgLnN3aXBlci1jdWJlLXNoYWRvdyB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGxlZnQ6IDA7XHJcbiAgYm90dG9tOiAwcHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGJhY2tncm91bmQ6ICMwMDA7XHJcbiAgb3BhY2l0eTogMC42O1xyXG4gIC13ZWJraXQtZmlsdGVyOiBibHVyKDUwcHgpO1xyXG4gIGZpbHRlcjogYmx1cig1MHB4KTtcclxuICB6LWluZGV4OiAwO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAge1xyXG4gIG92ZXJmbG93OiB2aXNpYmxlO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZSB7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIHotaW5kZXg6IDE7XHJcbn1cclxuLnN3aXBlci1jb250YWluZXItZmxpcCAuc3dpcGVyLXNsaWRlIC5zd2lwZXItc2xpZGUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZS1hY3RpdmUsXHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZS1hY3RpdmUgLnN3aXBlci1zbGlkZS1hY3RpdmUge1xyXG4gIHBvaW50ZXItZXZlbnRzOiBhdXRvO1xyXG59XHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZS1zaGFkb3ctYm90dG9tLFxyXG4uc3dpcGVyLWNvbnRhaW5lci1mbGlwIC5zd2lwZXItc2xpZGUtc2hhZG93LWxlZnQsXHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZS1zaGFkb3ctcmlnaHQsXHJcbi5zd2lwZXItY29udGFpbmVyLWZsaXAgLnN3aXBlci1zbGlkZS1zaGFkb3ctdG9wIHtcclxuICB6LWluZGV4OiAwO1xyXG4gIC13ZWJraXQtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxufVxyXG5cclxuKiBhIHtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuXHJcbi5jYXJkLWNvbnRhaW5lciB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgcGFkZGluZy10b3A6IDUwcHg7XHJcbn1cclxuXHJcbi5pbWctY29uYXRpbmVyIHtcclxuICB3aWR0aDogMTk5cHg7XHJcbn1cclxuIl19 */"]
+        styles: ["*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]{\r\n  display: none;\r\n}\r\n\r\n@media screen and (max-width: 1000px) {\r\n  .cb-slideshow[_ngcontent-%COMP%], .cb-slideshow[_ngcontent-%COMP%]:after {\r\n  display: block;\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0px;\r\n  left: 0px;\r\n  z-index: 0;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  background: transparent url() repeat top left;\r\n}\r\n\r\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0px;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: 50% 50%;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 36s linear infinite 0s;\r\n  animation: imageAnimation 36s linear infinite 0s;\r\n}\r\n\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art1.1.jpg');\r\n}\r\n\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art2.2.jpg');\r\n  -webkit-animation-delay: 6s;\r\n  animation-delay: 6s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(3)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art3.jpg');\r\n  -webkit-animation-delay: 12s;\r\n  animation-delay: 12s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(4)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art4.4.jpg');\r\n  -webkit-animation-delay: 18s;\r\n  animation-delay: 18s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(5)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art5.jpg');\r\n  -webkit-animation-delay: 24s;\r\n  animation-delay: 24s;\r\n}\r\n.cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(6)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art6.6.jpg');\r\n  -webkit-animation-delay: 30s;\r\n  animation-delay: 30s;\r\n}\r\n\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n            animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n            animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n.no-cssanimations[_ngcontent-%COMP%]   .cb-slideshow[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n}\r\n\r\n}\r\n.cb-slideshow2[_ngcontent-%COMP%], .cb-slideshow2[_ngcontent-%COMP%]:after {\r\n  display: block;\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0px;\r\n  left: 0px;\r\n  z-index: 0;\r\n}\r\n.cb-slideshow2[_ngcontent-%COMP%]:after {\r\n  content: \"\";\r\n  background: transparent url() repeat top left;\r\n}\r\nli[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n}\r\n.cb-slideshow2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0px;\r\n  left: 0px;\r\n  color: transparent;\r\n  background-size: cover;\r\n  background-position: 50% 50%;\r\n  background-repeat: none;\r\n  opacity: 0;\r\n  z-index: 0;\r\n  -webkit-backface-visibility: hidden;\r\n  -webkit-animation: imageAnimation 15s linear infinite 0s;\r\n  animation: imageAnimation 15s linear infinite 0s;\r\n}\r\n.cb-slideshow2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(1)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art6.6.jpg');\r\n}\r\n.cb-slideshow2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art2.2.jpg');\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n.cb-slideshow2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(3)   span[_ngcontent-%COMP%] {\r\n  background-image: url('art5.jpg');\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n@-webkit-keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    -webkit-transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n@keyframes imageAnimation {\r\n  0% {\r\n    opacity: 0;\r\n    -webkit-animation-timing-function: ease-in;\r\n            animation-timing-function: ease-in;\r\n  }\r\n  8% {\r\n    opacity: 1;\r\n    transform: scale(1.05);\r\n    -webkit-animation-timing-function: ease-out;\r\n            animation-timing-function: ease-out;\r\n  }\r\n  17% {\r\n    opacity: 1;\r\n    transform: scale(1.1);\r\n  }\r\n  25% {\r\n    opacity: 0;\r\n    transform: scale(1.1);\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.no-cssanimations[_ngcontent-%COMP%]   .cb-slideshow2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n}\r\n@media screen and (max-width: 1000px) {\r\n  .cb-slideshow2[_ngcontent-%COMP%]{\r\n    display: none;\r\n  }\r\n}\r\n\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n}\r\n\r\n.textdiv[_ngcontent-%COMP%]{\r\n  margin: auto;\r\n  width: 90%;\r\n  margin-top: 30px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  flex-wrap: wrap;\r\n}\r\n.textbox[_ngcontent-%COMP%]{\r\n  border: 1.5px solid rgb(51, 51, 51, 0.7);\r\n  background: white;\r\n  width: 10em;\r\n  height: 17em;\r\n  border-radius: 5px;\r\n  margin: 15px;\r\n}\r\n.textimg[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\r\n  width: 9.8em;\r\n  height: 12.5em;\r\n  border-radius: 5px;\r\n}\r\n.textimg[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n  margin-top: 0.1em;\r\n}\r\n.texttext[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  color: black;\r\n  margin-left: 10px;\r\n}\r\n.textlink[_ngcontent-%COMP%]{\r\n  margin-top: 3px;\r\n  font-family: c;\r\n  margin-left: 10px; \r\n \r\n}\r\n.textlink[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  color: deepskyblue;\r\n  text-decoration: none;\r\n}\r\n.boxx[_ngcontent-%COMP%]{\r\nposition: relative;\r\n}\r\n.boxx[_ngcontent-%COMP%]:before{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -1;\r\nbackground-color: whitesmoke;\r\nborder-radius: 5px;\r\nposition: absolute;\r\n\r\n}\r\n.boxx[_ngcontent-%COMP%]:after{\r\ncontent: '';\r\ntop: -1px;\r\nleft: -1px;\r\nright: -1px;\r\nbottom: -1px;\r\nz-index: -2;\r\nposition: absolute;\r\nborder-radius: 5px;\r\n-webkit-filter: blur(3px);\r\n        filter: blur(3px);\r\n\r\n  }\r\n.boxx[_ngcontent-%COMP%]:after, .boxx[_ngcontent-%COMP%]:before{\r\n      background: linear-gradient(235deg, black, white, black);\r\n  }\r\n*[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n  cursor: pointer;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFydC1jdWx0dXJlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLHVHQUF1RztBQUN2RztFQUNFLFVBQVU7RUFDVixXQUFXO0FBQ2I7QUFLQTtFQUNFLGFBQWE7QUFDZjtBQUNBLHFHQUFxRztBQUNyRztFQUNFOztFQUVBLGNBQWM7RUFDZCxlQUFlO0VBQ2YsV0FBVztFQUNYLFlBQVk7RUFDWixRQUFRO0VBQ1IsU0FBUztFQUNULFVBQVU7QUFDWjtBQUNBO0VBQ0UsV0FBVztFQUNYLDZDQUE2QztBQUMvQzs7QUFFQTtFQUNFLHFCQUFxQjtBQUN2QjtBQUNBO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFNBQVM7RUFDVCxrQkFBa0I7RUFDbEIsc0JBQXNCO0VBQ3RCLDRCQUE0QjtFQUM1Qix1QkFBdUI7RUFDdkIsVUFBVTtFQUNWLFVBQVU7RUFDVixtQ0FBbUM7RUFDbkMsd0RBQXdEO0VBSXhELGdEQUFnRDtBQUNsRDs7QUFFQTtFQUNFLG1DQUF5RDtBQUMzRDs7QUFFQTtFQUNFLG1DQUF5RDtFQUN6RCwyQkFBMkI7RUFJM0IsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxpQ0FBdUQ7RUFDdkQsNEJBQTRCO0VBSTVCLG9CQUFvQjtBQUN0QjtBQUNBO0VBQ0UsbUNBQXlEO0VBQ3pELDRCQUE0QjtFQUk1QixvQkFBb0I7QUFDdEI7QUFDQTtFQUNFLGlDQUF1RDtFQUN2RCw0QkFBNEI7RUFJNUIsb0JBQW9CO0FBQ3RCO0FBQ0E7RUFDRSxtQ0FBeUQ7RUFDekQsNEJBQTRCO0VBSTVCLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFO0lBQ0UsVUFBVTtJQUNWLDBDQUEwQztFQUM1QztFQUNBO0lBQ0UsVUFBVTtJQUNWLDhCQUE4QjtJQUM5QiwyQ0FBMkM7RUFDN0M7RUFDQTtJQUNFLFVBQVU7SUFDViw2QkFBNkI7RUFDL0I7RUFDQTtJQUNFLFVBQVU7SUFDViw2QkFBNkI7RUFDL0I7RUFDQTtJQUNFLFVBQVU7RUFDWjtBQUNGO0FBbUVBO0VBQ0U7SUFDRSxVQUFVO0lBQ1YsMENBQWtDO1lBQWxDLGtDQUFrQztFQUNwQztFQUNBO0lBQ0UsVUFBVTtJQUNWLHNCQUFzQjtJQUN0QiwyQ0FBbUM7WUFBbkMsbUNBQW1DO0VBQ3JDO0VBQ0E7SUFDRSxVQUFVO0lBQ1YscUJBQXFCO0VBQ3ZCO0VBQ0E7SUFDRSxVQUFVO0lBQ1YscUJBQXFCO0VBQ3ZCO0VBQ0E7SUFDRSxVQUFVO0VBQ1o7QUFDRjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtBQUdBOztFQUVFLGNBQWM7RUFDZCxlQUFlO0VBQ2YsV0FBVztFQUNYLFlBQVk7RUFDWixRQUFRO0VBQ1IsU0FBUztFQUNULFVBQVU7QUFDWjtBQUNBO0VBQ0UsV0FBVztFQUNYLDZDQUE2QztBQUMvQztBQUVBO0VBQ0UscUJBQXFCO0FBQ3ZCO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixRQUFRO0VBQ1IsU0FBUztFQUNULGtCQUFrQjtFQUNsQixzQkFBc0I7RUFDdEIsNEJBQTRCO0VBQzVCLHVCQUF1QjtFQUN2QixVQUFVO0VBQ1YsVUFBVTtFQUNWLG1DQUFtQztFQUNuQyx3REFBd0Q7RUFJeEQsZ0RBQWdEO0FBQ2xEO0FBRUE7RUFDRSxtQ0FBeUQ7QUFDM0Q7QUFFQTtFQUNFLG1DQUF5RDtFQUN6RCwyQkFBMkI7RUFJM0IsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxpQ0FBdUQ7RUFDdkQsNEJBQTRCO0VBSTVCLG9CQUFvQjtBQUN0QjtBQUVBO0VBQ0U7SUFDRSxVQUFVO0lBQ1YsMENBQTBDO0VBQzVDO0VBQ0E7SUFDRSxVQUFVO0lBQ1YsOEJBQThCO0lBQzlCLDJDQUEyQztFQUM3QztFQUNBO0lBQ0UsVUFBVTtJQUNWLDZCQUE2QjtFQUMvQjtFQUNBO0lBQ0UsVUFBVTtJQUNWLDZCQUE2QjtFQUMvQjtFQUNBO0lBQ0UsVUFBVTtFQUNaO0FBQ0Y7QUFtRUE7RUFDRTtJQUNFLFVBQVU7SUFDViwwQ0FBa0M7WUFBbEMsa0NBQWtDO0VBQ3BDO0VBQ0E7SUFDRSxVQUFVO0lBQ1Ysc0JBQXNCO0lBQ3RCLDJDQUFtQztZQUFuQyxtQ0FBbUM7RUFDckM7RUFDQTtJQUNFLFVBQVU7SUFDVixxQkFBcUI7RUFDdkI7RUFDQTtJQUNFLFVBQVU7SUFDVixxQkFBcUI7RUFDdkI7RUFDQTtJQUNFLFVBQVU7RUFDWjtBQUNGO0FBRUE7RUFDRSxVQUFVO0FBQ1o7QUFDQTtFQUNFO0lBQ0UsYUFBYTtFQUNmO0FBQ0Y7QUFFQSxtR0FBbUc7QUFFbkcsaUJBQWlCO0FBQ2pCO0VBQ0UsV0FBVztFQUNYLGNBQWM7RUFDZCxlQUFlO0VBQ2YsVUFBVTtFQUNWLGtCQUFrQjtFQUNsQix5QkFBeUI7RUFDekIsa0JBQWtCO0VBQ2xCLDZCQUE2QjtFQUM3QixhQUFhO0VBQ2IsWUFBWTtFQUNaLGVBQWU7QUFDakI7QUFJQSwrSEFBK0g7QUFDL0g7RUFDRSxZQUFZO0VBQ1osVUFBVTtFQUNWLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2IsNkJBQTZCO0VBQzdCLGVBQWU7QUFDakI7QUFDQTtFQUNFLHdDQUF3QztFQUN4QyxpQkFBaUI7RUFDakIsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsWUFBWTtBQUNkO0FBQ0E7RUFDRSxZQUFZO0VBQ1osY0FBYztFQUNkLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxlQUFlO0VBQ2YsWUFBWTtFQUNaLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7RUFDZCxpQkFBaUI7O0FBRW5CO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIscUJBQXFCO0FBQ3ZCO0FBRUE7QUFDQSxrQkFBa0I7QUFDbEI7QUFFQTtBQUNBLFdBQVc7QUFDWCxTQUFTO0FBQ1QsVUFBVTtBQUNWLFdBQVc7QUFDWCxZQUFZO0FBQ1osV0FBVztBQUNYLDRCQUE0QjtBQUM1QixrQkFBa0I7QUFDbEIsa0JBQWtCOztBQUVsQjtBQUVBO0FBQ0EsV0FBVztBQUNYLFNBQVM7QUFDVCxVQUFVO0FBQ1YsV0FBVztBQUNYLFlBQVk7QUFDWixXQUFXO0FBQ1gsa0JBQWtCO0FBQ2xCLGtCQUFrQjtBQUNsQix5QkFBaUI7UUFBakIsaUJBQWlCOztFQUVmO0FBR0E7O01BRUksd0RBQXdEO0VBQzVEO0FBRUY7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6ImFydC1jdWx0dXJlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLyogTmF2aWdhdGlvbiAgQmFyICAgIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgKi9cclxuKiB7XHJcbiAgbWFyZ2luOiAwJTtcclxuICBwYWRkaW5nOiAwJTtcclxufVxyXG5cclxuXHJcblxyXG5cclxuLmNiLXNsaWRlc2hvd3tcclxuICBkaXNwbGF5OiBub25lO1xyXG59XHJcbi8qIEJhY2tncm91bmQgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMDAwcHgpIHtcclxuICAuY2Itc2xpZGVzaG93LFxyXG4uY2Itc2xpZGVzaG93OmFmdGVyIHtcclxuICBkaXNwbGF5OiBibG9jaztcclxuICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHRvcDogMHB4O1xyXG4gIGxlZnQ6IDBweDtcclxuICB6LWluZGV4OiAwO1xyXG59XHJcbi5jYi1zbGlkZXNob3c6YWZ0ZXIge1xyXG4gIGNvbnRlbnQ6IFwiXCI7XHJcbiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQgdXJsKCkgcmVwZWF0IHRvcCBsZWZ0O1xyXG59XHJcblxyXG5saSB7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG59XHJcbi5jYi1zbGlkZXNob3cgbGkgc3BhbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDBweDtcclxuICBsZWZ0OiAwcHg7XHJcbiAgY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgYmFja2dyb3VuZC1wb3NpdGlvbjogNTAlIDUwJTtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm9uZTtcclxuICBvcGFjaXR5OiAwO1xyXG4gIHotaW5kZXg6IDA7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgLXdlYmtpdC1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgLW1vei1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgLW8tYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAzNnMgbGluZWFyIGluZmluaXRlIDBzO1xyXG4gIC1tcy1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDM2cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAzNnMgbGluZWFyIGluZmluaXRlIDBzO1xyXG59XHJcblxyXG4uY2Itc2xpZGVzaG93IGxpOm50aC1jaGlsZCgxKSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0MS4xLmpwZyk7XHJcbn1cclxuXHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDIpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQyLjIuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogNnM7XHJcbiAgLW1vei1hbmltYXRpb24tZGVsYXk6IDZzO1xyXG4gIC1vLWFuaW1hdGlvbi1kZWxheTogNnM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogNnM7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiA2cztcclxufVxyXG4uY2Itc2xpZGVzaG93IGxpOm50aC1jaGlsZCgzKSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0My5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbiAgLW1vei1hbmltYXRpb24tZGVsYXk6IDEycztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDEycztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAxMnM7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoNCkgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDQuNC5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiAxOHM7XHJcbiAgLW1vei1hbmltYXRpb24tZGVsYXk6IDE4cztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDE4cztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiAxOHM7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAxOHM7XHJcbn1cclxuLmNiLXNsaWRlc2hvdyBsaTpudGgtY2hpbGQoNSkgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDUuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogMjRzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiAyNHM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiAyNHM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogMjRzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMjRzO1xyXG59XHJcbi5jYi1zbGlkZXNob3cgbGk6bnRoLWNoaWxkKDYpIHNwYW4ge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi9hc3NldHMvYXJ0X2ltYWdlcy9hcnQ2LjYuanBnKTtcclxuICAtd2Via2l0LWFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG4gIC1tb3otYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiAzMHM7XHJcbiAgLW1zLWFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG4gIGFuaW1hdGlvbi1kZWxheTogMzBzO1xyXG59XHJcblxyXG5ALXdlYmtpdC1rZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtd2Via2l0LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtd2Via2l0LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkAtbW96LWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tb3otYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC1tb3otYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQC1vLWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1vLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgLW8tYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW8tdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5ALW1zLWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tcy1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1zLXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtbXMtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1zLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkBrZXlmcmFtZXMgaW1hZ2VBbmltYXRpb24ge1xyXG4gIDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2Utb3V0O1xyXG4gIH1cclxuICAxNyUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuXHJcbi5uby1jc3NhbmltYXRpb25zIC5jYi1zbGlkZXNob3cgbGkgc3BhbiB7XHJcbiAgb3BhY2l0eTogMTtcclxufVxyXG5cclxufVxyXG5cclxuXHJcbi5jYi1zbGlkZXNob3cyLFxyXG4uY2Itc2xpZGVzaG93MjphZnRlciB7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB0b3A6IDBweDtcclxuICBsZWZ0OiAwcHg7XHJcbiAgei1pbmRleDogMDtcclxufVxyXG4uY2Itc2xpZGVzaG93MjphZnRlciB7XHJcbiAgY29udGVudDogXCJcIjtcclxuICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudCB1cmwoKSByZXBlYXQgdG9wIGxlZnQ7XHJcbn1cclxuXHJcbmxpIHtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbn1cclxuLmNiLXNsaWRlc2hvdzIgbGkgc3BhbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDBweDtcclxuICBsZWZ0OiAwcHg7XHJcbiAgY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgYmFja2dyb3VuZC1wb3NpdGlvbjogNTAlIDUwJTtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm9uZTtcclxuICBvcGFjaXR5OiAwO1xyXG4gIHotaW5kZXg6IDA7XHJcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XHJcbiAgLXdlYmtpdC1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDE1cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgLW1vei1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDE1cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgLW8tYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAxNXMgbGluZWFyIGluZmluaXRlIDBzO1xyXG4gIC1tcy1hbmltYXRpb246IGltYWdlQW5pbWF0aW9uIDE1cyBsaW5lYXIgaW5maW5pdGUgMHM7XHJcbiAgYW5pbWF0aW9uOiBpbWFnZUFuaW1hdGlvbiAxNXMgbGluZWFyIGluZmluaXRlIDBzO1xyXG59XHJcblxyXG4uY2Itc2xpZGVzaG93MiBsaTpudGgtY2hpbGQoMSkgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDYuNi5qcGcpO1xyXG59XHJcblxyXG4uY2Itc2xpZGVzaG93MiBsaTpudGgtY2hpbGQoMikgc3BhbiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2Fzc2V0cy9hcnRfaW1hZ2VzL2FydDIuMi5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiA1cztcclxuICAtbW96LWFuaW1hdGlvbi1kZWxheTogNXM7XHJcbiAgLW8tYW5pbWF0aW9uLWRlbGF5OiA1cztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiA1cztcclxuICBhbmltYXRpb24tZGVsYXk6IDVzO1xyXG59XHJcbi5jYi1zbGlkZXNob3cyIGxpOm50aC1jaGlsZCgzKSBzcGFuIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vYXNzZXRzL2FydF9pbWFnZXMvYXJ0NS5qcGcpO1xyXG4gIC13ZWJraXQtYW5pbWF0aW9uLWRlbGF5OiAxMHM7XHJcbiAgLW1vei1hbmltYXRpb24tZGVsYXk6IDEwcztcclxuICAtby1hbmltYXRpb24tZGVsYXk6IDEwcztcclxuICAtbXMtYW5pbWF0aW9uLWRlbGF5OiAxMHM7XHJcbiAgYW5pbWF0aW9uLWRlbGF5OiAxMHM7XHJcbn1cclxuXHJcbkAtd2Via2l0LWtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQC1tb3ota2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1vei1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluO1xyXG4gIH1cclxuICA4JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgLW1vei1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbW96LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMjUlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgICAtbW96LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5ALW8ta2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW8tYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbjtcclxuICB9XHJcbiAgOCUge1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMS4wNSk7XHJcbiAgICAtby1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDI1JSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW8tdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAxMDAlIHtcclxuICAgIG9wYWNpdHk6IDA7XHJcbiAgfVxyXG59XHJcbkAtbXMta2V5ZnJhbWVzIGltYWdlQW5pbWF0aW9uIHtcclxuICAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgLW1zLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjA1KTtcclxuICAgIC1tcy1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLW91dDtcclxuICB9XHJcbiAgMTclIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIC1tcy10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XHJcbiAgfVxyXG4gIDEwMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICB9XHJcbn1cclxuQGtleWZyYW1lcyBpbWFnZUFuaW1hdGlvbiB7XHJcbiAgMCUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGVhc2UtaW47XHJcbiAgfVxyXG4gIDglIHtcclxuICAgIG9wYWNpdHk6IDE7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMDUpO1xyXG4gICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1vdXQ7XHJcbiAgfVxyXG4gIDE3JSB7XHJcbiAgICBvcGFjaXR5OiAxO1xyXG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xyXG4gIH1cclxuICAyNSUge1xyXG4gICAgb3BhY2l0eTogMDtcclxuICAgIHRyYW5zZm9ybTogc2NhbGUoMS4xKTtcclxuICB9XHJcbiAgMTAwJSB7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gIH1cclxufVxyXG5cclxuLm5vLWNzc2FuaW1hdGlvbnMgLmNiLXNsaWRlc2hvdzIgbGkgc3BhbiB7XHJcbiAgb3BhY2l0eTogMTtcclxufVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMDAwcHgpIHtcclxuICAuY2Itc2xpZGVzaG93MntcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG59XHJcblxyXG4vKiBjb250ZW50ICAgICAgICMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICovXHJcblxyXG4vKiB0aXRsZSAqKioqKiogKi9cclxuLnRpdGxlIHtcclxuICBjb2xvcjogc25vdztcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDQ1cHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogcmdiKDAsIDAsIDAsIDAuOCk7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMmVtO1xyXG59XHJcblxyXG5cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi50ZXh0ZGl2e1xyXG4gIG1hcmdpbjogYXV0bztcclxuICB3aWR0aDogOTAlO1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuLnRleHRib3h7XHJcbiAgYm9yZGVyOiAxLjVweCBzb2xpZCByZ2IoNTEsIDUxLCA1MSwgMC43KTtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICB3aWR0aDogMTBlbTtcclxuICBoZWlnaHQ6IDE3ZW07XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIG1hcmdpbjogMTVweDtcclxufVxyXG4udGV4dGltZyBpbWd7XHJcbiAgd2lkdGg6IDkuOGVtO1xyXG4gIGhlaWdodDogMTIuNWVtO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4udGV4dGltZ3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLXRvcDogMC4xZW07XHJcbn1cclxuLnRleHR0ZXh0e1xyXG4gIG1hcmdpbi10b3A6IDNweDtcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi50ZXh0bGlua3tcclxuICBtYXJnaW4tdG9wOiAzcHg7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7IFxyXG4gXHJcbn1cclxuLnRleHRsaW5rIGF7XHJcbiAgY29sb3I6IGRlZXBza3libHVlO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuLmJveHh7XHJcbnBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmJveHg6YmVmb3Jle1xyXG5jb250ZW50OiAnJztcclxudG9wOiAtMXB4O1xyXG5sZWZ0OiAtMXB4O1xyXG5yaWdodDogLTFweDtcclxuYm90dG9tOiAtMXB4O1xyXG56LWluZGV4OiAtMTtcclxuYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5wb3NpdGlvbjogYWJzb2x1dGU7XHJcblxyXG59XHJcblxyXG4uYm94eDphZnRlcntcclxuY29udGVudDogJyc7XHJcbnRvcDogLTFweDtcclxubGVmdDogLTFweDtcclxucmlnaHQ6IC0xcHg7XHJcbmJvdHRvbTogLTFweDtcclxuei1pbmRleDogLTI7XHJcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5maWx0ZXI6IGJsdXIoM3B4KTtcclxuXHJcbiAgfVxyXG5cclxuXHJcbiAgLmJveHg6YWZ0ZXIsXHJcbiAgLmJveHg6YmVmb3Jle1xyXG4gICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMjM1ZGVnLCBibGFjaywgd2hpdGUsIGJsYWNrKTtcclxuICB9XHJcbiAgXHJcbiogYSB7XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -27742,69 +28468,59 @@
       /* harmony import */
 
 
-      var _Navigationbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! ./Navigationbar.js */
-      "SbNO");
-      /* harmony import */
-
-
-      var _Navigationbar_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Navigationbar_js__WEBPACK_IMPORTED_MODULE_1__);
-      /* harmony import */
-
-
-      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/router */
       "tyNb");
       /* harmony import */
 
 
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/forms */
       "3Pt+");
       /* harmony import */
 
 
-      var _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! ../shared/commentservice.service.js */
       "Qlko");
       /* harmony import */
 
 
-      var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/platform-browser */
       "jhN1");
       /* harmony import */
 
 
-      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! ../navbar/navbar.component */
       "kWWo");
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/common */
       "ofXK");
       /* harmony import */
 
 
-      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+      var _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! ../footer/footer.component */
       "fp1T");
 
-      function AssociationComponent_div_330_Template(rf, ctx) {
+      function AssociationComponent_div_352_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 27);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
 
@@ -27901,15 +28617,15 @@
       }();
 
       AssociationComponent.ɵfac = function AssociationComponent_Factory(t) {
-        return new (t || AssociationComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_4__["CommentserviceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Meta"]));
+        return new (t || AssociationComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_3__["CommentserviceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Meta"]));
       };
 
       AssociationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: AssociationComponent,
         selectors: [["app-association"]],
-        decls: 332,
+        decls: 354,
         vars: 2,
-        consts: [[1, "title"], [1, "table-responsive", "content-spacing", "table-conatiner"], [1, "table"], [1, "table-active"], [1, "category1"], [1, "list"], [1, "category2"], [1, "category3"], [1, "instruction"], [2, "color", "green"], [2, "color", "skyblue"], [2, "color", "palevioletred"], [1, "topic-container"], [1, "form-container"], [1, "form-display", 3, "formGroup"], [1, "form-group"], ["formControlName", "comment", "rows", "5", 1, "form-control"], ["type", "text", "formControlName", "name", 1, "form-control"], ["type", "email", "formControlName", "email", 1, "form-control"], [1, "post-button"], [1, "btn", "btn-danger", "button-size", 3, "click"], ["class", "comment-section", 4, "ngFor", "ngForOf"], [1, "comment-section"], ["width", "100", "height", "100", 3, "src"], [1, "comment"]],
+        consts: [[1, "title"], [1, "swipe"], [1, "table1-spacing"], [1, "table1"], [1, "table-active"], [1, "category1"], [1, "list"], [1, "tablepoint"], [1, "list", "tablepoint"], [1, "category2"], [1, "category3"], [1, "instruction"], [2, "color", "green"], [2, "color", "skyblue"], [2, "color", "palevioletred"], [1, "commentsouter"], [1, "topic-container"], [1, "form-container"], [1, "form-display", 3, "formGroup"], [1, "form-group"], ["formControlName", "comment", "rows", "5", 1, "form-control"], ["type", "text", "formControlName", "name", 1, "form-control"], ["type", "email", "formControlName", "email", 1, "form-control"], [1, "post-button"], [1, "btn", "btn-danger", "button-size", 3, "click"], ["class", "comment-section", 4, "ngFor", "ngForOf"], [1, "comment-section"], ["width", "100", "height", "100", 3, "src"], [1, "comment"]],
         template: function AssociationComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -27926,763 +28642,763 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "table", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h6");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "tr", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Year");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Swipe right to view full table \u2192");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "th");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Associations");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "th");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Founder");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "table");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "thead");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "tr", 4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Place");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Year");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Objective");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Associations");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "th");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Note");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Founder");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Place");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Objective");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "th");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Note");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "tr", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "tbody");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "1836");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "tr", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "1836");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Bangabhasha Prakasika Sabha");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Raja Ram Mohan Roy");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Bangabhasha Prakasika Sabha");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Raja Ram Mohan Roy");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "tr", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Landlord Association or Landholders society");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "tr", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "To safeguard ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "interest of landlords");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Landlord Association or Landholders society");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "ul", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Bengal");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Marked ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "beginning of organized political activity.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "To safeguard ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "interest of landlords");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Use of methods of ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "ul", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "constitutional agitation");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Marked ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " for redressal of grievances");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "beginning of organized political activity.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "tr", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "1843");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Use of methods of ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Bengal British India society");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "constitutional agitation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " for redressal of grievances");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "tr", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, " Collection of information of actual condition of people, secure the welfare, extend the just rights, advance interest of all classes ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "1843");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "tr", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "1851");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Bengal British India society");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "British India Association");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, " Collection of information of actual condition of people, secure the welfare, extend the just rights, advance interest of all classes ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "tr", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "1851");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Petition to British parliament demanding inclusion of suggestions.");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Est. ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Separate legislature");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "British India Association");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, " of popular character,");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Seperation of ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "judiciary and executive");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Petition to British parliament demanding inclusion of suggestions.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, " functions,");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "ul", 7);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "Establise ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Separate legislature");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Salary Reduction");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, " of popular character,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, " of higher officers,");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Seperation of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "judiciary and executive");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " functions,");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "Abolition of ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "salt duties, stamp duty, abkari.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Salary Reduction");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, " of higher officers,");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Abolition of ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "salt duties, stamp duty, abkari.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "Result: Govt accepted in ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Charter act of 1853");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, " (6 mem added to GG council)");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "tr");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, "1866");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "East Indian Association");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, "Result: Govt accepted in ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Charter act of 1853");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Dadabhai Naoroji");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "London");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, " (6 mem added to GG council)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "tr");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "Discuss Indian question and influence public men in ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "England");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](112, "1866");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, " to promote Indian welfare.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "East Indian Association");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](116, "Dadabhai Naoroji");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "(Don\u2019t confuse with British Indian Association)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, "London");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "tr", 4);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "1875");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "Discuss Indian question and influence public men in ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "England");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Indian League");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, " to promote Indian welfare.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "Sisir Kumar Gosh");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "(Don\u2019t confuse with British Indian Association)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "tr", 5);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "Bengal");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "1875");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "Encourage political education and simulating ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "sense of nationalism");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Indian League");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, " amongst people.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "Sisir Kumar Gosh");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "tr", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "1876");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "Encourage political education and simulating ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "Indian Association of Calcutta or Indian National Association");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "sense of nationalism");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "ul", 5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "Surendarnath Banerjea");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, " amongst people.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "td");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "tr", 5);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "1876");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "td");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, "Ananda Mohan Bose");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, "Indian Association of Calcutta ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](150, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, " or Indian National Association");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, "Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "ul", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "ul", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, "Promote the Political, Intellectual, Material ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "advancement of people");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, "Surendarnath Banerjea");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](158, " by every legitimate means.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](159, "Ananda Mohan Bose");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "Create strong ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](162, "public opinion");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, " on political questions.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](160, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, "Bengal");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "ul", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](164, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](165, "Unify Indian people in ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](165, "Promote the Political, Intellectual, Material ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "common political program.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "advancement of people");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, " by every legitimate means.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](168, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "ul", 5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](170, "Create strong ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](171, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](172, "Discontented");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](172, "public opinion");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, " with conservative, prolandlord ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "policies of BIA");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, " on political questions.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, " (British Indian Association)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](175, "Unify Indian people in ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](176, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](178, "Made ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](180, "membership fee low");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, "common political program.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, "In ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](183, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "1833");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, " - sponsored ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](187, "All India Conference");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](188, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, "In ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "ul", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](191, "1886");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](181, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](182, "Discontented");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, " - merged with ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](183, " with conservative, prolandlord ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](184, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, "policies of BIA");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](186, " (British Indian Association)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "Made ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](189, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](190, "membership fee low");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](191, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, "In ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "INC");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](194, "1833");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, " - sponsored ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "All India Conference");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](195, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](196, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "In ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, "Protest for CSE ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](199, "age");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, "1886");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, ", Demand ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, " - merged with ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](203, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "cse centre");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](203, " in both england and india,");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](204, "INC");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](204, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](206, "Indianisation");
-
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, " of higher administrative post, Against - ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](205, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](206, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](207, "Protest for CSE ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "Arms");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "age");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, " Act, ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, ", Demand ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "Vernacular Press");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "cse centre");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, " Act");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](213, " in both england and india,");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, "Indianisation");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](214, "tr", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](215, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](216, "1867");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](217, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](217, " of higher administrative post, Against - ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](218, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](219, "Poona Sarvajanik Sabha");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](219, "Arms");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](220, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](220, " Act, ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, "Mahadeo Govind Ranade");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](222, "Vernacular Press");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, " Act");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](223, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](224, "Bombay");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](224, "tr", 9);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](225, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, "Bridge between government and people");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](226, "1867");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](227, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](227, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](228, "tr", 6);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](229, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](230, "1885");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](232, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](233, "Bombay Presidency Association");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](229, "Poona Sarvajanik Sabha");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](234, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](230, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "ul", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](231, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](236, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](237, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](238, "Badruddin Tyabji");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](232, "Mahadeo Govind Ranade");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](233, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](240, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](234, "Bombay");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](241, "Pherozshah Mehta");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](235, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](236, "Bridge between government and people");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](237, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](238, "tr", 9);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](239, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](240, "1885");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](241, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](242, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](243, "Bombay Presidency Association");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](242, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](244, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](243, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "ul", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](244, "K.T. Telang");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](246, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](247, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](248, "Badruddin Tyabji");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](250, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](251, "Pherozshah Mehta");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](245, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](246, "Bombay");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](247, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](248, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](249, "tr", 7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](250, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](251, "1884");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](252, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](252, "li");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](253, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](254, "Madras Mahajan Sabha");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](254, "K.T. Telang");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -28690,221 +29406,279 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](255, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](256, "ul", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](256, "Bombay");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](257, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](258, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](257, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](259, "B. Subramaniya Iyer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](258, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](259, "tr", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](261, "1884");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](262, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](264, "Madras Mahajan Sabha");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](260, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](265, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](261, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](266, "ul", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](262, "Anandacharlu");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](267, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](268, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](263, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](264, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](265, "M. Viraraghavachari");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](269, "B. Subramaniya Iyer");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](271, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](266, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](267, "Madras");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](268, "td");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](269, "td");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](272, "Anandacharlu");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](273, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](270, "div", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "b");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](271, "h4");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](272, "Mistakes to be avoided to score better:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](275, "M. Viraraghavachari");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](273, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](274, "ul");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](275, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](276, "Read the names of association completely and carefully. For example, don\u2019t confuse between Association, League, Sabha and Society. ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](277, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](278, " Read BIA-British India Association as it is, don\u2019t get confused with other names like British Indian Society.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](279, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](280, "Read the names of leaders completely and carefully including initials. Sometimes MG Ranade will be asked as Mahadeo Govind Ranade. So read the initials carefully, so that you can match the names.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](276, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](277, "Madras");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](281, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](278, "td");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](282, "Colour Differentiation: Places (Make use of the colour differentiation in the content so that it is easy to remember places). Example is shared below. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](279, "td");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](280, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](281, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](282, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](283, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](284, "span", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](284, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](285, " Bengal-green");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](285, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](286, "div", 11);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](286, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "h4");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](287, "span", 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](288, "Bombay-blue");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](288, "Mistakes to be avoided to score better:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](289, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "span", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](290, "ul");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](291, "Madras-pink");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](291, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](292, "Read the names of association completely and carefully. For example, don\u2019t confuse between Association, League, Sabha and Society. ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](293, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](292, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](293, "You can remember the places of origin by seeing the second name of founders. For example, Banerjea-Bengal, Iyer-Madras, Ranade-Bombay (not in all cases).");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](294, " Read BIA-British India Association as it is, don\u2019t get confused with other names like British Indian Society.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](294, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](295, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](295, "After reading the content once, just go through the bold letters to revise. So that you can revise quickly (Bold letters are the ones that are the most important, so don\u2019t ignore it). ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](296, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](297, "Link the leaders names to your friends names, so that it is easy for visualization.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](296, "Read the names of leaders completely and carefully including initials. Sometimes MG Ranade will be asked as Mahadeo Govind Ranade. So read the initials carefully, so that you can match the names.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](298, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](297, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](299, "History is full of facts and is easily forgotten, so keep revising the content. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](298, "Colour Differentiation: Places (Make use of the colour differentiation in the content so that it is easy to remember places). Example is shared below. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](299, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](300, "span", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](301, " Bengal-green");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](300, "br");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](301, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](302, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](303, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](303, "span", 13);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](304, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](305, "h3", 12);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](306, "Add your thoughts");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](304, "Bombay-blue");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](307, "div", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](305, "br");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "form", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](306, "span", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](309, "div", 15);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](310, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](311, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](312, "Comment");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](307, "Madras-pink");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](313, "textarea", 16);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](308, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](309, "You can remember the places of origin by seeing the second name of founders. For example, Banerjea-Bengal, Iyer-Madras, Ranade-Bombay (not in all cases).");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "div", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](310, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](315, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](316, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](317, "Name");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](311, "After reading the content once, just go through the bold letters to revise. So that you can revise quickly (Bold letters are the ones that are the most important, so don\u2019t ignore it). ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](312, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](313, "Link the leaders names to your friends names, so that it is easy for visualization.");
+
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](318, "input", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](314, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](319, "div", 15);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](320, "label");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](321, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](322, "Email");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](315, "History is full of facts and is easily forgotten, so keep revising the content. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](323, "input", 18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](316, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](317, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](318, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](319, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](320, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](321, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](322, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](323, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](324, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](325, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](326, "div", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](327, "h3", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](328, "Add your thoughts");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](324, "div", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](329, "div", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](325, "button", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](330, "form", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AssociationComponent_Template_button_click_325_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](331, "div", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](332, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](333, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](334, "Comment");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](335, "textarea", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](336, "div", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](337, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](338, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](339, "Name");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](340, "input", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](341, "div", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](342, "label");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](343, "b");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](344, "Email");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](345, "input", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](346, "div", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](347, "button", 24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AssociationComponent_Template_button_click_347_listener() {
               return ctx.comment();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](326, "Post Comment");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](348, "Post Comment");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -28916,23 +29690,23 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](327, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](349, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](328, "h3", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](350, "h3", 16);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](329, "Comments");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](330, AssociationComponent_div_330_Template, 6, 3, "div", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](351, "Comments");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](331, "app-footer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](352, AssociationComponent_div_352_Template, 6, 3, "div", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](353, "app-footer");
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](308);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](330);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx.commentForm);
 
@@ -28941,8 +29715,8 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.postComments);
           }
         },
-        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_6__["NavbarComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"]],
-        styles: ["@import \"https://fonts.googleapis.com/css?family=Baloo+Paaji\";\n\n@font-face {\r\n  src: url('CheltenhamBoldExtraCondensedBT.ttf');\r\n  font-family: c;\r\n}\n@font-face {\r\n  src: url('Montserrat-Regular.ttf');\r\n  font-family: m;\r\n}\n@font-face {\r\n  src: url('Amr.otf');\r\n  font-family: a;\r\n}\n@font-face {\r\n  src: url('UnifrakturCook-Bold.ttf');\r\n  font-family: u;\r\n}\n@font-face {\r\n  src: url('Neon-e2wg.ttf');\r\n  font-family: neon;\r\n}\n@font-face {\r\n  src: url('Lobster-Regular.ttf');\r\n  font-family: l;\r\n}\n@font-face {\r\n  src: url('Merriweather-Regular.ttf');\r\n  font-family: merri;\r\n}\n@font-face {\r\n  src: url('BLKCHCRY.TTF');\r\n  font-family: blk;\r\n}\n@font-face {\r\n  src: url('OpenSans-Regular.ttf');\r\n  font-family: os;\r\n}\n@font-face {\r\n  src: url('WorkSans-VariableFont_wght.ttf');\r\n  font-family: ws;\r\n}\n@font-face {\r\n  src: url('Roboto-Light.ttf');\r\n  font-family: robo;\r\n}\n\n.title[_ngcontent-%COMP%]{\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n\r\n}\n.content-spacing[_ngcontent-%COMP%] {\r\n  padding: 24px;\r\n  margin: 24px;\r\n}\n.emptycell[_ngcontent-%COMP%] {\r\n  empty-cells: hide;\r\n}\n.list[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n  padding: 0;\r\n}\n.category1[_ngcontent-%COMP%] {\r\n  background-color: chartreuse;\r\n}\n.category2[_ngcontent-%COMP%] {\r\n  background-color: skyblue;\r\n}\n.category3[_ngcontent-%COMP%] {\r\n  background-color: pink;\r\n}\n.table[_ngcontent-%COMP%], th[_ngcontent-%COMP%], td[_ngcontent-%COMP%] {\r\n  border: 1px solid black;\r\n  border-collapse: collapse;\r\n}\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\n.table-conatiner[_ngcontent-%COMP%] {\r\n  padding-top: 55px;\r\n}\n.instruction[_ngcontent-%COMP%] {\r\n  max-width: 800px;\r\n  width: 80%;\r\n  margin: auto;\r\n  font-family: ws;\r\n  \r\n}\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  margin-top: 1em;\r\n}\n.form-container[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n}\n.form-display[_ngcontent-%COMP%]{\r\n  width: 500px;\r\n}\n.post-button[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 10px 0;\r\n}\n.button-size[_ngcontent-%COMP%]{\r\n  padding: 5px;\r\n}\n.topic-container[_ngcontent-%COMP%]{\r\n  padding: 24px;\r\n}\n.comment-section[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 0 16px 0px 58px;\r\n}\n.comment[_ngcontent-%COMP%]{\r\n  padding-left: 150px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc29jaWF0aW9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLDZEQUE2RDtBQUQ3RCxnR0FBZ0c7QUFFaEc7RUFDRSw4Q0FBeUU7RUFDekUsY0FBYztBQUNoQjtBQUNBO0VBQ0Usa0NBQThEO0VBQzlELGNBQWM7QUFDaEI7QUFDQTtFQUNFLG1CQUF3QztFQUN4QyxjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxtQ0FBbUU7RUFDbkUsY0FBYztBQUNoQjtBQUNBO0VBQ0UseUJBQW9EO0VBQ3BELGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0UsK0JBQXdEO0VBQ3hELGNBQWM7QUFDaEI7QUFDQTtFQUNFLG9DQUFrRTtFQUNsRSxrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLHdCQUF1RDtFQUN2RCxnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGdDQUEyRDtFQUMzRCxlQUFlO0FBQ2pCO0FBQ0E7RUFDRSwwQ0FBcUU7RUFDckUsZUFBZTtBQUNqQjtBQUNBO0VBQ0UsNEJBQW9EO0VBQ3BELGlCQUFpQjtBQUNuQjtBQUNBLGlCQUFpQjtBQUNqQjtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsZUFBZTtFQUNmLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQU9BO0VBQ0UsYUFBYTtFQUNiLFlBQVk7QUFDZDtBQUVBO0VBQ0UsaUJBQWlCO0FBQ25CO0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsVUFBVTtBQUNaO0FBRUE7RUFDRSw0QkFBNEI7QUFDOUI7QUFFQTtFQUNFLHlCQUF5QjtBQUMzQjtBQUVBO0VBQ0Usc0JBQXNCO0FBQ3hCO0FBSUE7OztFQUdFLHVCQUF1QjtFQUN2Qix5QkFBeUI7QUFDM0I7QUFFQTtFQUNFLFVBQVU7RUFDVixXQUFXO0FBQ2I7QUFHQTtFQUNFLGlCQUFpQjtBQUNuQjtBQU9BO0VBQ0UsZ0JBQWdCO0VBQ2hCLFVBQVU7RUFDVixZQUFZO0VBQ1osZUFBZTs7QUFFakI7QUFFQTtFQUNFLGVBQWU7QUFDakI7QUFFQTtFQUNFLGFBQWE7RUFDYix1QkFBdUI7QUFDekI7QUFFQTtFQUNFLFlBQVk7QUFDZDtBQUVBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixlQUFlO0FBQ2pCO0FBRUE7RUFDRSxZQUFZO0FBQ2Q7QUFFQTtFQUNFLGFBQWE7QUFDZjtBQUVBO0VBQ0UsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7QUFDekI7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQiIsImZpbGUiOiJhc3NvY2lhdGlvbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogRm9udHMgICAgICAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAqL1xyXG5AaW1wb3J0IFwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUJhbG9vK1BhYWppXCI7XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9jaGVsdGVuaG0vQ2hlbHRlbmhhbUJvbGRFeHRyYUNvbmRlbnNlZEJULnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGM7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL01vbnRzZXJyYXQvTW9udHNlcnJhdC1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG07XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL0Ftci9BbXIub3RmKTtcclxuICBmb250LWZhbWlseTogYTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvVW5pZnJha3R1ckNvb2svVW5pZnJha3R1ckNvb2stQm9sZC50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiB1O1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9uZW9uLWZvbnQvTmVvbi1lMndnLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG5lb247XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL0xvYnN0ZXIvTG9ic3Rlci1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IGw7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL01lcnJpd2VhdGhlci9NZXJyaXdlYXRoZXItUmVndWxhci50dGYpO1xyXG4gIGZvbnQtZmFtaWx5OiBtZXJyaTtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBzcmM6IHVybCguLi8uLi9hc3NldHMvRm9udHMvYmxhY2tjaGFuY2VyeS9CTEtDSENSWS5UVEYpO1xyXG4gIGZvbnQtZmFtaWx5OiBibGs7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL09wZW5fU2Fucy9PcGVuU2Fucy1SZWd1bGFyLnR0Zik7XHJcbiAgZm9udC1mYW1pbHk6IG9zO1xyXG59XHJcbkBmb250LWZhY2Uge1xyXG4gIHNyYzogdXJsKC4uLy4uL2Fzc2V0cy9Gb250cy9Xb3JrX1NhbnMvV29ya1NhbnMtVmFyaWFibGVGb250X3dnaHQudHRmKTtcclxuICBmb250LWZhbWlseTogd3M7XHJcbn1cclxuQGZvbnQtZmFjZSB7XHJcbiAgc3JjOiB1cmwoLi4vLi4vYXNzZXRzL0ZvbnRzL1JvYm90by9Sb2JvdG8tTGlnaHQudHRmKTtcclxuICBmb250LWZhbWlseTogcm9ibztcclxufVxyXG4vKiB0aXRsZSAqKioqKiogKi9cclxuLnRpdGxle1xyXG4gIGNvbG9yOiBzbm93O1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogNDVweDtcclxuICB3aWR0aDogODAlO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBiYWNrZ3JvdW5kOiByZ2IoMCwgMCwgMCwgMC44KTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBtYXJnaW4tdG9wOiAyZW07XHJcblxyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcbi5jb250ZW50LXNwYWNpbmcge1xyXG4gIHBhZGRpbmc6IDI0cHg7XHJcbiAgbWFyZ2luOiAyNHB4O1xyXG59XHJcblxyXG4uZW1wdHljZWxsIHtcclxuICBlbXB0eS1jZWxsczogaGlkZTtcclxufVxyXG5cclxuLmxpc3Qge1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uY2F0ZWdvcnkxIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBjaGFydHJldXNlO1xyXG59XHJcblxyXG4uY2F0ZWdvcnkyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBza3libHVlO1xyXG59XHJcblxyXG4uY2F0ZWdvcnkzIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBwaW5rO1xyXG59XHJcblxyXG5cclxuXHJcbi50YWJsZSxcclxudGgsXHJcbnRkIHtcclxuICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuICBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG59XHJcblxyXG4qIHtcclxuICBtYXJnaW46IDAlO1xyXG4gIHBhZGRpbmc6IDAlO1xyXG59XHJcblxyXG5cclxuLnRhYmxlLWNvbmF0aW5lciB7XHJcbiAgcGFkZGluZy10b3A6IDU1cHg7XHJcbn1cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuLmluc3RydWN0aW9uIHtcclxuICBtYXgtd2lkdGg6IDgwMHB4O1xyXG4gIHdpZHRoOiA4MCU7XHJcbiAgbWFyZ2luOiBhdXRvO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxuICBcclxufVxyXG5cclxuLmluc3RydWN0aW9uIGxpe1xyXG4gIG1hcmdpbi10b3A6IDFlbTtcclxufVxyXG5cclxuLmZvcm0tY29udGFpbmVye1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb3JtLWRpc3BsYXl7XHJcbiAgd2lkdGg6IDUwMHB4O1xyXG59XHJcblxyXG4ucG9zdC1idXR0b257XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBwYWRkaW5nOiAxMHB4IDA7XHJcbn1cclxuXHJcbi5idXR0b24tc2l6ZXtcclxuICBwYWRkaW5nOiA1cHg7XHJcbn1cclxuXHJcbi50b3BpYy1jb250YWluZXJ7XHJcbiAgcGFkZGluZzogMjRweDtcclxufVxyXG5cclxuLmNvbW1lbnQtc2VjdGlvbntcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgbWFyZ2luOiAwIDE2cHggMHB4IDU4cHg7XHJcbn1cclxuXHJcbi5jb21tZW50e1xyXG4gIHBhZGRpbmctbGVmdDogMTUwcHg7XHJcbn0iXX0= */"]
+        directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"]],
+        styles: [".title[_ngcontent-%COMP%]{\r\n  color: snow;\r\n  font-family: c;\r\n  font-size: 45px;\r\n  width: 80%;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  background: rgb(0, 0, 0, 0.8);\r\n  padding: 10px;\r\n  margin: auto;\r\n  margin-top: 2em;\r\n\r\n}\r\n*[_ngcontent-%COMP%] {\r\n  margin: 0%;\r\n  padding: 0%;\r\n}\r\n.swipe[_ngcontent-%COMP%]{\r\n  display: none;\r\n  width: 80%;\r\n  margin: auto;\r\n  text-align: center;\r\n  font-family: ws;\r\n  font-size: 5px;\r\n  margin-top: 20px;\r\n}\r\n@media screen and (max-width:800px) {\r\n  .swipe[_ngcontent-%COMP%]{\r\n    display: block;\r\n  }\r\n}\r\n.content-spacing[_ngcontent-%COMP%] {\r\n  padding: 24px;\r\n  margin: 24px;\r\n}\r\n.emptycell[_ngcontent-%COMP%] {\r\n  empty-cells: hide;\r\n}\r\n.list[_ngcontent-%COMP%] {\r\n  list-style-type: none;\r\n  padding: 0;\r\n}\r\n.category1[_ngcontent-%COMP%] {\r\n  background-color: rgba(128, 255, 0, 0.74);\r\n}\r\n.category2[_ngcontent-%COMP%] {\r\n  background-color: skyblue;\r\n}\r\n.category3[_ngcontent-%COMP%] {\r\n  background-color: pink;\r\n}\r\n.instruction[_ngcontent-%COMP%] {\r\n  max-width: 800px;\r\n  width: 80%;\r\n  margin: auto;\r\n  font-family: ws;\r\n  \r\n}\r\n.instruction[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  margin-top: 1em;\r\n}\r\n.form-container[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n.form-display[_ngcontent-%COMP%]{\r\n  width: 500px;\r\n}\r\n.post-button[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  justify-content: center;\r\n  padding: 10px 0;\r\n}\r\n.button-size[_ngcontent-%COMP%]{\r\n  padding: 5px;\r\n}\r\n.topic-container[_ngcontent-%COMP%]{\r\n  padding: 24px;\r\n}\r\n.comment-section[_ngcontent-%COMP%]{\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 0 16px 0px 58px;\r\n}\r\n.comment[_ngcontent-%COMP%]{\r\n  padding-left: 150px;\r\n}\r\n.commentsouter[_ngcontent-%COMP%]{\r\n  background-color: lightpink;\r\n  text-align: center;\r\n  line-height: 40px;\r\n  margin: auto;\r\n  width: 95%;\r\n  padding: 20px;\r\n}\r\ntextarea[_ngcontent-%COMP%]{\r\n  border: black 1px solid;\r\n}\r\ninput[_ngcontent-%COMP%]{\r\n  border: black 1px solid;\r\n}\r\n\r\n.table1-spacing[_ngcontent-%COMP%] {\r\n  padding: 0;\r\n  margin: 0;\r\n  padding-top: 55px;\r\n  overflow-x: scroll;\r\n  font-family: ws;\r\n}\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%] {\r\nborder: 1px solid black;\r\nborder-collapse: collapse;\r\nline-height: 26px;\r\nwidth: 230px;\r\n\r\n}\r\n.table1[_ngcontent-%COMP%]   td[_ngcontent-%COMP%]{\r\n  padding: 15px;\r\n}\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%]{\r\n  padding: 7px;\r\n}\r\n.table1[_ngcontent-%COMP%]{\r\nborder-collapse: collapse;\r\ntext-align: center;\r\n}\r\n.table1[_ngcontent-%COMP%]   table[_ngcontent-%COMP%]{\r\nmargin: auto;\r\nborder-collapse: collapse;\r\n}\r\n.tablepoint[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]{\r\n  list-style-position: outside;\r\n  list-style-type: circle;\r\n  margin-top: 10px;\r\n  margin-left: 10px;\r\n}\r\n.table1[_ngcontent-%COMP%]   th[_ngcontent-%COMP%]{\r\n  background-color: black;\r\n  color: white;\r\n  text-align: center;\r\n  font-family: c;\r\n  font-size: 20px;\r\n  letter-spacing: 1px;\r\n\r\n}\r\n@media screen and (max-width:800px) {\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(5) {\r\n    min-width: 15rem;\r\n    z-index: 1;\r\n  }\r\n  tr[_ngcontent-%COMP%]    > *[_ngcontent-%COMP%]:nth-child(6) {\r\n    min-width: 15rem;\r\n    z-index: 1;\r\n  }\r\n  \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc29jaWF0aW9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBLGlCQUFpQjtBQUNqQjtFQUNFLFdBQVc7RUFDWCxjQUFjO0VBQ2QsZUFBZTtFQUNmLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IsYUFBYTtFQUNiLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQUdBO0VBQ0UsVUFBVTtFQUNWLFdBQVc7QUFDYjtBQUlBO0VBQ0UsYUFBYTtFQUNiLFVBQVU7RUFDVixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGVBQWU7RUFDZixjQUFjO0VBQ2QsZ0JBQWdCO0FBQ2xCO0FBQ0E7RUFDRTtJQUNFLGNBQWM7RUFDaEI7QUFDRjtBQUlBO0VBQ0UsYUFBYTtFQUNiLFlBQVk7QUFDZDtBQUVBO0VBQ0UsaUJBQWlCO0FBQ25CO0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsVUFBVTtBQUNaO0FBRUE7RUFDRSx5Q0FBeUM7QUFDM0M7QUFFQTtFQUNFLHlCQUF5QjtBQUMzQjtBQUVBO0VBQ0Usc0JBQXNCO0FBQ3hCO0FBSUE7RUFDRSxnQkFBZ0I7RUFDaEIsVUFBVTtFQUNWLFlBQVk7RUFDWixlQUFlOztBQUVqQjtBQUVBO0VBQ0UsZUFBZTtBQUNqQjtBQUVBO0VBQ0UsYUFBYTtFQUNiLHVCQUF1QjtBQUN6QjtBQUVBO0VBQ0UsWUFBWTtBQUNkO0FBRUE7RUFDRSxhQUFhO0VBQ2IsdUJBQXVCO0VBQ3ZCLGVBQWU7QUFDakI7QUFFQTtFQUNFLFlBQVk7QUFDZDtBQUVBO0VBQ0UsYUFBYTtBQUNmO0FBRUE7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtBQUN6QjtBQUVBO0VBQ0UsbUJBQW1CO0FBQ3JCO0FBR0E7RUFDRSwyQkFBMkI7RUFDM0Isa0JBQWtCO0VBQ2xCLGlCQUFpQjtFQUNqQixZQUFZO0VBQ1osVUFBVTtFQUNWLGFBQWE7QUFDZjtBQUNBO0VBQ0UsdUJBQXVCO0FBQ3pCO0FBQ0E7RUFDRSx1QkFBdUI7QUFDekI7QUFNQSwrSEFBK0g7QUFDL0g7RUFDRSxVQUFVO0VBQ1YsU0FBUztFQUNULGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsZUFBZTtBQUNqQjtBQUdBOztBQUVBLHVCQUF1QjtBQUN2Qix5QkFBeUI7QUFDekIsaUJBQWlCO0FBQ2pCLFlBQVk7O0FBRVo7QUFDQTtFQUNFLGFBQWE7QUFDZjtBQUNBO0VBQ0UsWUFBWTtBQUNkO0FBRUE7QUFDQSx5QkFBeUI7QUFDekIsa0JBQWtCO0FBQ2xCO0FBRUE7QUFDQSxZQUFZO0FBQ1oseUJBQXlCO0FBQ3pCO0FBRUE7RUFDRSw0QkFBNEI7RUFDNUIsdUJBQXVCO0VBQ3ZCLGdCQUFnQjtFQUNoQixpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLHVCQUF1QjtFQUN2QixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGNBQWM7RUFDZCxlQUFlO0VBQ2YsbUJBQW1COztBQUVyQjtBQUtBO0VBQ0U7SUFDRSxnQkFBZ0I7SUFDaEIsVUFBVTtFQUNaO0VBQ0E7SUFDRSxnQkFBZ0I7SUFDaEIsVUFBVTtFQUNaOztBQUVGIiwiZmlsZSI6ImFzc29jaWF0aW9uLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLyogdGl0bGUgKioqKioqICovXHJcbi50aXRsZXtcclxuICBjb2xvcjogc25vdztcclxuICBmb250LWZhbWlseTogYztcclxuICBmb250LXNpemU6IDQ1cHg7XHJcbiAgd2lkdGg6IDgwJTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgYmFja2dyb3VuZDogcmdiKDAsIDAsIDAsIDAuOCk7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgbWFyZ2luLXRvcDogMmVtO1xyXG5cclxufVxyXG5cclxuXHJcbioge1xyXG4gIG1hcmdpbjogMCU7XHJcbiAgcGFkZGluZzogMCU7XHJcbn1cclxuXHJcblxyXG5cclxuLnN3aXBle1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGZvbnQtZmFtaWx5OiB3cztcclxuICBmb250LXNpemU6IDVweDtcclxuICBtYXJnaW4tdG9wOiAyMHB4O1xyXG59XHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6ODAwcHgpIHtcclxuICAuc3dpcGV7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICB9XHJcbn1cclxuXHJcblxyXG5cclxuLmNvbnRlbnQtc3BhY2luZyB7XHJcbiAgcGFkZGluZzogMjRweDtcclxuICBtYXJnaW46IDI0cHg7XHJcbn1cclxuXHJcbi5lbXB0eWNlbGwge1xyXG4gIGVtcHR5LWNlbGxzOiBoaWRlO1xyXG59XHJcblxyXG4ubGlzdCB7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5jYXRlZ29yeTEge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMTI4LCAyNTUsIDAsIDAuNzQpO1xyXG59XHJcblxyXG4uY2F0ZWdvcnkyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBza3libHVlO1xyXG59XHJcblxyXG4uY2F0ZWdvcnkzIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBwaW5rO1xyXG59XHJcblxyXG5cclxuXHJcbi5pbnN0cnVjdGlvbiB7XHJcbiAgbWF4LXdpZHRoOiA4MDBweDtcclxuICB3aWR0aDogODAlO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBmb250LWZhbWlseTogd3M7XHJcbiAgXHJcbn1cclxuXHJcbi5pbnN0cnVjdGlvbiBsaXtcclxuICBtYXJnaW4tdG9wOiAxZW07XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRhaW5lcntcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG59XHJcblxyXG4uZm9ybS1kaXNwbGF5e1xyXG4gIHdpZHRoOiA1MDBweDtcclxufVxyXG5cclxuLnBvc3QtYnV0dG9ue1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgcGFkZGluZzogMTBweCAwO1xyXG59XHJcblxyXG4uYnV0dG9uLXNpemV7XHJcbiAgcGFkZGluZzogNXB4O1xyXG59XHJcblxyXG4udG9waWMtY29udGFpbmVye1xyXG4gIHBhZGRpbmc6IDI0cHg7XHJcbn1cclxuXHJcbi5jb21tZW50LXNlY3Rpb257XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIG1hcmdpbjogMCAxNnB4IDBweCA1OHB4O1xyXG59XHJcblxyXG4uY29tbWVudHtcclxuICBwYWRkaW5nLWxlZnQ6IDE1MHB4O1xyXG59XHJcblxyXG5cclxuLmNvbW1lbnRzb3V0ZXJ7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRwaW5rO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBsaW5lLWhlaWdodDogNDBweDtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgd2lkdGg6IDk1JTtcclxuICBwYWRkaW5nOiAyMHB4O1xyXG59XHJcbnRleHRhcmVhe1xyXG4gIGJvcmRlcjogYmxhY2sgMXB4IHNvbGlkO1xyXG59XHJcbmlucHV0e1xyXG4gIGJvcmRlcjogYmxhY2sgMXB4IHNvbGlkO1xyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnRhYmxlMS1zcGFjaW5nIHtcclxuICBwYWRkaW5nOiAwO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nLXRvcDogNTVweDtcclxuICBvdmVyZmxvdy14OiBzY3JvbGw7XHJcbiAgZm9udC1mYW1pbHk6IHdzO1xyXG59XHJcblxyXG5cclxuLnRhYmxlMSB0aCxcclxuLnRhYmxlMSB0ZCB7XHJcbmJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG5saW5lLWhlaWdodDogMjZweDtcclxud2lkdGg6IDIzMHB4O1xyXG5cclxufVxyXG4udGFibGUxIHRke1xyXG4gIHBhZGRpbmc6IDE1cHg7XHJcbn1cclxuLnRhYmxlMSB0aHtcclxuICBwYWRkaW5nOiA3cHg7XHJcbn1cclxuXHJcbi50YWJsZTF7XHJcbmJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnRhYmxlMSB0YWJsZXtcclxubWFyZ2luOiBhdXRvO1xyXG5ib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xyXG59XHJcblxyXG4udGFibGVwb2ludCBsaXtcclxuICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBvdXRzaWRlO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogY2lyY2xlO1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLnRhYmxlMSB0aHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGZvbnQtZmFtaWx5OiBjO1xyXG4gIGZvbnQtc2l6ZTogMjBweDtcclxuICBsZXR0ZXItc3BhY2luZzogMXB4O1xyXG5cclxufVxyXG5cclxuXHJcblxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDo4MDBweCkge1xyXG4gIHRyID4gKjpudGgtY2hpbGQoNSkge1xyXG4gICAgbWluLXdpZHRoOiAxNXJlbTtcclxuICAgIHotaW5kZXg6IDE7XHJcbiAgfVxyXG4gIHRyID4gKjpudGgtY2hpbGQoNikge1xyXG4gICAgbWluLXdpZHRoOiAxNXJlbTtcclxuICAgIHotaW5kZXg6IDE7XHJcbiAgfVxyXG4gIFxyXG59XHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblxyXG4iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -28956,13 +29730,13 @@
           }]
         }], function () {
           return [{
-            type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]
           }, {
-            type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"]
+            type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]
           }, {
-            type: _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_4__["CommentserviceService"]
+            type: _shared_commentservice_service_js__WEBPACK_IMPORTED_MODULE_3__["CommentserviceService"]
           }, {
-            type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Meta"]
+            type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Meta"]
           }];
         }, null);
       })();
