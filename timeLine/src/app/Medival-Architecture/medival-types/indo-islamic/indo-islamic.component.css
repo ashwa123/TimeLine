@@ -1,58 +1,15 @@
-/* Fonts      ################################################################################ */
-@import "https://fonts.googleapis.com/css?family=Baloo+Paaji";
-@font-face {
-  src: url(../../../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf);
-  font-family: u;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/cheltenhm/Chltboxc.ttf);
-  font-family: c;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Montserrat/Montserrat-Regular.ttf);
-  font-family: m;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Amr/Amr.otf);
-  font-family: a;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/neon-font/Neon-e2wg.ttf);
-  font-family: neon;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Lobster/Lobster-Regular.ttf);
-  font-family: l;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Merriweather/Merriweather-Regular.ttf);
-  font-family: merri;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/blackchancery/BLKCHCRY.TTF);
-  font-family: blk;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Open_Sans/OpenSans-Regular.ttf);
-  font-family: os;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf);
-  font-family: ws;
-}
-@font-face {
-  src: url(../../../../assets/Fonts/Roboto/Roboto-Light.ttf);
-  font-family: robo;
-}
+
 
 * {
-  margin: 0%;
-  padding: 0%;
-}
+	margin: 0%;
+	padding: 0%;
+} 
+
+
 
 /* content       ################################################################################ */
 /* title ****** */
-.title {
+.title{
   color: snow;
   font-family: c;
   font-size: 45px;
@@ -64,420 +21,35 @@
   padding: 10px;
   margin: auto;
   margin-top: 2em;
+
 }
 
-/* ************************************************************************************************************************** */
-.points {
-  background-color: paleturquoise;
-  margin: auto;
-  margin-top: 30px;
-  font-family: os;
-  font-size: 1em;
-  line-height: 30px;
-  width: 80%;
-  padding: 20px;
+
+
+
+
+
+
+
+
+.randomimg{
+width: 80%;
+margin: auto;
+margin-top: 30px;
+text-align: center
 }
 
-.points li {
-  list-style-type: none;
-  margin-bottom: 10px;
-  list-style-position: inside;
-}
-.points li:nth-child(1) {
-  margin-top: 10px;
-}
-.li1 li {
-  list-style-type: decimal;
-}
-.li2 li {
-  list-style: square;
-  list-style-position: inside;
+@media (max-width: 800px){
+.randomimg img{
+width: 100%;
 }
 
-.topichead {
-  font-family: u;
-  font-size: 30px;
-  text-decoration: underline;
+.randomimg{
+width: 85%;
 }
-.topichead2 {
-  font-size: 1.2em;
 }
 
-/* ************************************************************************************************************************** */
-body {
-  padding: 0;
-  margin: 0;
-}
 
-div.landscape {
-  width: 500px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  margin: 10px;
-}
-
-div.potrait {
-  width: 200px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  margin: 10px;
-}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-div.landport {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  max-width: 90%;
-  margin: auto;
-  margin-top: 10px;
-}
-
-/* ************************************************************************************************************************** */
-.modal1 {
-  z-index: 1;
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.8);
-  box-sizing: content-box;
-}
-.modal2 {
-  z-index: 1;
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.8);
-  box-sizing: content-box;
-}
-
-.content01 {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 800px;
-  max-width: 95%;
-}
-.content02 {
-  display: block;
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, 3%);
-  width: 450px;
-  max-width: 95%;
-}
-@media only screen and (max-width: 1200px) {
-  .content02 {
-    transform: translate(-50%, 0%);
-  }
-}
-
-.modal1-hover-opacity {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-backface-visibility: hidden;
-}
-.modal2-hover-opacity {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-backface-visibility: hidden;
-}
-.modal1-hover-opacity:hover {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  -webkit-backface-visibility: hidden;
-}
-.modal2-hover-opacity:hover {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  -webkit-backface-visibility: hidden;
-}
-
-/* ************************************************************************************************************************** */
-.featurename {
-  font-family: c;
-  font-size: 25px;
-}
-.featureabout {
-  padding-top: 10px;
-  font-family: os;
-  font-size: 0.7em;
-}
-.imgname {
-  font-family: blk;
-  font-size: 25px;
-  color: #3cb371;
-}
-.imgplace {
-  color: #3cb371;
-  font-family: os;
-  font-size: 0.9em;
-  margin-left: 10px;
-}
-.imgabout {
-  padding-top: 10px;
-  font-family: os;
-  font-size: 0.8em;
-}
-
-.keywords {
-  padding: 3px;
-  width: 80%;
-  background-color: rgb(220, 20, 60, 0.4);
-  margin: auto;
-  margin-top: 10px;
-  font-family: ws;
-  text-align: center;
-}
-
-.impword {
-  font-size: 1.1em;
-  text-decoration: black underline;
-}
-
-/* ************************************************************************************************************************** */
-.textdiv {
-  margin: auto;
-  width: 90%;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.textbox {
-  border: 1.5px solid rgb(51, 51, 51, 0.7);
-  background: white;
-  width: 10em;
-  height: 17em;
-  border-radius: 5px;
-  margin: 15px;
-}
-.textimg img {
-  width: 9.8em;
-  height: 12.5em;
-  border-radius: 5px;
-}
-.textimg {
-  text-align: center;
-  margin-top: 0.1em;
-}
-.texttext {
-  margin-top: 3px;
-  font-family: c;
-  font-size: 20px;
-  color: black;
-  margin-left: 10px;
-}
-.textlink {
-  margin-top: 3px;
-  font-family: c;
-  margin-left: 10px;
-}
-.textlink a {
-  color: deepskyblue;
-  text-decoration: none;
-}
-
-.boxx {
-  position: relative;
-}
-
-.boxx:before {
-  content: "";
-  top: -1px;
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  z-index: -1;
-  background-color: whitesmoke;
-  border-radius: 5px;
-  position: absolute;
-}
-
-.boxx:after {
-  content: "";
-  top: -1px;
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  z-index: -2;
-  position: absolute;
-  border-radius: 5px;
-  filter: blur(3px);
-}
-
-.boxx:after,
-.boxx:before {
-  background: linear-gradient(235deg, black, white, black);
-}
-
-/* ************************************************************************************************************************** */
-.fullfeature {
-  margin: auto;
-  /* width: 1200px; */
-  max-width: 95%;
-  margin-top: 20px;
-  background-color: rgb(222, 184, 135, 0.2);
-}
-.featuretopic {
-  font-family: l;
-  font-size: 20px;
-  background-color: black;
-  color: white;
-  padding: 5px;
-}
-
-.features {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.featurelandscape {
-  border: 1.5px solid rgb(51, 51, 51, 0.7);
-  background: white;
-  width: 15em;
-  height: 10em;
-  border-radius: 0px;
-  margin: 5px;
-  margin-top: 15px;
-}
-.featurepotrait {
-  border: 1.5px solid rgb(51, 51, 51, 0.7);
-  background: white;
-  width: 10em;
-  height: 15em;
-  border-radius: 0px;
-  margin: 5px;
-  margin-top: 15px;
-}
-.featuresquare {
-  border: 1.5px solid rgb(51, 51, 51, 0.7);
-  background: white;
-  width: 10em;
-  height: 13em;
-  border-radius: 0px;
-  margin: 5px;
-  margin-top: 15px;
-}
-.featureimg img {
-  width: 14.8em;
-  height: 8em;
-  border-radius: 0px;
-}
-.featureimg1 img {
-  width: 9.8em;
-  height: 13em;
-  border-radius: 0px;
-}
-.featureimg3 img {
-  width: 9.8em;
-  height: 9.8em;
-  border-radius: 0px;
-}
-.featureimg,
-.featureimg1,
-.featureimg3 {
-  text-align: center;
-  margin-top: 0.1em;
-}
-.featurename {
-  font-family: c;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-}
-
-.featurebox {
-  position: relative;
-}
-
-.featurebox:before {
-  content: "";
-  top: -1px;
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  z-index: -1;
-  background-color: whitesmoke;
-  border-radius: 5px;
-  position: absolute;
-}
-
-.featurebox:after {
-  content: "";
-  top: -1px;
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  z-index: -2;
-  position: absolute;
-  border-radius: 5px;
-  filter: blur(3px);
-}
-.featurebox:after,
-.featurebox:before {
-  background: linear-gradient(235deg, black, white, black);
-}
-
-/* ************************************************************************************************************************** */
-a.wiki {
-  /* text-align: end;
-
-  margin-right: 5px; */
-  float: right;
-  margin-right: -25px;
-}
-.wiki img {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-}
-
-/* ************************************************************************************************************************** */
-.table1-spacing {
-  padding: 0;
-  margin: 0;
-  padding-top: 55px;
-  overflow-x: scroll;
-  font-family: ws;
-}
-
-.table1 th,
-.table1 td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 15px;
-  text-align: center;
-  width: 200px;
-}
-
-.table1 {
-  border-collapse: collapse;
-  text-align: center;
-}
-
-.table1 table {
-  margin: auto;
-}
 
 .whole{
   border: 1px solid black;
@@ -486,20 +58,24 @@ a.wiki {
   margin-top: 30px ;
  
 }
-
+@media screen and (max-width:800px) {
+  .whole{
+     width: 99%;
+     
+  }
+}
 
 .feature{
  
   font-family: c;
-  font-size: 30px;
+  font-size: 25px;
   background-color: lightseagreen;
   color: white;
-  padding-left: 5px;
+  padding-left: 7px;
 }
 
 
 .format1{
- 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -525,7 +101,8 @@ a.wiki {
 .f13{
   padding: 2px;
   padding-bottom: 10px;
-  font-family: os;
+  font-family: ws;
+  font-size: 15px;
   text-align: center;
   line-height: 25px;
   
@@ -537,8 +114,9 @@ a.wiki {
 }
 
 .f111 img{
-  width: 250px ;
+  max-width: 250px ;
   height: 350px ;
+  width: 100%;
 }
 
 .f11, .f111{
@@ -552,7 +130,29 @@ a.wiki {
   height: 350px ;
 }
 
-.randomimg {
-  margin: 24px 48px 24px 67px;
+
+
+div.landscape {
+  width: 300px;
+
 }
-/* ************************************************************************************************************************** */
+
+div.potrait { 
+  width: 200px;
+}
+
+div.landport{
+  max-width: 90%;
+padding: 10px;
+}
+
+
+.randomimg{
+    overflow-x: scroll;
+}
+.randomimg {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}

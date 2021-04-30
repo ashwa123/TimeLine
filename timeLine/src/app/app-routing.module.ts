@@ -18,6 +18,7 @@ import { MughalsComponent } from './Medival-Architecture/medival-types/mughals/m
 import { KashmirComponent } from './Medival-Architecture/medival-types/kashmir/kashmir.component';
 import { ParsiComponent } from './Medival-Architecture/medival-types/parsi/parsi.component';
 import { MughalFortsComponent } from './Medival-Architecture/medival-types/mughals/mughal-fort/mughal-forts/mughal-forts.component';
+import { TimelineModuleComponent } from './timeline-module/timeline-module.component';
 
 
 const routes: Routes = [
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: 'kashmir', component: KashmirComponent },
   { path: 'parsi', component: ParsiComponent },
   { path: 'forts', component: MughalFortsComponent },
+  { path: 'historytimeline', component: TimelineModuleComponent },
   { path : '**', component: HomeComponent }
 ];
 

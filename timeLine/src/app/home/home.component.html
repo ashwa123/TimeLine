@@ -4,9 +4,10 @@
     <div class="biglabel"><label for="nav1"></label></div>
     <nav class="navb">
         <ul>
-            <li><a (click)="modernhistory()">History</a></li>
-            <li><a (click)="artculture()">Art</a></li>
-            <li><a  (click)="gallery()">Gallery</a></li>
+            <li><a href="#section1"  class="uncheck-all">Home</a></li>
+            <li><a href="#section2"  class="uncheck-all">About Us</a></li>
+            <li><a href="#section3"  class="uncheck-all">How to use</a></li>
+            <li><a href="#section4"  class="uncheck-all">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -42,7 +43,6 @@
             </div>
         </div>
 
-
         <div class="outerbox1">
             <div class="box1">
                 <div class="icon1">
@@ -52,6 +52,24 @@
                         <span></span>
                         <span></span>
                         Modern History
+                    </a>
+                </div>
+                <div class="pmh">
+                    <p>Study about the History of India's struggle for Independence.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="outerbox1">
+            <div class="box1">
+                <div class="icon1">
+                    <a class="mh" [routerLink]="['/historytimeline']">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Timeline
                     </a>
                 </div>
                 <div class="pmh">

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import * as $ from 'jquery';
+import './timeline.js';
 
 @Component({
   selector: 'app-modern-history-timeline',
@@ -30,27 +31,33 @@ export class ModernHistoryTimelineComponent implements OnInit {
       });
     });
 
-    $('.tg').click(function () {
+    $('.tg').click(function() {
       $('.target').toggle('slow');
-    });
+  });
+  
+  $('.tgfilter').click(function() {
+      $('.targetfilter').toggle('fast');
+  });
+  
+  $('.thow').click(function() {
+      $('.targethow').toggle();
+  });
+  
+  
 
-    $('.tgfilter').click(function () {
-      $('.targetfilter').toggle('slow');
-    });
-
-    function sticky_relocate() {
-      var window_top = $(window).scrollTop();
-      var div_top = $('#sticky-anchor').offset().top;
-      if (window_top > div_top) {
-        $('#sticky').addClass('stick');
-      } else {
-        $('#sticky').removeClass('stick');
-      }
-    }
-    $(function () {
-      $(window).scroll(sticky_relocate);
-      sticky_relocate();
-    });
+    // function sticky_relocate() {
+    //   var window_top = $(window).scrollTop();
+    //   var div_top = $('#sticky-anchor').offset().top;
+    //   if (window_top > div_top) {
+    //     $('#sticky').addClass('stick');
+    //   } else {
+    //     $('#sticky').removeClass('stick');
+    //   }
+    // }
+    // $(function () {
+    //   $(window).scroll(sticky_relocate);
+    //   sticky_relocate();
+    // });
 
     // get all of our list items
     var itemsToFilter = document.querySelectorAll("#itemsToFilter div");

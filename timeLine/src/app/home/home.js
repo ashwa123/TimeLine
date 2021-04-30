@@ -26,9 +26,12 @@ $(document).ready(function () {
   });
 });
 
-// $(function () { 
-//   $('.uncheck-all').on('click', function () { 
-//     $('.checkboxes input:checkbox').prop('checked', false); 
-//   }); 
-// });
+
+
+$(function() {
+  $('.uncheck-all').on('click', function() {
+    $('.checkboxes input:checkbox').prop('checked', false);
+  });
+});
+
 

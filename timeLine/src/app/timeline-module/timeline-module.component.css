@@ -1,0 +1,84 @@
+.card-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textdiv{
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.textbox{
+    border: 1.5px solid rgb(51, 51, 51, 0.7);
+    background: white;
+    width: 10em;
+    height: 19em;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.boxx {
+    position: relative;
+}
+    
+.boxx:before{
+    content: '';
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: -1;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+}
+    
+.boxx:after{
+    content: '';
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: -2;
+    position: absolute;
+    border-radius: 5px;
+    filter: blur(3px);
+    
+}
+.boxx:after,
+.boxx:before{
+    background: linear-gradient(235deg, black, white, black);
+}
+     
+.textimg img{
+    width: 9.8em;
+    height: 12.5em;
+    border-radius: 5px;
+}
+.textimg{
+    text-align: center;
+    margin-top: 0.1em;
+}
+
+.texttext{
+    margin-top: 3px;
+    font-family: c;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.textlink{
+    margin-top: 3px;
+    font-family: c;
+    margin-left: 10px;    
+}
+.textlink a{
+    color: deepskyblue;
+    text-decoration: none;
+}

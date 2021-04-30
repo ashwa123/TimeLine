@@ -1,275 +1,336 @@
-@import "https://fonts.googleapis.com/css?family=Baloo+Paaji";
-@font-face {
-  src: url(../../assets/Fonts/UnifrakturCook/UnifrakturCook-Bold.ttf);
-  font-family: u;
-}
-@font-face {
-  src: url(../../assets/Fonts/cheltenhm/CheltenhamBoldExtraCondensedBT.ttf);
-  font-family: c;
-}
-@font-face {
-  src: url(../../assets/Fonts/Montserrat/Montserrat-Regular.ttf);
-  font-family: m;
-}
-@font-face {
-  src: url(../../assets/Fonts/Amr/Amr.otf);
-  font-family: a;
-}
-@font-face {
-  src: url(../../assets/Fonts/neon-font/Neon-e2wg.ttf);
-  font-family: neon;
-}
-@font-face {
-  src: url(../../assets/Fonts/Lobster/Lobster-Regular.ttf);
-  font-family: l;
-}
-@font-face {
-  src: url(../../assets/Fonts/Merriweather/Merriweather-Regular.ttf);
-  font-family: merri;
-}
-@font-face {
-  src: url(../../assets/Fonts/blackchancery/BLKCHCRY.TTF);
-  font-family: blk;
-}
-@font-face {
-  src: url(../../assets/Fonts/Open_Sans/OpenSans-Regular.ttf);
-  font-family: os;
-}
-@font-face {
-  src: url(../../assets/Fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
-  font-family: ws;
-}
-@font-face {
-  src: url(../../assets/Fonts/Roboto/Roboto-Light.ttf);
-  font-family: robo;
+
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-* {
-  margin: 0%;
-  padding: 0%;
+header.nava {
+  background-color:black ;
+  overflow: hidden;
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  width: 100%;
 }
+
+.nava a {
+  display: block;
+  padding: 22px 15px 4px ;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1px;
+  height: 20px;
+}
+
+
+
+.logo {
+  float: left;
+font-family: u;
+font-size: 29px;
+color: white;
+text-decoration: none;
+  text-shadow:  0 -1px 0 #fff, 
+    0 1px 0 #2e2e2e, 
+    0 1.1px 0 #2c2c2c, 
+    0 1.2px 0 #2a2a2a, 
+    0 1.3px 0 #282828, 
+    0 1.4px 0 #262626, 
+    0 1.5px 0 #242424, 
+    0 1.6px 0 #222, 
+    0 1.7px 0 #202020, 
+    0 2px 0 #1e1e1e, 
+    0 2.10px 0 #1c1c1c, 
+    0 2.2px 0 #1a1a1a, 
+    0 2.3px 0 #181818, 
+    0 2.4px 0 #161616, 
+    0 2.5px 0 #141414, 
+    0 2.8px 0 #121212, 
+  0 3px 3px rgba(0, 0, 0, 0.9);
+ 
+}
+  
+.navb {
+  background-color: black;
+  float: right;
+
+}
+
+
+.navb  button
+{  
+font-family: l;  
+/* height:25px;
+width:80px; */
+padding:5px;
+font-size:12px;
+cursor:pointer;
+background-color: black;
+color: azure;
+transition: ease-in 0.2s;
+border: whitesmoke solid 1px;
+z-index: 10;
+margin: 10px;
+}
+
+.navb button:hover {
+  color: black;
+  background-color: teal;
+  transition: ease-in 0.2s;
+}
+
+
+
+  
+
+.targetfilter{
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  background: black;
+  display:none;
+
+}
+
+
+
+.filterimg img{
+  width: 25px;
+  height: 16px; 
+}
+.filterimg1 img{
+  width: 18px;
+  height: 18px; 
+}
+
+.targetfilter li{
+    color: white;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    list-style: none;
+    border: 0.2px grey solid;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.targetfilter li{
+padding: 10px;
+margin-top: 15px;
+
+}
+.targetfilter li:nth-child(1){
+  padding: 10px;
+  margin-top: 0px;
+}
+div.sortout {
+  padding: 5px;
+display: block;
+
+}
+input, label{
+  cursor: pointer;
+}
+
+
+
+.targethow{
+  display: none;
+  padding: 0px 5px 5px 5px;
+
+
+  
+}
+
+.targethow div{
+  font-family: l;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom:10px ;
+  background: white;
+  
+}
+.targethow ul{
+  background: white;
+  margin: auto;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 5%;
+}
+.targethow li{
+  font-family: ws;
+  list-style: circle;
+  list-style-position: inside;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+}
+
+
 
 
 
 ul{
-    list-style: none;
-  }
+  list-style: none;
+}
+
+.whole{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  margin-top: 25px;
   
-  .whole{
-    display: flex;
-    width: 85%;
-    margin: auto;
-    margin-top: 18px;
-    
-  }
+}
+
+.year{
+font-family: u;
+font-size: 20px;
+padding: 5px 10px;
+background-color: teal;
+color: white;
+
+}
+
+.events{
+width: 100%;
+line-height: 25px;
+}
+
+.spanimg img{
+width: 30px;
+height: 20px;
+
+}
+
+.sqimg img{
+  width: 25px;
+  height: 25px;
   
-  .year{
-  font-family: u;
-  font-size: 20px;
-  padding: 0 10px;
-  background-color: teal;
-  color: white;
+}
+.gimg img{
+  width: 20px;
+  height: 20px; 
   
-  }
-  
-  .events{
-  width: 100%;
-  
-  }
-  
-  .spanimg img{
-  width: 30px;
-  height: 20px;
-  margin-top: 3px;
-  }
-  /* <img src="/images/british.png" alt=""><p class="vs">vs</p><img src="/images/british.png" alt=""> */
-  .filterimg img{
-    width: 25px;
-    height: 16px; 
-  }
-  
-  
-  p.vs{
-  font-family: c;
-  font-size: 15px;
-  margin-left: 5px;
+}
+
+/* <img src="/images/british.png" alt=""><p class="vs">vs</p><img src="/images/british.png" alt=""> */
+.filterimg img{
+  width: 25px;
+  height: 16px; 
+}
+.filterimg1 img{
+  width: 18px;
+  height: 18px; 
+}
+
+
+p.vs{
+font-family: c;
+font-size: 15px;
+margin-left: 5px;
+margin-right: 5px;
+margin-top: 3px;
+display: inline-block;
+}
+
+
+.p1{
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: inline;
+}
+.p2{
+font-size: 15px;
+font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+display: inline;  
+}
+.p3{
+font-size: 15px;
+font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+display: inline;  
+}
+a.p4{
+  text-align: end;
+  float: right;
   margin-right: 5px;
+
+}
+
+
+.p4 img{
   margin-top: 3px;
-  display: inline-block;
-  }
+  width: 15px;
+  height: 15px;
+}
+
+.p2, .p3{
+margin-left: 7px;
+}
+
+.target{
+ display:none;
+  font-family: os;
+  font-size: 15px;
+  padding: 15px;
+  background-color: white;
+  color: black; 
+}
+
+.event{
+  display: flex;
+ 
+}
+
+.sall{
+  width: 100%;
+  border: black 1px dotted;
+  padding: 5px 5px 2px;
+}
+
+
+.sortbox2{
+  color: white;}
+
+.explainpoint li{
+list-style-type: circle;
+margin-top: 5px ;
+margin-left: 15px;
+}
+
+.olpoint{
+  margin-left: 10px;
+margin-top: 5px;
+}
+.olpoint li{
+  margin-top: 5px;
+}
+
+
+
   
-  
-  .p1{
-  font-size: 20px;
-  font-family: c;
-  }
-  .p2{
-  font-size: 18px;
-  font-family: c;
-  }
-  .p3{
-  font-size: 18px;
-  font-family: c;
-  }
-  a.p4{
-    text-align: end;
-    float: right;
-    margin-right: 5px;
-  
-  }
-  
-  
-  .p4 img{
-    width: 15px;
-    height: 15px;
-  
-  }
-  
-  .p1, .p2, .p3, .spanimg{
-  margin-left: 7px;
-  display: inline;
-  }
-  
-  .target, .targetfilter{
-    display:none;
-    font-family: os;
-    font-size: 15px;
-    padding: 15px;
-    background-color: white;
     
-  }
-  
-  .event{
-    display: flex;
-  }
-  .sall{
-    width: 100%;
-  }
-  
-  .british{
-    border: orange dotted 1px;
-    background-color: orange;
-    }
-  .portugal{
-    border: skyblue dotted 1px;
-    background-color: paleturquoise;
-    }
-  .mughals{
-    border: green dotted 1px;
-    background-color: greenyellow;
-  }
-     
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    .showItem {
-      display: list-item;
-      }
-      .hideItem {
-        display: none;
-      }
-    #itemsToFilter div{
-      list-style: none;
-      
-    }
-      .filterSection li {
-        list-style: none;
-        margin: 0px;
-        display: inline;
-         
-      }
-      .filterSection {
-        margin:  auto;
-        width: 90%;
-        padding: 2px;
-        background-color: papayawhip;
-        color: black;
-        font-family: u ;
-      }
-   
-  
-      .filterSection button{
-        margin-left: 10px;
-      }
-    
-  .erastyle{
-    margin-left: 10px;
-  }
-  
-  
-  .allfilters{
-    position: sticky;
-    top: 7.7%;
-    margin-top: 10px;
-  }
-  
-  
-  .sortbox2{
-    background-color: darkslategrey;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    padding: 7px;
-    width: 90%;
-    margin:auto;
-    display: flex; 
-    flex-wrap: wrap;
-    
-  }
-  
-  .sortout {
-    margin-left:10px;
-  }
-  
-  input, label{
-    cursor: pointer;
-  }
-  
-  
-  button
-  {  
-  font-family: l;  
-    height:25px;
-    width:80px;
-    padding:3px;
-    font-size:12px;
-    cursor:pointer;
-    background-color: black;
-    color: azure;
-    transition: ease-in 0.2s;
-    border: whitesmoke solid 1px;
-    
-    
-  }
-  
-  button:hover {
-      color: black;
-      background-color: teal;
-      transition: ease-in 0.2s;
-  }
-  
-  
-  
-  
   /* content       ################################################################################ */
   /* title ****** */
   .title{
-      color: snow;
-      font-family: c;
-      font-size: 45px;
-      width: 80%;
-      text-align: center;
-      text-transform: uppercase;
-      position: relative;
-      background: rgb(0, 0, 0, 0.8);
-      padding: 10px;
-      margin: auto;
-      margin-top: 2em;
+    color: snow;
+    font-family: c;
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    background: rgb(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: auto;
+    margin-top: 2em;
+
+}
   
-  }

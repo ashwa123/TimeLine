@@ -1,101 +1,300 @@
-<app-navbar></app-navbar>
-<div>
-    <h1 class="title">Modern History Timeline</h1>
-</div>
-<!-- ****************************************        Era        *********************************************************** -->
-<div class="allfilters">
-    <ul class="filterSection">
-        <li>
-            <button class="tgfilter" >Filter</button>
-            <button class="tg">Detailed</button>
-            <label ><input type="checkbox" value="fives" class="erastyle"/> 1500s</label>
-            <label ><input type="checkbox" value="sixes" class="erastyle"/> 1600s</label>
-            <label ><input type="checkbox" value="sevens" class="erastyle"/> 1700s</label>
-            <label ><input type="checkbox" value="eights" class="erastyle"/> 1800s</label>
-            
-             
-        </li> 
-    </ul>
 
-<!-- ************************************************************************************************************************* -->
+
+<header class="nava">
+
+  <a class="logo "  href="" >Timeline  Trends</a>
+
+<nav class="navb">
+<button class="tgfilter" >Filter</button>
+<button class="tg">Detailed</button>
+<button class="thow">?</button>
+</nav>
 
 
 
 
 <div class="targetfilter">
-    
-    <ul id="filters">
-        <li>
-            <div class="sortbox2">
-            <div class="sortout"><input type="checkbox"  value="sall" id="filter-sall" />
+<br>  <br>
+  <ul id="filters">
+      
+      <li>
+        <div class="sortout"><input type="checkbox"  value="sall" id="filter-sall" />
             <label for="filter-sall">all events</label></div> 
 
             <div class="sortout"><input type="checkbox" checked="true" value="yr" id="filter-yr" />
             <label for="filter-yr">Display Year</label></div> 
 
-            <div class="sortout"><input type="checkbox"  value="ruler" id="filter-ruler" />
-            <label for="filter-ruler">All Rulers Timeline</label></div> 
-           
-            <div class="sortout"><input type="checkbox" value="war" id="filter-war" />
-            <label for="filter-war">Wars</label></div> 
-            </div>
-<br>        <div class="sortbox2">
-            <div class="sortout"><input type="checkbox" value="euro" id="filter-euro" />
-            <label for="filter-euro">Europeans</label></div> 
+      </li>
 
-            <div class="sortout"><input type="checkbox" value="fort" id="filter-fort" />
-            <label for="filter-fort">Forts</label></div>
 
-            <div class="sortout"><input type="checkbox" value="factory" id="filter-factory" />
-            <label for="filter-factory">Factories</label></div>
-
-            <div class="sortout"><input type="checkbox" value="uk" id="filter-uk" />
-            <label for="filter-uk">British</label></div>
+      <li>
+        <div class="sortout"><input type="checkbox"  value="gg" id="filter-gg" />
+            <label for="filter-gg"><span class="filterimg"><img src="../../assets/images/gg.png" alt=""></span>  Governor General</label></div>
     
-            <div class="sortout"><input type="checkbox" value="por" id="filter-por"/>
-            <label for="filter-por"><span class="filterimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> Portugal</label></div>
-            </div>
+            <div class="sortout"><input type="checkbox"  value="act" id="filter-act" />
+              <label for="filter-act">All Acts</label></div>
+    
+             <div class="sortout"><input type="checkbox"  value="impact" id="filter-impact" />
+            <label for="filter-impact"><span class="filterimg1"><img src="../../assets/images/impact.png" alt=""></span>  Imperial Legislative Council Acts</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="ukact" id="filter-ukact" />
+            <label for="filter-ukact"><span class="filterimg"><img src="../../assets/images/british.png" alt=""></span>  British Parliament Acts</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="ggact" id="filter-ggact" />
+            <label for="filter-ggact"><span class="filterimg"><img src="../../assets/images/gg.png" alt=""></span>  Governor-General Acts</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="edu" id="filter-edu" />
+            <label for="filter-edu"><span class="filterimg"></span> Education</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="rail" id="filter-rail" />
+            <label for="filter-rail"><span class="filterimg1"><img src="../../assets/images/railway.png" alt=""></span>  Railway</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="new" id="filter-new" />
+            <label for="filter-new"><span class="filterimg1"><img src="../../assets/images/news.png" alt=""></span>  Newspaper</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="civ" id="filter-civ" />
+                <label for="filter-civ"><span class="filterimg"><img src="../../assets/images/civil.png" alt=""></span> Civil Service</label></div>
+    
+          <div class="sortout"><input type="checkbox"  value="comis" id="filter-comis" />
+           <label for="filter-comis"> Commissions</label></div>
+    
+             <div class="sortout"><input type="checkbox"  value="lb" id="filter-lb" />
+            <label for="filter-lb">  Local Body</label></div>
+
+      </li>
+
+      <li>
+        <div class="sortout"><input type="checkbox"  value="con" id="filter-con" />
+            <label for="filter-con"><span class="filterimg"><img src="../../assets/images/congress.png" alt=""></span> Congress</label></div>
+        
+            <div class="sortout"><input type="checkbox"  value="sess" id="filter-sess" />
+            <label for="filter-sess">Congress Session</label></div>
+        
+        
+            <div class="sortout"><input type="checkbox"  value="mus" id="filter-mus" />
+            <label for="filter-mus"><span class="filterimg"><img src="../../assets/images/muslim.png" alt=""></span> Muslim League</label></div>
+        
+            <div class="sortout"><input type="checkbox"  value="com" id="filter-com" />
+                <label for="filter-com"><span class="filterimg"><img src="../../assets/images/communist.png" alt=""></span> Communist</label></div>
+        
+                <div class="sortout"><input type="checkbox"  value="hin" id="filter-hin" />
+              <label for="filter-hin"><span class="filterimg"><img src="../../assets/images/hindumaha.jpg" alt=""></span> Hindu</label></div>
+        
             
-<br>
-        <div class="sortbox2">
-            <div class="sortout"><input type="checkbox" value="ind" id="filter-ind"/>
-            <label for="filter-ind">Indian Rulers</label></div>
 
-            <div class="sortout"><input type="checkbox" value="mughal" id="filter-mughal"/>
-            <label for="filter-mughal">Mughals</label></div>
-        </div>
-            
+      </li>
 
-        </li>
-    </ul>
+      <li>
+        <div class="sortout"><input type="checkbox"  value="gan" id="filter-gan" />
+            <label for="filter-gan"><span class="filterimg1"><img src="../../assets/images/gandhi.png" alt=""></span> Gandhi</label></div>
+    
+                <div class="sortout"><input type="checkbox"  value="bos" id="filter-bos" />
+            <label for="filter-bos"><span class="filterimg"><img src="../../assets/images/bose.jpg" alt=""></span> Bose</label></div>
+        
+      </li>
+
+      <li>
+          <div class="sortout"><input type="checkbox"  value="rev" id="filter-rev" />
+              <label for="filter-rev"><span class="filterimg1"><img src="../../assets/images/revolution.png" alt=""></span> Revolutionary</label></div>
+
+        <div class="sortout"><input type="checkbox"  value="sr" id="filter-sr" />
+            <label for="filter-sr"><span class="filterimg"><img src="../../assets/images/social.jpg" alt=""></span> Social Reforms</label></div>
+    
+            <div class="sortout"><input type="checkbox"  value="wom" id="filter-wom" />
+        <label for="filter-wom"><span class="filterimg"><img src="../../assets/images/women.png" alt=""></span> Women</label></div>
+    
+        <div class="sortout"><input type="checkbox"  value="move" id="filter-move" />
+            <label for="filter-move"><span class="filterimg"><img src="../../assets/images/Protest.jpg" alt=""></span> Movements</label></div>
+    
+                <div class="sortout"><input type="checkbox"  value="org" id="filter-org" />
+            <label for="filter-org"> Organisation</label></div>
+        
+      </li>
+  </ul>
 </div>
+
+
+
+
+
+
+<div class="targethow">
+  <br>
+  <div>How to use this Timeline properly</div>
+<ul>
+  <li>Before going through the timeline, read the standard book once and use this timeline to revise.</li>
+  <li>Click the <b> filter button</b> at the top of the navigation bar and filter the events according to your needs.</li>
+  <li>Click more than two filters to compare the events. Example, you can click both Governor general & Acts to study about 
+    which acts came during which Governor general. </li>
+  <li>Click the <b> Detailed button</b> at the top of the navigation bar to know more about certain event which will be present below of each 
+    event.</li>
+  <li>Click the <b> wikipedia button</b> on side of each event to clear your doubts.</li>
+  <li>Here only the events between 1905 to 1926 is given for testing purpose. If we have more support, we will upload complete timeline.
+    So please give your feedback.
+  </li>
+</ul>
+</div>
+</header>
+
+
+<!-- Content  ******************************************************************** -->
+<div>
+  <h1 class="title"> Modern History Timeline </h1>
 </div>
 
 
-<span id="itemsToFilter">
-<div data-era="fives"> <!--ERA-->
 
+
+
+
+
+
+
+<br><br><br>
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-    <div class="year"><article class="yr">1489</article></div><div class="events">
-                        <!--1--> <div class="event"><article class="sall ind ruler"> <!--CLASS-->
-                        <span class="spanimg"> <img src="../../assets/filter/lodi_flag.jpg" alt=""> </span> <!--FLAG-->
-                        <p class="p1"> Shikendar Lodi </p><p class="p2">  </p><p class="p3"> </p> 
-    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Sikandar_Lodi " target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                        <div class="target">Will be uploaded soon</div></article></div>
-  
-                          
+    <div class="year"><article class="yr"> 1905 </article></div><div class="events">
+        
+        <!--1--> <div class="event"><article class="sall move movement"> <!--CLASS-->
+                            <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                            <p class="p1">Emergence of Militant nationalism </p><p class="p2"> <b>"Extremist"</b> </p><p class="p3">  </p>
+                            <div class="target"><ul class="explainpoint">
+                                <li>Militant nationalists demanded <b>Swaraj or self rule</b> as the ultimate goal of the national movement through 
+                                    direct methods like strikes, protests, boycott of foreign goods, passive resistance.</li>
+                                    <li>The leadership of <b>Anti-Partition Movement</b> soon passed to militant nationalists like 
+                                        <b>Tilak, Bipin Chandra Pal and Aurobindo Ghose</b>.</li>
+                            </ul></div></article></div> 
+        
+
+
+                <!--2--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                    <p class="p1"> Servants of India Society    </p><p class="p2"> @Pune  </p><p class="p3"> <u>Gopal Krishna Gokhale</u> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Servants_of_India_Society " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>To promote education, sanitation, health care and fight the social evils of untouchability and discrimination, alcoholism, poverty, oppression of women and domestic abuse.</li>
+                        <li>The <b>Hitavada</b>, the organ of the Society in <b>English</b> from <b>Nagpur</b> commenced in 1911.</li>
+                    </ul> 
+                       </div></article></div> 
+                    
+                <!--2--> <div class="event"><article class="sall uk british"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">  Partition of Bengal </p><p class="p2"> by <b>Lord Curzon</b> </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905) " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Bengal province is the largest British India province. It is divided into Eastern & Western. 
+                        <b>Bihar & Orissa</b> in West. <b>Bengal & Assam</b> in East.</div></article></div> 
+    
+
+                <!--2--> <div class="event"><article class="sall move movement"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Swadeshi Movement or Anti partition movement</p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Swadeshi_movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li><b> Dadabhai Naoroji, Gopal Krishna Gokhale, Mahadev Govind Ranade, 
+                            Bal Gangadhar Tilak, G. V. Joshi</b> and <b>Bhaswat K. Nigoni</b></li>
+                            <li>Movement is to <b>Boycott British goods</b> & prefer only Indian made goods, National Education.</li>
+                            <li>Agitation through press campaigns, meetings, petitions, conferences in the Town Hall. </li>
+                            <li>Newspapers: <b>Hitabani, Sanjibani, Bengalee, Indian Mirror,  Ananda Bazar Patrika </b></li>
+                    </ul> </div></article></div> 
+
+                <!--2--> <div class="event"><article class="sall war"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Japan defeated Russia </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Russo-Japanese_War " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Brought new confidence to Indians that Asian countries can defeat large powerful nations.</div></article></div> 
+
+
+          <!--2--> <div class="event"><article class="sall wom women org"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">  Ladies Social Conference   </p><p class="p2"> <u>Ramabai Ranade</u> </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Ramabai_Ranade#Social_activism_after_the_death_of_Justice_Ranade " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div>
+
+
+
+         <!--2--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+            <span class="spanimg">  </span> <!--FLAG-->
+            <p class="p1">  Indian Home Rule Society  </p><p class="p2"> @London  </p><p class="p3"> <u>Shyamji Krishnavarma</u> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Home_Rule_Society " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+            <div class="target">
+                <ul class="explainpoint">
+                    <li>To promote <b>self rule</b> in British India.</li>
+                    <li>Provided <b>Scholarship</b> to radicle youths.</li>
+                    <li>Journal: <b>Indian Sociologist</b></li>
+                    <li>Members: <b>Savarkar , Hardayal & Support from <b> Bhikaji Cama, Dadabhai Naoroji, S.R. Rana.</b></b></li>
+                </ul>  
+                </div></article></div>
+
+
+        <!--3--> <div class="event"><article class="sall rail railway"> <!--CLASS-->
+                <span class="sqimg"> <img src="../../assets/images/railway.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Built 45,000 Km railline </p><p class="p2"> Formation of <b>Railway Ministry</b> </p><p class="p3"> <u>Lord Curzon</u> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Ministry_of_Railways_(India)#History " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                </article></div> 
+
+
+
+     <!--1--> <div class="event"><article class="sall british uk ruler gg euro"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/gg.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Lord Minto 2</p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Gilbert_Elliot-Murray-Kynynmound,_4th_Earl_of_Minto#Viceroy_and_Governor_General_of_India " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div>
+    
+
+    
+       <!--2--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>Benaras</b> Session - <u>Gopal Krishna Gokhale</u> </p><p class="p2"> <i>Obj: Condemn Partition</i>  </p><p class="p3">  </p>
+    <!--LINK-->                        
+                        </article></div> 
+
     </div>
     </div>
+    
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-    <div class="year"><article class="yr">1492</article></div><div class="events">
-                        <!--1--> <div class="event"><article class="sall euro"> <!--CLASS-->
-                        <span class="spanimg">  </span> <!--FLAG-->
-                        <p class="p1"> Columbus to America </p><p class="p2">from Spain </p><p class="p3">  </p>
-    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus " target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                        <div class="target">Will be uploaded soon</div></article></div>
+    <div class="year"><article class="yr"> 1906 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall gan gandhi"> <!--CLASS-->
+                        <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> @South Africa - Satyagraha against Registration Certificate </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Mahatma_Gandhi#Civil_rights_activist_in_South_Africa_(1893%E2%80%931914) " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div>
                
+                <!--2--> <div class="event"><article class="sall mus muslim"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/muslim.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Muslim League formed</p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/All-India_Muslim_League " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"> <b>Aga Khan </b> - 1st permanent president & founder </div></article></div> 
+    
+                     <!--3--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>Calcutta</b> Session - <u>Dadabhai Naoroji</u> </p><p class="p2"> <i>Obj: Swaraj [1st time]</i>  </p><p class="p3">  </p>
+    <!--LINK-->                      
+                        </article></div> 
+
+		      <!--4--> <div class="event"><article class="sall edu educ "> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/edu.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Bengal National College </p><p class="p2"> National Council of Education </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/National_Council_of_Education " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>Aurobindo Ghosh - 1st principal</li>
+                        <li> Founded by <B>Satish Chandra Mukherjee</B> and other Indian nationalists in Bengal in 1906 to promote <b>science and technology</b> as part of a <b>swadeshi industrialisation movement</b>.</li>
+                    </ul></div></article></div> 
+
+                    <!--5--> <div class="event"><article class="sall rail railway"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/railway.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> East Indian Railway Strike </p><p class="p2"> Railwaymen Union </p><p class="p3">  </p>
+    <!--LINK-->                       
+                        </article></div>
+               
+                <!--6--> <div class="event"><article class="sall rev new news"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> <img src="../../assets/images/news.png" alt=""></span> <!--FLAG-->
+                        <p class="p1"> "<i>Jugantar</i>" weekly </p><p class="p2"> <u>Barindra Gosh & Bhupendranath Dutta</u> </p><p class="p3"> @Calcutta </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Jugantar_Patrika " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>Innercircle of Anushilan</li>
+                            <li>"30 crore people should rise their 60 crore hands to stop oppression. Force should be stopped by force" <b>@Barisal Conference</b></li>
+                        </ul></div></article></div> 
+    
                        
     
     </div>
@@ -103,171 +302,235 @@
     
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-<div class="year"><article class="yr">1494</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall euro "> <!--CLASS-->
-                    <span class="spanimg"></span> <!--FLAG-->
-                    <p class="p1"> Treaty of Tordesillas </p><p class="p2">  </p><p class="p3">  </p>
-<!--LINK-->         <a href="https://en.wikipedia.org/wiki/Treaty_of_Tordesillas" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    <div class="target">Will be uploaded soon</div></article></div>
-
-
-          
-</div>
-</div>
-
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1497</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Portuguese shipped to India</p><p class="p2"></p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1498</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Portuguese landed on India [Calicut]</p><p class="p2"> on May </p><p class="p3">by Vasco da Gama </p>
-<!--LINK-->         <a href="https://en.wikipedia.org/wiki/Portuguese_India#Vasco_da_Gama_lands_in_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1500</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Pedro Alarez Cabral </p><p class="p2"> came India</p><p class="p3"> Portugal </p>
-<!--LINK-->         <a href="https://en.wikipedia.org/wiki/Portuguese_India#Pedro_%C3%81lvares_Cabral" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    <div class="target">Will be uploaded soon</div></article></div>
-                  <!--2--> <div class="event"><article class="sall portugal euro factory por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> @Calicut Factory [1st]</p><p class="p2"> Portuguese </p><p class="p3">by Pedro alarez cabral </p>
-<!--LINK-->         <a href="https://en.wikipedia.org/wiki/Portuguese_India#Pedro_%C3%81lvares_Cabral" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1501</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Vasco Da Gama again came India </p><p class="p2"> </p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-                  <!--2--> <div class="event"><article class="sall portugal euro factory por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> @Cannanore Factory [2nd] </p><p class="p2">Portuguese  </p><p class="p3">by Vasco da gama </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr"> 1503 </article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro fort por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> @Cochin Fort [1st] </p><p class="p2"> Portugal </p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1505</article></div><div class="events">
-                    <!--1--> <div class="event"><article class="sall portugal euro por ruler"> <!--CLASS-->
-                        <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                        <p class="p1"> Francisco De Almeida [1st Viceroy]</p><p class="p2"> Portugal  </p><p class="p3"> </p>
-    <!--LINK-->         <a href="https://en.wikipedia.org/wiki/Portuguese_India#Francisco_de_Almeida" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                        <div class="target">Blue water policy-Cartaze system.  “Blue Water” policy was to be <b>powerful at the sea</b> instead of building fortresses on Indian land. Cartaz (means letters) - naval trade license or pass issued by the Portuguese in the Indian ocean
-                            <a href="https://en.wikipedia.org/wiki/Cartaz" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a></div>
-                        </article></div>
-
-                    <!--2--> <div class="event"><article class="sall portugal euro fort por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> @Cannanore Fort [2nd]</p><p class="p2"> Portugal  </p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1509</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro war por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Battle of Diu</p><p class="p2"> Portuguese [won] vs Zamorin, Mameluke, Gujarat Sultan</p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Battle_of_Diu_(1509)" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    <div class="target">Portuguese [Francisco De Almeida] defeated combined fleet of Mameluke of Egypt, Gujarat Sultan, Zamorin (Calicut ruler)</div></article></div>
-
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-<div class="year"><article class="yr">1510</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por ruler"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Alfonso De Albuquerque [2nd Viceroy] captures  Goa </p><p class="p2"> from sultan of Bijapur</p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Goa#Portuguese_period" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    </article></div>
-
-
- 
-                   
-</div>
-</div>
-<!-- YEAR  **************************************************************************************** -->
-<div class="whole">
-    <div class="year"><article class="yr">1515</article></div><div class="events">
-                        <!--1--> <div class="event"><article class="sall ind ruler"> <!--CLASS-->
-                        <span class="spanimg"> <img src="../../assets/filter/lodi_flag.jpg" alt=""> </span> <!--FLAG-->
-                        <p class="p1"> Ibrahim Lodi </p><p class="p2">  </p><p class="p3">  </p>
-    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Ibrahim_Lodi " target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                        <div class="target">Will be uploaded soon</div></article></div>
+    <div class="year"><article class="yr"> 1907 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>Surat</b> session <u>Rash Behari Ghosh</u></p><p class="p2">  </p><p class="p3"> <i>Obj: Self govt within British</i> </p> <p class="p1"> <b>Surat Split</b></p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Surat_Split " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>Extremists</b> wanted to make either <b>Tilak or Lala Lajpat Rai</b> as the President of the session while the <b>Moderates</b> wanted to make 
+                               <b> Sh Ras Bihari Ghosh</b> as the President.</li>
+                               <li>Extremists wanted to hold the session at <b>Nagpur</b>. But Moderates ignored and made Surat because Thilak cannot stand there (Can't stand in their native place as president).</li>
+                                <li>Moderates  tried to <b> exclude the resolutions on Swadeshi, Boycott and National Education</b> as were passed by the Calcutta Congress. But Extremists disliked the decision.</li>
+                            </ul></div></article></div>
                
-              
+                <!--2--> <div class="event"><article class="sall act impact uk euro acts"> <!--CLASS-->
+                       <span class="sqimg"><img src="../../assets/images/impact.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Seditious Meeting Act </p><p class="p2"> prevention of public meetings likely to promote sedition or to cause a disturbance of public tranquillity  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Prevention_of_Seditious_Meetings_Act,_1907 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div> 
+    
+            
+                <!--3--> <div class="event"><article class="sall sr social"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Annie Besant became president of Theosophical Society </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Theosophical_Society " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div>
+		   
+		    <!--4--> <div class="event"><article class="sall others"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Indian Society of Oriental Art </p><p class="p2"> Gagendanath & Abanindranath Tagore </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://criticalcollective.in/ArtistGInner2.aspx?Aid=292&Eid=291 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>Broke victorian domination in art field & painted mughal,rajput,ajanta related arts.</li>
+                        <li><b>Nandilal bose</b> earned 1st scholarship</li>
+                    </ul></div></article></div> 
+
+             <!--5--> <div class="event"><article class="sall uk british euro "> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Anglo-Russian Convention </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Anglo-Russian_Convention " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Not to negotiate with Tibet directly & only through China as intermediate.</div></article></div>
+		   
+		    <!--6--> <div class="event"><article class="sall rev revolution "> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Lala Lajput & Arjit Singh  deported </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Lala_Lajpat_Rai#Patriotism " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+                       
     
     </div>
     </div>
+    
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-    <div class="year"><article class="yr">1526</article></div><div class="events">
-                        <!--1--> <div class="event"><article class="sall mughal ind mughals ruler"> <!--CLASS-->
-                        <span class="spanimg"> <img src="../../assets/filter/mughals_flag.png" alt=""> </span> <!--FLAG-->
-                        <p class="p1"> Babur </p><p class="p2"> came India from  Timurid Empire [Uzbekistan]  </p><p class="p3">  </p>
-    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Babur " target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                        <div class="target">Will be uploaded soon</div></article></div>
+    <div class="year"><article class="yr"> 1908 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall impact act uk euro acts"> <!--CLASS-->
+                           <span class="sqimg"> <img src="../../assets/images/impact.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Criminal Law Amendment Act </p><p class="p2"> prohibition of associations dangerous to the public peace </p><p class="p3">  </p>
+                      </article></div>
                
-                <!--2--> <div class="event"><article class="sall mughal ind war mughals"> <!--CLASS-->
-                        <span class="spanimg"> <img src="../../assets/filter/mughals_flag.png" alt=""><p class="vs">vs</p><img src="../../assets/filter/lodi_flag.jpg" alt="">  </span> <!--FLAG-->
-                        <p class="p1"> First Battle of Panipat </p><p class="p2"> Babur [won] vs Ibrahim Lodi </p><p class="p3">  </p>
-    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/First_Battle_of_Panipat " target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                        <div class="target">Sultanate rule end</div></article></div> 
+                <!--2--> <div class="event"><article class="sall new news impact act uk"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/news.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Indian Newspaper Act 1908 </p><p class="p2"> Magistrates to confiscate press property </p><p class="p3">  </p>
+    <!--LINK-->                     
+                        <div class="target">Aimed against Extremist nationalist activity, the Act empowered the <b>magistrates to confiscate press property</b> 
+                            which published objectionable material likely to cause incitement to murder/ acts of violence.</div></article></div> 
+    
+
+
+                <!--3--> <div class="event"><article class="sall social sr wom"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/social.jpg" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Seva Sadan @Bombay</p><p class="p2"> Shri Behramji Malabari & Diwan Dayaram Gidumal </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Provide <B>oppressed women</B> with shelter, care, and a life of dignity.</div></article></div>
+               
+                <!--4--> <div class="event"><article class="sall comis commis uk lb british"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span><span class="sqimg"> <img src="../../assets/images/parliamentact.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Royal commission on decentralisation</p><p class="p2"> [Local Body] </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">To inquire into the possibility of decentralizing some of the powers of the government of India</div></article></div>      
+
+
+                <!--5--> <div class="event"><article class="sall revolution rev"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1">Muzaffarpur / Manicktolla bombing   </p><p class="p2"><b><u>Prafulla Chaki & Kundiram Bose</u></b> attempt to murder British Magistrate  <b>Kingsford</b> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Emperor_vs_Aurobindo_Ghosh_and_others#Muzaffarpur_bombings_and_aftermath " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">They threw bomb in train carriage. Kingford escaped but two British girls died. Bose was arrested & Chaki shot himself.</div></article></div>
+
+                 <!--6--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Alipore Conspiracy Case </p><p class="p2"> for Muzaffarpur bombing </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Emperor_vs_Aurobindo_Ghosh_and_others " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>aka "Muzaffarpur / Manicktolla bomb case"</li>
+                            <li>Arrest and deportation of the <b> Samiti leadership</b> of the <b>Ghosh brothers, Abhinash Bhattacharya, Hemchandra Das and Satyendranath Bosu.</b></li>
+                            <li>All were given death sentence. <b>Chittanrangan Das</b> defended  <b>Aurobindo Ghose</b> for not involved in bombing plans.</li>
+                            <li><b>Barindra Gosh</b> to save the Samiti, he confessed that he is responsible for the conspiracy & accepted death penalty.</li>
+                            <li>British tried to implicate Aurobindo and targetted <b>Narendra Goswami</b> for gaining evidence, Naren tried to turn approver.</li>
+                            <li>But Narendra Goswami was killed for by <b>Satyendranath Bose & Kanailal Dutta.</b></li>
+                            <li>Secretary Barindar & bomb maker <b> Uttarkar Dutt</b> were later give life imprisonment.</li>
+                            <li>Note: Read the complete story in wikipedia for better understanding</li>
+                        </ul>  </div></article></div>
+
+                                           
+                <!--7--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Barrah Dacoity  </p><p class="p2"> by Dacca Anushilan's revolutionaries led by <b>Pulin das</b>   </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Pulin_Behari_Das#Career " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li> The dacoity was committed in broad daylight by a group of revolutionaries at the <b>residence of the zamindar of Barrah</b>.
+                            The fund was used for <b>buying arms and ammunition</b>.</li>
+                        <li>Pulin Das - founder of <b>Dacca Anushilan</b></li></ul>
+                        </div></article></div> 
+
+               
+                <!--8--> <div class="event"><article class="sall move movement"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt="">  </span> <!--FLAG-->
+                        <p class="p1">Swadeshi Movement fizzles out </p><p class="p2">  </p><p class="p3">  </p></article></div>                       
+    
+    </div>
+    </div>
+    
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1909 </article></div><div class="events">
+                 <!--1--> <div class="event"><article class="sall others"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> Satyendra sinha 1st Indian to enter Viceroy Executive council </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Satyendra_Prasanna_Sinha,_1st_Baron_Sinha#Career " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+  </article></div>
+               
+                <!--2--> <div class="event"><article class="sall uk act ukact acts"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/parliamentact.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1">  Indian council act of 1909 </p><p class="p2"> <b>Minto morley reform</b> </p><p class="p3"> <b> "Separate electorates"</b> </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Councils_Act_1909 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Note: See Acts in Modern History</div></article></div> 
+    
+                 <!--3--> <div class="event"><article class="sall rev revolution "> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> London became dangerous place for revolutionaries  </p><p class="p2">after <b>Madanlal Dhingra</b>  killed  Curzon Wyllie  @England</p><p class="p3"> </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Madan_Lal_Dhingra#Curzon_Wyllie's_assassination " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div>
+               
+
+
+                <!--4--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"><b>"Paris & Geneva"</b> New centres for revolutionaries @ Abroad after London attack </p><p class="p2"> </p><p class="p3"> Madam Bhikaji Cama @Paris </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Bhikaiji_Cama " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>Madam Bhikaji Cama, a <b>Parsi revolutionary</b> @Paris. [Parsi-community. Not paris revolutionary.]</li>
+                            <li>She had contact with <b>French socialist</b></li>
+                            <li>She founded <b>Bande Mataram</b> from Paris for <b>distributing revolutionary literature</b> for the movement.</li>
+                            <li>She also helped Sardar Ajit Singh</li>
+                        </ul></div></article></div> 
+
+
+
+                         <!--2--> <div class="event"><article class="sall new news "> <!--CLASS-->
+                            <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span><span class="sqimg"> <img src="../../assets/images/news.png" alt=""> </span> <!--FLAG-->
+                            <p class="p1"> "<i>Bande Mataram</i> " </p><p class="p2"> Paris Publication by Madam Bhikaji Cama.</p><p class="p3">  </p>
+    <!--LINK-->            <a href=" https://en.wikipedia.org/wiki/Bande_Mataram_(Paris_publication) " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                           <div class="target">It was founded in response to the <b>British ban on Bankim Chatterjee's nationalist poem of Vande mataram</b>, 
+                               and continued the message of the journal Bande Mataram edited by Sri Aurobindo and published from Calcutta.</div></article></div>   
+           
+               
+             <!--5--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Berlin Committee / Indian Independence Committee  </p><p class="p2"> Berlin became base for revolutionary activities </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Berlin_Committee " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">See 1915 for more details </div></article></div>     
+                        
+                
+                       
+    
+    </div>
+    </div>
+    
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1910 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall gan gandhi"> <!--CLASS-->
+                        <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Tolstoy Farm by Gandhi </p><p class="p2"> @South Africa </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Tolstoy_Farm " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>It served as the headquarters of the campaign of satyagraha against <b>discrimination against Indians in Transvaal</b></li>
+                            <li>Named after Russian  philosopher <B>Leo Tolstoy</B>, whose book <b>The Kingdom of God Is Within You</b>, greatly influenced Gandhi on <b>Non-Violence</b></li>
+                            <li><b>suggested the name for the community</b>, a Gandhi supporter who suggested the name for the community.</li>
+                        </ul></div></article></div>
+               
+                <!--2--> <div class="event"><article class="sall new news uk act impact"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/news.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1">  Indian press act of 1910 </p><p class="p2"> Imposing strict censorship on all kinds of publications </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Press_Act,_1910 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>Proprietors to <b>deposit 500 to 5000 Rupees</b> as the "<u>Magistrate</u>" saw fit.</li>
+                            <li>Deposit Security for registration & <b>submit 2 copies</b> at Local government</li>
+                            <li>"<u>Customs and postal officers</u>" <b>power to detain</b> and <b>examine</b> suspected matter.</li>
+                            <li>"<U>Local governments</U>" power to <b>declare forfeit any</b> newspaper, book, or document, or empower the <b>police to search and seize</b> the same.</li>
+                            <li>This act defined "Press offences" in the bill.</li>
+                            <li>Repealed by <b>Lord Reading</b> in 1921</li>
+                        </ul></div></article></div> 
+
+                <!--3--> <div class="event"><article class="sall wom women org"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">   Bharat stree Mahamandal @Allahabad  </p><p class="p2">  Sarala Devi Chaudhurani  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Bharat_Stree_Mahamandal " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div>
+           
+               <!--4--> <div class="event"><article class="sall edu educ"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/edu.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Dayal singh college @Lahore </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Government_Dayal_Singh_College,_Lahore#History " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>
+                </article></div> 
+
+                <!--5--> <div class="event"><article class="sall gg british ruler uk"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/gg.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Lord Hardinge 2 </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Charles_Hardinge,_1st_Baron_Hardinge_of_Penshurst#Career " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div>
+           
+               <!--6--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">Nasik Conspiracy Case </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/A._M._T._Jackson " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li><b>Anant Laxman Kanhere</b> shot Jackson because Jackson  had committed <b> Ganesh Babarao Savarkar</b> (elder brother of Vinayak Damodar Savarkar) to trial for printing a 16-page book of songs of Kavi Govind.</li>
+                        <li>Anant, Krishnaji Karve and Vinayak Deshpande were hanged</li>
+                        <li>Vinayak Sarvakar & Ganesh Sarvakar were extradicted  & Transported for life. Imprisoned at <b>Andaman</b></li>
+                    </ul></div></article></div> 
     
      
                        
@@ -277,56 +540,1104 @@
     
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-<div class="year"><article class="yr">1529</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por ruler"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1"> Nuno Da Cunha [3rd Viceroy] </p><p class="p2">Portugal</p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    <div class="target">Will be uploaded soon</div></article></div>
+    <div class="year"><article class="yr"> 1911 </article></div><div class="events">
+                      
+               
+                <!--2--> <div class="event"><article class="sall organ org"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1">  Social Service League </p><p class="p2"> @Bombay  </p><p class="p3">Narayan Malhar Joshi  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Narayan_Malhar_Joshi " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Training programmes for volunteers for helping  people suffering from famines, epidemics, floods and other disasters.
+                           <br> Joshi - "<b>pioneers in Modern Indian Social Work</b>"
+                        </div></article></div> 
+                    
+                <!--3--> <div class="event"><article class="sall new news"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/news.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> "<i>Hitavada</i>"  English daily </p><p class="p2">Gopal Krishna Gokhale </p><p class="p3">@Nagpur  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/The_Hitavada " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+        
+                
+                        <!--4--> <div class="event"><article class="sall uk british"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">Delhi Darbar </p><p class="p2"><i> George 5</i> & <i>Mary of Teck</i> coronation as <b>Emperor and Empress of India</b>.  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Delhi_Durbar#Durbar_of_1911 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
 
 
- 
-                   
-</div>
-</div>
+
+                <!--5--> <div class="event"><article class="sall uk"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Annulment of Partition </p><p class="p2">  Bengal Reunitied </p><p class="p3"> <b>"Bengal Presidency"</b> Creation </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)#Re-united_Bengal(1911) " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>King George 5</b> announced the end of partition.</li>
+                            <li>Bengal muslims shocked, they saw this as the government compromising Muslim interests for Hindu appeasement. </li>
+                        </ul></div></article></div>
+            
+
+
+              <!--6--> <div class="event"><article class="sall uk"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">"Delhi" as Capital  </p><p class="p2"> Before: Calcutta</p><p class="p3"> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Delhi#Colonial_Period " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                   </article></div>
+        
+                       
+    
+    </div>
+    </div>
+    
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-<div class="year"><article class="yr">1530</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1">Headquarter change Cochin to <b>Goa</b></p><p class="p2">Portugal</p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    <div class="target">Will be uploaded soon</div></article></div>
+    <div class="year"><article class="yr"> 1912 </article></div><div class="events">
+                     <!--1--> <div class="event"><article class="sall mus muslim"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/muslim.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Muslim league <b>Calcutta</b> session </p><p class="p2"> <u>Khwaja Salimullah</u> </p><p class="p3"> <i>Obj: Self govt</i> </p>                 
+                        </article></div>
 
-		    <!--2--> <div class="event"><article class="sall ind mughal mughals ruler"> <!--CLASS-->
-                <span class="spanimg">  <img src="../../assets/filter/mughals_flag.png" alt="">  </span> <!--FLAG-->
-                <p class="p1"> Humayun </p><p class="p2">  </p><p class="p3">  </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Humayun " target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                <div class="target">Will be uploaded soon</div></article></div> 
-
-
-
- 
-                   
-</div>
-</div>
+             <!--2--> <div class="event"><article class="sall rev revolution "> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Rash Behari Bose & Sachin Sanyal</p><p class="p2"> tried to assassinate  Viceroy Lord Hardinge </p><p class="p3"> @Delhi Chandini Chowk <b></b> </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Revolutionary_movement_for_Indian_independence#Delhi-Lahore_conspiracy_case " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>They throw home made bomb into viceroy's Howdah but he escaped.</li>
+                            <li>On the occasion of <B>transferring the capital</B> of British India from Calcutta to New Delhi.</li></ul>
+                        </div></article></div> 
+               
+                <!--2--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Delhi conspiracy case / Delhi-Lahore Conspiracy</p><p class="p2"> for planning murder of viceroy </p><p class="p3">  <b></b> </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Delhi_conspiracy_case " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>Lala Hanumant Sahai</b> given Life imprisonment.</li>
+                            <li><b>Basant Kumar Biswas, Bhai Balmukund, Amir Chand</b> & <b>Avadh Behari</b> given death sentence.</li>
+                            <li><b>Rash Behari Bose</b> escaped & later involved in <b>Ghadar conspiracy</b>, then fleed to <b>Japan</b> in 1915.</li>
+                        </ul> </div></article></div> 
+            
+    
+    </div>
+    </div>
+    
 <!-- YEAR  **************************************************************************************** -->
 <div class="whole">
-<div class="year"><article class="yr">1559</article></div><div class="events">
-                  <!--1--> <div class="event"><article class="sall portugal euro por"> <!--CLASS-->
-                    <span class="spanimg"><img src="../../assets/filter/portugal_flag.png" alt=""></span> <!--FLAG-->
-                    <p class="p1">Portuguese capture <b>Daman</b></p><p class="p2"></p><p class="p3"> </p>
-<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Portuguese_India" target="_blank" class="p4" ><img src="../../assets/filter/wikipedia.png" alt=""></a>                   
-                    <div class="target">Will be uploaded soon</div></article></div>
+    <div class="year"><article class="yr"> 1913 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall others"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> 1st Steel Plant </p><p class="p2"> Tata Iron & Steel [Tisco] </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Tata_Steel#History " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div>
+               
+                <!--2--> <div class="event"><article class="sall uk  edu educ act"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span><span class="spanimg"> <img src="../../assets/images/edu.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Govt resolution on education </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" http://kkhsou.in/main/education/gokhale's_bill.html " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>This is made in reaction to <b>Gokhale Resolution, 1910</b>.</li>
+                            <li>Policy of <b>removal of Illiteracy</b>.</li>
+                            <li><b>Universities at Each province</b>.</li>
+                            <li>Province should take step on Free education for backward & poors students. [Note: Govt not provided free education.]</li>
+                        </ul>
+                        </div></article></div> 
+    
+                    
+             <!--3--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Rashbehari Bose met Bagha Jatin </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Bagha_Jatin#During_World_War_I " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>Jatin planned to organise armed revolution at Bengal.</li>
+                            <li>Rashbehari tried to extend this plan to UP & Punjab.</li>
+                            <li>Known as <b>Zimmermann plan / German Plot / Hindu-German Conspiracy</b>. Plan was not success. </li>
+                        </ul></div></article></div>
+               
+                <!--4--> <div class="event"><article class="sall move rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Ghadar Movement </p><p class="p2"> International political movement </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Ghadar_Movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>1st meet <b>@Astoria, Oregon</b></li>
+                            <li><b>Yugantar Ashram</b> @San Francisco - Ghadar Headquarters</li>
+                            <li>Punjabi Indians @West coast of US & Canada later spread to whole world Indians.</li>
+                            <li><b>Smuggled arms</b> to India to overthrow British rule by mutinies.</li>
+                            <li>They got support from Germany & Ottaman, Known as <b>Hindu-German Conspiracy</b>.</li>
+                        </ul></div></article></div> 
+
+               <!--5--> <div class="event"><article class="sall new news rev"> <!--CLASS-->
+                         <span class="sqimg"><img src="../../assets/images/revolution.png" alt=""></span><span class="sqimg"> <img src="../../assets/images/news.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> "<i>Hindustan Ghadar</i>" weekly</p><p class="p2"> @San Francisco, California </p><p class="p3"> 1st in <b>Urdu</b> then in <b>Punjabi</b> </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Hindustan_Ghadar " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Party organ of the <B> Ghadar Party</B>. To further the <B>militant nationalist faction</B> of the 
+                            Indian independence movement, especially amongst <b>Indian sepoys of the British Indian Army</b>. </div></article></div> 
 
 
+                       
+    
+    </div>
+    </div>
+    
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1914 </article></div><div class="events">
+
+        
+         <!--1--> <div class="event"><article class="sall rev revolution "> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Komagata Maru ship incident </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Komagata_Maru_incident " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>Japanese streamship "Komagata Maru" attempted to immigrate Punjabi sikhs & muslims from Hongkong to Vancouver, Canada.</li>
+                        <li>But only 20 were admitted to Canada, remaining all were forced to return to Calcutta.</li>
+                        <li>They refused to board train to Punjab.  Police attempted to arrest & riot occured. Police killed 22 people in firing.</li>
+                    </ul> </div></article></div> 
+
+                                   
+                <!--2--> <div class="event"><article class="sall others"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Thilak released from Mandalay prison </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Bal_Gangadhar_Tilak#Life_after_Mandalay " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>After release he supported <b>Minto-Morley reforms</b> & War efforts.</li>
+                        <li>Changed his objective as <b>"Strictly by constitutional means"</b> & rejoined INC during Lucknow pact 1916.</li>
+                    </ul></div></article></div> 
+
+
+                <!--3--> <div class="event"><article class="sall war uk "> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> World War 1 </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Army_during_World_War_I " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>Allied Powers</b>: British, France, Japan, US, Russia, etc.</li>
+                            <li><b>Central Powers</b>: Germany, Ottaman, Austria, Hungary, etc.</li>
+                            <li>Indian Army fought against the <b>German Empire on the Western Front</b>.</li>
+                            <li>Over <b>one million</b> Indian troops served overseas.</li>
+                        </ul></div></article></div>
+
+    
+     
+                <!--4--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> <b>Madras</b> session - <u>Bhupendranath Basu</u> </p><p class="p2">  </p><p class="p3">  </p>
+                    </article></div> 
+
+
+
+                <!--5--> <div class="event"><article class="sall wom women"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Women Medical Service </p><p class="p2"> To train Nurse & Midwives </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Women%27s_Medical_Service_for_India " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul>
+                        <li>State funded medical service for both British & Indian women.</li>
+                    </ul></div></article></div> 
+
+
+    </div>
+    </div>
+    
+
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1915 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall gan gandhi"> <!--CLASS-->
+                        <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Gandhi to India </p><p class="p2"> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Mahatma_Gandhi#Struggle_for_Indian_independence_(1915%E2%80%931947) " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>Gopal Krishna Gokhale</b> requested him to return.</li>
+                            <li>He joined INC & took Gokhale's <b>Liberal approach</b>.</li>
+                        </ul></div></article></div>
+               
+                <!--2--> <div class="event"><article class="sall hin hindu"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/hindumaha.jpg" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Hindu Mahasabha </p><p class="p2"> 1st Session - <u>Malviya</u> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Hindu_Mahasabha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                       </article></div> 
+                
+
+                <!--3--> <div class="event"><article class="sall acts act ggact"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/gg.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Defence of India Act </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Defence_of_India_Act_1915 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><b>Emergency criminal law</b> enacted by <b>governor-general</b> for curtailing the nationalist & 
+                        revolutionary activities during and in the aftermath of the <b>First World War</b>.</div></article></div> 
+
+
+                <!--4--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1">  </p><p class="p2"> Berlin Committee renamed as "Indian Independence Committee" </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Berlin_Committee#World_War_I " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li><b>Virendranath Chattopadhyay, Hardayal, Bhupendranath Dutta</b></li>
+                        <li>Helped by German officials under Zimmerman Plan & <b>send voluntar arms</b> to organise armed invasion.</li>
+                        <li>Send Missions to Baghdad, Persia, Turkey, Kabul to work with Indian troops & Indian prisoners of war.</li>
+                        <li><b>Raja Mahendra Pratap Singh, Barkatullah, Obaidulah Sindhi</b> send to <u>Kabul</u> to form <b>Provisional Indian government</b> 
+                            with the help of Amanullah prince of Kabul.</li>
+                    </ul></div></article></div> 
+
+
+                 <!--5--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Ghadar Mutiny </p><p class="p2"> 'Ghadar Conspiracy' </p><p class="p3"> Pan India Mutiny </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Ghadar_Mutiny " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">The plot originated at the onset of World War I, between the <b>Ghadar Party in the United States</b>, the <b>Berlin Committee in Germany</b>, 
+                        the <b>Indian revolutionary</b> underground in British India and the <b>German Foreign Office</b> through the consulate in San Francisco.</div></article></div> 
+
+                 
+               <!--6--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Singapore Mutiny </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/1915_Singapore_Mutiny " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">
+                        <ul class="explainpoint">
+                            <li>@Singapore on Feb 15  Mutinies at 5th light infantry & 36th sikh battalion by  Punj Muslims</li>
+                            <li>Members: <b>Jamadar Chisti Khan , Jamadar Abdul Gani , Subedar Daud Khan</b></li>
+                            <li>Killed 47 British soldiers and civilians</li>
+                        </ul>  </div></article></div> 
+
+
+                <!--7--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> February Mutiny</p><p class="p2"> Feb 21 as revolt date @Ferozapur, Lahore, Rawalpindi garrison but all failed  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Hindu%E2%80%93German_Conspiracy#February_1915 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">
+                        <ul class="explainpoint">
+                            <li>Dacoties on moneylenders, debt records</li>
+                            <li>Members: <b>Kartar Singh Saraba , Raghubar Dayal Gupta , Rashbehari Bose , Sachindranath Sanyal</b></li>
+                            <li>All were hanged</li>
+                            <li>Sachin transported for life</li>
+                            <li>Rashbehari escaped to Japan</li>
+                        </ul>  
+                       
+                       </div></article></div> 
+
+
+                <!--8--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Christmas Day Plot </p><p class="p2"> 'German plot / Zimmerman plan' </p><p class="p3"> <b>Bagha Jatin</b> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Christmas_Day_Plot" target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">
+                        <ul class="explainpoint">
+                            <li>Berlin committee planned to ship arms to east coast of India on Christmas.</li>
+                            <li>Jatin planned to cut the line to Madras @Balsore & Capture Fort William.</li>
+                            <li>But this plan leaked to British & Bagha Jatin was shot dead in gun battle.</li>
+                            <li><b>"We shall die to awaken nation"</b> - Jatin.</li>
+                        </ul> </div></article></div> 
+
+     
+                       
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1916 </article></div><div class="events">
+
+                        <!--1--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>Lucknow</b> session - <u>AC Majumdar</u> </p><p class="p2">  </p><p class="p3">  </p>
+                        </article></div>
+      
+                        
+                 <!--2--> <div class="event"><article class="sall mus con"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> <img src="../../assets/images/muslim.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Lucknow Pact </p><p class="p2"> 'Joint session - ML & INC' </p><p class="p3"> Congress accepted <b>separate electorate</b> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Lucknow_Pact " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">                                  
+                        <ul class="explainpoint">
+                        <li>Two parties agreed to allow <b>representation to religious minorities</b> in the provincial legislatures. </li>
+                        <li>The Muslim League leaders agreed to join the Congress movement <b>demanding Indian autonomy</b>.</li>
+                    </ul></div></article></div> 
+
+                
+                <!--3--> <div class="event"><article class="sall con congress"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Extremists & Moderates Joined </p><p class="p2"> during Lucknow Pact </p><p class="p3">  </p>
+                    </article></div> 
+    
+
+                <!--4--> <div class="event"><article class="sall gan gandhi"> <!--CLASS-->
+                    <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Sabarmati Ashwam </p><p class="p2"> @Ahmedabad, Gujarat </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Sabarmati_Ashram " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">In 1915 it was called as <b>Satyagraha ashram</b>. 
+                    Later location shifted to <b>R.Sabarmati</b> and became Sabarmati ashram.</div></article></div> 
+
+                
+                <!--5--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Home Rule League  </p><p class="p2"> <b>Belgaum</b> session </p><p class="p3"> <i>Bal Gangadhar Tilak </i> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Home_Rule_movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+                <!--6--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> All India Home Rule League </p><p class="p2"> Hq: <b>Madras</b> </p><p class="p3"> <i>Annie Besant</i> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Home_Rule_movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+
+
+                <!--7--> <div class="event"><article class="sall british gg ruler uk"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/gg.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Lord Chelmsford </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->     <a href=" https://en.wikipedia.org/wiki/Frederic_Thesiger,_1st_Viscount_Chelmsford " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                   </article></div>
+
+     
+                <!--8--> <div class="event"><article class="sall edu educ"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/edu.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> 7 Universities opened </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Benaras, Lucknow, Patna, Dacca, Aligarh, Osmania, Mysore
+                        <ul class="explainpoint">
+                            <li>Banaras Hindu University</li>
+                            <li>University of Mysore</li>
+                            <li>Patna University</li>
+                            <li>Osmania University</li>
+                            <li>University of Lucknow</li>
+                            <li>Mahatma Gandhi Kashi Vidyapeeth</li>
+                            <li>Vishva-Bharati University</li>
+                        </ul>
+                    </div></article></div> 
+
+     
+                <!--9--> <div class="event"><article class="sall edu  wom women"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Lady Hardinge Medical college </p><p class="p2"> @Delhi </p><p class="p3"> <i>Charles Hardinge</i>  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Lady_Hardinge_Medical_College " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+     
+                <!--10--> <div class="event"><article class="sall edu  wom women"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Indian Women University </p><p class="p2"> Shreemati Nathibai Damodar Thackersey Women's University</p><p class="p3"> by <i>Maharshi Karve</i>  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/SNDT_Women%27s_University " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+     
+    
+                       
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1917 </article></div><div class="events">
+                        
+                <!--2--> <div class="event"><article class="sall uk british comis commis"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Saddler Commission </p><p class="p2"> Education Policy </p><p class="p3">  </p>
+                        <div class="target"><ul class="explainpoint">
+                            <li>School for <b>12 Years</b></li>
+                            <li><b>Intermediate college</b> after school</li>
+                            <li><b>Seperate board</b> for Secondary & Intermediate</li>
+                            <li>Less rigid University regulations</li>
+                            <li>University - <b>Centralised, Unitary</b> in nature & made <b>Autonomous</b></li>
+                            <li><b>Residency</b> for teachers, <b>Teachers Traning</b></li>
+                            <li>Vocation, Science-Tech & Female education importance </li>
+                            <li>Review - <b>all</b> schools, colleges, universities [due to calcutta university problem]</li>
+                        </ul></div></article></div> 
+    
+    
+                <!--3--> <div class="event"><article class="sall com comm"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/communist.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Russian Revolution </p><p class="p2"> [October Revolution] </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/October_Revolution " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Proved Immense power with mass.</div></article></div> 
+    
+                    
+                <!--4--> <div class="event"><article class="sall others"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Annie Besant arrest </p><p class="p2"> <u>Subramanya Iyer</u> returned Knighthood </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Annie_Besant#Home_Rule_movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Congress & Muslim League both  threatened to launch protests if she were not set free.</div></article></div> 
+
+
+
+                <!--5--> <div class="event"><article class="sall uk british"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> August Declaration by Montagu</p><p class="p2"> <i>Obj: Gradual increase in representation of Indians & development of self governing institutions</i> </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Montagu%E2%80%93Chelmsford_Reforms#Background " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+
+                <!--6--> <div class="event"><article class="sall gan gandhi move"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span><span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Champaran Satyagraha [1st satyagraha] @Bihar</p><p class="p2"> <i>1st Civil Disobedience</i> </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Champaran_Satyagraha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"> 
+                    <ul class="explainpoint"><li>Farmer's uprising that took place in Champaran, Bihar.
+                        The farmers were protesting against having to <B>grow <u>indigo</u> with barely any payment</B> for it.</li>
+                        <li>Gandhi was arrested but later released due to protest.</li>
+                <li>Result: Granting more compensation and control over farming for the poor farmers  & cancellation of revenue hikes, collection until the famine ended. </li>
+                <li>Gandhi 1st time was called <b>"Bapu"</b> (Father) by <u>Sant Raut</u> and <b>"Mahatma"</b> (Great Soul).</li>
+                <li>Gandhi's all recommendations accepted and introduced <b>Champaran Agrarian Bill</b> by <u>W Maude</u></li></ul>
+                    </div></article></div> 
+
+
+
+
+
+
+
+                       
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1918 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall gan gandhi move"> <!--CLASS-->
+                            <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span><span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                            <p class="p1"> Ahmedabad Mill Strike </p><p class="p2"> <i>1st Hunger Strike</i> </p><p class="p3">  </p>
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>Workers of textile mills</b> in Ahmedabad gone for protest  when the mill owners <b>discontinued their plague bonuses</b>.</li>
+                            <li>Workers asked for 50% wage hike. But given only 20%.</li>
+                            <li><b>Anushya Behn</b> called Gandhi for the strike.</li>
+                            <li>Gandhi underwent hunger strike for the first time.</li>
+                            <li>Strike was sucessful & workers were given 35% wage hike .</li>
+                        </ul>   </div></article></div>
+               
+                <!--2--> <div class="event"><article class="sall gan gandhi move"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span><span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Kheda Peasant Struggle @Gujarat</p><p class="p2"> <i>1st Non Cooperation</i> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Kheda_Satyagraha_of_1918 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>2nd Satyagraha</b> movement after Champaran.</li>
+                            <li><b>Sardar Vallabhbhai Patel</b> was the chief lieutenant of Gandhi.</li>
+                            <li>Patel organised <b>Tax revolt</b>. Bombay govt rejected the idea of cutting down the tax.</li>
+                            <li>Govt warned peasants that if they didn't pay, lands would be confiscated.</li>
+                            <li>Gandhi firmly protested in a peaceful non violent manner.</li>
+                            <li>Govt finally reduced the rate, suspended the tax & returned the confiscated property.</li>
+                        </ul></div></article></div> 
+    
+                        <!--3--> <div class="event"><article class="sall organ org "> <!--CLASS-->
+                            <span class="spanimg">  </span> <!--FLAG-->
+                            <p class="p1"> Majoor Mahajan Sangh </p><p class="p2"> Ahmedabad Textile Labour Association </p><p class="p3"> "Anusyabehn Sarabhai" </p>
+        <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Anasuya_Sarabhai#Political_career " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                            </article></div> 
+    
+                            <!--4--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>Bombay</b> August special session - <u>Syed Hasan Imam</u> </p><p class="p2"> <i>Obj: Oppose August Declaration</i> </p><p class="p3">  </p>
+                         </article></div> 
+    
+                        <!--5--> <div class="event"><article class="sall others "> <!--CLASS-->
+                            <span class="spanimg">  </span> <!--FLAG-->
+                            <p class="p1"> Indians allowed for <b>Commissioned Rank</b> </p><p class="p2"> Before: Only upto <b>Subedar</b> </p><p class="p3">  </p>
+                            </article></div> 
+    
+                            <!--6--> <div class="event"><article class="sall lb uk act"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> Local Body Resolution  </p><p class="p2">Local body made as <b>Representative</b> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>This resolution backed the proposals of the Decentralisation Commission in <b>empowering the municipal boards</b>.</li>
+                            <li>Given additional freedom in respect to their budget.</li>
+                            <li>The main aim is to develop the <b>village commercial life</b>.</li>
+                        </ul></div></article></div> 
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1919 </article></div><div class="events">
+            <!--1--> <div class="event"><article class="sall edu educ"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/edu.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"></p><p class="p2"> Education grants stopped. </p><p class="p3">Subject transferred to provincial ministries </p>
+                </article></div>
+
+        <!--3--> <div class="event"><article class="sall civ civil"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/civil.png" alt=""> </span> <!--FLAG-->
+                <p class="p1">  </p><p class="p2">1/3rd Indians allowed in Civil Services. </p><p class="p3">Gradually raise 1.5% annualy.  </p>
+                </article></div>
+       
+        <!--4--> <div class="event"><article class="sall act acts impact uk "> <!--CLASS-->
+                <span class="sqimg"> <img src="../../assets/images/impact.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Rowlatt Act / Anarchial & Revolutionary Crime Act </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Rowlatt_Act " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target">
+                    <ul class="explainpoint">
+                        <li>Stricter control of the press, arrests without warrant, indefinite detention without trial, and
+                             juryless in camera trials for proscribed political acts.</li>
+                        <li>Secret trail with 3 High court judges. </li>
+                        <li>Imprison any person for up to two years without a trial & evidence.</li>
+                        <li>No appeal to higher court.</li>
+                        <li>Jinnah,  Malviya, Mazhar-ul-hq resigned from legislation.</li>
+                    </ul> </div></article></div> 
+
+         <!--5--> <div class="event"><article class="sall mus move movement"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                <p class="p1">  Khilafat movement </p><p class="p2"> Indian Muslim Movement </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Khilafat_Movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target">
+                    <ul class="explainpoint">
+                        <li>Members: <b>Shaukat Ali, Maulana Mohammad Ali Jauhar, Hakim Ajmal Khan,  Abul Kalam Azad</b>.</li>
+                        <li>Pan-Islamist political protest campaign to <B>restore the caliph of the Ottoman Caliphate</B> [leader of Sunni Muslims]. </li>
+                        <li>It was a protest against the  sanctions placed on the caliph and Ottoman Empire after the First World War by the <b>Treaty of Sèvres</b>.</li>
+                    </ul>
+                </div></article></div>
+       
+        <!--6--> <div class="event"><article class="sall gan gandhi org"> <!--CLASS-->
+                <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Satyagraha sabha       </p><p class="p2"> @Bombay </p><p class="p3"> <i>Anti-Rowlatt Satyagraha</i> </p>
+                <div class="target">To crusade against <b>Rowlatt bill</b></div></article></div> 
+
+         <!--7--> <div class="event"><article class="sall move movement"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Jallianwala Bagh massacre     </p><p class="p2"> @Amritsar  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"> 
+                    <ul class="explainpoint">
+                        <li>Villagers gathered  to celebrate Hindu and Sikh <B>festival of Baisakhi</B>, and peacefully protest the arrest and 
+                            deportation of two national leaders, <b>Satyapal and Saifuddin Kitchlew</b>.</li>
+                        <li>Reginald Dyer ordered troops  to fire  into a crowd of unarmed Indian civilians.</li>
+                        <li><b> Rabindranath Tagore</b> renounced his <b>knighthood</b> and stated that <i> "such mass murderers aren't worthy of giving any title to anyone"</i></li>
+                        <li><b>Gandhi</b> returned his award <b>"Kaiser-i-Hind"</b>.</li>
+                        <li>Punjab's Lieutenant Governor <b>Michael Dwyer</b> was killed by
+                            <b>Udam singh</b> [Ram Mohammad Singh Azad]</li>
+                    </ul> </div></article></div>
+       
+        <!--8--> <div class="event"><article class="sall uk british move comis"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Hunter committee </p><p class="p2"> Disorders Inquiry Committee </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre#Hunter_Commission " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target">
+                    <ul class="explainpoint">
+                        <li>Indian members: <b>Sir Chimanlal Harilal Setalvad, Pandit Jagat Narayan,
+                            Sardar Sahidzad Sultan Ahman Khan</b>.</li>
+                            <li>Dyer was released but later <b>dismissed</b> from the post.</li>
+                            <li>Congress made similar committee. <br> Members: Gandhi, M.Nehru, Abbas Tybji, CR Dass, MR Jayakar.</li>
+                    </ul>   </div></article></div> 
+        
+         <!--9--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1"> All India Khilafat Committee   </p><p class="p2"> @Lucknow</p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Khilafat_Movement#Khilafat_Movement_in_South_Asia " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"><ul class="explainpoint">
+                    Members: <b><li>Ali brothers [Maulana Mohammed Ali  & Shaukat Ali]</li>
+                        <li>Maulana Abul Kalam Azad</li> <li>Ajmal Khan</li> <li> Hasrat Mohani</li></b>
+                </ul></div></article></div>
+       
+        <!--10--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> <b>Amrister</b> session - <u>M.Nehru</u> </p><p class="p2"> <i>Condemned the Jallianwala Bagh massacre</i> </p><p class="p3">  </p>
+               </article></div> 
+               
+          <!--11--> <div class="event"><article class="sall mus gan move"> <!--CLASS-->
+                        <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1">  All India Khilafat Conference - <u>Gandhi preside</u>  </p><p class="p2"> @Delhi </p><p class="p3"> <i>Obj: Boycott British goods</i>  </p>
+                  </article></div> 
+                  
+		    <!--18--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1"> Indian Liberal Federation </p><p class="p2"> Surendra Nath Banarjea </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Liberal_Party#:~:text=This%20led%20to%20a%20schism,Jayakar. " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target">
+                    <ul>
+                        <li>Members: <b> Tej Bahadur Sapru, V. S. Srinivasa Sastri and M. R. Jayakar.</b></li>
+                        <li>The <b>moderates</b> welcomed it while the extremists opposed it.</li>
+                    </ul>
+                </div></article></div> 
+                
+<!--   Full independence-Afghan
+                <div class="event"><article class="sall "> 
+                        <span class="spanimg"> ### </span> 
+                        <p class="p1">  Full independence-Afghan FP </p><p class="p2"> ### </p><p class="p3"> ### </p>
+                  </article></div> 
+                   -->
+
+                       
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1920 </article></div><div class="events">
+
+               <!--4--> <div class="event"><article class="sall "> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1">  Bal Gangadhar Tilak died  </p><p class="p2">  </p><p class="p3"> </p>
+                 </article></div> 
+
+        <!--2--> <div class="event"><article class="sall gan gandhi org"> <!--CLASS-->
+                <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Swarajya sabha - <i>Gandhi as President</i> </p><p class="p2"> </p>
+                <p class="p3"> <u>All India Home Rule League</u> name changed into Swarajya Sabha & merged with <u>Congress</u> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Home_Rule_movement#Dissolution " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                </article></div> 
+
+        <!--3--> <div class="event"><article class="sall gan move movement"> <!--CLASS-->
+            <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span><span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Non cooperation movement </p><p class="p2"> <u>Gandhi</u> </p><p class="p3"> Obj: Self Governance & <b>Purna Swaraj</b> </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Non-cooperation_movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                </article></div>
+       
+		    <!--14--> <div class="event"><article class="sall gan gandhi"> <!--CLASS-->
+                <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                <p class="p1">  All Party Conference - <i>Gandhi presided</i> </p><p class="p2"> @Allahabad </p><p class="p3"> Obj: Boycott Schools, College, Court </p>
+                    </article></div> 
+
+         <!--5--> <div class="event"><article class="sall mus con "> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1"> Alliance of Khilafat Leaders & INC </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"><ul class="explainpoint">
+                    <li><b>Gandhi</b> & Khilafat leaders promised to work and <b>fight together</b> for the causes of <b>Khilafat and Swaraj</b>.</li>
+                    <li>They supported Non Cooperation Movement & <b> Khilaf committee</b> started NCM.</li>
+                    <li><b>Dr. Ansari, Maulana Azad </b> and <b>Hakim Ajmal Khan</b> also grew personally close to Gandhi.</li>
+                </ul></div></article></div>
+       
+        <!--6--> <div class="event"><article class="sall org organ wom"> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1">  Textile Labour Association  </p><p class="p2"> @Ahmedabad </p><p class="p3"> Anushya Behn Sarabhai </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Anasuya_Sarabhai " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                </article></div> 
+
+
+
+        
+
+        <!--10--> <div class="event"><article class="sall other"> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1">Lord Satyendra Prasanna Sinha  </p><p class="p2"> 1st <b>governor</b> of Bihar & Orissa </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Satyendra_Prasanna_Sinha,_1st_Baron_Sinha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                </article></div> 
+               
+        <!--11--> <div class="event"><article class="sall uk war treaty"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Treaty of sevres  </p><p class="p2"> Between Allies of WW1 & Ottaman Empire </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">The treaty ceded large parts of <b>Ottoman territory</b> 
+                        to France, the United Kingdom, Greece, and Italy,</div></article></div>
+		   
+
+
+        <!--8--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+            <span class="spanimg"> <img src="../../assets/images/aituc.png" alt=""> </span> <!--FLAG-->
+            <p class="p1"> All India Trade Union Congress  </p><p class="p2"> @Bombay </p><p class="p3"> Oldest trade union federation </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/All_India_Trade_Union_Congress " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+            <div class="target">
+                
+                
+                <ul class="explainpoint">
+                    <li>1st President: <b>Lala Lajpat Rai</b> [Lala is the 1st person to link <b>Capitalism to Imperialism</b>]</li>
+                    <li>1st General Secratory: <b>Diwan Chaman Lall</b></li>
+                    <li>Founders:  Lala Lajpat Rai, <b>Joseph Baptista, N. M. Joshi</b>, Diwan Chaman Lall </li>
+                    <li>3rd President: <b>CR Dass</b> [He incorporated <b>Peasants, workers in Swaraj struggle</b>] </li>
+                    <li>AITUC Influences: <b>British labour party</b> Socio-democratic ideals & <b>Gandhi Philosophy</b>.</li>
+                    <li>Members: M.Nehru, S.Bose, VV Giri, CF Andrew, JM Sengupta, Sarojini Naidu, Satyamurthi</li>
+                    <li>In <b>1945</b> AITUC associated with <b>CPI</b> Communist Party of India.</li>
+                </ul>
+            </div></article></div> 
+
+
+
+         <!--16--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->   
+                    <p class="p1"> <b>Calcutta</b> special session - <u>Lala Lajpat</u></p><p class="p2"> 
+                        <i>Obj:  <b>Approved NCM</b> till Swaraj, Massacre justice, Khilafat cause</i>   </p><p class="p3"> 
+                            To work on Hindu-Muslim unity, Untouchability, Non violence </p>
+                    </article></div> 
+
+         <!--16--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+            <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> <b>Nagpur</b> session - <u>Vijayaragava</u> </p>
+                    <p class="p2"><i> Obj: Endorsed NCM</i> </p><p class="p3"> Formed <b>Congress Working Committee</b> [with 15 members], 
+                        <b>Province Congress committee</b>, Made membership fees low.</p>
+             </article></div>
+		   
+
+            
+            <!--19--> <div class="event"><article class="sall con congress"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> </p><p class="p2"> Some leaders left Congress   </p><p class="p3"> <b>Jinnah, Besant, Kharpade, BC Pal</b> </p>
+            </article></div> 
  
-                   
-</div>
-</div>
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1921 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall uk british ruler gg"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/gg.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Lord Reading </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Rufus_Isaacs,_1st_Marquess_of_Reading#Viceroy_of_India " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div>
+               
+                <!--2--> <div class="event"><article class="sall uk british"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Prince of Wales to India </p><p class="p2">Edward VIII  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Edward_VIII#Prince_of_Wales " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Congress Party boycotted his visit. There were
+                            demonstrations, hartals and political meetings with mob violence and police atrocities in Bombay.</div></article></div> 
+    
+                <!--3--> <div class="event"><article class="sall sr social sik"> <!--CLASS-->
+                           <span class="spanimg"><img src="../../assets/images/social.jpg" alt=""></span><span class="spanimg"> <img src="../../assets/images/sikh.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Akhali Movement </p><p class="p2"> "Gurudwara Reform Movement" </p><p class="p3"> <i>obj:  Liberating gurdwaras from <B>mahant</B> control</i></p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Akali_movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">The movement led to the introduction of the <b>Sikh Gurdwara Bill in 1925</b>, 
+                            which placed all the historical Sikh shrines in India under the control of <b>Shiromani Gurdwara Parbandhak Committee</b> (SGPC).</div></article></div> 
+    
 
-</div>
-</span>
+                     <!--4--> <div class="event"><article class="sall con sess congress"> <!--CLASS-->
+                            <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                            <p class="p1"> <b>Ahmedabad</b> Session - <u>Hakim Ajmal Khan</u> </p><p class="p2">  </p><p class="p3">  </p>
+        <!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                            <div class="target">
+                                <ul class="explainpoint"><li><b>CR Dass</b> jailed - who was actually assigned as leader.</li>
+                                <li>Hakim demanded complete independence but it became  congress objective  only during 1930.</li></ul>  
+                               </div></article></div> 
+        
+     
+                    <!--5--> <div class="event"><article class="sall new news "> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/news.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Press Committee - <b>Tej Bahadur Sapru</b> </p><p class="p2"> Repeal 1908, 1910 Press Acts </p><p class="p3">  </p>
+                        </article></div> 
+    
+                <!--6--> <div class="event"><article class="sall move movement"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Many leaders were arrested except Gandhi </p><p class="p2"> Non-Cooperation Movement </p><p class="p3">  </p>
+<!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>Heavy spress, Volunter crop were made illegal & ban of press, public meetings. </li>
+                        <li>Viceroy Reading asked Gandhi to <b>remove violence speech of Ali brothers</b> but Gandhi refused to do so. </li>
+                        <li>Gandhi asked British to lift ban on press & release the leaders. If not, he threatened to launch CDM [Civil Disobidience Movement].</li>
+                    </ul></div></article></div> 
 
+     
+                       
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1922 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall move gan movement"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/Protest.jpg" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Chauri Chaura Incident </p><p class="p2"> @UP </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Chauri_Chaura_incident " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>Large group of protesters participating in the <B>Non-cooperation movement</B>, clashed with police who opened fire. 
+                                In retaliation the demonstrators attacked and <b>set fire to a police station</b>.</li>
+                                <li>Gandhi who was <b>strictly against violence</b>, <b>stopped the non-co-operation movement</b> 
+                                    on the national level on 12 February 1922, as a direct result of this incident. </li>
+                        </ul></div></article></div>
+               
+               
+                        <!--2--> <div class="event"><article class="sall con congress gan"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span><span class="gimg"><img src="../../assets/images/gandhi.png" alt=""></span> <!--FLAG-->
+                        <p class="p1"> Congress Working Committee <u>@Bardoli</u>  - <b>NCM Withdrawal</b> </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Non-cooperation_movement#End_of_non-cooperation " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul     class="explainpoint">
+                            <li>Gandhi single handedly stopped the NCM and asked all to start Constructive works.</li>
+                            <li>Nehru and other leaders felt this was incorrect decision but they were all in prison when Gandhi took this decision.</li>
+                         </ul></div></article></div> 
+                    
+                        <!--3--> <div class="event"><article class="sall gan gandhi"> <!--CLASS-->
+                        <span class="gimg"> <img src="../../assets/images/gandhi.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Gandhi Arrested </p><p class="p2">  for publishing seditious materials </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" ### " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Sentenced to six years of imprisonment
+                             but was later released in February 1924, on grounds of his ill health.</div></article></div> 
+                 
+                <!--5--> <div class="event"><article class="sall con congress sess"> <!--CLASS-->
+                            <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                            <p class="p1"> <b>Gaya</b> session - <u>CR Dass</u> </p><p class="p2"> <i>"Ending or Mending"</i> </p><p class="p3">  </p>
+        <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Swaraj_Party#Council_entry " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                            <div class="target"><ul class="explainpoint">
+                                <li><b>'Swarajists'</b> vs <b>'No-Changers'</b></li>
+                                <li><u>No-Changers:</u> <b>Rejected</b> the provincial and central legislative councils created by the British. Councils were
+                                     too un-democratic and simply "rubber stamps" of the Viceroy.</li>
+                                     <li>Members- <b>Subhas Bose, V Patel, Huseyn Shaheed Suhrawardy</b></li>
+                                 <li><u>Swarajist:</u> <b> Contesting elections</b> to enter the legislative council with a view to obstructing a foreign government.</li>
+                                 <li>Members- <b>CR Dass, M Nehru, Narasimha Chintaman Kelkar</b></li>
+                                 <li>Both groups determined to avoid spilt like 1907. Gandhi adviced both to remain in Congress & work in seperate ways.</li>
+                            </ul></div></article></div> 
+    
+                    <!--6--> <div class="event"><article class="sall con congress"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Congress Khilafat Swarajist Party "Swaraj Party" </p><p class="p2"> CR Dass & M Nehru </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Swaraj_Party " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li><b>Chittaranjan Das</b> - President</li>
+                            <li><b>Motilal Nehru</b> - Secretary</li>
+                            <li>Inspired by the concept of Swaraj "Self-rule" / "Independence"</li>
+                            <li>They contested in <b>1923 elections</b> [opposed to No changers] & won majority seats.</li>
+                            <li>Supported by Ajmal Khan</li>
+                        </ul>
+                            
+                            
+                        </div></article></div> 
+    
+                    <!--7--> <div class="event"><article class="sall uk civ civil"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/civil.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Civil Service exam allowed to write in India </p><p class="p2"> @Delhi </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Indian_Civil_Service#Changes_after_1912 " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div> 
+      
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1923 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall others"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> Elections [both State & Central] </p><p class="p2"> CLA Swarajist majority </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/1923_Indian_general_election " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div>
+               
+                <!--2--> <div class="event"><article class="sall bos bose"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/bose.jpg" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Bose as Calcutta Mayor </p><p class="p2">  </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Subhas_Chandra_Bose#1921%E2%80%931932:_Indian_National_Congress " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div> 
+    
+            <!--3--> <div class="event"><article class="sall "> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/communist.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> 1st May day </p><p class="p2"> 1st celebrated @Madras </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/International_Workers%27_Day#South_Asia " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                </article></div> 
+
+
+                
+                       
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1924 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall con congress sess gan"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>Belgaum</b> Session - <u>Gandhi</u> </p><p class="p2"> <i>Swarajist can participate election</i> - as inner part of congress </p><p class="p3">  </p>
+</article></div>
+               
+                <!--2--> <div class="event"><article class="sall "> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Responsivist Cooperation Party vs Non Responsivist [M.Nehru]</p><p class="p2"> <i>A split in Swarajist Party</i></p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Responsive_Cooperation_Party " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"> <ul class="explainpoint">
+                            <li>Founders <b>MR Jayakar, BS Moonje, NC Kelkar</b>. Malviya & LalaLajpat support</li>
+                            <li>Responsive Cooperationists had become <b>opposed to the concept of non-cooperation</b> with the British
+                                government & Jayakar's move away from the Swaraj Party.</li>
+                        </ul></div></article></div> 
+    
+     
+             <!--3--> <div class="event"><article class="sall sr  move social"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/social.jpg" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Temple Entry Movement </p><p class="p2"> @Vaikom </p><p class="p3"> <i>"Vaikom Satyagraha" - <b>K.P. Kesava Menon</b></i> </p>
+<!--LINK-->         <a href="https://en.wikipedia.org/wiki/Vaikom_Satyagraha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"><B>Against the prohibition of untouchables</B> using a public road near a temple in Vaikom. 
+                    These peaceful protests inspired the future satyagrahas of Mahatma Gandhi.</div></article></div> 
+
+
+             <!--4--> <div class="event"><article class="sall soc org organ"> <!--CLASS-->
+                <span class="spanimg">  </span> <!--FLAG-->
+                <p class="p1"> Bahishkrita Hitakarini Sabha </p><p class="p2"> Ambedkar </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Bahishkrit_Hitakarini_Sabha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"><ul class="explainpoint">
+                    <li>Removing difficulties of the untouchables and placing their grievances before government. </li>
+                    <li>In order to bring about a <b>new socio-political awareness</b> among the untouchables.</li>
+                    <li>Principle: <b>"Educate, Organize and Agitate"</b></li>
+                </ul></div></article></div> 
+
+
+             <!--5--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Kanpur Bolshevik Conspiracy Case </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Kanpur_Bolshevik_Conspiracy_Case " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target">
+                    <ul class="explainpoint">
+                    <li><b>SA Dange, Muzaffar Ahmed, Shaukat Usmani, Nalini Gupta</b>.</li>
+                    <li>Charged that communists were seeking "to <b>deprive the King Emperor</b> of his sovereignty of British India, 
+                        by <b>complete separation of India</b> from imperialistic Britain by a violent revolution"</li>
+                        <li>"Pages of newspapers daily splashed sensational communist plans and people for the <b>first time learned</b> 
+                            such a large scale <b>about communism</b> and aims of the Communist International in India</li>
+                    </ul>
+   </div></article></div> 
+
+
+             <!--6--> <div class="event"><article class="sall rev revolution organ"> <!--CLASS-->
+                <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Hindustan Socialist Republican Association [HSRA] </p><p class="p2"> 
+                    <i>Obj: Establish Federal Respublic of United States of India</i> </p><p class="p3"> Founder: <b>Ramprad Bismil</b>  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Hindustan_Socialist_Republican_Association " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"><ul class="explainpoint">
+                    <li>Previously called "HRA - Hindustan Republic Association or Army" </li>
+                    <li>Members: <b>Ramprad Bismil, Jogesh Chandra Chatterjee, Sachin Sanyal.</b></li>
+                    <li>Its written constitution called <i> <b>"The Revolutionary"</b> </i> 
+                        [produced as evidence in the Kakori conspiracy case].</li>
+                    <li>Aim: To Organise Armed Revolt.</li>
+                </ul> </div></article></div> 
+
+
+
+             <!--8--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                    <p class="p2"> <u><b>Gopinath Saha</b></u> tried to kill <b>Charles Tegart</b> </p><p class="p2"> [Calcutta Police Commisioner] but failed</p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Gopinath_Saha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+
+        
+            <!--10--> <div class="event"><article class="sall commis commis uk british"> <!--CLASS-->
+            <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+            <p class="p1"> Mudimman Commission </p><p class="p2"><i>To resolve Dyarchy deadlock</i> </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Muddiman_Committee " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+            <div class="target">
+            <ul class="explainpoint">
+                <li>To aid in <b>investigating the diarchy issue</b> on the Constitution as set up in 1921 under the <b>Indian Council Act of 1919</b>.</li>
+                <li>Reports recommended the appointment of a <b>Royal Commission</b></li>
+            </ul></div></article></div> 
+
+
+            <!--11--> <div class="event"><article class="sall commis commis uk british"> <!--CLASS-->
+                <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                <p class="p1"> Public Service Commission or Lee Commission</p><p class="p2"> <i> To review Civil service failure</i> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Union_Public_Service_Commission " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                <div class="target"><ul class="explainpoint">
+                    <li><b>Secretary</b> continued to recruit officials for ICS (Civil), Irrigation, IFoS (Forest).</li>
+                    <li>40% British , 40% Indian  officers - by <b>Direct Recruit</b> Process</li>
+                    <li>20% Indians - by <b>Promotion @Provinces</b></li>
+                    <li><b>Education, Civil Medical Service</b> made as <b>Transferred</b> subjects</li>
+                </ul></div></article></div> 
+    
+
+
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1925 </article></div><div class="events">
+                        <!--1--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> Rashtriya Swayamsevak Sangh "RSS" </p><p class="p2"> <U>K. B. Hedgewar</U> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Rashtriya_Swayamsevak_Sangh " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Training  Hindu discipline and to unite the Hindu community to form a Hindu Rashtra (Hindu nation).</div></article></div> 
+                         
+                  
+
+                        
+                <!--2--> <div class="event"><article class="sall sr social"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/social.jpg" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Self Respect Movement @Madras </p><p class="p2"> <u>S.Ramanathan</u> </p><p class="p3"> who invited "<U>Periyar</U>" to head in TN</p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Self-Respect_Movement " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Aim of achieving a society where backward castes have <B>equal human rights & self respect</B>.
+                        </div></article></div> 
+    
+ 
+                    <!--3--> <div class="event"><article class="sall others"> <!--CLASS-->
+                    <span class="spanimg">  </span> <!--FLAG-->
+                    <p class="p1"> Vithalbhai Patel - 1st Elected Speaker </p><p class="p2">  Central Legislative Assembly </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Vithalbhai_Patel " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Brother of Sardar Patel. He played important role in 2 bills -
+                         "Bombay District Municipal Act Amendment Bill" and "The Town Planning Bill" in 1914.</div></article></div>  
+
+
+                    <!--4--> <div class="event"><article class="sall wom women"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""><img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Sarojini Naidu - 1st <b>Indian</b> Women INC Leader </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Sarojini_Naidu " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+
+                    <!--5--> <div class="event"><article class="sall wom women org"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/women.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> National Council of Women </p><p class="p2"> Branch of International Council </p><p class="p3"> <b>Herabai Tata</b> main contribution </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Herabai_Tata " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target">Will be uploaded soon</div></article></div> 
+ 
+ 
+                    <!--6--> <div class="event"><article class="sall com comm org"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/communist.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Indian Communist Conference <b>@Kanpur</b> </p><p class="p2"> Formal Foundation of <b>CPI</b> </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Communist_Party_of_India " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+ 
+
+                    <!--7--> <div class="event"><article class="sall rev revolution"> <!--CLASS-->
+                        <span class="sqimg"> <img src="../../assets/images/revolution.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Kakori Robbery <b>@Lucknow</b> </p><p class="p2"> Railway Looted </p><p class="p3"> by "Hindustan Republican Association" </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Kakori_conspiracy " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">Members: <b>Bismil, Ashfaqullah, Roshan Singh, Rajendra Lahiri</b>. All were hanged by British.</div></article></div> 
+ 
+                        
+                    <!--8--> <div class="event"><article class="sall con congress bos"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/congress.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> <b>CR Dass</b> died - Bengal Congress divided</p><p class="p2"> <b>Subhash Bose</b> [had <i>Yugantar</i> support] </p><p class="p3"> <b>JM Sengupta</b> [had <i>Anushilan</i> support] </p>
+    <!--LINK-->         <a href=" http://en.banglapedia.org/index.php/Bengal_Provincial_Congress " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        </article></div> 
+
+                        
+                    <!--9--> <div class="event"><article class="sall uk british"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Birkinhead [Secratory of State] </p><p class="p2"> Challenged Indians </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Nehru_Report#Background " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target">"Let the Indians <B>produce a constitution</B> which carries behind it a fair measure of
+                             general agreement among the great peoples of India..."
+<br><br>
+                            Leaders of the nationalist movement responded to the challenge by drafting the <b>Nehru Report</b>.</div></article></div> 
+      
+    
+    </div>
+    </div>
+<!-- YEAR  **************************************************************************************** -->
+<div class="whole">
+    <div class="year"><article class="yr"> 1926 </article></div><div class="events">
+                 <!--1--> <div class="event"><article class="sall org organ"> <!--CLASS-->
+                        <span class="spanimg">  </span> <!--FLAG-->
+                        <p class="p1"> Punjab Naujawan Bharat Sabha </p><p class="p2"> <u> Bhagat Singh</u> </p><p class="p3">  </p>
+    <!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Naujawan_Bharat_Sabha " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                        <div class="target"><ul class="explainpoint">
+                            <li>    <b>Left-wing</b> Indian association that sought to foment revolution against the British Raj by gathering together <b>worker and peasant youths</b>. </li>
+                                <li>It was a more public face of the <b>Hindustan Republican Association</b>.</li>
+                                <li>The organization merged with <b>All India Youth Federation (AIYF)</b>.</li>
+                        </ul></div></article></div>
+               
+                <!--2--> <div class="event"><article class="sall comis commis"> <!--CLASS-->
+                        <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                        <p class="p1"> Indian <b>Sandhurst</b> Committee </p><p class="p2"> <i>Obj: 50% Indianised officers by 1952</i> </p><p class="p3">  </p>
+                        </article></div> 
+               
+                <!--2--> <div class="event"><article class="sall act uk impact"> <!--CLASS-->
+                    <span class="sqimg"> <img src="../../assets/images/impact.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Trade Union Act </p><p class="p2">  </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://www.ilo.org/dyn/natlex/docs/WEBTEXT/32075/64876/E26IND01.htm " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>Trade Unions- recognised as <b>Legal association.</b></li>
+                        <li>Registration & Regulation were made.</li>
+                        <li>If legitimate, Trade unions will be secured by civil & criminal acts. </li>
+                        <li>Restriction for any political activities by unions.</li>
+                    </ul></div></article></div> 
+                 
+               <!--2--> <div class="event"><article class="sall gg uk british"> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/gg.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Lord Irwin </p><p class="p2"> "Edward Wood" </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/Edward_Wood,_1st_Earl_of_Halifax#Viceroy_of_India " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    </article></div> 
+
+                <!--2--> <div class="event"><article class="sall uk british "> <!--CLASS-->
+                    <span class="spanimg"> <img src="../../assets/images/british.png" alt=""> </span> <!--FLAG-->
+                    <p class="p1"> Elections </p><p class="p2"> Both Imperial & Provincial Legislative Council </p><p class="p3">  </p>
+<!--LINK-->         <a href=" https://en.wikipedia.org/wiki/1926_Indian_general_election " target="_blank" class="p4" ><img src="../../assets/images/wikipedia.png" alt=""></a>                   
+                    <div class="target"><ul class="explainpoint">
+                        <li>Those who had faith in CDM left the council. Rest of them went to election & won 40 seats.</li>
+                        <li>The <b>Swaraj Party</b> were victorious in <b>Provincial Council elections</b> in <b>Bengal & Madras</b>, and also made gains in Bihar & Orissa. 
+                            However, at the national level the party saw their number of seats reduced.</li>
+                            <li><b>Motilal Nehru</b> led <u>Swaraj</u> Party.</li>
+                            <li><b>Madan Mohan Malaviya</b> led <u>Nationalist</u> Party.</li>
+                    </ul></div></article></div> 
+
+     
+                       
+    
+    </div>
+    </div>
+                                                
+                                        
 
 <app-footer></app-footer>
